@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classZernikeCalculator" kind="class" prot="public">
+    <compoundname>ZernikeCalculator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classZernikeCalculator_1adf6bcb24a43d563e5bc6d267aa2a8ccc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ZernikeCalculator::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1ae0b51dc755a288b553a949ca02e52660" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ZernikeCalculator::subsize</definition>
+        <argsstring></argsstring>
+        <name>subsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1a57a54e816622b2eb3c49281dc3e1558b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ZernikeCalculator::nderivatives</definition>
+        <argsstring></argsstring>
+        <name>nderivatives</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1a5f2f7ae5d534cb1f46d59447a145b914" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ZernikeCalculator::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1a2586cc82416a4629c6c872dc776289a7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ZernikeCalculator::include_derivatives</definition>
+        <argsstring></argsstring>
+        <name>include_derivatives</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1a4998e185762fa523fe06da36a8ea3b18" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ZernikeCalculator::cutoff</definition>
+        <argsstring></argsstring>
+        <name>cutoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1a084e661e6e0d3bdba94d2a615381d723" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ZernikeCalculator::nmax</definition>
+        <argsstring></argsstring>
+        <name>nmax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1abbffe8ed00c1d55231c926f8c736e5e0" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* ZernikeCalculator::factorial_list</definition>
+        <argsstring></argsstring>
+        <name>factorial_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1a0363145149dbc0fc1e9fdb79047922f3" prot="private" static="no" mutable="no">
+        <type><ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref></type>
+        <definition>PeriodicTable ZernikeCalculator::ptable</definition>
+        <argsstring></argsstring>
+        <name>ptable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1afe7ecf9af3a0cc5faefcbca5f2207d06" prot="private" static="no" mutable="no">
+        <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref></type>
+        <definition>AtomicSystem ZernikeCalculator::atomicsystem</definition>
+        <argsstring></argsstring>
+        <name>atomicsystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="32" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1a1fbd15aadb9e43a3be50fe915a7f1661" prot="private" static="no" mutable="no">
+        <type><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref></type>
+        <definition>fingerprintProperties ZernikeCalculator::fpproperties</definition>
+        <argsstring></argsstring>
+        <name>fpproperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classZernikeCalculator_1a66bb7b5853a3f3c282045022412ac512" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ZernikeCalculator::der_position</definition>
+        <argsstring>(double x0, double y0, double z0, double x1, double y1, double z1, int coef, int dir)</argsstring>
+        <name>der_position</name>
+        <param>
+          <type>double</type>
+          <declname>x0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z0</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>coef</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="408" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1a7ebdc35dfbb0fabc55a992d83db1592c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>complex&lt; double &gt;</type>
+        <definition>complex&lt; double &gt; ZernikeCalculator::calculate_Z_prime</definition>
+        <argsstring>(int n, int l, int m, double x, double y, double z, int p)</argsstring>
+        <name>calculate_Z_prime</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="425" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1aa865fab2f97573672fe325ab058a3ae6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>complex&lt; double &gt;</type>
+        <definition>complex&lt; double &gt; ZernikeCalculator::calculate_Z</definition>
+        <argsstring>(int n, int l, int m, double x, double y, double z)</argsstring>
+        <name>calculate_Z</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="249" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1a6556e4fb73d7ed31d9bf2eda01b19d46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ZernikeCalculator::calculate_q</definition>
+        <argsstring>(int nu, int k, int l)</argsstring>
+        <name>calculate_q</name>
+        <param>
+          <type>int</type>
+          <declname>nu</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="240" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1a4d4e4b20f8303c9b972193074058b99d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ZernikeCalculator::calculate_R</definition>
+        <argsstring>(int n, int l, double rho)</argsstring>
+        <name>calculate_R</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>rho</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="213" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1a24a88133ffc103e5fb1dd96fd9ccbfc8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ZernikeCalculator::binomial</definition>
+        <argsstring>(int n, int k)</argsstring>
+        <name>binomial</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="40" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="235" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1ab96e51dbb834b7675ea99573b6493320" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double * ZernikeCalculator::get_Z_norms</definition>
+        <argsstring>(int atomid, int nneighbors, int *neighbors)</argsstring>
+        <name>get_Z_norms</name>
+        <param>
+          <type>int</type>
+          <declname>atomid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nneighbors</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>neighbors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="42" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="120" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1a875a134009f92c10d564bf406bfe511c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double * ZernikeCalculator::get_Znorms_prime</definition>
+        <argsstring>(int atomid, int nneighbors, int *neighbors, int p, int direction)</argsstring>
+        <name>get_Znorms_prime</name>
+        <param>
+          <type>int</type>
+          <declname>atomid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nneighbors</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>neighbors</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>direction</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="43" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="310" bodyend="406"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classZernikeCalculator_1ad1327516c0f38d2ce25685e0da68795e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ZernikeCalculator::ZernikeCalculator</definition>
+        <argsstring>(AtomicSystem &amp;, fingerprintProperties)</argsstring>
+        <name>ZernikeCalculator</name>
+        <param>
+          <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref> &amp;</type>
+          <defname>asys</defname>
+        </param>
+        <param>
+          <type><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref></type>
+          <defname>fpprop</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="47" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="26" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1a1b6d9d07e7265651775a10d108edad73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ZernikeCalculator::~ZernikeCalculator</definition>
+        <argsstring>()</argsstring>
+        <name>~ZernikeCalculator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="48" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1a5d7151015a1d145bcf9648fb9c9d1d25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ZernikeCalculator::get_size</definition>
+        <argsstring>()</argsstring>
+        <name>get_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="50" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classZernikeCalculator_1aac138bb57672a96912f7a4308d29c0ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double * ZernikeCalculator::calculate_fingerprint</definition>
+        <argsstring>(int, NeighborList &amp;)</argsstring>
+        <name>calculate_fingerprint</name>
+        <param>
+          <type>int</type>
+          <defname>atomid</defname>
+        </param>
+        <param>
+          <type><ref refid="classNeighborList" kindref="compound">NeighborList</ref> &amp;</type>
+          <defname>neighlist</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="51" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="67" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="21" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classZernikeCalculator_1afe7ecf9af3a0cc5faefcbca5f2207d06" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>atomicsystem</name></member>
+      <member refid="classZernikeCalculator_1a24a88133ffc103e5fb1dd96fd9ccbfc8" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>binomial</name></member>
+      <member refid="classZernikeCalculator_1aac138bb57672a96912f7a4308d29c0ae" prot="public" virt="non-virtual"><scope>ZernikeCalculator</scope><name>calculate_fingerprint</name></member>
+      <member refid="classZernikeCalculator_1a6556e4fb73d7ed31d9bf2eda01b19d46" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>calculate_q</name></member>
+      <member refid="classZernikeCalculator_1a4d4e4b20f8303c9b972193074058b99d" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>calculate_R</name></member>
+      <member refid="classZernikeCalculator_1aa865fab2f97573672fe325ab058a3ae6" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>calculate_Z</name></member>
+      <member refid="classZernikeCalculator_1a7ebdc35dfbb0fabc55a992d83db1592c" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>calculate_Z_prime</name></member>
+      <member refid="classZernikeCalculator_1a4998e185762fa523fe06da36a8ea3b18" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>cutoff</name></member>
+      <member refid="classZernikeCalculator_1a66bb7b5853a3f3c282045022412ac512" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>der_position</name></member>
+      <member refid="classZernikeCalculator_1a5f2f7ae5d534cb1f46d59447a145b914" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>direction</name></member>
+      <member refid="classZernikeCalculator_1abbffe8ed00c1d55231c926f8c736e5e0" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>factorial_list</name></member>
+      <member refid="classZernikeCalculator_1a1fbd15aadb9e43a3be50fe915a7f1661" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>fpproperties</name></member>
+      <member refid="classZernikeCalculator_1a5d7151015a1d145bcf9648fb9c9d1d25" prot="public" virt="non-virtual"><scope>ZernikeCalculator</scope><name>get_size</name></member>
+      <member refid="classZernikeCalculator_1ab96e51dbb834b7675ea99573b6493320" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>get_Z_norms</name></member>
+      <member refid="classZernikeCalculator_1a875a134009f92c10d564bf406bfe511c" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>get_Znorms_prime</name></member>
+      <member refid="classZernikeCalculator_1a2586cc82416a4629c6c872dc776289a7" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>include_derivatives</name></member>
+      <member refid="classZernikeCalculator_1a57a54e816622b2eb3c49281dc3e1558b" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>nderivatives</name></member>
+      <member refid="classZernikeCalculator_1a084e661e6e0d3bdba94d2a615381d723" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>nmax</name></member>
+      <member refid="classZernikeCalculator_1a0363145149dbc0fc1e9fdb79047922f3" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>ptable</name></member>
+      <member refid="classZernikeCalculator_1adf6bcb24a43d563e5bc6d267aa2a8ccc" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>size</name></member>
+      <member refid="classZernikeCalculator_1ae0b51dc755a288b553a949ca02e52660" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>subsize</name></member>
+      <member refid="classZernikeCalculator_1ad1327516c0f38d2ce25685e0da68795e" prot="public" virt="non-virtual"><scope>ZernikeCalculator</scope><name>ZernikeCalculator</name></member>
+      <member refid="classZernikeCalculator_1a1b6d9d07e7265651775a10d108edad73" prot="public" virt="non-virtual"><scope>ZernikeCalculator</scope><name>~ZernikeCalculator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

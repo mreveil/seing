@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="utilities_8h" kind="file">
+    <compoundname>utilities.h</compoundname>
+    <includes refid="atomicsystem_8h" local="yes">atomicsystem.h</includes>
+    <includedby refid="bispectrumcalculator_8h" local="yes">bispectrumcalculator.h</includedby>
+    <includedby refid="bispectrumcalculator_8cpp" local="yes">bispectrumcalculator.cpp</includedby>
+    <includedby refid="diamondcalculator_8h" local="yes">diamondcalculator.h</includedby>
+    <includedby refid="diamondcalculator_8cpp" local="yes">diamondcalculator.cpp</includedby>
+    <includedby refid="genericlocalcalculator_8h" local="yes">genericlocalcalculator.h</includedby>
+    <includedby refid="gaussiancalculator_8cpp" local="yes">gaussiancalculator.cpp</includedby>
+    <includedby refid="genericlocalcalculator_8cpp" local="yes">genericlocalcalculator.cpp</includedby>
+    <includedby refid="utilities_8cpp" local="yes">utilities.cpp</includedby>
+    <includedby refid="zernikecalculator_8cpp" local="yes">zernikecalculator.cpp</includedby>
+    <incdepgraph>
+      <node id="299">
+        <label>utilities.h</label>
+        <link refid="utilities.h"/>
+        <childnode refid="300" relation="include">
+        </childnode>
+      </node>
+      <node id="301">
+        <label>string</label>
+      </node>
+      <node id="302">
+        <label>vector</label>
+      </node>
+      <node id="300">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h_source"/>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+      </node>
+      <node id="303">
+        <label>atom.h</label>
+        <link refid="atom_8h_source"/>
+        <childnode refid="301" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="307">
+        <label>diamondcalculator.h</label>
+        <link refid="diamondcalculator_8h_source"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="306">
+        <label>genericlocalcalculator.h</label>
+        <link refid="genericlocalcalculator_8h_source"/>
+      </node>
+      <node id="304">
+        <label>utilities.h</label>
+        <link refid="utilities.h"/>
+        <childnode refid="305" relation="include">
+        </childnode>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+      <node id="305">
+        <label>bispectrumcalculator.h</label>
+        <link refid="bispectrumcalculator_8h_source"/>
+        <childnode refid="306" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="utilities_8h_1a4eb20b0aaa832c4e00858e0b943e9fe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_min_distance</definition>
+        <argsstring>(double, double, double, bool)</argsstring>
+        <name>get_min_distance</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>bool</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="6" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="27" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a0e9445a71c4de5bba149d83bbdf8ecfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double dot</definition>
+        <argsstring>(double *, double *)</argsstring>
+        <name>dot</name>
+        <param>
+          <type>double *</type>
+        </param>
+        <param>
+          <type>double *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="7" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a116c3981ff968505ad37fc7e4c1bc7ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double cutoff_func</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>cutoff_func</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="8" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a19d0749c46f5a8d2e582894e71f047b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double* get_vector</definition>
+        <argsstring>(AtomicSystem, int, int)</argsstring>
+        <name>get_vector</name>
+        <param>
+          <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref></type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="9" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="47" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a272d5e137d470ab0ef882e4537505569" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Kronecker</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>Kronecker</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="10" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="70" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a309c456489a7e3c3c26befddc84463aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double cutoff_func_prime</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>cutoff_func_prime</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="12" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a20e4b314ed49021cfedf191485849bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int factorial</definition>
+        <argsstring>(unsigned int)</argsstring>
+        <name>factorial</name>
+        <param>
+          <type>unsigned</type>
+          <declname>int</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="88" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1ac1fbb86fa8a5cf74c6ad763593cff9bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double get_binomial</definition>
+        <argsstring>(int, int)</argsstring>
+        <name>get_binomial</name>
+        <param>
+          <type>int</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1acb4ec4e4bb8e257bf8911630c65e328e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double calculate_norm</definition>
+        <argsstring>(double, double, double)</argsstring>
+        <name>calculate_norm</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="16" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>UTILITIES_H</highlight></codeline>
+<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>UTILITIES_H</highlight></codeline>
+<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atomicsystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>get_min_distance(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dot(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cutoff_func(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*get_vector(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Kronecker(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cutoff_func_prime(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>factorial(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>get_binomial(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>calculate_norm<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/fs/home/mr937/SEING/src/utilities.h"/>
+  </compounddef>
+</doxygen>

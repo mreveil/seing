@@ -1,0 +1,187 @@
+// This will generate fingerprint for each atom in a given atomic system
+//
+// Author: Mardochee Reveil
+// Date created: 9/29/17
+//
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <time.h>
+#include <math.h>
+
+#include "fingerprint.h"
+#include "calculator.h"
+#include "inputs.h"
+
+using namespace std;
+
+FingerprintGenerator::FingerprintGenerator(AtomicSystem& asys, fingerprintProperties fpproperties): atomicsystem(asys), natoms(0), maxneighbors(0), fp_natomtypes(1), natompairs(0), fingerprints(NULL){
+
+    natoms = atomicsystem.get_n_atoms();
+
+    double cutoff_skin = 0.5;
+    double cutoff = fpproperties.cutoff;
+
+    fp_natomtypes = fpproperties.natomtypes;
+    string *fp_atomtypes = fpproperties.atomtypes;
+
+    //TODO: order atom types read from fingerprint prop file
+    
+    double xsize = asys.get_xsize();
+    double ysize = asys.get_ysize();
+    double zsize = asys.get_zsize();
+
+    int x_nbins = ((int) xsize/cutoff > 0) ? (int) xsize/cutoff : 1;
+    int y_nbins = ((int) ysize/cutoff > 0) ? (int) ysize/cutoff : 1;
+    int z_nbins = ((int) zsize/cutoff > 0) ? (int) zsize/cutoff : 1;
+
+    int maxneighborsperatom = 1000;
+
+    cout<<"Generating neighborlist...\n";
+
+    NeighborList neighlist = NeighborList(atomicsystem, cutoff, x_nbins, y_nbins, z_nbins, maxneighborsperatom);
+
+    vector<string> orderedatomtypes = atomicsystem.get_atom_types();
+    //natomtypes = orderedatomtypes.size();
+
+    vector<vector<string>> atompairs;
+
+    natompairs = 0;
+    for (int i=0; i<fp_natomtypes;i++){
+        for (int j=i; j<fp_natomtypes; j++){
+            vector<string> pair;
+            pair.push_back(fp_atomtypes[i]);
+            pair.push_back(fp_atomtypes[j]);
+            atompairs.push_back(pair); 
+            natompairs++;
+        }
+    }
+
+
+   //TODO: Check if atom types from atomic system overlaps with atom types from fingerprint properties input file
+
+    try {        
+        neighlist.build();
+        cout<<"..........done\n";
+    } catch (const char* msg) {
+        cerr<<msg<<"\n";
+    }
+
+    fingerprints = new double**[natoms];
+    for (int i=0; i<natoms; i++)
+        fingerprints[i] = new double*[orderedatomtypes.size()];
+
+
+    fingerprintprimes = new double***[natoms];
+    for (int i=0; i<natoms; i++){
+        fingerprintprimes[i] = new double**[natompairs];
+        for (int j=0; j<natompairs; j++)
+            fingerprintprimes[i][j] = new double*[maxneighbors+1];
+    }
+
+    // given calculator will have specific functional forms and parameters
+
+    FingerprintCalculator fpcalc = FingerprintCalculator(atomicsystem,fpproperties); 
+    fsize = fpcalc.get_size();
+
+    int dim = fsize*fp_natomtypes + (fsize*natompairs)*(1+maxneighbors);
+ 
+    cout<<"FP Size: "<<fsize<<"\n";
+    cout<<"FP natomtypes: "<<fp_natomtypes<<" "<<orderedatomtypes.size()<<"\n";
+    cout<<"FP natompairs: "<<natompairs<<"\n";
+    cout<<"Total dimensionality of fingerprint is:"<<dim<<"\n";
+
+
+    for (int atomid=0; atomid<natoms; atomid++) {
+
+        for (int atomtype=0; atomtype<fp_natomtypes; atomtype++) {
+
+            int nneighbors = neighlist.get_n_neighbors(atomid,orderedatomtypes[atomtype]);
+            int *myneighbors = neighlist.get_sorted_neighbors(atomid,orderedatomtypes[atomtype]);
+            double neighdist[nneighbors];        
+
+            for (int j=0; j<nneighbors; j++) {
+                double sqdistance = sqrt(atomicsystem.get_square_distance(atomid,myneighbors[j]));
+                neighdist[j] = sqdistance;       
+            }
+
+            fingerprints[atomid][atomtype] = fpcalc.calculate_fingerprint(atomid,nneighbors,myneighbors,neighdist);
+        }
+
+  
+        int direction = 0;
+
+        for (int atompair=0; atompair<natompairs; atompair++ ){
+
+           // cout<<"Atom pair: "<<atompairs[atompair][0]<<" "<<atompairs[atompair][1]<<"\n";
+
+            int nneighbors = neighlist.get_n_neighbors(atomid,atompairs[atompair]);
+            int *myneighbors = neighlist.get_sorted_neighbors(atomid,atompairs[atompair]);
+            double neighdist[nneighbors];        
+
+
+            for (int j=0; j<nneighbors; j++) {
+                double sqdistance = sqrt(atomicsystem.get_square_distance(atomid,myneighbors[j]));
+                neighdist[j] = sqdistance;       
+            }
+
+            fingerprintprimes[atomid][atompair][0] = fpcalc.calculate_fingerprint_prime(atomid,nneighbors,myneighbors,neighdist,atomid,direction);
+
+            for (int n=0; n<maxneighbors; n++) {
+
+                 int secondnneighbors = neighlist.get_n_neighbors(myneighbors[n]);
+                 int *secondneighbors = neighlist.get_neighbors(myneighbors[n]);
+                 double secondneighdist[secondnneighbors];
+
+                for (int j=0; j<secondnneighbors; j++) {
+                    double sqdistance = sqrt(atomicsystem.get_square_distance(myneighbors[n],secondneighbors[j]));
+                    secondneighdist[j] = sqdistance;   
+                }
+
+                fingerprintprimes[atomid][atompair][n+1] = fpcalc.calculate_fingerprint_prime(myneighbors[n],secondnneighbors,secondneighbors,secondneighdist,atomid,direction);
+
+            }
+        }
+
+    } 
+
+    //cout<<"All done yayyyy!\n\n";
+
+}
+
+
+
+FingerprintGenerator::~FingerprintGenerator (void) {
+
+    delete [] fingerprints;
+}
+
+bool FingerprintGenerator::write2file(string filename) {
+    bool success = true;
+    ofstream myfile(filename);
+
+    if (myfile.is_open()) {
+        for (int i=0; i<natoms; i++){
+            for (int t=0; t<fp_natomtypes; t++){
+                for (int j=0; j<fsize; j++)
+                    myfile << fingerprints[i][t][j]<<" ";
+            }
+            for (int t=0; t<natompairs; t++){            
+                for (int n=0; n<maxneighbors+1; n++){
+                    for (int j=0; j<fsize; j++)
+                        myfile << fingerprintprimes[i][t][n][j]<<" ";
+                }
+            } 
+            myfile << "\n";            
+        }
+        myfile.close();
+    }
+    else success = false;
+
+    return success;
+}

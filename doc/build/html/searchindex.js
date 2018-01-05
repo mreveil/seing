@@ -1,0 +1,1 @@
+Search.setIndex({envversion:49,filenames:["index"],objects:{},objnames:{},objtypes:{},terms:{breathe_project:0,content:0,dictionari:0,doxygenclass:0,find:0,index:0,modul:0,page:0,project:0,search:0,unabl:0},titles:["Welcome to SEING&#8217;s documentation!"],titleterms:{document:0,indice:0,seing:0,tabl:0,welcom:0}})

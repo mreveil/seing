@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classDiamondCalculator" kind="class" prot="public">
+    <compoundname>DiamondCalculator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classDiamondCalculator_1ab16915686d25a430a52f67bf981eda01" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DiamondCalculator::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDiamondCalculator_1a9142452c594a76235da0e1d7523b3f4d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DiamondCalculator::cutoff</definition>
+        <argsstring></argsstring>
+        <name>cutoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDiamondCalculator_1ac0c274dff52659aa54df3b1b107bae8b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DiamondCalculator::dx</definition>
+        <argsstring></argsstring>
+        <name>dx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDiamondCalculator_1a5b37c1e7ce25a4d1c57e229d79ae1335" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DiamondCalculator::dy</definition>
+        <argsstring></argsstring>
+        <name>dy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDiamondCalculator_1ab3932d1811f019fb14f5801ad6bd9d5c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DiamondCalculator::dz</definition>
+        <argsstring></argsstring>
+        <name>dz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDiamondCalculator_1aad478403cd5e21aff1e5dc44c649dacc" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* DiamondCalculator::ngaussians</definition>
+        <argsstring></argsstring>
+        <name>ngaussians</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDiamondCalculator_1a63c9eec7ae57939593217c8bbfc9d1e6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DiamondCalculator::lattice_constant</definition>
+        <argsstring></argsstring>
+        <name>lattice_constant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDiamondCalculator_1a1fdfc3d055ab38d7ad0cda0722290428" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DiamondCalculator::inner_cutoff</definition>
+        <argsstring></argsstring>
+        <name>inner_cutoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDiamondCalculator_1a8aa29e729ab9b832c8fb2371bc3450c3" prot="private" static="no" mutable="no">
+        <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref></type>
+        <definition>AtomicSystem DiamondCalculator::atomicsystem</definition>
+        <argsstring></argsstring>
+        <name>atomicsystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classDiamondCalculator_1a083da6411ba6b9a9b219fefcf3960182" prot="private" static="no" mutable="no">
+        <type><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref></type>
+        <definition>fingerprintProperties DiamondCalculator::fpproperties</definition>
+        <argsstring></argsstring>
+        <name>fpproperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classDiamondCalculator_1a9f2d00ca1c7bc0a49f0e8f8a172a4bf5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; vector&lt; double &gt; &gt;</type>
+        <definition>vector&lt; vector&lt; double &gt; &gt; DiamondCalculator::generateGaussians</definition>
+        <argsstring>(double, double, double)</argsstring>
+        <name>generateGaussians</name>
+        <param>
+          <type>double</type>
+          <defname>x</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>y</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>z</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.cpp" bodystart="108" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiamondCalculator_1ab21e46ab69fd5672e09084c62b98897c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>vector&lt; vector&lt; vector&lt; double &gt; &gt; &gt;</type>
+        <definition>vector&lt; vector&lt; vector&lt; double &gt; &gt; &gt; DiamondCalculator::findAtomsForEachGaussian</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt;&gt; gaussians, int atomid, int nneighbors, int *neighbors)</argsstring>
+        <name>findAtomsForEachGaussian</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt;&gt;</type>
+          <declname>gaussians</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>atomid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nneighbors</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>neighbors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.cpp" bodystart="189" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiamondCalculator_1a69d7f914e88f46768cbfd2b0873c613f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DiamondCalculator::calculateGaussianValue</definition>
+        <argsstring>(vector&lt; vector&lt; double &gt;&gt;, vector&lt; double &gt;)</argsstring>
+        <name>calculateGaussianValue</name>
+        <param>
+          <type>vector&lt; vector&lt; double &gt;&gt;</type>
+          <defname>atoms_sq_distances</defname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <defname>gaussian</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.cpp" bodystart="262" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiamondCalculator_1a925e8a0503f1e31c92e4212bc1b151b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double DiamondCalculator::calculateDistanceToGaussian</definition>
+        <argsstring>(int atomid, vector&lt; double &gt; gaussian)</argsstring>
+        <name>calculateDistanceToGaussian</name>
+        <param>
+          <type>int</type>
+          <declname>atomid</declname>
+        </param>
+        <param>
+          <type>vector&lt; double &gt;</type>
+          <declname>gaussian</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.cpp" bodystart="228" bodyend="259"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDiamondCalculator_1a3a24a772c0322243ec76661fd5909100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DiamondCalculator::DiamondCalculator</definition>
+        <argsstring>(AtomicSystem &amp;, fingerprintProperties)</argsstring>
+        <name>DiamondCalculator</name>
+        <param>
+          <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref> &amp;</type>
+          <defname>asys</defname>
+        </param>
+        <param>
+          <type><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref></type>
+          <defname>fpprop</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="40" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.cpp" bodystart="21" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiamondCalculator_1a80a4acb0ad8b89b7e2bbeaa203550eb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DiamondCalculator::~DiamondCalculator</definition>
+        <argsstring>()</argsstring>
+        <name>~DiamondCalculator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.cpp" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiamondCalculator_1a2c1eeaeec8b5051d5e6801cd1cd08973" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DiamondCalculator::get_size</definition>
+        <argsstring>()</argsstring>
+        <name>get_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="43" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.cpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classDiamondCalculator_1a042f425e943c93d953e3e4e24ecb9728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double * DiamondCalculator::calculate_fingerprint</definition>
+        <argsstring>(int, NeighborList &amp;)</argsstring>
+        <name>calculate_fingerprint</name>
+        <param>
+          <type>int</type>
+          <defname>atomid</defname>
+        </param>
+        <param>
+          <type><ref refid="classNeighborList" kindref="compound">NeighborList</ref> &amp;</type>
+          <defname>nlist</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="44" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.cpp" bodystart="50" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/fs/home/mr937/SEING/src/diamondcalculator.h" line="22" column="1" bodyfile="/fs/home/mr937/SEING/src/diamondcalculator.h" bodystart="22" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classDiamondCalculator_1a8aa29e729ab9b832c8fb2371bc3450c3" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>atomicsystem</name></member>
+      <member refid="classDiamondCalculator_1a042f425e943c93d953e3e4e24ecb9728" prot="public" virt="non-virtual"><scope>DiamondCalculator</scope><name>calculate_fingerprint</name></member>
+      <member refid="classDiamondCalculator_1a925e8a0503f1e31c92e4212bc1b151b1" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>calculateDistanceToGaussian</name></member>
+      <member refid="classDiamondCalculator_1a69d7f914e88f46768cbfd2b0873c613f" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>calculateGaussianValue</name></member>
+      <member refid="classDiamondCalculator_1a9142452c594a76235da0e1d7523b3f4d" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>cutoff</name></member>
+      <member refid="classDiamondCalculator_1a3a24a772c0322243ec76661fd5909100" prot="public" virt="non-virtual"><scope>DiamondCalculator</scope><name>DiamondCalculator</name></member>
+      <member refid="classDiamondCalculator_1ac0c274dff52659aa54df3b1b107bae8b" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>dx</name></member>
+      <member refid="classDiamondCalculator_1a5b37c1e7ce25a4d1c57e229d79ae1335" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>dy</name></member>
+      <member refid="classDiamondCalculator_1ab3932d1811f019fb14f5801ad6bd9d5c" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>dz</name></member>
+      <member refid="classDiamondCalculator_1ab21e46ab69fd5672e09084c62b98897c" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>findAtomsForEachGaussian</name></member>
+      <member refid="classDiamondCalculator_1a083da6411ba6b9a9b219fefcf3960182" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>fpproperties</name></member>
+      <member refid="classDiamondCalculator_1a9f2d00ca1c7bc0a49f0e8f8a172a4bf5" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>generateGaussians</name></member>
+      <member refid="classDiamondCalculator_1a2c1eeaeec8b5051d5e6801cd1cd08973" prot="public" virt="non-virtual"><scope>DiamondCalculator</scope><name>get_size</name></member>
+      <member refid="classDiamondCalculator_1a1fdfc3d055ab38d7ad0cda0722290428" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>inner_cutoff</name></member>
+      <member refid="classDiamondCalculator_1a63c9eec7ae57939593217c8bbfc9d1e6" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>lattice_constant</name></member>
+      <member refid="classDiamondCalculator_1aad478403cd5e21aff1e5dc44c649dacc" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>ngaussians</name></member>
+      <member refid="classDiamondCalculator_1ab16915686d25a430a52f67bf981eda01" prot="private" virt="non-virtual"><scope>DiamondCalculator</scope><name>size</name></member>
+      <member refid="classDiamondCalculator_1a80a4acb0ad8b89b7e2bbeaa203550eb8" prot="public" virt="non-virtual"><scope>DiamondCalculator</scope><name>~DiamondCalculator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classPeriodicTable" kind="class" prot="public">
+    <compoundname>PeriodicTable</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPeriodicTable_1ac5125e44dbc8321e0f44760d57805129" prot="private" static="no" mutable="no">
+        <type><ref refid="structElement" kindref="compound">Element</ref> *</type>
+        <definition>Element* PeriodicTable::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPeriodicTable_1a560a3768e7f474e741f9ea902d674991" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PeriodicTable::nelements</definition>
+        <argsstring></argsstring>
+        <name>nelements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPeriodicTable_1aaa43631fae258176bf47032dce28053d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PeriodicTable::PeriodicTable</definition>
+        <argsstring>()</argsstring>
+        <name>PeriodicTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="13" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classPeriodicTable_1a15eef831d85642fe9f6687aa15f3b317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PeriodicTable::~PeriodicTable</definition>
+        <argsstring>()</argsstring>
+        <name>~PeriodicTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classPeriodicTable_1a9c063dbf37b22fbb2c564b24cbe88f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PeriodicTable::get_atomic_number</definition>
+        <argsstring>(string)</argsstring>
+        <name>get_atomic_number</name>
+        <param>
+          <type>string</type>
+          <defname>symbol</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="38" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classPeriodicTable_1ae196998a86474010b0fefde2cf8ede3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double PeriodicTable::get_electronegativity</definition>
+        <argsstring>(string)</argsstring>
+        <name>get_electronegativity</name>
+        <param>
+          <type>string</type>
+          <defname>symbol</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="57" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/fs/home/mr937/SEING/src/periodictable.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="26" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classPeriodicTable_1ac5125e44dbc8321e0f44760d57805129" prot="private" virt="non-virtual"><scope>PeriodicTable</scope><name>elements</name></member>
+      <member refid="classPeriodicTable_1a9c063dbf37b22fbb2c564b24cbe88f13" prot="public" virt="non-virtual"><scope>PeriodicTable</scope><name>get_atomic_number</name></member>
+      <member refid="classPeriodicTable_1ae196998a86474010b0fefde2cf8ede3c" prot="public" virt="non-virtual"><scope>PeriodicTable</scope><name>get_electronegativity</name></member>
+      <member refid="classPeriodicTable_1a560a3768e7f474e741f9ea902d674991" prot="private" virt="non-virtual"><scope>PeriodicTable</scope><name>nelements</name></member>
+      <member refid="classPeriodicTable_1aaa43631fae258176bf47032dce28053d" prot="public" virt="non-virtual"><scope>PeriodicTable</scope><name>PeriodicTable</name></member>
+      <member refid="classPeriodicTable_1a15eef831d85642fe9f6687aa15f3b317" prot="public" virt="non-virtual"><scope>PeriodicTable</scope><name>~PeriodicTable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

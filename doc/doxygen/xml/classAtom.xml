@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classAtom" kind="class" prot="public">
+    <compoundname>Atom</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classAtom_1afc1c5d83fc35fde2b643484161bf8d64" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Atom::atomtype</definition>
+        <argsstring></argsstring>
+        <name>atomtype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="10" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAtom_1a382da4a2a8d20faa2fd1eca986f44056" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Atom::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="11" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAtom_1aab210323240ea76e6f866113e590cd22" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Atom::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="12" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAtom_1af1c8b6cd65e2a489b9be339efd7a77ac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Atom::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="13" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAtom_1ab7fa10034d4d2a16b5288fd58430155f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Atom::charge</definition>
+        <argsstring></argsstring>
+        <name>charge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAtom_1a90e6f00ca3ae2fda9b87cb27aac5929d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Atom::mass</definition>
+        <argsstring></argsstring>
+        <name>mass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAtom_1add36d2ea4159b08eefc7d4d6d59f54eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Atom::Atom</definition>
+        <argsstring>(void)</argsstring>
+        <name>Atom</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="8" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classAtom_1a820fbe640e1032315c54d29eeeeaed3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Atom::Atom</definition>
+        <argsstring>(string, double, double, double)</argsstring>
+        <name>Atom</name>
+        <param>
+          <type>string</type>
+          <defname>attype</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>cx</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>cy</defname>
+        </param>
+        <param>
+          <type>double</type>
+          <defname>cz</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="18" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classAtom_1ad73f775b26a2081104bed58c2afd68a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Atom::~Atom</definition>
+        <argsstring>(void)</argsstring>
+        <name>~Atom</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classAtom_1a7a8a8d77832c675e756a4935e3f6a4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Atom::get_atom_type</definition>
+        <argsstring>()</argsstring>
+        <name>get_atom_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classAtom_1a60c78b2f17643f02744dc059ad4614bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Atom::get_x</definition>
+        <argsstring>()</argsstring>
+        <name>get_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classAtom_1a2b4f6fd59d0be3a6be685b1f7d008585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Atom::get_y</definition>
+        <argsstring>()</argsstring>
+        <name>get_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classAtom_1adf0968985ac6f9c8c8d5f280070790b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Atom::get_z</definition>
+        <argsstring>()</argsstring>
+        <name>get_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="34" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/fs/home/mr937/SEING/src/atom.h" line="8" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="8" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classAtom_1add36d2ea4159b08eefc7d4d6d59f54eb" prot="public" virt="non-virtual"><scope>Atom</scope><name>Atom</name></member>
+      <member refid="classAtom_1a820fbe640e1032315c54d29eeeeaed3f" prot="public" virt="non-virtual"><scope>Atom</scope><name>Atom</name></member>
+      <member refid="classAtom_1afc1c5d83fc35fde2b643484161bf8d64" prot="private" virt="non-virtual"><scope>Atom</scope><name>atomtype</name></member>
+      <member refid="classAtom_1ab7fa10034d4d2a16b5288fd58430155f" prot="private" virt="non-virtual"><scope>Atom</scope><name>charge</name></member>
+      <member refid="classAtom_1a7a8a8d77832c675e756a4935e3f6a4e8" prot="public" virt="non-virtual"><scope>Atom</scope><name>get_atom_type</name></member>
+      <member refid="classAtom_1a60c78b2f17643f02744dc059ad4614bd" prot="public" virt="non-virtual"><scope>Atom</scope><name>get_x</name></member>
+      <member refid="classAtom_1a2b4f6fd59d0be3a6be685b1f7d008585" prot="public" virt="non-virtual"><scope>Atom</scope><name>get_y</name></member>
+      <member refid="classAtom_1adf0968985ac6f9c8c8d5f280070790b1" prot="public" virt="non-virtual"><scope>Atom</scope><name>get_z</name></member>
+      <member refid="classAtom_1a90e6f00ca3ae2fda9b87cb27aac5929d" prot="private" virt="non-virtual"><scope>Atom</scope><name>mass</name></member>
+      <member refid="classAtom_1a382da4a2a8d20faa2fd1eca986f44056" prot="private" virt="non-virtual"><scope>Atom</scope><name>x</name></member>
+      <member refid="classAtom_1aab210323240ea76e6f866113e590cd22" prot="private" virt="non-virtual"><scope>Atom</scope><name>y</name></member>
+      <member refid="classAtom_1af1c8b6cd65e2a489b9be339efd7a77ac" prot="private" virt="non-virtual"><scope>Atom</scope><name>z</name></member>
+      <member refid="classAtom_1ad73f775b26a2081104bed58c2afd68a7" prot="public" virt="non-virtual"><scope>Atom</scope><name>~Atom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

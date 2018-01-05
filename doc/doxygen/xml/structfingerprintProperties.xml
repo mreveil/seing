@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structfingerprintProperties" kind="struct" prot="public">
+    <compoundname>fingerprintProperties</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string fingerprintProperties::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="10" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a33e937432b5ab6d71bd2b82fcfa3f446" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string fingerprintProperties::calculate_derivatives</definition>
+        <argsstring></argsstring>
+        <name>calculate_derivatives</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="12" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a74d8ba92bc17191332b718696859d731" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fingerprintProperties::nderivatives</definition>
+        <argsstring></argsstring>
+        <name>nderivatives</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="13" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a0307b7e6565d72685f54cfd8c37a2bb1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fingerprintProperties::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1ae995e464a72ef7c754a5809f161f397a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string fingerprintProperties::strategy</definition>
+        <argsstring></argsstring>
+        <name>strategy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="16" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1aecf9e0d9e5bdd193f2dcfaca891da127" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string fingerprintProperties::weight_type</definition>
+        <argsstring></argsstring>
+        <name>weight_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="17" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a04a9eb29d650bbb1bb9662efdae2b439" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double fingerprintProperties::cutoff</definition>
+        <argsstring></argsstring>
+        <name>cutoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1afcbb7e1edbf53f9846d8e2bb5f30fd76" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double fingerprintProperties::inner_cutoff</definition>
+        <argsstring></argsstring>
+        <name>inner_cutoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a57aea2ce94034cd4b66db7c0950c1e50" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool fingerprintProperties::is_box_size_provided</definition>
+        <argsstring></argsstring>
+        <name>is_box_size_provided</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* fingerprintProperties::box_size</definition>
+        <argsstring></argsstring>
+        <name>box_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a321da3012ab165752c737ad32f89a711" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fingerprintProperties::netas</definition>
+        <argsstring></argsstring>
+        <name>netas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1af72262e6b1665dfe71d88d0a6284063e" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* fingerprintProperties::etas</definition>
+        <argsstring></argsstring>
+        <name>etas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1ad0438fccef599b8b163e241b93df47ce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fingerprintProperties::netas2</definition>
+        <argsstring></argsstring>
+        <name>netas2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1ad09bd9cfa94b0dcee09c036119b3cad2" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* fingerprintProperties::etas2</definition>
+        <argsstring></argsstring>
+        <name>etas2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fingerprintProperties::ngammas</definition>
+        <argsstring></argsstring>
+        <name>ngammas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a500043fbba0f1434d2bfdda92f6ca962" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* fingerprintProperties::gammas</definition>
+        <argsstring></argsstring>
+        <name>gammas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a8cea9b0611ac1f682846fbfe31e4471a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fingerprintProperties::nzetas</definition>
+        <argsstring></argsstring>
+        <name>nzetas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a816c80314e411d0aee319393f4e42ac1" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* fingerprintProperties::zetas</definition>
+        <argsstring></argsstring>
+        <name>zetas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1ac618efe356e760e838db711b6f5ce970" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fingerprintProperties::natomtypes</definition>
+        <argsstring></argsstring>
+        <name>natomtypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a28059a07fa4fc2202940fb6af5b5d6e9" prot="public" static="no" mutable="no">
+        <type>string *</type>
+        <definition>string* fingerprintProperties::atomtypes</definition>
+        <argsstring></argsstring>
+        <name>atomtypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="40" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1a2c37aac3ecf03bb66e13a5ed656611e1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fingerprintProperties::nmax</definition>
+        <argsstring></argsstring>
+        <name>nmax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="42" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1afc19f9499a2cf5bbb0f32d49aacea892" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int fingerprintProperties::jmax</definition>
+        <argsstring></argsstring>
+        <name>jmax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="43" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string fingerprintProperties::output_file</definition>
+        <argsstring></argsstring>
+        <name>output_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="45" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structfingerprintProperties_1ac1abf7226cb93c27eefe7a01e057389c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string fingerprintProperties::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/inputs.h" line="46" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/fs/home/mr937/SEING/src/inputs.h" line="8" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.h" bodystart="8" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structfingerprintProperties_1a28059a07fa4fc2202940fb6af5b5d6e9" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>atomtypes</name></member>
+      <member refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>box_size</name></member>
+      <member refid="structfingerprintProperties_1a33e937432b5ab6d71bd2b82fcfa3f446" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>calculate_derivatives</name></member>
+      <member refid="structfingerprintProperties_1a04a9eb29d650bbb1bb9662efdae2b439" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>cutoff</name></member>
+      <member refid="structfingerprintProperties_1a0307b7e6565d72685f54cfd8c37a2bb1" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>direction</name></member>
+      <member refid="structfingerprintProperties_1af72262e6b1665dfe71d88d0a6284063e" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>etas</name></member>
+      <member refid="structfingerprintProperties_1ad09bd9cfa94b0dcee09c036119b3cad2" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>etas2</name></member>
+      <member refid="structfingerprintProperties_1a500043fbba0f1434d2bfdda92f6ca962" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>gammas</name></member>
+      <member refid="structfingerprintProperties_1afcbb7e1edbf53f9846d8e2bb5f30fd76" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>inner_cutoff</name></member>
+      <member refid="structfingerprintProperties_1a57aea2ce94034cd4b66db7c0950c1e50" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>is_box_size_provided</name></member>
+      <member refid="structfingerprintProperties_1afc19f9499a2cf5bbb0f32d49aacea892" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>jmax</name></member>
+      <member refid="structfingerprintProperties_1ac1abf7226cb93c27eefe7a01e057389c" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>mode</name></member>
+      <member refid="structfingerprintProperties_1ac618efe356e760e838db711b6f5ce970" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>natomtypes</name></member>
+      <member refid="structfingerprintProperties_1a74d8ba92bc17191332b718696859d731" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>nderivatives</name></member>
+      <member refid="structfingerprintProperties_1a321da3012ab165752c737ad32f89a711" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>netas</name></member>
+      <member refid="structfingerprintProperties_1ad0438fccef599b8b163e241b93df47ce" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>netas2</name></member>
+      <member refid="structfingerprintProperties_1a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>ngammas</name></member>
+      <member refid="structfingerprintProperties_1a2c37aac3ecf03bb66e13a5ed656611e1" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>nmax</name></member>
+      <member refid="structfingerprintProperties_1a8cea9b0611ac1f682846fbfe31e4471a" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>nzetas</name></member>
+      <member refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>output_file</name></member>
+      <member refid="structfingerprintProperties_1ae995e464a72ef7c754a5809f161f397a" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>strategy</name></member>
+      <member refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>type</name></member>
+      <member refid="structfingerprintProperties_1aecf9e0d9e5bdd193f2dcfaca891da127" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>weight_type</name></member>
+      <member refid="structfingerprintProperties_1a816c80314e411d0aee319393f4e42ac1" prot="public" virt="non-virtual"><scope>fingerprintProperties</scope><name>zetas</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

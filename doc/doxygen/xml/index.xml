@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classAtom" kind="class"><name>Atom</name>
+    <member refid="classAtom_1afc1c5d83fc35fde2b643484161bf8d64" kind="variable"><name>atomtype</name></member>
+    <member refid="classAtom_1a382da4a2a8d20faa2fd1eca986f44056" kind="variable"><name>x</name></member>
+    <member refid="classAtom_1aab210323240ea76e6f866113e590cd22" kind="variable"><name>y</name></member>
+    <member refid="classAtom_1af1c8b6cd65e2a489b9be339efd7a77ac" kind="variable"><name>z</name></member>
+    <member refid="classAtom_1ab7fa10034d4d2a16b5288fd58430155f" kind="variable"><name>charge</name></member>
+    <member refid="classAtom_1a90e6f00ca3ae2fda9b87cb27aac5929d" kind="variable"><name>mass</name></member>
+    <member refid="classAtom_1add36d2ea4159b08eefc7d4d6d59f54eb" kind="function"><name>Atom</name></member>
+    <member refid="classAtom_1a820fbe640e1032315c54d29eeeeaed3f" kind="function"><name>Atom</name></member>
+    <member refid="classAtom_1ad73f775b26a2081104bed58c2afd68a7" kind="function"><name>~Atom</name></member>
+    <member refid="classAtom_1a7a8a8d77832c675e756a4935e3f6a4e8" kind="function"><name>get_atom_type</name></member>
+    <member refid="classAtom_1a60c78b2f17643f02744dc059ad4614bd" kind="function"><name>get_x</name></member>
+    <member refid="classAtom_1a2b4f6fd59d0be3a6be685b1f7d008585" kind="function"><name>get_y</name></member>
+    <member refid="classAtom_1adf0968985ac6f9c8c8d5f280070790b1" kind="function"><name>get_z</name></member>
+  </compound>
+  <compound refid="classAtomicSystem" kind="class"><name>AtomicSystem</name>
+    <member refid="classAtomicSystem_1a24b9fe211c4ead09bc75684a7d5095ae" kind="variable"><name>natoms</name></member>
+    <member refid="classAtomicSystem_1afc6d7403efcfd575c0161c8f82d4a854" kind="variable"><name>atoms</name></member>
+    <member refid="classAtomicSystem_1a4a8d28db18a1e7b87440f9431877f3b7" kind="variable"><name>xmin</name></member>
+    <member refid="classAtomicSystem_1a6cc71bc01018b7275afbff2ad64018c6" kind="variable"><name>ymin</name></member>
+    <member refid="classAtomicSystem_1af498b0bf498c112158d69ef7be906834" kind="variable"><name>zmin</name></member>
+    <member refid="classAtomicSystem_1a1edf322c50cc03061e28967ad589b0bf" kind="variable"><name>xmax</name></member>
+    <member refid="classAtomicSystem_1a78e621d5010cbc5bcfde38a11cf29fe0" kind="variable"><name>ymax</name></member>
+    <member refid="classAtomicSystem_1a92aad18a89d74e640077578414f107a9" kind="variable"><name>zmax</name></member>
+    <member refid="classAtomicSystem_1a380a8162efa50f8a01bf5aaba9bc6a92" kind="variable"><name>skin</name></member>
+    <member refid="classAtomicSystem_1ad8f0499e135f6cb1a7f3a3a0b5bdeb71" kind="variable"><name>xpbc</name></member>
+    <member refid="classAtomicSystem_1af5c6ab3bc2f5cbcd0bc8549d0328657b" kind="variable"><name>ypbc</name></member>
+    <member refid="classAtomicSystem_1a37a7f8ba076b2d86ab4940d44ba422df" kind="variable"><name>zpbc</name></member>
+    <member refid="classAtomicSystem_1ac3ede1da1867a9759e388f3d5e8cb08a" kind="function"><name>AtomicSystem</name></member>
+    <member refid="classAtomicSystem_1a5d5f473465d2ad2eb106aa0cda871f5a" kind="function"><name>AtomicSystem</name></member>
+    <member refid="classAtomicSystem_1adcc9076b127ae9ff28b6bdc6cc089364" kind="function"><name>~AtomicSystem</name></member>
+    <member refid="classAtomicSystem_1aedb3d1c61fb5d460f557bece928d10e0" kind="function"><name>build_from_file</name></member>
+    <member refid="classAtomicSystem_1ace7cdf92e0e3ec1149bcb51fd112263c" kind="function"><name>set_box_size</name></member>
+    <member refid="classAtomicSystem_1a4449b0026fdec3b4c49ef31fe35de113" kind="function"><name>get_square_distance</name></member>
+    <member refid="classAtomicSystem_1a8f7b69937316400e8a0145a1e1954dd8" kind="function"><name>get_square_distance</name></member>
+    <member refid="classAtomicSystem_1ad9e02b722bdb444e2c67d7386c8ebb10" kind="function"><name>check_square_distance</name></member>
+    <member refid="classAtomicSystem_1a036e5b5e292221bf85fee70969cc9b4c" kind="function"><name>get_atom_types</name></member>
+    <member refid="classAtomicSystem_1a0c6a87a01f5aec7e76a4aec87fc6f0c5" kind="function"><name>get_atom</name></member>
+    <member refid="classAtomicSystem_1a955f0be2dc05a5aef6d9b5e0a3fccd24" kind="function"><name>get_n_atoms</name></member>
+    <member refid="classAtomicSystem_1a621fa961e13c049c5e8ccd0bac679f02" kind="function"><name>get_xsize</name></member>
+    <member refid="classAtomicSystem_1a3767224770330c5881f88517dc3b3e74" kind="function"><name>get_ysize</name></member>
+    <member refid="classAtomicSystem_1a456833955091210604a06b277da3cf9f" kind="function"><name>get_zsize</name></member>
+    <member refid="classAtomicSystem_1a89e84ec7dff8a6bbe58ae8eb587afb40" kind="function"><name>get_xmin</name></member>
+    <member refid="classAtomicSystem_1a517e6cc8dea21fb449f3f71a35ad6308" kind="function"><name>get_ymin</name></member>
+    <member refid="classAtomicSystem_1ac0675a259914dc9300afb43cf655a4b6" kind="function"><name>get_zmin</name></member>
+    <member refid="classAtomicSystem_1a879af0135f419de62a7dfb21b38178fe" kind="function"><name>get_xmax</name></member>
+    <member refid="classAtomicSystem_1abdb763c7d1343e1b4ff6a56f30aec9d1" kind="function"><name>get_ymax</name></member>
+    <member refid="classAtomicSystem_1a26e31e73a88acc6c249a2084f41843f8" kind="function"><name>get_zmax</name></member>
+    <member refid="classAtomicSystem_1a482d58dc237c99908bd09a6c7d009c48" kind="function"><name>get_xpbc</name></member>
+    <member refid="classAtomicSystem_1a75dcff418d40045926392ca81bb8c5bd" kind="function"><name>get_ypbc</name></member>
+    <member refid="classAtomicSystem_1a10e194744a00bb2506cc6c72c3fab4a0" kind="function"><name>get_zpbc</name></member>
+  </compound>
+  <compound refid="classBispectrumCalculator" kind="class"><name>BispectrumCalculator</name>
+    <member refid="classBispectrumCalculator_1a1de8f4d4a0f331335b2e608272b880a0" kind="variable"><name>size</name></member>
+    <member refid="classBispectrumCalculator_1adce5fba6d9c1587fde87d6657215b550" kind="variable"><name>cutoff</name></member>
+    <member refid="classBispectrumCalculator_1aeabbb95cabb7684488019b4f293f8b69" kind="variable"><name>jmax</name></member>
+    <member refid="classBispectrumCalculator_1a4ca40478faaae0ac8b8d2dd583a58ae0" kind="variable"><name>atomicsystem</name></member>
+    <member refid="classBispectrumCalculator_1a92226d0f806c53c68cf10a903e3ed8b1" kind="variable"><name>fpproperties</name></member>
+    <member refid="classBispectrumCalculator_1a7f1ede2509da7446fdd50b7d05b06959" kind="function"><name>calculate_B</name></member>
+    <member refid="classBispectrumCalculator_1a886dff99d84e53df1d3e4bdb446b6419" kind="function"><name>Wigner</name></member>
+    <member refid="classBispectrumCalculator_1ae0553bfb357d535eca8ba73114f7fde7" kind="function"><name>U</name></member>
+    <member refid="classBispectrumCalculator_1ad80b83255011d0000f3936bd9d311194" kind="function"><name>get_CG_coefficient</name></member>
+    <member refid="classBispectrumCalculator_1aff492597847fc49d20c806bab9ab63ae" kind="function"><name>calculate_c</name></member>
+    <member refid="classBispectrumCalculator_1a0542faabf37143ca00477f5a8badafc9" kind="function"><name>BispectrumCalculator</name></member>
+    <member refid="classBispectrumCalculator_1ac031fd39e5d332f1ac9771c2105d6662" kind="function"><name>~BispectrumCalculator</name></member>
+    <member refid="classBispectrumCalculator_1a240eb7cb832ea06813b57422de95fb18" kind="function"><name>get_size</name></member>
+    <member refid="classBispectrumCalculator_1a68cbc82fe0bb245db5ec1cc00e769792" kind="function"><name>calculate_fingerprint</name></member>
+  </compound>
+  <compound refid="classDiamondCalculator" kind="class"><name>DiamondCalculator</name>
+    <member refid="classDiamondCalculator_1ab16915686d25a430a52f67bf981eda01" kind="variable"><name>size</name></member>
+    <member refid="classDiamondCalculator_1a9142452c594a76235da0e1d7523b3f4d" kind="variable"><name>cutoff</name></member>
+    <member refid="classDiamondCalculator_1ac0c274dff52659aa54df3b1b107bae8b" kind="variable"><name>dx</name></member>
+    <member refid="classDiamondCalculator_1a5b37c1e7ce25a4d1c57e229d79ae1335" kind="variable"><name>dy</name></member>
+    <member refid="classDiamondCalculator_1ab3932d1811f019fb14f5801ad6bd9d5c" kind="variable"><name>dz</name></member>
+    <member refid="classDiamondCalculator_1aad478403cd5e21aff1e5dc44c649dacc" kind="variable"><name>ngaussians</name></member>
+    <member refid="classDiamondCalculator_1a63c9eec7ae57939593217c8bbfc9d1e6" kind="variable"><name>lattice_constant</name></member>
+    <member refid="classDiamondCalculator_1a1fdfc3d055ab38d7ad0cda0722290428" kind="variable"><name>inner_cutoff</name></member>
+    <member refid="classDiamondCalculator_1a8aa29e729ab9b832c8fb2371bc3450c3" kind="variable"><name>atomicsystem</name></member>
+    <member refid="classDiamondCalculator_1a083da6411ba6b9a9b219fefcf3960182" kind="variable"><name>fpproperties</name></member>
+    <member refid="classDiamondCalculator_1a9f2d00ca1c7bc0a49f0e8f8a172a4bf5" kind="function"><name>generateGaussians</name></member>
+    <member refid="classDiamondCalculator_1ab21e46ab69fd5672e09084c62b98897c" kind="function"><name>findAtomsForEachGaussian</name></member>
+    <member refid="classDiamondCalculator_1a69d7f914e88f46768cbfd2b0873c613f" kind="function"><name>calculateGaussianValue</name></member>
+    <member refid="classDiamondCalculator_1a925e8a0503f1e31c92e4212bc1b151b1" kind="function"><name>calculateDistanceToGaussian</name></member>
+    <member refid="classDiamondCalculator_1a3a24a772c0322243ec76661fd5909100" kind="function"><name>DiamondCalculator</name></member>
+    <member refid="classDiamondCalculator_1a80a4acb0ad8b89b7e2bbeaa203550eb8" kind="function"><name>~DiamondCalculator</name></member>
+    <member refid="classDiamondCalculator_1a2c1eeaeec8b5051d5e6801cd1cd08973" kind="function"><name>get_size</name></member>
+    <member refid="classDiamondCalculator_1a042f425e943c93d953e3e4e24ecb9728" kind="function"><name>calculate_fingerprint</name></member>
+  </compound>
+  <compound refid="structElement" kind="struct"><name>Element</name>
+    <member refid="structElement_1a63e156c168905a24437098bfff0e5366" kind="variable"><name>name</name></member>
+    <member refid="structElement_1a34d89c21bf14425580685a25d08edabd" kind="variable"><name>symbol</name></member>
+    <member refid="structElement_1a460c8dd687ca81783daf0cd4de7c0244" kind="variable"><name>atomic_number</name></member>
+    <member refid="structElement_1a2fed7278154c462ce9ec3ba1521f53ca" kind="variable"><name>electronegativity</name></member>
+    <member refid="structElement_1abac7c79d113286574f348d076d51d5ff" kind="variable"><name>mass</name></member>
+    <member refid="structElement_1ae2b61ce960fb99d7d7f5876d99f07c42" kind="variable"><name>ionization_energy</name></member>
+  </compound>
+  <compound refid="classFingerprintGenerator" kind="class"><name>FingerprintGenerator</name>
+    <member refid="classFingerprintGenerator_1aac335a0961b1b5cbb69a45f3122bee2d" kind="variable"><name>atomicsystem</name></member>
+    <member refid="classFingerprintGenerator_1afe2a2386e05e81ba3f3cb360fd3de8c5" kind="variable"><name>fingerprints</name></member>
+    <member refid="classFingerprintGenerator_1af2b44faf27c59e9b949e508fa85ea757" kind="variable"><name>fsize</name></member>
+    <member refid="classFingerprintGenerator_1aa974af2443eb4f7e43b8c19091d12794" kind="variable"><name>natoms</name></member>
+    <member refid="classFingerprintGenerator_1ae03be0533da36cb2bde307b7aee369bb" kind="variable"><name>fp_natomtypes</name></member>
+    <member refid="classFingerprintGenerator_1a041ff7df10019e1f2a0c4a386199e4bf" kind="variable"><name>natompairs</name></member>
+    <member refid="classFingerprintGenerator_1ac2221910aac1c60fdc24da28159dc14c" kind="function"><name>FingerprintGenerator</name></member>
+    <member refid="classFingerprintGenerator_1a497397a3915c79b259ac819867bafe3e" kind="function"><name>~FingerprintGenerator</name></member>
+    <member refid="classFingerprintGenerator_1aa1b675cd3e63e85e537650080926298b" kind="function"><name>write2file</name></member>
+  </compound>
+  <compound refid="structfingerprintProperties" kind="struct"><name>fingerprintProperties</name>
+    <member refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kind="variable"><name>type</name></member>
+    <member refid="structfingerprintProperties_1a33e937432b5ab6d71bd2b82fcfa3f446" kind="variable"><name>calculate_derivatives</name></member>
+    <member refid="structfingerprintProperties_1a74d8ba92bc17191332b718696859d731" kind="variable"><name>nderivatives</name></member>
+    <member refid="structfingerprintProperties_1a0307b7e6565d72685f54cfd8c37a2bb1" kind="variable"><name>direction</name></member>
+    <member refid="structfingerprintProperties_1ae995e464a72ef7c754a5809f161f397a" kind="variable"><name>strategy</name></member>
+    <member refid="structfingerprintProperties_1aecf9e0d9e5bdd193f2dcfaca891da127" kind="variable"><name>weight_type</name></member>
+    <member refid="structfingerprintProperties_1a04a9eb29d650bbb1bb9662efdae2b439" kind="variable"><name>cutoff</name></member>
+    <member refid="structfingerprintProperties_1afcbb7e1edbf53f9846d8e2bb5f30fd76" kind="variable"><name>inner_cutoff</name></member>
+    <member refid="structfingerprintProperties_1a57aea2ce94034cd4b66db7c0950c1e50" kind="variable"><name>is_box_size_provided</name></member>
+    <member refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kind="variable"><name>box_size</name></member>
+    <member refid="structfingerprintProperties_1a321da3012ab165752c737ad32f89a711" kind="variable"><name>netas</name></member>
+    <member refid="structfingerprintProperties_1af72262e6b1665dfe71d88d0a6284063e" kind="variable"><name>etas</name></member>
+    <member refid="structfingerprintProperties_1ad0438fccef599b8b163e241b93df47ce" kind="variable"><name>netas2</name></member>
+    <member refid="structfingerprintProperties_1ad09bd9cfa94b0dcee09c036119b3cad2" kind="variable"><name>etas2</name></member>
+    <member refid="structfingerprintProperties_1a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2" kind="variable"><name>ngammas</name></member>
+    <member refid="structfingerprintProperties_1a500043fbba0f1434d2bfdda92f6ca962" kind="variable"><name>gammas</name></member>
+    <member refid="structfingerprintProperties_1a8cea9b0611ac1f682846fbfe31e4471a" kind="variable"><name>nzetas</name></member>
+    <member refid="structfingerprintProperties_1a816c80314e411d0aee319393f4e42ac1" kind="variable"><name>zetas</name></member>
+    <member refid="structfingerprintProperties_1ac618efe356e760e838db711b6f5ce970" kind="variable"><name>natomtypes</name></member>
+    <member refid="structfingerprintProperties_1a28059a07fa4fc2202940fb6af5b5d6e9" kind="variable"><name>atomtypes</name></member>
+    <member refid="structfingerprintProperties_1a2c37aac3ecf03bb66e13a5ed656611e1" kind="variable"><name>nmax</name></member>
+    <member refid="structfingerprintProperties_1afc19f9499a2cf5bbb0f32d49aacea892" kind="variable"><name>jmax</name></member>
+    <member refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" kind="variable"><name>output_file</name></member>
+    <member refid="structfingerprintProperties_1ac1abf7226cb93c27eefe7a01e057389c" kind="variable"><name>mode</name></member>
+  </compound>
+  <compound refid="classGaussianCalculator" kind="class"><name>GaussianCalculator</name>
+    <member refid="classGaussianCalculator_1a5b3df43b4b7610fbc51def5c2fe34248" kind="variable"><name>fpsize</name></member>
+    <member refid="classGaussianCalculator_1a530039cc1126f976e3531cb1b9360370" kind="variable"><name>nG4s</name></member>
+    <member refid="classGaussianCalculator_1a6c8a7e4353ccbeed7ffcaa5a96c7694f" kind="variable"><name>nG2s</name></member>
+    <member refid="classGaussianCalculator_1a0b2967481871a348f2978e7e0691032d" kind="variable"><name>cutoff</name></member>
+    <member refid="classGaussianCalculator_1a1556fc2ec0e32bcda7f36261d16304d0" kind="variable"><name>include_derivatives</name></member>
+    <member refid="classGaussianCalculator_1a83ebe2766ea426bfee895d86fe61056e" kind="variable"><name>nderivatives</name></member>
+    <member refid="classGaussianCalculator_1ae143d8e375f15612abfd23958cc848af" kind="variable"><name>direction</name></member>
+    <member refid="classGaussianCalculator_1ae53c3af35abde2ba939503f9601868a0" kind="variable"><name>natomtypes</name></member>
+    <member refid="classGaussianCalculator_1aa54ffff3402961eebd5c53521de7aecd" kind="variable"><name>natompairs</name></member>
+    <member refid="classGaussianCalculator_1a8109643202c6af0fe8eb7da2f2f9f6d3" kind="variable"><name>atompairs</name></member>
+    <member refid="classGaussianCalculator_1ac706b25a1c597998a5c52278d7a0ab0e" kind="variable"><name>orderedatomtypes</name></member>
+    <member refid="classGaussianCalculator_1a005be46d5a0e1d354c51abe19f75fbe0" kind="variable"><name>atomicsystem</name></member>
+    <member refid="classGaussianCalculator_1a1dc86b28eda45503e73bd63c9234b3fa" kind="variable"><name>fpproperties</name></member>
+    <member refid="classGaussianCalculator_1a032ab7654bed36620f511a2b715c9aeb" kind="function"><name>calculate_G2</name></member>
+    <member refid="classGaussianCalculator_1ad4ff7ff5bbca0db0da8bf85020b264a0" kind="function"><name>calculate_G4</name></member>
+    <member refid="classGaussianCalculator_1ab4c9c5a025a0446b86c2400cad930c14" kind="function"><name>calculate_cos_theta</name></member>
+    <member refid="classGaussianCalculator_1ac111f97b2248f3215b3fd03f34c3c029" kind="function"><name>dRij_dRml_vector</name></member>
+    <member refid="classGaussianCalculator_1a65d309d3083697dae1ff285940fd9e60" kind="function"><name>dCos_theta_ijk_dR_ml</name></member>
+    <member refid="classGaussianCalculator_1a779a7d043afa1ff307758bdb2a31da1c" kind="function"><name>dRij_dRml</name></member>
+    <member refid="classGaussianCalculator_1acabeb3611bfb1ae6a59b9f8ff697e50a" kind="function"><name>calculate_G2_prime</name></member>
+    <member refid="classGaussianCalculator_1a8679a65cf98d7ac8d6b05a36a36b261a" kind="function"><name>calculate_G4_prime</name></member>
+    <member refid="classGaussianCalculator_1a526c828628af0aefa311511b148a8b04" kind="function"><name>get_G2s</name></member>
+    <member refid="classGaussianCalculator_1ab5a1b4f29b6a7083cd167e60fe47af8b" kind="function"><name>get_G4s</name></member>
+    <member refid="classGaussianCalculator_1a6c4e5148827a131543ff91a674bc5ae3" kind="function"><name>get_G2_primes</name></member>
+    <member refid="classGaussianCalculator_1af3168b1d032e0d064e4c353ae04df0cd" kind="function"><name>get_G4_primes</name></member>
+    <member refid="classGaussianCalculator_1a592a6b41a279a1c5309f247be1d9df89" kind="function"><name>sort_neighbors</name></member>
+    <member refid="classGaussianCalculator_1aa48b75bb24c3aa6cfc3e1451bc3698c2" kind="function"><name>get_sorted_neighbors_subset</name></member>
+    <member refid="classGaussianCalculator_1a0d6250ebef8aa702017dac8a4c66e733" kind="function"><name>get_sorted_neighbors_subset</name></member>
+    <member refid="classGaussianCalculator_1a2109fe03ea11f4eb2dc69a8df31a34fe" kind="function"><name>get_n_neighbors_subset</name></member>
+    <member refid="classGaussianCalculator_1ab39b915f17166fa3a48e38ba596050d0" kind="function"><name>get_n_neighbors_subset</name></member>
+    <member refid="classGaussianCalculator_1ad0763c72f83baf93fa88abee2d235281" kind="function"><name>GaussianCalculator</name></member>
+    <member refid="classGaussianCalculator_1a1c05dfa1c1d10eaa97feb4af9559ba2e" kind="function"><name>~GaussianCalculator</name></member>
+    <member refid="classGaussianCalculator_1acf757a4bec743d2d0cacd990360f95d7" kind="function"><name>get_size</name></member>
+    <member refid="classGaussianCalculator_1a481979399af91236ebfdc214ea341e7b" kind="function"><name>calculate_fingerprint</name></member>
+  </compound>
+  <compound refid="classGenericLocalCalculator" kind="class"><name>GenericLocalCalculator</name>
+    <member refid="classGenericLocalCalculator_1ac7dba8c41fe6a81d4d388c2fea42d4fb" kind="variable"><name>size</name></member>
+    <member refid="classGenericLocalCalculator_1a31fcbfabc3fbef16b170b1838be87dab" kind="variable"><name>cutoff</name></member>
+    <member refid="classGenericLocalCalculator_1ae4bf7a0d4aab733460757ac662e98df2" kind="variable"><name>atomicsystem</name></member>
+    <member refid="classGenericLocalCalculator_1a54e7841522e1d0b30a178c615ada7d19" kind="variable"><name>fpproperties</name></member>
+    <member refid="classGenericLocalCalculator_1a93781f2fffe57a654f924204be12d0cf" kind="function"><name>GenericLocalCalculator</name></member>
+    <member refid="classGenericLocalCalculator_1ae5a9a953e31367d3081c473ef650bb61" kind="function"><name>~GenericLocalCalculator</name></member>
+    <member refid="classGenericLocalCalculator_1abe34bae0430d52064d6a22b9afc2c449" kind="function"><name>get_size</name></member>
+    <member refid="classGenericLocalCalculator_1aeb91e8ed7cf321c074bc3db739607ae5" kind="function"><name>calculate_fingerprint</name></member>
+  </compound>
+  <compound refid="classNeighborList" kind="class"><name>NeighborList</name>
+    <member refid="classNeighborList_1ad6af07ba09f0e264654237f08ba17cd7" kind="variable"><name>natoms</name></member>
+    <member refid="classNeighborList_1ab1a2455f2e1ea9a52b7bb49639454ff0" kind="variable"><name>totalbins</name></member>
+    <member refid="classNeighborList_1ac6de0e961b30ce1ab93c81e6a6502fd3" kind="variable"><name>nxbins</name></member>
+    <member refid="classNeighborList_1a636998e5c659074d552002d515083468" kind="variable"><name>nybins</name></member>
+    <member refid="classNeighborList_1aba0ad81df0beecd2b3c2523fdd720127" kind="variable"><name>nzbins</name></member>
+    <member refid="classNeighborList_1a7daa3092bb6878435d90049cda8dcf1d" kind="variable"><name>xbinsize</name></member>
+    <member refid="classNeighborList_1add39b4461b380799a7fe9531760462ca" kind="variable"><name>ybinsize</name></member>
+    <member refid="classNeighborList_1a6419006c8daf5cb7bd86f031a282ff6b" kind="variable"><name>zbinsize</name></member>
+    <member refid="classNeighborList_1a729c7a8afd6630076fe94c3e428e0b40" kind="variable"><name>minxbox</name></member>
+    <member refid="classNeighborList_1a776dca30be54947bf9bc5bbb93f2ab37" kind="variable"><name>minybox</name></member>
+    <member refid="classNeighborList_1ab81f9a4d197c6143c16ffda482455a7b" kind="variable"><name>minzbox</name></member>
+    <member refid="classNeighborList_1a0db40cbf2e9e2a3584a5d1aa55dad6fe" kind="variable"><name>xboxsize</name></member>
+    <member refid="classNeighborList_1ab9331b6245ae1bf428c07c527c107286" kind="variable"><name>yboxsize</name></member>
+    <member refid="classNeighborList_1a5ab4cf2fcbd2dc75aa81e3da2620371b" kind="variable"><name>zboxsize</name></member>
+    <member refid="classNeighborList_1a01c75dfeca4cd02dd02e845ac99d673b" kind="variable"><name>maxneighbors</name></member>
+    <member refid="classNeighborList_1a485481648e906107397ef392b16c7118" kind="variable"><name>atomicsystem</name></member>
+    <member refid="classNeighborList_1a8b3ada8e635775cc0b2fad217de0d5d3" kind="variable"><name>cutoffsq</name></member>
+    <member refid="classNeighborList_1ad2cf31768b053845c4382dbf11c711f7" kind="variable"><name>neighboringbins</name></member>
+    <member refid="classNeighborList_1a95bf2b69a829e8ea52928a142451bdb0" kind="variable"><name>heads</name></member>
+    <member refid="classNeighborList_1aa9c4514dcc75fe95945389d04a020142" kind="variable"><name>binlist</name></member>
+    <member refid="classNeighborList_1acde3bf57588318c620f14020e395dbf7" kind="variable"><name>atomsperbin</name></member>
+    <member refid="classNeighborList_1ab560b3953f47bd30ee182fbd936d0d6f" kind="variable"><name>neighbors</name></member>
+    <member refid="classNeighborList_1a995b2a301e1ef148298a28989fa98672" kind="variable"><name>neighborsperatom</name></member>
+    <member refid="classNeighborList_1a9373c23b0d97cccbe7cc3584b790cd72" kind="function"><name>initialize_binning</name></member>
+    <member refid="classNeighborList_1aa2cb96432f162da58cd08bda1abf8592" kind="function"><name>find_neighbors</name></member>
+    <member refid="classNeighborList_1acb738c617b5430050f8b096eb81860e3" kind="function"><name>is_bin_valid</name></member>
+    <member refid="classNeighborList_1ae5bb782736dd342fe2d68c95a247a2a4" kind="function"><name>find_neighboring_bins</name></member>
+    <member refid="classNeighborList_1ab402e15f480ecefd4e11e07acb8d1e4e" kind="function"><name>NeighborList</name></member>
+    <member refid="classNeighborList_1a690e8699370aca21d37d7eddc47b3440" kind="function"><name>NeighborList</name></member>
+    <member refid="classNeighborList_1a9f66cfc09ee295ce155310e64cb892c8" kind="function"><name>~NeighborList</name></member>
+    <member refid="classNeighborList_1a068353c22780600c6004aadec6df559d" kind="function"><name>build</name></member>
+    <member refid="classNeighborList_1a60d0d77a750f0837ec4b63c43bfa362a" kind="function"><name>get_atoms_in_bin</name></member>
+    <member refid="classNeighborList_1a461c595ee4d369ab44ca587e7eb55104" kind="function"><name>get_atoms_per_bin</name></member>
+    <member refid="classNeighborList_1a7766c923bb31b7889a3526b05ab1b616" kind="function"><name>get_bin_number</name></member>
+    <member refid="classNeighborList_1a6a09a5486145541f87f5785f19ca31ee" kind="function"><name>get_neighboring_bins</name></member>
+    <member refid="classNeighborList_1a7098d5b3cba77068ad774a0e683ad9e5" kind="function"><name>get_neighbors</name></member>
+    <member refid="classNeighborList_1a79fad8428473ade7f329c7e0a91c1b75" kind="function"><name>get_sorted_neighbors</name></member>
+    <member refid="classNeighborList_1ac045896e6eec36ed9875dca7324f2909" kind="function"><name>get_sorted_neighbors</name></member>
+    <member refid="classNeighborList_1a1a7a56d91285e4d8f0a29707046440a5" kind="function"><name>get_sorted_neighbors</name></member>
+    <member refid="classNeighborList_1add432330a908a64417aa431cf39e47d4" kind="function"><name>get_n_neighbors</name></member>
+    <member refid="classNeighborList_1a30ba827c978f8ba92b0f6ef6945cac35" kind="function"><name>get_n_neighbors</name></member>
+    <member refid="classNeighborList_1a8861424d0ccef757209269b31040f8c2" kind="function"><name>get_n_neighbors</name></member>
+  </compound>
+  <compound refid="classPeriodicTable" kind="class"><name>PeriodicTable</name>
+    <member refid="classPeriodicTable_1ac5125e44dbc8321e0f44760d57805129" kind="variable"><name>elements</name></member>
+    <member refid="classPeriodicTable_1a560a3768e7f474e741f9ea902d674991" kind="variable"><name>nelements</name></member>
+    <member refid="classPeriodicTable_1aaa43631fae258176bf47032dce28053d" kind="function"><name>PeriodicTable</name></member>
+    <member refid="classPeriodicTable_1a15eef831d85642fe9f6687aa15f3b317" kind="function"><name>~PeriodicTable</name></member>
+    <member refid="classPeriodicTable_1a9c063dbf37b22fbb2c564b24cbe88f13" kind="function"><name>get_atomic_number</name></member>
+    <member refid="classPeriodicTable_1ae196998a86474010b0fefde2cf8ede3c" kind="function"><name>get_electronegativity</name></member>
+  </compound>
+  <compound refid="classZernikeCalculator" kind="class"><name>ZernikeCalculator</name>
+    <member refid="classZernikeCalculator_1adf6bcb24a43d563e5bc6d267aa2a8ccc" kind="variable"><name>size</name></member>
+    <member refid="classZernikeCalculator_1ae0b51dc755a288b553a949ca02e52660" kind="variable"><name>subsize</name></member>
+    <member refid="classZernikeCalculator_1a57a54e816622b2eb3c49281dc3e1558b" kind="variable"><name>nderivatives</name></member>
+    <member refid="classZernikeCalculator_1a5f2f7ae5d534cb1f46d59447a145b914" kind="variable"><name>direction</name></member>
+    <member refid="classZernikeCalculator_1a2586cc82416a4629c6c872dc776289a7" kind="variable"><name>include_derivatives</name></member>
+    <member refid="classZernikeCalculator_1a4998e185762fa523fe06da36a8ea3b18" kind="variable"><name>cutoff</name></member>
+    <member refid="classZernikeCalculator_1a084e661e6e0d3bdba94d2a615381d723" kind="variable"><name>nmax</name></member>
+    <member refid="classZernikeCalculator_1abbffe8ed00c1d55231c926f8c736e5e0" kind="variable"><name>factorial_list</name></member>
+    <member refid="classZernikeCalculator_1a0363145149dbc0fc1e9fdb79047922f3" kind="variable"><name>ptable</name></member>
+    <member refid="classZernikeCalculator_1afe7ecf9af3a0cc5faefcbca5f2207d06" kind="variable"><name>atomicsystem</name></member>
+    <member refid="classZernikeCalculator_1a1fbd15aadb9e43a3be50fe915a7f1661" kind="variable"><name>fpproperties</name></member>
+    <member refid="classZernikeCalculator_1a66bb7b5853a3f3c282045022412ac512" kind="function"><name>der_position</name></member>
+    <member refid="classZernikeCalculator_1a7ebdc35dfbb0fabc55a992d83db1592c" kind="function"><name>calculate_Z_prime</name></member>
+    <member refid="classZernikeCalculator_1aa865fab2f97573672fe325ab058a3ae6" kind="function"><name>calculate_Z</name></member>
+    <member refid="classZernikeCalculator_1a6556e4fb73d7ed31d9bf2eda01b19d46" kind="function"><name>calculate_q</name></member>
+    <member refid="classZernikeCalculator_1a4d4e4b20f8303c9b972193074058b99d" kind="function"><name>calculate_R</name></member>
+    <member refid="classZernikeCalculator_1a24a88133ffc103e5fb1dd96fd9ccbfc8" kind="function"><name>binomial</name></member>
+    <member refid="classZernikeCalculator_1ab96e51dbb834b7675ea99573b6493320" kind="function"><name>get_Z_norms</name></member>
+    <member refid="classZernikeCalculator_1a875a134009f92c10d564bf406bfe511c" kind="function"><name>get_Znorms_prime</name></member>
+    <member refid="classZernikeCalculator_1ad1327516c0f38d2ce25685e0da68795e" kind="function"><name>ZernikeCalculator</name></member>
+    <member refid="classZernikeCalculator_1a1b6d9d07e7265651775a10d108edad73" kind="function"><name>~ZernikeCalculator</name></member>
+    <member refid="classZernikeCalculator_1a5d7151015a1d145bcf9648fb9c9d1d25" kind="function"><name>get_size</name></member>
+    <member refid="classZernikeCalculator_1aac138bb57672a96912f7a4308d29c0ae" kind="function"><name>calculate_fingerprint</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="atom_8cpp" kind="file"><name>atom.cpp</name>
+  </compound>
+  <compound refid="atom_8h" kind="file"><name>atom.h</name>
+  </compound>
+  <compound refid="atomicsystem_8cpp" kind="file"><name>atomicsystem.cpp</name>
+  </compound>
+  <compound refid="atomicsystem_8h" kind="file"><name>atomicsystem.h</name>
+  </compound>
+  <compound refid="bispectrumcalculator_8cpp" kind="file"><name>bispectrumcalculator.cpp</name>
+    <member refid="bispectrumcalculator_8cpp_1a525335710b53cb064ca56b936120431e" kind="define"><name>_USE_MATH_DEFINES</name></member>
+    <member refid="bispectrumcalculator_8cpp_1a30c17564229ec2e37dfea9c6c9ad643e" kind="define"><name>TOLERANCE</name></member>
+  </compound>
+  <compound refid="bispectrumcalculator_8h" kind="file"><name>bispectrumcalculator.h</name>
+  </compound>
+  <compound refid="diamondcalculator_8cpp" kind="file"><name>diamondcalculator.cpp</name>
+    <member refid="diamondcalculator_8cpp_1a525335710b53cb064ca56b936120431e" kind="define"><name>_USE_MATH_DEFINES</name></member>
+    <member refid="diamondcalculator_8cpp_1a30c17564229ec2e37dfea9c6c9ad643e" kind="define"><name>TOLERANCE</name></member>
+  </compound>
+  <compound refid="diamondcalculator_8h" kind="file"><name>diamondcalculator.h</name>
+  </compound>
+  <compound refid="fingerprintgenerator_8cpp" kind="file"><name>fingerprintgenerator.cpp</name>
+  </compound>
+  <compound refid="fingerprintgenerator_8h" kind="file"><name>fingerprintgenerator.h</name>
+  </compound>
+  <compound refid="gaussiancalculator_8cpp" kind="file"><name>gaussiancalculator.cpp</name>
+  </compound>
+  <compound refid="gaussiancalculator_8h" kind="file"><name>gaussiancalculator.h</name>
+  </compound>
+  <compound refid="genericlocalcalculator_8cpp" kind="file"><name>genericlocalcalculator.cpp</name>
+  </compound>
+  <compound refid="genericlocalcalculator_8h" kind="file"><name>genericlocalcalculator.h</name>
+  </compound>
+  <compound refid="inputs_8cpp" kind="file"><name>inputs.cpp</name>
+    <member refid="inputs_8cpp_1a335b64f6f4f7a3d2eb65730c5e8cdab9" kind="function"><name>read_prop_file</name></member>
+  </compound>
+  <compound refid="inputs_8h" kind="file"><name>inputs.h</name>
+    <member refid="inputs_8h_1acf9d44e0946f9e8989d8a779ac1df3a8" kind="function"><name>read_prop_file</name></member>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="neighborlist_8cpp" kind="file"><name>neighborlist.cpp</name>
+  </compound>
+  <compound refid="neighborlist_8h" kind="file"><name>neighborlist.h</name>
+  </compound>
+  <compound refid="periodictable_8cpp" kind="file"><name>periodictable.cpp</name>
+  </compound>
+  <compound refid="periodictable_8h" kind="file"><name>periodictable.h</name>
+  </compound>
+  <compound refid="utilities_8cpp" kind="file"><name>utilities.cpp</name>
+    <member refid="utilities_8cpp_1a525335710b53cb064ca56b936120431e" kind="define"><name>_USE_MATH_DEFINES</name></member>
+    <member refid="utilities_8cpp_1a448f42187dbaad30e904f54a8d69179e" kind="function"><name>cutoff_func</name></member>
+    <member refid="utilities_8cpp_1ab13ed3cd615c5f029def436b23a7b80b" kind="function"><name>cutoff_func_prime</name></member>
+    <member refid="utilities_8cpp_1a4d3aa2f8d4efc9960192c7532bb05d17" kind="function"><name>get_min_distance</name></member>
+    <member refid="utilities_8cpp_1ab93f305620574ecf89f1fb0b6993532c" kind="function"><name>calculate_norm</name></member>
+    <member refid="utilities_8cpp_1aa3900a7b4a296258d1b71dcfbd852af6" kind="function"><name>get_vector</name></member>
+    <member refid="utilities_8cpp_1aa316a44b5678dccb2f57adf46cc8cb06" kind="function"><name>Kronecker</name></member>
+    <member refid="utilities_8cpp_1a256715f3324903f332bf56cbba488306" kind="function"><name>dot</name></member>
+    <member refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kind="function"><name>factorial</name></member>
+    <member refid="utilities_8cpp_1a9823ef7320113b5363e71556d0322324" kind="function"><name>get_binomial</name></member>
+  </compound>
+  <compound refid="utilities_8h" kind="file"><name>utilities.h</name>
+    <member refid="utilities_8h_1a4eb20b0aaa832c4e00858e0b943e9fe9" kind="function"><name>get_min_distance</name></member>
+    <member refid="utilities_8h_1a0e9445a71c4de5bba149d83bbdf8ecfb" kind="function"><name>dot</name></member>
+    <member refid="utilities_8h_1a116c3981ff968505ad37fc7e4c1bc7ce" kind="function"><name>cutoff_func</name></member>
+    <member refid="utilities_8h_1a19d0749c46f5a8d2e582894e71f047b4" kind="function"><name>get_vector</name></member>
+    <member refid="utilities_8h_1a272d5e137d470ab0ef882e4537505569" kind="function"><name>Kronecker</name></member>
+    <member refid="utilities_8h_1a309c456489a7e3c3c26befddc84463aa" kind="function"><name>cutoff_func_prime</name></member>
+    <member refid="utilities_8h_1a20e4b314ed49021cfedf191485849bbf" kind="function"><name>factorial</name></member>
+    <member refid="utilities_8h_1ac1fbb86fa8a5cf74c6ad763593cff9bb" kind="function"><name>get_binomial</name></member>
+    <member refid="utilities_8h_1acb4ec4e4bb8e257bf8911630c65e328e" kind="function"><name>calculate_norm</name></member>
+  </compound>
+  <compound refid="zernikecalculator_8cpp" kind="file"><name>zernikecalculator.cpp</name>
+    <member refid="zernikecalculator_8cpp_1a525335710b53cb064ca56b936120431e" kind="define"><name>_USE_MATH_DEFINES</name></member>
+    <member refid="zernikecalculator_8cpp_1a30c17564229ec2e37dfea9c6c9ad643e" kind="define"><name>TOLERANCE</name></member>
+  </compound>
+  <compound refid="zernikecalculator_8h" kind="file"><name>zernikecalculator.h</name>
+  </compound>
+</doxygenindex>

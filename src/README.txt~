@@ -1,0 +1,21 @@
+This folder has the preprocessed data according to the Behler method as described 
+in this paper:
+
+
+The dataset is split into 9 different subsets based on the nature of the atom
+(Indium, Gallium or Arsenic) onto which the force is being applied
+and also the component of the force that we want to predict (Fx, Fy and Fz).
+
+The last column in each file contains the response of interest (Fx, Fy or Fz).
+
+Please note that the features are also generated differently based on the component 
+of the force that we want to predict (essentially, the derivatives of the features 
+are taken respectively wrt to dx, dy).
+
+One possibility is to treat the entire dataset into a big one by adding a categorical
+feature for atom type, and combining derivatives in all 3 direction into one big feature 
+vector and perform multi-output regression to predict all 3 components of the force
+at the same time.
+
+
+

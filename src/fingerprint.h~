@@ -1,0 +1,27 @@
+#ifndef FINGERPRINT_H
+#define FINGERPRINT_H
+
+#include <string>
+
+#include "atomicsystem.h"
+#include "neighborlist.h"
+#include "inputs.h"
+
+
+using namespace std;
+
+class FingerprintGenerator {
+
+    AtomicSystem atomicsystem;
+    double ***fingerprints;
+    double ****fingerprintprimes;
+    int fsize,natoms,maxneighbors;
+
+    public:
+        FingerprintGenerator (AtomicSystem&,fingerprintProperties);
+        ~FingerprintGenerator(void);
+
+        bool write2file(string);
+};
+
+#endif
