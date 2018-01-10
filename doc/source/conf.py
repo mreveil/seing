@@ -30,7 +30,7 @@ if read_the_docs_build:
 
 
 
-sys.path.append( "../breathe-master/" )
+sys.path.append( "../breathe-master/breathe/" )
 
 
 # BREATHE
