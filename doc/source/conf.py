@@ -27,15 +27,18 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 if read_the_docs_build:
 
     subprocess.call('cd ../doxygen; doxygen src/Doxyfile', shell=True)
+    sys.path.append( "../breathe-master/breathe/" )
+    breathe_projects = { "SEING": "../doxygen/xml/" }
 
 
-
-sys.path.append( "../breathe-master/breathe/" )
+else:
+    print "Here..."
+    sys.path.append( "breathe-master/" )
+    breathe_projects = { "SEING": "../doxygen/xml/" }
 
 
 # BREATHE
 
-breathe_projects = { "SEING": "../doc/xml/" }
 breathe_default_project = "SEING"
 
 
