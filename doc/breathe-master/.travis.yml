@@ -1,0 +1,31 @@
+
+language: python
+
+env:
+  - SPHINX_VERSION=1.4 TRAVIS_CI=True
+  - SPHINX_VERSION=1.5 TRAVIS_CI=True
+
+python:
+  - "2.7"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -y doxygen texlive-latex-base texlive-latex-extra texlive-fonts-recommended
+
+install:
+  - pip install flake8
+  - pip install nose
+  - pip install Sphinx~=$SPHINX_VERSION.0
+  - pip install .
+
+# Builds all examples & html documentation
+#
+# Provide definition for DOXYGEN variable to stop it trying
+# to run `which doxygen`
+script:
+  - make DOXYGEN=doxygen DEBUG=""
+  - make test
+  - make flake8
