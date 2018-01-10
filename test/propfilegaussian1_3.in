@@ -1,0 +1,24 @@
+# Input parameters for fingerprinting as found in other papers
+
+
+cutoff  = 6.5
+
+netas   = 4
+#etas    = 0.05 20.0 50.0 100.0
+etas    =  0.05 4.0  20.0  80.0
+
+ngammas = 2
+gammas  = 1.0 -1.0
+
+nzetas  = 2
+zetas   = 1.0 4.0
+
+netas2  = 1
+etas2   = 0.005
+
+natomtypes = 3
+atomtypes = In Ga As
+
+calculate_derivatives = true
+nderivatives = 1
+direction = 2

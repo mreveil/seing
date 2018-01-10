@@ -16,11 +16,18 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
+import subprocess
 import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 sys.path.append( "/fs/home/mr937/breathe-master/" )
+
+read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
+
+if read_the_docs_build:
+
+    subprocess.call('cd ../doxygen; doxygen', shell=True)
 
 # BREATHE
 
