@@ -21,17 +21,21 @@ import subprocess
 import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-sys.path.append( "/fs/home/mr937/breathe-master/" )
 
 read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 
 if read_the_docs_build:
 
-    subprocess.call('cd ../doxygen; doxygen', shell=True)
+    subprocess.call('cd ../doxygen; doxygen src/Doxyfile', shell=True)
+
+
+
+sys.path.append( "../breathe-master/" )
+
 
 # BREATHE
 
-breathe_projects = { "SEING": "/fs/home/mr937/SEING/doc/xml/" }
+breathe_projects = { "SEING": "../doc/xml/" }
 breathe_default_project = "SEING"
 
 
