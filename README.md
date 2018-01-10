@@ -7,22 +7,31 @@ of molecular systems.
 
 Fingerprints (in this context) are numerical representations of chemical environments designed 
 to be invariant under property-perseving operations such as permutation of atoms of the same 
-nature, geometric rotation, etc.
+nature, geometric rotation, etc. For more information on fingerprints in general and the ones 
+currently implemented in SEING, please see the official documentation and user-guide.
 
 "SEING" is an old French word for signature.
+
+DOCUMENTATION
+--------------
+
+The official documentation and user-guide can be found here: https://seing.readthedocs.io
 
 
 INSTALLATION
 -------------
 
 SEING is built with minimal requirements and can be easily compiled with any
-C/C++ compiler. For more information, please consult the documentation.
+C/C++ compiler. A generic Makefile is provided in src folder. As a starting point,
+you can just type.
 
+```			
+cd src
+make seing
+```
 
-DOCUMENTATION
---------------
-
-The official documentation and user-guide can be found here: www.seing.readthedocs.io
+If this doesn't work, changes might be necessary to adapt the makefile to your 
+operating system and/or environment.
 
 
 LICENSE
@@ -41,7 +50,7 @@ CONTRIBUTIONS
 
 We welcome contributions to this project including implementation of new fingerprinting 
 schemes, bug tracking and corrections, code optimization, documentation, etc. Please consult the 
-"developer" section of the documentation for more information on how the code is organized. To make a contribution
+"developer" section of the documentation for more information on how the code is organized. To make a contribution,
 create your own branch, make your documented changes to the code and submit a pull request for code update.
 
 
@@ -51,8 +60,9 @@ USER SUPPORT
 SEING is provided with no dedicated user support, however questions and suggestions are welcome and the author(s)
 will do their best to provide answers in a timely fashion.
 
+
 CITATION
 ----------
 
-If you use this software in your research, please cite the appropriate paper for the fingerprinting method(s) that you chose
+If you use this software in your research, please cite the appropriate paper(s) for the fingerprinting method(s) that you chose
 and also cite the official SEING paper (coming soon...)
