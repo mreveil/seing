@@ -5,7 +5,7 @@ SEING v 0.1
 SEING is a C/C++ package for fingerprint calculations suitable for machine learning studies 
 of molecular systems. 
 
-Fingerprints (in this context) are numerical representations of chemical environment designed 
+Fingerprints (in this context) are numerical representations of chemical environments designed 
 to be invariant under property-perseving operations such as permutation of atoms of the same 
 nature, geometric rotation, etc.
 
@@ -22,7 +22,7 @@ C/C++ compiler. For more information, please consult the documentation.
 DOCUMENTATION
 --------------
 
-The official documentation and user-guide can be found here: seing.readthedocs.io
+The official documentation and user-guide can be found here: www.seing.readthedocs.io
 
 
 LICENSE
@@ -31,7 +31,7 @@ LICENSE
 This program is free and open-source software distributed under the terms of the GNU GPL version 3 
 (or later) which can be found here: www.gnu.org/licenses/gpl-3.0.en.html
 
-Please note SEING is provided WITHOUT WARRANTY OF ANY KIND, either expressed or implied, including,
+Please note that SEING is provided WITHOUT WARRANTY OF ANY KIND, either expressed or implied, including,
 but not limited to, the implied warranties of merchantability and fitness for a particular purpose. 
 Please see the full terms of the GNU GPL license for more details. 
 
@@ -39,10 +39,10 @@ Please see the full terms of the GNU GPL license for more details.
 CONTRIBUTIONS
 --------------
 
-We welcome contributions to this project whether it is implementation of new fingerprinting 
+We welcome contributions to this project including implementation of new fingerprinting 
 schemes, bug tracking and corrections, code optimization, documentation, etc. Please consult the 
-"developer" section of the documentation for more information on how the code is organized and feel
-free to create branches and submit pull requests for code update.
+"developer" section of the documentation for more information on how the code is organized. To make a contribution
+create your own branch, make your documented changes to the code and submit a pull request for code update.
 
 
 USER SUPPORT
@@ -54,4 +54,5 @@ will do their best to provide answers in a timely fashion.
 CITATION
 ----------
 
-Coming soon...
+If you use this software in your research, please cite the appropriate paper for the fingerprinting method(s) that you chose
+and also cite the official SEING paper (coming soon...)
