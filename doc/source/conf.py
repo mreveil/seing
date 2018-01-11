@@ -32,7 +32,6 @@ if read_the_docs_build:
 
 
 else:
-    print "Here..."
     sys.path.append( "breathe-master/" )
     breathe_projects = { "SEING": "../doxygen/xml/" }
 
