@@ -99,7 +99,7 @@ Output Options
     * overwrite (*default*)
 
 
-Neighbor Searching Inputs
+Neighbor Searching Options
 ***************************
 --------------------------------
 
@@ -112,7 +112,7 @@ Neighbor Searching Inputs
    Defines the size of the simulation box in the following format: *xmin ymin zmin xmax ymax zmax*
 
 
-Fingerprint-Specific Inputs
+Fingerprint-Specific Options
 ****************************
 ------------------------------
 

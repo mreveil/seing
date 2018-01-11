@@ -9,7 +9,7 @@ Official SEING Documentation!
 SEING is a software package for molecular systems fingerprint calculations suitable 
 for machine learning applications.
 
-SEING is distributed as free and open-source code ava
+SEING is distributed as free and open-source code available on github here: https://github.com/mreveil/seing
 
 Contents:
 
