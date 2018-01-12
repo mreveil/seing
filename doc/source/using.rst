@@ -1,4 +1,4 @@
-HOW TO USE
+How to Use
 ============
 
 
@@ -9,7 +9,7 @@ Example usage looks like this::
    /path/to/seing coordinate.xyz optionfile.in
 
 
-TRAJECTORY FILE
+Trajectory File
 ----------------
 
 Coordinates of each atom has to be provided in a coordinate file in the xyz format. 
@@ -19,7 +19,7 @@ but support will be added soon.
 
 
 
-OPTION FILE 
+Option File 
 ---------------
 
 The option input file contains "key = value" pairs specifying the type of calculation to
