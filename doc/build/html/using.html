@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>HOW TO USE &#8212; SEING 0.1.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="SEING 0.1.1 documentation" href="index.html" />
+    <link rel="next" title="&lt;no title&gt;" href="theory.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="installation.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="how-to-use">
+<h1>HOW TO USE<a class="headerlink" href="#how-to-use" title="Permalink to this headline">¶</a></h1>
+<p>To use SEING, a coordinate file and an option file are required.
+Example usage looks like this:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">path</span><span class="o">/</span><span class="n">to</span><span class="o">/</span><span class="n">seing</span> <span class="n">coordinate</span><span class="o">.</span><span class="n">xyz</span> <span class="n">optionfile</span><span class="o">.</span><span class="ow">in</span>
+</pre></div>
+</div>
+<div class="section" id="trajectory-file">
+<h2>TRAJECTORY FILE<a class="headerlink" href="#trajectory-file" title="Permalink to this headline">¶</a></h2>
+<p>Coordinates of each atom has to be provided in a coordinate file in the xyz format.
+Only the xyz file format for atomic coordinates is supported at the moment.
+Trajectory files (i-e coordinate files with more than one frame) are also not supported at the moment
+but support will be added soon.</p>
+</div>
+<div class="section" id="option-file">
+<h2>OPTION FILE<a class="headerlink" href="#option-file" title="Permalink to this headline">¶</a></h2>
+<p>The option input file contains &#8220;key = value&#8221; pairs specifying the type of calculation to
+perform, the input parameters for the method chosen, etc. Current keys and possible values are as follow:</p>
+<div class="section" id="general-options">
+<h3>General Options<a class="headerlink" href="#general-options" title="Permalink to this headline">¶</a></h3>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>type</strong> (<em>optional</em>)</dt>
+<dd><p class="first">The type of fingerprinting scheme to use.
+Possible values are:</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>gaussian (<em>default</em>):</li>
+<li>zernike:</li>
+<li>bispectrum:</li>
+</ul>
+</div></blockquote>
+</dd>
+<dt><strong>natomtypes</strong> (<em>required</em>)</dt>
+<dd><dl class="first last docutils">
+<dt>The number of different species in the molecular system.</dt>
+<dd><ul class="first last simple">
+<li>Integer values only</li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt><strong>atomtypes</strong> (<em>required</em>)</dt>
+<dd><p class="first">A space separated list of the abbreviated names of the different species in the system. Names should correspond
+to the ones used in the coordinate file.</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>Number of species provided has to match the value for the <em>natomtypes</em> option above</li>
+</ul>
+</div></blockquote>
+</dd>
+<dt><strong>strategy</strong> (<em>optional</em>)</dt>
+<dd><p class="first">How to account for more than one species.
+Possible values are:</p>
+<blockquote class="last">
+<div><ul>
+<li><p class="first">augmented (<em>default</em>): the fingerprint size is increased with one subfingerprint for each different atom pair or triplets</p>
+</li>
+<li><dl class="first docutils">
+<dt>weighted: the size of the fingerprint remains the same (as in with just one atom type) but the contribution of each atom</dt>
+<dd><p class="first last">type is weighted based on a specified weight type. Please note: this strategy doesn&#8217;t work with all fingerprints.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</div></blockquote>
+</dd>
+<dt><strong>weight_type</strong> (<em>optional</em>)</dt>
+<dd><dl class="first last docutils">
+<dt>Defines how contributions are weighted for the <em>weighted</em> strategy explained above. Possible values are:</dt>
+<dd><ul class="first last simple">
+<li>atomic number (<em>default</em>)</li>
+<li>electronegativity</li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="derivatives-options">
+<h3>Derivatives Options<a class="headerlink" href="#derivatives-options" title="Permalink to this headline">¶</a></h3>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>calculate_derivatives</strong> (<em>optional</em>)</dt>
+<dd><p class="first">Whether or not to calculate fingerprint derivatives. If yes, derivatives are added to the fingerprint. Please see documentation of
+your specific fingerprint for whether or not derivatives are supported and if so, how they are calculated and incorporated to the
+fingerprint vector or matrix.</p>
+<blockquote class="last">
+<div><ul class="simple">
+<li>yes</li>
+<li>no (<em>default</em>)</li>
+</ul>
+</div></blockquote>
+</dd>
+<dt><strong>direction</strong> (<em>optional</em>)</dt>
+<dd><dl class="first last docutils">
+<dt>The direction (x, y or z) for derivatives of the fingerprints to be calculated</dt>
+<dd><ul class="first last simple">
+<li>0 (<em>default</em>): Calculate only in the x direction</li>
+<li>1: Calculate only in the y direction</li>
+<li>2: Calculate only in the z direction</li>
+<li>3: Calculate in all three directions</li>
+</ul>
+</dd>
+</dl>
+</dd>
+<dt><strong>nderivatives</strong> (<em>optional</em>)</dt>
+<dd>The number of derivatives to calculate. <em>Default is one and is with respect to the center atom.</em> If a value greater than 1 provided,
+derivatives are calculated with respect to.</dd>
+</dl>
+</div>
+<div class="section" id="output-options">
+<h3>Output Options<a class="headerlink" href="#output-options" title="Permalink to this headline">¶</a></h3>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>output_file</strong> (<em>optional</em>)</dt>
+<dd>Name of the output file to write the fingerprint in. Output file will be in current directory (where the coordinate and option file are).
+If the file already exists, the behavior of the program is determined by the <em>mode</em> keyword explained below.
+* Default output name is <em>fingerprint_type+&#8221;_fingerprints.sg&#8221;</em></dd>
+<dt><strong>mode</strong> (<em>optional</em>)</dt>
+<dd>Whether to append fingerprints to the given output file, if it already exists. If not, file will be overwritten
+* append
+* overwrite (<em>default</em>)</dd>
+</dl>
+</div>
+<div class="section" id="neighbor-searching-inputs">
+<h3>Neighbor Searching Inputs<a class="headerlink" href="#neighbor-searching-inputs" title="Permalink to this headline">¶</a></h3>
+<hr class="docutils" />
+<dl class="docutils">
+<dt><strong>cutoff</strong> (<em>required</em>)</dt>
+<dd>Defines the cutoff value used to build the neighbor list.</dd>
+<dt><strong>box_size</strong> (<em>optional</em>)</dt>
+<dd>Defines the size of the simulation box in the following format: <em>xmin ymin zmin xmax ymax zmax</em></dd>
+</dl>
+</div>
+<div class="section" id="fingerprint-specific-inputs">
+<h3>Fingerprint-Specific Inputs<a class="headerlink" href="#fingerprint-specific-inputs" title="Permalink to this headline">¶</a></h3>
+<hr class="docutils" />
+<p><em>Bispectrum</em></p>
+<p><strong>jmax</strong></p>
+<p><em>Behler-Parinello (Gaussian)</em></p>
+<p><strong>nmax</strong></p>
+<p><strong>nzetas</strong></p>
+<p><strong>zetas</strong></p>
+<p><strong>ngammas</strong></p>
+<p><strong>gammas</strong></p>
+<p><strong>netas</strong></p>
+<p><strong>etas</strong></p>
+<p><strong>netas2</strong></p>
+<p><strong>etas</strong></p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">HOW TO USE</a><ul>
+<li><a class="reference internal" href="#trajectory-file">TRAJECTORY FILE</a></li>
+<li><a class="reference internal" href="#option-file">OPTION FILE</a><ul>
+<li><a class="reference internal" href="#general-options">General Options</a></li>
+<li><a class="reference internal" href="#derivatives-options">Derivatives Options</a></li>
+<li><a class="reference internal" href="#output-options">Output Options</a></li>
+<li><a class="reference internal" href="#neighbor-searching-inputs">Neighbor Searching Inputs</a></li>
+<li><a class="reference internal" href="#fingerprint-specific-inputs">Fingerprint-Specific Inputs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="installation.html" title="previous chapter">&lt;no title&gt;</a></li>
+      <li>Next: <a href="theory.html" title="next chapter">&lt;no title&gt;</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/using.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Mardochee Reveil.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/using.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -33,6 +33,3 @@ Indices and tables
 * :ref:`search`
 
 
-.. doxygenclass:: AtomicSystem
-   :project: SEING
-   :members:
