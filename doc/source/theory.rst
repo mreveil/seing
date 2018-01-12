@@ -11,6 +11,9 @@ for implementation.
 Behler-Parinello
 ----------------
 
+Behler-Parinello (BP) also called "Gaussian" fingerprints are local fingerprints based on a paper by
+Behler and Parinello.
+
 Bispectrum
 ------------
 
