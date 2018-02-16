@@ -15,250 +15,280 @@
     <includes refid="genericlocalcalculator_8h" local="yes">genericlocalcalculator.h</includes>
     <includes refid="utilities_8h" local="yes">utilities.h</includes>
     <incdepgraph>
-      <node id="189">
+      <node id="264">
         <label>inputs.h</label>
-        <link refid="inputs_8h_source"/>
-        <childnode refid="182" relation="include">
+        <link refid="inputs_8h"/>
+        <childnode refid="257" relation="include">
         </childnode>
       </node>
-      <node id="196">
+      <node id="271">
         <label>diamondcalculator.h</label>
-        <link refid="diamondcalculator_8h_source"/>
-        <childnode refid="177" relation="include">
+        <link refid="diamondcalculator_8h"/>
+        <childnode refid="252" relation="include">
         </childnode>
-        <childnode refid="178" relation="include">
+        <childnode refid="253" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
+        <childnode refid="254" relation="include">
         </childnode>
-        <childnode refid="180" relation="include">
+        <childnode refid="255" relation="include">
         </childnode>
-        <childnode refid="181" relation="include">
+        <childnode refid="256" relation="include">
         </childnode>
-        <childnode refid="182" relation="include">
+        <childnode refid="257" relation="include">
         </childnode>
-        <childnode refid="185" relation="include">
+        <childnode refid="260" relation="include">
         </childnode>
-        <childnode refid="183" relation="include">
+        <childnode refid="258" relation="include">
         </childnode>
-        <childnode refid="188" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
-        <childnode refid="189" relation="include">
+        <childnode refid="264" relation="include">
         </childnode>
-        <childnode refid="190" relation="include">
+        <childnode refid="265" relation="include">
         </childnode>
-        <childnode refid="191" relation="include">
+        <childnode refid="266" relation="include">
         </childnode>
       </node>
-      <node id="187">
+      <node id="262">
         <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h_source"/>
-        <childnode refid="177" relation="include">
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="252" relation="include">
         </childnode>
-        <childnode refid="178" relation="include">
+        <childnode refid="253" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
+        <childnode refid="254" relation="include">
         </childnode>
-        <childnode refid="180" relation="include">
+        <childnode refid="255" relation="include">
         </childnode>
-        <childnode refid="181" relation="include">
+        <childnode refid="256" relation="include">
         </childnode>
-        <childnode refid="182" relation="include">
+        <childnode refid="257" relation="include">
         </childnode>
-        <childnode refid="185" relation="include">
+        <childnode refid="260" relation="include">
         </childnode>
-        <childnode refid="188" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
-        <childnode refid="189" relation="include">
+        <childnode refid="264" relation="include">
         </childnode>
-        <childnode refid="190" relation="include">
+        <childnode refid="265" relation="include">
         </childnode>
-        <childnode refid="191" relation="include">
+        <childnode refid="266" relation="include">
         </childnode>
-        <childnode refid="192" relation="include">
+        <childnode refid="267" relation="include">
         </childnode>
-        <childnode refid="195" relation="include">
+        <childnode refid="270" relation="include">
         </childnode>
-        <childnode refid="196" relation="include">
+        <childnode refid="271" relation="include">
         </childnode>
-        <childnode refid="197" relation="include">
+        <childnode refid="272" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
         </childnode>
       </node>
-      <node id="192">
+      <node id="267">
         <label>zernikecalculator.h</label>
-        <link refid="zernikecalculator_8h_source"/>
-        <childnode refid="177" relation="include">
+        <link refid="zernikecalculator_8h"/>
+        <childnode refid="252" relation="include">
         </childnode>
-        <childnode refid="178" relation="include">
+        <childnode refid="253" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
+        <childnode refid="254" relation="include">
         </childnode>
-        <childnode refid="180" relation="include">
+        <childnode refid="255" relation="include">
         </childnode>
-        <childnode refid="181" relation="include">
+        <childnode refid="256" relation="include">
         </childnode>
-        <childnode refid="182" relation="include">
+        <childnode refid="257" relation="include">
         </childnode>
-        <childnode refid="185" relation="include">
+        <childnode refid="260" relation="include">
         </childnode>
-        <childnode refid="193" relation="include">
+        <childnode refid="268" relation="include">
         </childnode>
-        <childnode refid="188" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
-        <childnode refid="189" relation="include">
+        <childnode refid="264" relation="include">
         </childnode>
-        <childnode refid="191" relation="include">
+        <childnode refid="266" relation="include">
         </childnode>
-        <childnode refid="194" relation="include">
+        <childnode refid="269" relation="include">
         </childnode>
       </node>
-      <node id="176">
+      <node id="251">
         <label>genericlocalcalculator.cpp</label>
         <link refid="genericlocalcalculator.cpp"/>
-        <childnode refid="177" relation="include">
+        <childnode refid="252" relation="include">
         </childnode>
-        <childnode refid="178" relation="include">
+        <childnode refid="253" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
+        <childnode refid="254" relation="include">
         </childnode>
-        <childnode refid="180" relation="include">
+        <childnode refid="255" relation="include">
         </childnode>
-        <childnode refid="181" relation="include">
+        <childnode refid="256" relation="include">
         </childnode>
-        <childnode refid="182" relation="include">
+        <childnode refid="257" relation="include">
         </childnode>
-        <childnode refid="183" relation="include">
+        <childnode refid="258" relation="include">
         </childnode>
-        <childnode refid="184" relation="include">
+        <childnode refid="259" relation="include">
         </childnode>
-        <childnode refid="185" relation="include">
+        <childnode refid="260" relation="include">
         </childnode>
-        <childnode refid="186" relation="include">
+        <childnode refid="261" relation="include">
         </childnode>
-        <childnode refid="187" relation="include">
+        <childnode refid="262" relation="include">
         </childnode>
-        <childnode refid="190" relation="include">
+        <childnode refid="265" relation="include">
         </childnode>
       </node>
-      <node id="178">
+      <node id="253">
         <label>stdlib.h</label>
       </node>
-      <node id="190">
+      <node id="265">
         <label>utilities.h</label>
-        <link refid="utilities_8h_source"/>
-        <childnode refid="188" relation="include">
+        <link refid="utilities_8h"/>
+        <childnode refid="263" relation="include">
         </childnode>
       </node>
-      <node id="191">
+      <node id="266">
         <label>neighborlist.h</label>
-        <link refid="neighborlist_8h_source"/>
-        <childnode refid="183" relation="include">
+        <link refid="neighborlist_8h"/>
+        <childnode refid="258" relation="include">
         </childnode>
-        <childnode refid="186" relation="include">
+        <childnode refid="261" relation="include">
         </childnode>
-        <childnode refid="188" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
       </node>
-      <node id="182">
+      <node id="257">
         <label>string</label>
       </node>
-      <node id="180">
+      <node id="255">
         <label>fstream</label>
       </node>
-      <node id="183">
+      <node id="272">
+        <label>agnicalculator.h</label>
+        <link refid="agnicalculator_8h"/>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+      </node>
+      <node id="258">
         <label>vector</label>
       </node>
-      <node id="181">
+      <node id="256">
         <label>sstream</label>
       </node>
-      <node id="188">
+      <node id="263">
         <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h_source"/>
-        <childnode refid="182" relation="include">
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="257" relation="include">
         </childnode>
-        <childnode refid="183" relation="include">
+        <childnode refid="258" relation="include">
         </childnode>
-        <childnode refid="186" relation="include">
+        <childnode refid="261" relation="include">
         </childnode>
       </node>
-      <node id="185">
+      <node id="260">
         <label>time.h</label>
       </node>
-      <node id="184">
+      <node id="259">
         <label>math.h</label>
       </node>
-      <node id="179">
+      <node id="254">
         <label>iostream</label>
       </node>
-      <node id="193">
+      <node id="268">
         <label>complex</label>
       </node>
-      <node id="197">
+      <node id="273">
         <label>gaussiancalculator.h</label>
-        <link refid="gaussiancalculator_8h_source"/>
-        <childnode refid="177" relation="include">
+        <link refid="gaussiancalculator_8h"/>
+        <childnode refid="252" relation="include">
         </childnode>
-        <childnode refid="178" relation="include">
+        <childnode refid="253" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
+        <childnode refid="254" relation="include">
         </childnode>
-        <childnode refid="180" relation="include">
+        <childnode refid="255" relation="include">
         </childnode>
-        <childnode refid="181" relation="include">
+        <childnode refid="256" relation="include">
         </childnode>
-        <childnode refid="182" relation="include">
+        <childnode refid="257" relation="include">
         </childnode>
-        <childnode refid="185" relation="include">
+        <childnode refid="260" relation="include">
         </childnode>
-        <childnode refid="183" relation="include">
+        <childnode refid="258" relation="include">
         </childnode>
-        <childnode refid="188" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
-        <childnode refid="189" relation="include">
+        <childnode refid="264" relation="include">
         </childnode>
-        <childnode refid="191" relation="include">
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
         </childnode>
       </node>
-      <node id="195">
+      <node id="270">
         <label>bispectrumcalculator.h</label>
-        <link refid="bispectrumcalculator_8h_source"/>
-        <childnode refid="177" relation="include">
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="252" relation="include">
         </childnode>
-        <childnode refid="178" relation="include">
+        <childnode refid="253" relation="include">
         </childnode>
-        <childnode refid="179" relation="include">
+        <childnode refid="254" relation="include">
         </childnode>
-        <childnode refid="180" relation="include">
+        <childnode refid="255" relation="include">
         </childnode>
-        <childnode refid="181" relation="include">
+        <childnode refid="256" relation="include">
         </childnode>
-        <childnode refid="182" relation="include">
+        <childnode refid="257" relation="include">
         </childnode>
-        <childnode refid="185" relation="include">
+        <childnode refid="260" relation="include">
         </childnode>
-        <childnode refid="193" relation="include">
+        <childnode refid="268" relation="include">
         </childnode>
-        <childnode refid="188" relation="include">
+        <childnode refid="263" relation="include">
         </childnode>
-        <childnode refid="189" relation="include">
+        <childnode refid="264" relation="include">
         </childnode>
-        <childnode refid="190" relation="include">
+        <childnode refid="265" relation="include">
         </childnode>
-        <childnode refid="191" relation="include">
+        <childnode refid="266" relation="include">
         </childnode>
       </node>
-      <node id="186">
+      <node id="261">
         <label>atom.h</label>
-        <link refid="atom_8h_source"/>
-        <childnode refid="182" relation="include">
+        <link refid="atom_8h"/>
+        <childnode refid="257" relation="include">
         </childnode>
       </node>
-      <node id="177">
+      <node id="252">
         <label>stdio.h</label>
       </node>
-      <node id="194">
+      <node id="269">
         <label>periodictable.h</label>
-        <link refid="periodictable_8h_source"/>
-        <childnode refid="182" relation="include">
+        <link refid="periodictable_8h"/>
+        <childnode refid="257" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -287,78 +317,87 @@
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atom.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;genericlocalcalculator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="atom_8h" kindref="compound">atom.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="genericlocalcalculator_8h" kindref="compound">genericlocalcalculator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utilities.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utilities_8h" kindref="compound">utilities.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal">GenericLocalCalculator::GenericLocalCalculator(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>&amp;<sp/>asys,<sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref><sp/>fpprop):<sp/>fpproperties(fpprop),atomicsystem(asys)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="classGenericLocalCalculator_1a93781f2fffe57a654f924204be12d0cf" kindref="member">GenericLocalCalculator::GenericLocalCalculator</ref>(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>&amp;<sp/>asys,<sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref><sp/>fpprop):<sp/>fpproperties(fpprop),atomicsystem(asys)<sp/>{</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>cutoff<sp/>=<sp/>fpproperties.cutoff;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>cutoff<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04a9eb29d650bbb1bb9662efdae2b439" kindref="member">cutoff</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;gaussian&quot;</highlight><highlight class="normal">){</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGaussianCalculator" kindref="compound">GaussianCalculator</ref><sp/>gcalc<sp/>=<sp/><ref refid="classGaussianCalculator" kindref="compound">GaussianCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>gcalc.get_size();</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;zernike&quot;</highlight><highlight class="normal">){</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref><sp/>gcalc<sp/>=<sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>gcalc.get_size();</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;bispectrum&quot;</highlight><highlight class="normal">){</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classBispectrumCalculator" kindref="compound">BispectrumCalculator</ref><sp/>bcalc<sp/>=<sp/><ref refid="classBispectrumCalculator" kindref="compound">BispectrumCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>bcalc.get_size();</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;diamond&quot;</highlight><highlight class="normal">){</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDiamondCalculator" kindref="compound">DiamondCalculator</ref><sp/>dcalc<sp/>=<sp/><ref refid="classDiamondCalculator" kindref="compound">DiamondCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>dcalc.get_size();</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR:<sp/>Fingerprint<sp/>type<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;fpproperties.type&lt;&lt;</highlight><highlight class="stringliteral">&quot;not<sp/>supported.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal">GenericLocalCalculator::~GenericLocalCalculator(){</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Post<sp/>cutoff...\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;gaussian&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGaussianCalculator" kindref="compound">GaussianCalculator</ref><sp/>gcalc<sp/>=<sp/><ref refid="classGaussianCalculator_1ad0763c72f83baf93fa88abee2d235281" kindref="member">GaussianCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>gcalc.<ref refid="classGaussianCalculator_1acf757a4bec743d2d0cacd990360f95d7" kindref="member">get_size</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;zernike&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref><sp/>zcalc<sp/>=<sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>zcalc.<ref refid="classZernikeCalculator_1a5d7151015a1d145bcf9648fb9c9d1d25" kindref="member">get_size</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;bispectrum&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classBispectrumCalculator" kindref="compound">BispectrumCalculator</ref><sp/>bcalc<sp/>=<sp/><ref refid="classBispectrumCalculator" kindref="compound">BispectrumCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>bcalc.<ref refid="classBispectrumCalculator_1a240eb7cb832ea06813b57422de95fb18" kindref="member">get_size</ref>();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;diamond&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDiamondCalculator" kindref="compound">DiamondCalculator</ref><sp/>dcalc<sp/>=<sp/><ref refid="classDiamondCalculator" kindref="compound">DiamondCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>dcalc.<ref refid="classDiamondCalculator_1a2c1eeaeec8b5051d5e6801cd1cd08973" kindref="member">get_size</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;agni&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAGNICalculator" kindref="compound">AGNICalculator</ref><sp/>acalc<sp/>=<sp/><ref refid="classAGNICalculator" kindref="compound">AGNICalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>size<sp/>=<sp/>acalc.<ref refid="classAGNICalculator_1a8913e9697492ac098ec05c61f33c20dd" kindref="member">get_size</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR:<sp/>Fingerprint<sp/>type<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref>&lt;&lt;</highlight><highlight class="stringliteral">&quot;not<sp/>supported.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>GenericLocalCalculator::get_size(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>size;</highlight></codeline>
-<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"></highlight></codeline>
-<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>GenericLocalCalculator::calculate_fingerprint(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>atomid,<sp/><ref refid="classNeighborList" kindref="compound">NeighborList</ref><sp/>&amp;nlist)<sp/>{</highlight><highlight class="comment">//int<sp/>nneighbors,<sp/>int*<sp/>neighbors)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/></highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>fp;</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/></highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;gaussian&quot;</highlight><highlight class="normal">){</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGaussianCalculator" kindref="compound">GaussianCalculator</ref><sp/>gcalc<sp/>=<sp/><ref refid="classGaussianCalculator" kindref="compound">GaussianCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>gcalc.calculate_fingerprint(atomid,<sp/>nlist);<sp/></highlight><highlight class="comment">//nneighbors,<sp/>neighbors);</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;zernike&quot;</highlight><highlight class="normal">){</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref><sp/>zcalc<sp/>=<sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>zcalc.calculate_fingerprint(atomid,<sp/>nlist);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;bispectrum&quot;</highlight><highlight class="normal">){</highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classBispectrumCalculator" kindref="compound">BispectrumCalculator</ref><sp/>bcalc<sp/>=<sp/><ref refid="classBispectrumCalculator" kindref="compound">BispectrumCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>bcalc.calculate_fingerprint(atomid,nlist);</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.type<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;diamond&quot;</highlight><highlight class="normal">){</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDiamondCalculator" kindref="compound">DiamondCalculator</ref><sp/>dcalc<sp/>=<sp/><ref refid="classDiamondCalculator" kindref="compound">DiamondCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>dcalc.calculate_fingerprint(atomid,nlist);</highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"></highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR:<sp/>Fingerprint<sp/>type<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;fpproperties.type&lt;&lt;</highlight><highlight class="stringliteral">&quot;not<sp/>supported.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"></highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fp;</highlight></codeline>
-<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><ref refid="classGenericLocalCalculator_1ae5a9a953e31367d3081c473ef650bb61" kindref="member">GenericLocalCalculator::~GenericLocalCalculator</ref>(){</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classGenericLocalCalculator_1abe34bae0430d52064d6a22b9afc2c449" kindref="member">GenericLocalCalculator::get_size</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>size;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/><ref refid="classGenericLocalCalculator_1aeb91e8ed7cf321c074bc3db739607ae5" kindref="member">GenericLocalCalculator::calculate_fingerprint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>atomid,<sp/><ref refid="classNeighborList" kindref="compound">NeighborList</ref><sp/>&amp;nlist)<sp/>{</highlight><highlight class="comment">//int<sp/>nneighbors,<sp/>int*<sp/>neighbors)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>fp;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;gaussian&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGaussianCalculator" kindref="compound">GaussianCalculator</ref><sp/>gcalc<sp/>=<sp/><ref refid="classGaussianCalculator" kindref="compound">GaussianCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>gcalc.<ref refid="classGaussianCalculator_1a481979399af91236ebfdc214ea341e7b" kindref="member">calculate_fingerprint</ref>(atomid,<sp/>nlist);<sp/></highlight><highlight class="comment">//nneighbors,<sp/>neighbors);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;zernike&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref><sp/>zcalc<sp/>=<sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>zcalc.<ref refid="classZernikeCalculator_1aac138bb57672a96912f7a4308d29c0ae" kindref="member">calculate_fingerprint</ref>(atomid,<sp/>nlist);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;bispectrum&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classBispectrumCalculator" kindref="compound">BispectrumCalculator</ref><sp/>bcalc<sp/>=<sp/><ref refid="classBispectrumCalculator" kindref="compound">BispectrumCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>bcalc.<ref refid="classBispectrumCalculator_1a68cbc82fe0bb245db5ec1cc00e769792" kindref="member">calculate_fingerprint</ref>(atomid,nlist);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;diamond&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classDiamondCalculator" kindref="compound">DiamondCalculator</ref><sp/>dcalc<sp/>=<sp/><ref refid="classDiamondCalculator" kindref="compound">DiamondCalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>dcalc.<ref refid="classDiamondCalculator_1a042f425e943c93d953e3e4e24ecb9728" kindref="member">calculate_fingerprint</ref>(atomid,nlist);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref><sp/>==<sp/></highlight><highlight class="stringliteral">&quot;agni&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAGNICalculator" kindref="compound">AGNICalculator</ref><sp/>dcalc<sp/>=<sp/><ref refid="classAGNICalculator" kindref="compound">AGNICalculator</ref>(atomicsystem,fpproperties);<sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fp<sp/>=<sp/>dcalc.<ref refid="classAGNICalculator_1aac857f7c745bed2b11caf24fdda6cee0" kindref="member">calculate_fingerprint</ref>(atomid,nlist);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR:<sp/>Fingerprint<sp/>type<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;fpproperties.<ref refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kindref="member">type</ref>&lt;&lt;</highlight><highlight class="stringliteral">&quot;not<sp/>supported.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>fp;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.cpp"/>
   </compounddef>

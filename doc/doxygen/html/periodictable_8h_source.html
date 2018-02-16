@@ -61,6 +61,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
       <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -83,7 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">periodictable.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PERIDOICTABLE_H </span></div>
+<a href="periodictable_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef PERIDOICTABLE_H </span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define PERIDOICTABLE_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">//</span></div>
@@ -99,12 +100,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="structElement.html">   15</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structElement.html">Element</a> {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">string</span> name;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">string</span> symbol;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">int</span> atomic_number; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">double</span> electronegativity;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">double</span> mass;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">double</span> ionization_energy; <span class="comment">//in kJ/mol</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="structElement.html#a63e156c168905a24437098bfff0e5366">   17</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structElement.html#a63e156c168905a24437098bfff0e5366">name</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="structElement.html#a34d89c21bf14425580685a25d08edabd">   18</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="structElement.html#a34d89c21bf14425580685a25d08edabd">symbol</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="structElement.html#a460c8dd687ca81783daf0cd4de7c0244">   19</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structElement.html#a460c8dd687ca81783daf0cd4de7c0244">atomic_number</a>; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="structElement.html#a2fed7278154c462ce9ec3ba1521f53ca">   20</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="structElement.html#a2fed7278154c462ce9ec3ba1521f53ca">electronegativity</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="structElement.html#abac7c79d113286574f348d076d51d5ff">   21</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="structElement.html#abac7c79d113286574f348d076d51d5ff">mass</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="structElement.html#ae2b61ce960fb99d7d7f5876d99f07c42">   22</a></span>&#160;    <span class="keywordtype">double</span> <a class="code" href="structElement.html#ae2b61ce960fb99d7d7f5876d99f07c42">ionization_energy</a>; <span class="comment">//in kJ/mol</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;};</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
@@ -125,11 +126,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="classPeriodicTable_html"><div class="ttname"><a href="classPeriodicTable.html">PeriodicTable</a></div><div class="ttdef"><b>Definition:</b> periodictable.h:26</div></div>
+<div class="ttc" id="structElement_html_a34d89c21bf14425580685a25d08edabd"><div class="ttname"><a href="structElement.html#a34d89c21bf14425580685a25d08edabd">Element::symbol</a></div><div class="ttdeci">string symbol</div><div class="ttdef"><b>Definition:</b> periodictable.h:18</div></div>
+<div class="ttc" id="structElement_html_a460c8dd687ca81783daf0cd4de7c0244"><div class="ttname"><a href="structElement.html#a460c8dd687ca81783daf0cd4de7c0244">Element::atomic_number</a></div><div class="ttdeci">int atomic_number</div><div class="ttdef"><b>Definition:</b> periodictable.h:19</div></div>
 <div class="ttc" id="structElement_html"><div class="ttname"><a href="structElement.html">Element</a></div><div class="ttdef"><b>Definition:</b> periodictable.h:15</div></div>
+<div class="ttc" id="structElement_html_ae2b61ce960fb99d7d7f5876d99f07c42"><div class="ttname"><a href="structElement.html#ae2b61ce960fb99d7d7f5876d99f07c42">Element::ionization_energy</a></div><div class="ttdeci">double ionization_energy</div><div class="ttdef"><b>Definition:</b> periodictable.h:22</div></div>
+<div class="ttc" id="structElement_html_abac7c79d113286574f348d076d51d5ff"><div class="ttname"><a href="structElement.html#abac7c79d113286574f348d076d51d5ff">Element::mass</a></div><div class="ttdeci">double mass</div><div class="ttdef"><b>Definition:</b> periodictable.h:21</div></div>
+<div class="ttc" id="structElement_html_a2fed7278154c462ce9ec3ba1521f53ca"><div class="ttname"><a href="structElement.html#a2fed7278154c462ce9ec3ba1521f53ca">Element::electronegativity</a></div><div class="ttdeci">double electronegativity</div><div class="ttdef"><b>Definition:</b> periodictable.h:20</div></div>
+<div class="ttc" id="structElement_html_a63e156c168905a24437098bfff0e5366"><div class="ttname"><a href="structElement.html#a63e156c168905a24437098bfff0e5366">Element::name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> periodictable.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

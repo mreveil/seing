@@ -37,10 +37,11 @@ ZernikeCalculator::ZernikeCalculator(AtomicSystem& asys,fingerprintProperties fp
     }
 
     nderivatives = fpproperties.nderivatives;
-    direction = fpproperties.direction;
+    ndirections = fpproperties.ndirections;
+    directions = fpproperties.directions;
 
     if (fpproperties.calculate_derivatives == "true") {
-        size = subsize*(nderivatives+1)*3;
+        size = subsize*(nderivatives+1)*ndirections;
         include_derivatives = true;
     }
     else {
@@ -82,10 +83,12 @@ double* ZernikeCalculator::calculate_fingerprint(int atomid,NeighborList &neighl
         currentpos++;
     } 
     
-
+    
     if (include_derivatives) {
 
-        for (int dir=0; dir<3; dir++){
+        for (int r=0; r<ndirections; r++){
+
+            int dir = directions[r]; 
 
             for (int d=0; d<nderivatives; d++) {
          
@@ -161,12 +164,16 @@ double *ZernikeCalculator::get_Z_norms(int atomid, int nneighbors, int* neighbor
                         double dz = (z1 - z0)/cutoff;
 
                         double rho = calculate_norm(dx,dy,dz);
-                        double weight = 1.0; //TODO: make the weight dependent on atom type
+                        double weight = 1.0; 
 
-                        if (fpproperties.weight_type == "atomic_number") {
+                        if (fpproperties.natomtypes > 1) {
 
-                            weight = ptable.get_atomic_number(neigh_atom.get_atom_type());
-
+                            if (fpproperties.weight_type == "atomic_number") {
+                                weight = ptable.get_atomic_number(neigh_atom.get_atom_type());
+                            }
+                            else if (fpproperties.weight_type == "electronegativity") {
+                                weight = ptable.get_electronegativity(neigh_atom.get_atom_type()); 
+                            }
                         }
 
                         complex<double> zernike = weight*calculate_Z(n,l,m,dx,dy,dz)*cutoff_func(rho*cutoff,cutoff);

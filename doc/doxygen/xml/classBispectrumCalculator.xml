@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="classBispectrumCalculator" kind="class" prot="public">
     <compoundname>BispectrumCalculator</compoundname>
+    <includes refid="bispectrumcalculator_8h" local="no">bispectrumcalculator.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classBispectrumCalculator_1a1de8f4d4a0f331335b2e608272b880a0" prot="private" static="no" mutable="no">
         <type>int</type>

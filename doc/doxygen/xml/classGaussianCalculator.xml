@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="classGaussianCalculator" kind="class" prot="public">
     <compoundname>GaussianCalculator</compoundname>
+    <includes refid="gaussiancalculator_8h" local="no">gaussiancalculator.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classGaussianCalculator_1a5b3df43b4b7610fbc51def5c2fe34248" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="24" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1a530039cc1126f976e3531cb1b9360370" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="25" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1a6c8a7e4353ccbeed7ffcaa5a96c7694f" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -40,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="26" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1a0b2967481871a348f2978e7e0691032d" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -53,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="28" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1a1556fc2ec0e32bcda7f36261d16304d0" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -66,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="29" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1a83ebe2766ea426bfee895d86fe61056e" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -79,20 +80,33 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="30" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="31" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classGaussianCalculator_1ae143d8e375f15612abfd23958cc848af" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classGaussianCalculator_1a11158a9be452d414f3440b4fef9265f1" prot="private" static="no" mutable="no">
         <type>int</type>
-        <definition>int GaussianCalculator::direction</definition>
+        <definition>int GaussianCalculator::ndirections</definition>
         <argsstring></argsstring>
-        <name>direction</name>
+        <name>ndirections</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="31" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="32" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGaussianCalculator_1a9caa21e1a7b60b189b43bac4f2667b95" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* GaussianCalculator::directions</definition>
+        <argsstring></argsstring>
+        <name>directions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1ae53c3af35abde2ba939503f9601868a0" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -105,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="33" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1aa54ffff3402961eebd5c53521de7aecd" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -118,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="34" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1a8109643202c6af0fe8eb7da2f2f9f6d3" prot="private" static="no" mutable="no">
         <type>vector&lt; vector&lt; string &gt; &gt;</type>
@@ -131,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="35" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1ac706b25a1c597998a5c52278d7a0ab0e" prot="private" static="no" mutable="no">
         <type>vector&lt; string &gt;</type>
@@ -144,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="36" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1a005be46d5a0e1d354c51abe19f75fbe0" prot="private" static="no" mutable="no">
         <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref></type>
@@ -157,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="38" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="40" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGaussianCalculator_1a1dc86b28eda45503e73bd63c9234b3fa" prot="private" static="no" mutable="no">
         <type><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref></type>
@@ -170,18 +184,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="39" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGaussianCalculator_1ac7614ab3316a7bf820edffe931ce0816" prot="private" static="no" mutable="no">
+        <type><ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref></type>
+        <definition>PeriodicTable GaussianCalculator::ptable</definition>
+        <argsstring></argsstring>
+        <name>ptable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="43" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classGaussianCalculator_1a032ab7654bed36620f511a2b715c9aeb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classGaussianCalculator_1a4d4a0d257cd77477adcb2728070c74e3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
         <definition>double GaussianCalculator::calculate_G2</definition>
-        <argsstring>(int, double *, double)</argsstring>
+        <argsstring>(int, int *, double *, double, string)</argsstring>
         <name>calculate_G2</name>
         <param>
           <type>int</type>
           <defname>nneighbors</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <defname>neighbors</defname>
         </param>
         <param>
           <type>double *</type>
@@ -191,18 +222,22 @@
           <type>double</type>
           <defname>eta</defname>
         </param>
+        <param>
+          <type>string</type>
+          <defname>weight_type</defname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="283" bodyend="292"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="46" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="375" bodyend="395"/>
       </memberdef>
-      <memberdef kind="function" id="classGaussianCalculator_1ad4ff7ff5bbca0db0da8bf85020b264a0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classGaussianCalculator_1a4572cc4b5c454e32f6ecdfc5cb70a7e8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
         <definition>double GaussianCalculator::calculate_G4</definition>
-        <argsstring>(int, int, int *, double *, double, double, double)</argsstring>
+        <argsstring>(int, int, int *, double *, double, double, double, string)</argsstring>
         <name>calculate_G4</name>
         <param>
           <type>int</type>
@@ -232,13 +267,17 @@
           <type>double</type>
           <defname>gamma</defname>
         </param>
+        <param>
+          <type>string</type>
+          <defname>weight_type</defname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="42" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="308" bodyend="332"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="47" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="411" bodyend="450"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1ab4c9c5a025a0446b86c2400cad930c14" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -263,7 +302,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="43" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="296" bodyend="306"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="48" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="399" bodyend="409"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1ac111f97b2248f3215b3fd03f34c3c029" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -292,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="45" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="337" bodyend="355"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="50" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="455" bodyend="473"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1a65d309d3083697dae1ff285940fd9e60" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -333,7 +372,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="46" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="378" bodyend="404"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="51" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="496" bodyend="522"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1a779a7d043afa1ff307758bdb2a31da1c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -366,12 +405,12 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="47" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="357" bodyend="376"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="52" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="475" bodyend="494"/>
       </memberdef>
-      <memberdef kind="function" id="classGaussianCalculator_1acabeb3611bfb1ae6a59b9f8ff697e50a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classGaussianCalculator_1ab1e32aff3a9ea809f4788d93ba4b6a9e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
         <definition>double GaussianCalculator::calculate_G2_prime</definition>
-        <argsstring>(int, int, int *, double *, double, int, int)</argsstring>
+        <argsstring>(int, int, int *, double *, double, int, int, string)</argsstring>
         <name>calculate_G2_prime</name>
         <param>
           <type>int</type>
@@ -401,18 +440,22 @@
           <type>int</type>
           <defname>l</defname>
         </param>
+        <param>
+          <type>string</type>
+          <defname>weight_type</defname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="48" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="409" bodyend="426"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="53" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="527" bodyend="555"/>
       </memberdef>
-      <memberdef kind="function" id="classGaussianCalculator_1a8679a65cf98d7ac8d6b05a36a36b261a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classGaussianCalculator_1a538281999696627b2151ed6148af9721" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
         <definition>double GaussianCalculator::calculate_G4_prime</definition>
-        <argsstring>(int, int, int *, double *, double, double, double, int, int)</argsstring>
+        <argsstring>(int, int, int *, double *, double, double, double, int, int, string)</argsstring>
         <name>calculate_G4_prime</name>
         <param>
           <type>int</type>
@@ -450,18 +493,22 @@
           <type>int</type>
           <defname>l</defname>
         </param>
+        <param>
+          <type>string</type>
+          <defname>weight_type</defname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="49" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="432" bodyend="489"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="54" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="561" bodyend="634"/>
       </memberdef>
-      <memberdef kind="function" id="classGaussianCalculator_1a526c828628af0aefa311511b148a8b04" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classGaussianCalculator_1a76b98698c2cb21eaa544d1e793692e11" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
         <definition>double * GaussianCalculator::get_G2s</definition>
-        <argsstring>(int, int, int *, double *)</argsstring>
+        <argsstring>(int, int, int *, double *, string)</argsstring>
         <name>get_G2s</name>
         <param>
           <type>int</type>
@@ -479,18 +526,22 @@
           <type>double *</type>
           <defname>distances</defname>
         </param>
+        <param>
+          <type>string</type>
+          <defname>weight_type</defname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="51" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="194" bodyend="212"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="56" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="286" bodyend="304"/>
       </memberdef>
-      <memberdef kind="function" id="classGaussianCalculator_1ab5a1b4f29b6a7083cd167e60fe47af8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classGaussianCalculator_1a625e67b271084bae09be00b02879f729" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
         <definition>double * GaussianCalculator::get_G4s</definition>
-        <argsstring>(int, int, int *, double *)</argsstring>
+        <argsstring>(int, int, int *, double *, string)</argsstring>
         <name>get_G4s</name>
         <param>
           <type>int</type>
@@ -508,18 +559,22 @@
           <type>double *</type>
           <defname>distances</defname>
         </param>
+        <param>
+          <type>string</type>
+          <defname>weight_type</defname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="52" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="214" bodyend="238"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="57" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="306" bodyend="330"/>
       </memberdef>
-      <memberdef kind="function" id="classGaussianCalculator_1a6c4e5148827a131543ff91a674bc5ae3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classGaussianCalculator_1a231bbecc911cfb36280f9edc32c3cb67" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
         <definition>double * GaussianCalculator::get_G2_primes</definition>
-        <argsstring>(int, int, int *, double *, int, int)</argsstring>
+        <argsstring>(int, int, int *, double *, int, int, string)</argsstring>
         <name>get_G2_primes</name>
         <param>
           <type>int</type>
@@ -545,18 +600,22 @@
           <type>int</type>
           <defname>direction</defname>
         </param>
+        <param>
+          <type>string</type>
+          <defname>weight_type</defname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="53" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="240" bodyend="255"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="58" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="332" bodyend="347"/>
       </memberdef>
-      <memberdef kind="function" id="classGaussianCalculator_1af3168b1d032e0d064e4c353ae04df0cd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classGaussianCalculator_1a00dd2c1aa60a57a77ba3cd19ba74cb48" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
         <definition>double * GaussianCalculator::get_G4_primes</definition>
-        <argsstring>(int, int, int *, double *, int, int)</argsstring>
+        <argsstring>(int, int, int *, double *, int, int, string)</argsstring>
         <name>get_G4_primes</name>
         <param>
           <type>int</type>
@@ -582,13 +641,17 @@
           <type>int</type>
           <defname>direction</defname>
         </param>
+        <param>
+          <type>string</type>
+          <defname>weight_type</defname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="54" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="258" bodyend="279"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="59" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="350" bodyend="371"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1a592a6b41a279a1c5309f247be1d9df89" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int *</type>
@@ -613,7 +676,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="57" column="1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="62" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1aa48b75bb24c3aa6cfc3e1451bc3698c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int *</type>
@@ -642,7 +705,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="58" column="1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="63" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1a0d6250ebef8aa702017dac8a4c66e733" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int *</type>
@@ -671,7 +734,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="59" column="1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="64" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1a2109fe03ea11f4eb2dc69a8df31a34fe" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -696,7 +759,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="60" column="1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="65" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1ab39b915f17166fa3a48e38ba596050d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -721,7 +784,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="61" column="1"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="66" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -744,7 +807,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="64" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="28" bodyend="63"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="69" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="30" bodyend="77"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1a1c05dfa1c1d10eaa97feb4af9559ba2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -757,7 +820,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="65" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="65" bodyend="67"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="70" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="79" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1acf757a4bec743d2d0cacd990360f95d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -770,7 +833,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="67" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="69" bodyend="69"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="72" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="83" bodyend="83"/>
       </memberdef>
       <memberdef kind="function" id="classGaussianCalculator_1a481979399af91236ebfdc214ea341e7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -791,35 +854,35 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="69" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="72" bodyend="191"/>
+        <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="74" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.cpp" bodystart="86" bodyend="283"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="22" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="22" bodyend="71"/>
+    <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/gaussiancalculator.h" bodystart="23" bodyend="76"/>
     <listofallmembers>
       <member refid="classGaussianCalculator_1a005be46d5a0e1d354c51abe19f75fbe0" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>atomicsystem</name></member>
       <member refid="classGaussianCalculator_1a8109643202c6af0fe8eb7da2f2f9f6d3" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>atompairs</name></member>
       <member refid="classGaussianCalculator_1ab4c9c5a025a0446b86c2400cad930c14" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_cos_theta</name></member>
       <member refid="classGaussianCalculator_1a481979399af91236ebfdc214ea341e7b" prot="public" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_fingerprint</name></member>
-      <member refid="classGaussianCalculator_1a032ab7654bed36620f511a2b715c9aeb" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_G2</name></member>
-      <member refid="classGaussianCalculator_1acabeb3611bfb1ae6a59b9f8ff697e50a" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_G2_prime</name></member>
-      <member refid="classGaussianCalculator_1ad4ff7ff5bbca0db0da8bf85020b264a0" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_G4</name></member>
-      <member refid="classGaussianCalculator_1a8679a65cf98d7ac8d6b05a36a36b261a" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_G4_prime</name></member>
+      <member refid="classGaussianCalculator_1a4d4a0d257cd77477adcb2728070c74e3" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_G2</name></member>
+      <member refid="classGaussianCalculator_1ab1e32aff3a9ea809f4788d93ba4b6a9e" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_G2_prime</name></member>
+      <member refid="classGaussianCalculator_1a4572cc4b5c454e32f6ecdfc5cb70a7e8" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_G4</name></member>
+      <member refid="classGaussianCalculator_1a538281999696627b2151ed6148af9721" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>calculate_G4_prime</name></member>
       <member refid="classGaussianCalculator_1a0b2967481871a348f2978e7e0691032d" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>cutoff</name></member>
       <member refid="classGaussianCalculator_1a65d309d3083697dae1ff285940fd9e60" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>dCos_theta_ijk_dR_ml</name></member>
-      <member refid="classGaussianCalculator_1ae143d8e375f15612abfd23958cc848af" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>direction</name></member>
+      <member refid="classGaussianCalculator_1a9caa21e1a7b60b189b43bac4f2667b95" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>directions</name></member>
       <member refid="classGaussianCalculator_1a779a7d043afa1ff307758bdb2a31da1c" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>dRij_dRml</name></member>
       <member refid="classGaussianCalculator_1ac111f97b2248f3215b3fd03f34c3c029" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>dRij_dRml_vector</name></member>
       <member refid="classGaussianCalculator_1a1dc86b28eda45503e73bd63c9234b3fa" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>fpproperties</name></member>
       <member refid="classGaussianCalculator_1a5b3df43b4b7610fbc51def5c2fe34248" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>fpsize</name></member>
       <member refid="classGaussianCalculator_1ad0763c72f83baf93fa88abee2d235281" prot="public" virt="non-virtual"><scope>GaussianCalculator</scope><name>GaussianCalculator</name></member>
-      <member refid="classGaussianCalculator_1a6c4e5148827a131543ff91a674bc5ae3" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_G2_primes</name></member>
-      <member refid="classGaussianCalculator_1a526c828628af0aefa311511b148a8b04" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_G2s</name></member>
-      <member refid="classGaussianCalculator_1af3168b1d032e0d064e4c353ae04df0cd" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_G4_primes</name></member>
-      <member refid="classGaussianCalculator_1ab5a1b4f29b6a7083cd167e60fe47af8b" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_G4s</name></member>
+      <member refid="classGaussianCalculator_1a231bbecc911cfb36280f9edc32c3cb67" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_G2_primes</name></member>
+      <member refid="classGaussianCalculator_1a76b98698c2cb21eaa544d1e793692e11" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_G2s</name></member>
+      <member refid="classGaussianCalculator_1a00dd2c1aa60a57a77ba3cd19ba74cb48" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_G4_primes</name></member>
+      <member refid="classGaussianCalculator_1a625e67b271084bae09be00b02879f729" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_G4s</name></member>
       <member refid="classGaussianCalculator_1a2109fe03ea11f4eb2dc69a8df31a34fe" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_n_neighbors_subset</name></member>
       <member refid="classGaussianCalculator_1ab39b915f17166fa3a48e38ba596050d0" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_n_neighbors_subset</name></member>
       <member refid="classGaussianCalculator_1acf757a4bec743d2d0cacd990360f95d7" prot="public" virt="non-virtual"><scope>GaussianCalculator</scope><name>get_size</name></member>
@@ -829,9 +892,11 @@
       <member refid="classGaussianCalculator_1aa54ffff3402961eebd5c53521de7aecd" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>natompairs</name></member>
       <member refid="classGaussianCalculator_1ae53c3af35abde2ba939503f9601868a0" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>natomtypes</name></member>
       <member refid="classGaussianCalculator_1a83ebe2766ea426bfee895d86fe61056e" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>nderivatives</name></member>
+      <member refid="classGaussianCalculator_1a11158a9be452d414f3440b4fef9265f1" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>ndirections</name></member>
       <member refid="classGaussianCalculator_1a6c8a7e4353ccbeed7ffcaa5a96c7694f" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>nG2s</name></member>
       <member refid="classGaussianCalculator_1a530039cc1126f976e3531cb1b9360370" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>nG4s</name></member>
       <member refid="classGaussianCalculator_1ac706b25a1c597998a5c52278d7a0ab0e" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>orderedatomtypes</name></member>
+      <member refid="classGaussianCalculator_1ac7614ab3316a7bf820edffe931ce0816" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>ptable</name></member>
       <member refid="classGaussianCalculator_1a592a6b41a279a1c5309f247be1d9df89" prot="private" virt="non-virtual"><scope>GaussianCalculator</scope><name>sort_neighbors</name></member>
       <member refid="classGaussianCalculator_1a1c05dfa1c1d10eaa97feb4af9559ba2e" prot="public" virt="non-virtual"><scope>GaussianCalculator</scope><name>~GaussianCalculator</name></member>
     </listofallmembers>

@@ -21,7 +21,9 @@ using namespace std;
 class ZernikeCalculator {
 
     int size, subsize;
-    int nderivatives, direction;
+    int nderivatives;
+    int ndirections;
+    int *directions;
     bool include_derivatives;
     double cutoff;
     int nmax;

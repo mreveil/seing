@@ -62,6 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,27 +88,125 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">GenericLocalCalculator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class that holds a generic calculator to switch between actual fingerprint calculators.  
+ <a href="classGenericLocalCalculator.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="genericlocalcalculator_8h_source.html">genericlocalcalculator.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a93781f2fffe57a654f924204be12d0cf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93781f2fffe57a654f924204be12d0cf"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>GenericLocalCalculator</b> (<a class="el" href="classAtomicSystem.html">AtomicSystem</a> &amp;, <a class="el" href="structfingerprintProperties.html">fingerprintProperties</a>)</td></tr>
+<tr class="memitem:a93781f2fffe57a654f924204be12d0cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGenericLocalCalculator.html#a93781f2fffe57a654f924204be12d0cf">GenericLocalCalculator</a> (<a class="el" href="classAtomicSystem.html">AtomicSystem</a> &amp;, <a class="el" href="structfingerprintProperties.html">fingerprintProperties</a>)</td></tr>
+<tr class="memdesc:a93781f2fffe57a654f924204be12d0cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor based on the atomtic system and <a class="el" href="structfingerprintProperties.html" title="Struct to hold fingerprint parameters as provided by the user in the input file. ">fingerprintProperties</a>.  <a href="#a93781f2fffe57a654f924204be12d0cf">More...</a><br/></td></tr>
 <tr class="separator:a93781f2fffe57a654f924204be12d0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe34bae0430d52064d6a22b9afc2c449"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe34bae0430d52064d6a22b9afc2c449"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_size</b> ()</td></tr>
+<tr class="memitem:ae5a9a953e31367d3081c473ef650bb61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGenericLocalCalculator.html#ae5a9a953e31367d3081c473ef650bb61">~GenericLocalCalculator</a> ()</td></tr>
+<tr class="separator:ae5a9a953e31367d3081c473ef650bb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe34bae0430d52064d6a22b9afc2c449"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGenericLocalCalculator.html#abe34bae0430d52064d6a22b9afc2c449">get_size</a> ()</td></tr>
+<tr class="memdesc:abe34bae0430d52064d6a22b9afc2c449"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dimensionality of the fingerprint.  <a href="#abe34bae0430d52064d6a22b9afc2c449">More...</a><br/></td></tr>
 <tr class="separator:abe34bae0430d52064d6a22b9afc2c449"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb91e8ed7cf321c074bc3db739607ae5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb91e8ed7cf321c074bc3db739607ae5"></a>
-double *&#160;</td><td class="memItemRight" valign="bottom"><b>calculate_fingerprint</b> (int, <a class="el" href="classNeighborList.html">NeighborList</a> &amp;)</td></tr>
+<tr class="memitem:aeb91e8ed7cf321c074bc3db739607ae5"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGenericLocalCalculator.html#aeb91e8ed7cf321c074bc3db739607ae5">calculate_fingerprint</a> (int, <a class="el" href="classNeighborList.html">NeighborList</a> &amp;)</td></tr>
 <tr class="separator:aeb91e8ed7cf321c074bc3db739607ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that holds a generic calculator to switch between actual fingerprint calculators. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a93781f2fffe57a654f924204be12d0cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GenericLocalCalculator::GenericLocalCalculator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAtomicSystem.html">AtomicSystem</a> &amp;&#160;</td>
+          <td class="paramname"><em>asys</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structfingerprintProperties.html">fingerprintProperties</a>&#160;</td>
+          <td class="paramname"><em>fpprop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor based on the atomtic system and <a class="el" href="structfingerprintProperties.html" title="Struct to hold fingerprint parameters as provided by the user in the input file. ">fingerprintProperties</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae5a9a953e31367d3081c473ef650bb61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GenericLocalCalculator::~GenericLocalCalculator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aeb91e8ed7cf321c074bc3db739607ae5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double * GenericLocalCalculator::calculate_fingerprint </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>atomid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classNeighborList.html">NeighborList</a> &amp;&#160;</td>
+          <td class="paramname"><em>nlist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Will call the calculate_fingerprint function of the actual fingerprint calculator and returns the fingerprint </p>
+
+</div>
+</div>
+<a class="anchor" id="abe34bae0430d52064d6a22b9afc2c449"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GenericLocalCalculator::get_size </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the dimensionality of the fingerprint. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="genericlocalcalculator_8h_source.html">genericlocalcalculator.h</a></li>
-<li>genericlocalcalculator.cpp</li>
+<li><a class="el" href="genericlocalcalculator_8cpp.html">genericlocalcalculator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

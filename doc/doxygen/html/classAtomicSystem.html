@@ -62,6 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,81 +88,614 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">AtomicSystem Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class that holds information about the molecular system including atom types and spatial coordinates.  
+ <a href="classAtomicSystem.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="atomicsystem_8h_source.html">atomicsystem.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5d5f473465d2ad2eb106aa0cda871f5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5d5f473465d2ad2eb106aa0cda871f5a"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>AtomicSystem</b> (string, bool, bool, bool, double)</td></tr>
+<tr class="memitem:ac3ede1da1867a9759e388f3d5e8cb08a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#ac3ede1da1867a9759e388f3d5e8cb08a">AtomicSystem</a> (void)</td></tr>
+<tr class="memdesc:ac3ede1da1867a9759e388f3d5e8cb08a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#ac3ede1da1867a9759e388f3d5e8cb08a">More...</a><br/></td></tr>
+<tr class="separator:ac3ede1da1867a9759e388f3d5e8cb08a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d5f473465d2ad2eb106aa0cda871f5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a5d5f473465d2ad2eb106aa0cda871f5a">AtomicSystem</a> (string, bool, bool, bool, double)</td></tr>
+<tr class="memdesc:a5d5f473465d2ad2eb106aa0cda871f5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor that creates the atomicsystem object from a coordinate file.  <a href="#a5d5f473465d2ad2eb106aa0cda871f5a">More...</a><br/></td></tr>
 <tr class="separator:a5d5f473465d2ad2eb106aa0cda871f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aedb3d1c61fb5d460f557bece928d10e0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedb3d1c61fb5d460f557bece928d10e0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>build_from_file</b> (string)</td></tr>
-<tr class="separator:aedb3d1c61fb5d460f557bece928d10e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace7cdf92e0e3ec1149bcb51fd112263c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace7cdf92e0e3ec1149bcb51fd112263c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>set_box_size</b> (double, double, double, double, double, double)</td></tr>
+<tr class="memitem:adcc9076b127ae9ff28b6bdc6cc089364"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#adcc9076b127ae9ff28b6bdc6cc089364">~AtomicSystem</a> (void)</td></tr>
+<tr class="separator:adcc9076b127ae9ff28b6bdc6cc089364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace7cdf92e0e3ec1149bcb51fd112263c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#ace7cdf92e0e3ec1149bcb51fd112263c">set_box_size</a> (double, double, double, double, double, double)</td></tr>
+<tr class="memdesc:ace7cdf92e0e3ec1149bcb51fd112263c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the boundaries of the box xmin, ymin, zmin, xmax, ymax, zmax.  <a href="#ace7cdf92e0e3ec1149bcb51fd112263c">More...</a><br/></td></tr>
 <tr class="separator:ace7cdf92e0e3ec1149bcb51fd112263c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4449b0026fdec3b4c49ef31fe35de113"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4449b0026fdec3b4c49ef31fe35de113"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_square_distance</b> (<a class="el" href="classAtom.html">Atom</a>, <a class="el" href="classAtom.html">Atom</a>)</td></tr>
+<tr class="memitem:a1267adda3ecc59db42ffa9010ed6a139"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a1267adda3ecc59db42ffa9010ed6a139">get_distance_component</a> (<a class="el" href="classAtom.html">Atom</a>, <a class="el" href="classAtom.html">Atom</a>, int)</td></tr>
+<tr class="memdesc:a1267adda3ecc59db42ffa9010ed6a139"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the x (=0), y (=1) or z (=2) component of the distance between two atoms.  <a href="#a1267adda3ecc59db42ffa9010ed6a139">More...</a><br/></td></tr>
+<tr class="separator:a1267adda3ecc59db42ffa9010ed6a139"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a57e207ef3f586e3db82a8f7dfd066d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a7a57e207ef3f586e3db82a8f7dfd066d">get_distance_component</a> (int, int, int)</td></tr>
+<tr class="separator:a7a57e207ef3f586e3db82a8f7dfd066d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4449b0026fdec3b4c49ef31fe35de113"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a4449b0026fdec3b4c49ef31fe35de113">get_square_distance</a> (<a class="el" href="classAtom.html">Atom</a>, <a class="el" href="classAtom.html">Atom</a>)</td></tr>
+<tr class="memdesc:a4449b0026fdec3b4c49ef31fe35de113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the square distance between two atoms.  <a href="#a4449b0026fdec3b4c49ef31fe35de113">More...</a><br/></td></tr>
 <tr class="separator:a4449b0026fdec3b4c49ef31fe35de113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f7b69937316400e8a0145a1e1954dd8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8f7b69937316400e8a0145a1e1954dd8"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_square_distance</b> (int, int)</td></tr>
+<tr class="memitem:a8f7b69937316400e8a0145a1e1954dd8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a8f7b69937316400e8a0145a1e1954dd8">get_square_distance</a> (int, int)</td></tr>
+<tr class="memdesc:a8f7b69937316400e8a0145a1e1954dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the square distance between two atoms given by their index in the <a class="el" href="classAtomicSystem.html" title="Class that holds information about the molecular system including atom types and spatial coordinates...">AtomicSystem</a>.  <a href="#a8f7b69937316400e8a0145a1e1954dd8">More...</a><br/></td></tr>
 <tr class="separator:a8f7b69937316400e8a0145a1e1954dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9e02b722bdb444e2c67d7386c8ebb10"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad9e02b722bdb444e2c67d7386c8ebb10"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>check_square_distance</b> (<a class="el" href="classAtom.html">Atom</a> A, <a class="el" href="classAtom.html">Atom</a> B)</td></tr>
+<tr class="memitem:ad9e02b722bdb444e2c67d7386c8ebb10"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#ad9e02b722bdb444e2c67d7386c8ebb10">check_square_distance</a> (<a class="el" href="classAtom.html">Atom</a> A, <a class="el" href="classAtom.html">Atom</a> B)</td></tr>
 <tr class="separator:ad9e02b722bdb444e2c67d7386c8ebb10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a036e5b5e292221bf85fee70969cc9b4c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a036e5b5e292221bf85fee70969cc9b4c"></a>
-vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>get_atom_types</b> ()</td></tr>
+<tr class="memitem:a036e5b5e292221bf85fee70969cc9b4c"><td class="memItemLeft" align="right" valign="top">vector&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a036e5b5e292221bf85fee70969cc9b4c">get_atom_types</a> ()</td></tr>
+<tr class="memdesc:a036e5b5e292221bf85fee70969cc9b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds unique atomic species and return them as a vector of atom names ordered by atomic numbers.  <a href="#a036e5b5e292221bf85fee70969cc9b4c">More...</a><br/></td></tr>
 <tr class="separator:a036e5b5e292221bf85fee70969cc9b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c6a87a01f5aec7e76a4aec87fc6f0c5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c6a87a01f5aec7e76a4aec87fc6f0c5"></a>
-<a class="el" href="classAtom.html">Atom</a>&#160;</td><td class="memItemRight" valign="bottom"><b>get_atom</b> (int)</td></tr>
+<tr class="memitem:a0c6a87a01f5aec7e76a4aec87fc6f0c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classAtom.html">Atom</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a0c6a87a01f5aec7e76a4aec87fc6f0c5">get_atom</a> (int)</td></tr>
+<tr class="memdesc:a0c6a87a01f5aec7e76a4aec87fc6f0c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an <a class="el" href="classAtom.html" title="Class that holds information about an atom and its coordinates. ">Atom</a> given by its index in the atomic system.  <a href="#a0c6a87a01f5aec7e76a4aec87fc6f0c5">More...</a><br/></td></tr>
 <tr class="separator:a0c6a87a01f5aec7e76a4aec87fc6f0c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a955f0be2dc05a5aef6d9b5e0a3fccd24"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a955f0be2dc05a5aef6d9b5e0a3fccd24"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_n_atoms</b> ()</td></tr>
+<tr class="memitem:a955f0be2dc05a5aef6d9b5e0a3fccd24"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a955f0be2dc05a5aef6d9b5e0a3fccd24">get_n_atoms</a> ()</td></tr>
+<tr class="memdesc:a955f0be2dc05a5aef6d9b5e0a3fccd24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total number of atoms in the system.  <a href="#a955f0be2dc05a5aef6d9b5e0a3fccd24">More...</a><br/></td></tr>
 <tr class="separator:a955f0be2dc05a5aef6d9b5e0a3fccd24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a621fa961e13c049c5e8ccd0bac679f02"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a621fa961e13c049c5e8ccd0bac679f02"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_xsize</b> ()</td></tr>
+<tr class="memitem:a621fa961e13c049c5e8ccd0bac679f02"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a621fa961e13c049c5e8ccd0bac679f02">get_xsize</a> ()</td></tr>
 <tr class="separator:a621fa961e13c049c5e8ccd0bac679f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3767224770330c5881f88517dc3b3e74"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3767224770330c5881f88517dc3b3e74"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_ysize</b> ()</td></tr>
+<tr class="memitem:a3767224770330c5881f88517dc3b3e74"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a3767224770330c5881f88517dc3b3e74">get_ysize</a> ()</td></tr>
 <tr class="separator:a3767224770330c5881f88517dc3b3e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a456833955091210604a06b277da3cf9f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a456833955091210604a06b277da3cf9f"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_zsize</b> ()</td></tr>
+<tr class="memitem:a456833955091210604a06b277da3cf9f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a456833955091210604a06b277da3cf9f">get_zsize</a> ()</td></tr>
 <tr class="separator:a456833955091210604a06b277da3cf9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89e84ec7dff8a6bbe58ae8eb587afb40"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a89e84ec7dff8a6bbe58ae8eb587afb40"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_xmin</b> ()</td></tr>
+<tr class="memitem:a89e84ec7dff8a6bbe58ae8eb587afb40"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a89e84ec7dff8a6bbe58ae8eb587afb40">get_xmin</a> ()</td></tr>
 <tr class="separator:a89e84ec7dff8a6bbe58ae8eb587afb40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a517e6cc8dea21fb449f3f71a35ad6308"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a517e6cc8dea21fb449f3f71a35ad6308"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_ymin</b> ()</td></tr>
+<tr class="memitem:a517e6cc8dea21fb449f3f71a35ad6308"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a517e6cc8dea21fb449f3f71a35ad6308">get_ymin</a> ()</td></tr>
 <tr class="separator:a517e6cc8dea21fb449f3f71a35ad6308"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0675a259914dc9300afb43cf655a4b6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac0675a259914dc9300afb43cf655a4b6"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_zmin</b> ()</td></tr>
+<tr class="memitem:ac0675a259914dc9300afb43cf655a4b6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#ac0675a259914dc9300afb43cf655a4b6">get_zmin</a> ()</td></tr>
 <tr class="separator:ac0675a259914dc9300afb43cf655a4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a879af0135f419de62a7dfb21b38178fe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a879af0135f419de62a7dfb21b38178fe"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_xmax</b> ()</td></tr>
+<tr class="memitem:a879af0135f419de62a7dfb21b38178fe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a879af0135f419de62a7dfb21b38178fe">get_xmax</a> ()</td></tr>
 <tr class="separator:a879af0135f419de62a7dfb21b38178fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdb763c7d1343e1b4ff6a56f30aec9d1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abdb763c7d1343e1b4ff6a56f30aec9d1"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_ymax</b> ()</td></tr>
+<tr class="memitem:abdb763c7d1343e1b4ff6a56f30aec9d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#abdb763c7d1343e1b4ff6a56f30aec9d1">get_ymax</a> ()</td></tr>
 <tr class="separator:abdb763c7d1343e1b4ff6a56f30aec9d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26e31e73a88acc6c249a2084f41843f8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a26e31e73a88acc6c249a2084f41843f8"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_zmax</b> ()</td></tr>
+<tr class="memitem:a26e31e73a88acc6c249a2084f41843f8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a26e31e73a88acc6c249a2084f41843f8">get_zmax</a> ()</td></tr>
 <tr class="separator:a26e31e73a88acc6c249a2084f41843f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a482d58dc237c99908bd09a6c7d009c48"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a482d58dc237c99908bd09a6c7d009c48"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_xpbc</b> ()</td></tr>
+<tr class="memitem:a482d58dc237c99908bd09a6c7d009c48"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a482d58dc237c99908bd09a6c7d009c48">get_xpbc</a> ()</td></tr>
 <tr class="separator:a482d58dc237c99908bd09a6c7d009c48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75dcff418d40045926392ca81bb8c5bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75dcff418d40045926392ca81bb8c5bd"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_ypbc</b> ()</td></tr>
+<tr class="memitem:a75dcff418d40045926392ca81bb8c5bd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a75dcff418d40045926392ca81bb8c5bd">get_ypbc</a> ()</td></tr>
 <tr class="separator:a75dcff418d40045926392ca81bb8c5bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10e194744a00bb2506cc6c72c3fab4a0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a10e194744a00bb2506cc6c72c3fab4a0"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_zpbc</b> ()</td></tr>
+<tr class="memitem:a10e194744a00bb2506cc6c72c3fab4a0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtomicSystem.html#a10e194744a00bb2506cc6c72c3fab4a0">get_zpbc</a> ()</td></tr>
 <tr class="separator:a10e194744a00bb2506cc6c72c3fab4a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that holds information about the molecular system including atom types and spatial coordinates. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ac3ede1da1867a9759e388f3d5e8cb08a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AtomicSystem::AtomicSystem </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="a5d5f473465d2ad2eb106aa0cda871f5a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AtomicSystem::AtomicSystem </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>filename</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pbcx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pbcy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pbcz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>skin</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor that creates the atomicsystem object from a coordinate file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>name of coordinate file </td></tr>
+    <tr><td class="paramname">pbcx</td><td>boundary condition for x </td></tr>
+    <tr><td class="paramname">pbcy</td><td>boundary condition for y </td></tr>
+    <tr><td class="paramname">pbcz</td><td>boundary condition for z </td></tr>
+    <tr><td class="paramname">skin</td><td>size of the skin around the box for used in neighbor list generation </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="adcc9076b127ae9ff28b6bdc6cc089364"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AtomicSystem::~AtomicSystem </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ad9e02b722bdb444e2c67d7386c8ebb10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::check_square_distance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAtom.html">Atom</a>&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAtom.html">Atom</a>&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0c6a87a01f5aec7e76a4aec87fc6f0c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classAtom.html">Atom</a> AtomicSystem::get_atom </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an <a class="el" href="classAtom.html" title="Class that holds information about an atom and its coordinates. ">Atom</a> given by its index in the atomic system. </p>
+
+</div>
+</div>
+<a class="anchor" id="a036e5b5e292221bf85fee70969cc9b4c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; string &gt; AtomicSystem::get_atom_types </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds unique atomic species and return them as a vector of atom names ordered by atomic numbers. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1267adda3ecc59db42ffa9010ed6a139"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_distance_component </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAtom.html">Atom</a>&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAtom.html">Atom</a>&#160;</td>
+          <td class="paramname"><em>B</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the x (=0), y (=1) or z (=2) component of the distance between two atoms. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">A</td><td>the first atom object. </td></tr>
+    <tr><td class="paramname">B</td><td>the second atom object. </td></tr>
+    <tr><td class="paramname">direction</td><td>the component of the distance to return 0=x, 1=y, 2=z </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a7a57e207ef3f586e3db82a8f7dfd066d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_distance_component </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>atomID1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>atomID2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>direction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a955f0be2dc05a5aef6d9b5e0a3fccd24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int AtomicSystem::get_n_atoms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the total number of atoms in the system. </p>
+
+</div>
+</div>
+<a class="anchor" id="a4449b0026fdec3b4c49ef31fe35de113"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_square_distance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAtom.html">Atom</a>&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classAtom.html">Atom</a>&#160;</td>
+          <td class="paramname"><em>B</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the square distance between two atoms. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8f7b69937316400e8a0145a1e1954dd8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_square_distance </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calculates the square distance between two atoms given by their index in the <a class="el" href="classAtomicSystem.html" title="Class that holds information about the molecular system including atom types and spatial coordinates...">AtomicSystem</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a879af0135f419de62a7dfb21b38178fe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_xmax </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a89e84ec7dff8a6bbe58ae8eb587afb40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_xmin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a482d58dc237c99908bd09a6c7d009c48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_xpbc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a621fa961e13c049c5e8ccd0bac679f02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_xsize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abdb763c7d1343e1b4ff6a56f30aec9d1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_ymax </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a517e6cc8dea21fb449f3f71a35ad6308"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_ymin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a75dcff418d40045926392ca81bb8c5bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_ypbc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3767224770330c5881f88517dc3b3e74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_ysize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a26e31e73a88acc6c249a2084f41843f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_zmax </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac0675a259914dc9300afb43cf655a4b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_zmin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a10e194744a00bb2506cc6c72c3fab4a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_zpbc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a456833955091210604a06b277da3cf9f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double AtomicSystem::get_zsize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ace7cdf92e0e3ec1149bcb51fd112263c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AtomicSystem::set_box_size </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ymin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>xmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ymax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>zmax</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the boundaries of the box xmin, ymin, zmin, xmax, ymax, zmax. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="atomicsystem_8h_source.html">atomicsystem.h</a></li>
-<li>atomicsystem.cpp</li>
+<li><a class="el" href="atomicsystem_8cpp.html">atomicsystem.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

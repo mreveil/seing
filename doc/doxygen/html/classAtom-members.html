@@ -62,6 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,17 +88,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>This is the complete list of members for <a class="el" href="classAtom.html">Atom</a>, including all inherited members.</p>
 <table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Atom</b>(void) (defined in <a class="el" href="classAtom.html">Atom</a>)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>Atom</b>(string, double, double, double) (defined in <a class="el" href="classAtom.html">Atom</a>)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_atom_type</b>() (defined in <a class="el" href="classAtom.html">Atom</a>)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_x</b>() (defined in <a class="el" href="classAtom.html">Atom</a>)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_y</b>() (defined in <a class="el" href="classAtom.html">Atom</a>)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_z</b>() (defined in <a class="el" href="classAtom.html">Atom</a>)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~Atom</b>(void) (defined in <a class="el" href="classAtom.html">Atom</a>)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtom.html#add36d2ea4159b08eefc7d4d6d59f54eb">Atom</a>(void)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtom.html#a820fbe640e1032315c54d29eeeeaed3f">Atom</a>(string, double, double, double)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtom.html#a7a8a8d77832c675e756a4935e3f6a4e8">get_atom_type</a>()</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtom.html#a60c78b2f17643f02744dc059ad4614bd">get_x</a>()</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtom.html#a2b4f6fd59d0be3a6be685b1f7d008585">get_y</a>()</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtom.html#adf0968985ac6f9c8c8d5f280070790b1">get_z</a>()</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtom.html#ad73f775b26a2081104bed58c2afd68a7">~Atom</a>(void)</td><td class="entry"><a class="el" href="classAtom.html">Atom</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

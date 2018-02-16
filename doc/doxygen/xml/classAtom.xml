@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="classAtom" kind="class" prot="public">
     <compoundname>Atom</compoundname>
+    <includes refid="atom_8h" local="no">atom.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classAtom_1afc1c5d83fc35fde2b643484161bf8d64" prot="private" static="no" mutable="no">
         <type>string</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="10" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="10" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="12" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtom_1a382da4a2a8d20faa2fd1eca986f44056" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="11" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="11" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="13" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtom_1aab210323240ea76e6f866113e590cd22" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -40,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="12" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="12" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtom_1af1c8b6cd65e2a489b9be339efd7a77ac" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -53,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="13" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="13" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtom_1ab7fa10034d4d2a16b5288fd58430155f" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -66,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="14" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="16" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtom_1a90e6f00ca3ae2fda9b87cb27aac5929d" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -79,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="15" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="17" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -92,12 +93,12 @@
           <type>void</type>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Default constructor. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="8" bodyend="16"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="22" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="8" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="classAtom_1a820fbe640e1032315c54d29eeeeaed3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -121,12 +122,41 @@
           <defname>cz</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Constructor that creates an <ref refid="classAtom" kindref="compound">Atom</ref> object from its name and coordinates. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>attype</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of atom (e.g. H, C, Si, Au, etc.) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cartesian coordinates - x value </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cartesian coordinates - y value </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cartesian coordinates - z value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="18" bodyend="25"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="18" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="classAtom_1ad73f775b26a2081104bed58c2afd68a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -142,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="27" bodyend="29"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="27" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="classAtom_1a7a8a8d77832c675e756a4935e3f6a4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>string</type>
@@ -150,12 +180,12 @@
         <argsstring>()</argsstring>
         <name>get_atom_type</name>
         <briefdescription>
-        </briefdescription>
+<para>Returns the name of this atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="31" bodyend="31"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="31" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="classAtom_1a60c78b2f17643f02744dc059ad4614bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -163,12 +193,12 @@
         <argsstring>()</argsstring>
         <name>get_x</name>
         <briefdescription>
-        </briefdescription>
+<para>Returns the x coordinate of this atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="32" bodyend="32"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="32" bodyend="32"/>
       </memberdef>
       <memberdef kind="function" id="classAtom_1a2b4f6fd59d0be3a6be685b1f7d008585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -176,12 +206,12 @@
         <argsstring>()</argsstring>
         <name>get_y</name>
         <briefdescription>
-        </briefdescription>
+<para>Returns the y coordinate of this atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="33" bodyend="33"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="33" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="classAtom_1adf0968985ac6f9c8c8d5f280070790b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -189,19 +219,19 @@
         <argsstring>()</argsstring>
         <name>get_z</name>
         <briefdescription>
-        </briefdescription>
+<para>Returns the z coordinate of this atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atom.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="34" bodyend="34"/>
+        <location file="/fs/home/mr937/SEING/src/atom.h" line="42" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.cpp" bodystart="34" bodyend="34"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Class that holds information about an atom and its coordinates. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/atom.h" line="8" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="8" bodyend="28"/>
+    <location file="/fs/home/mr937/SEING/src/atom.h" line="10" column="1" bodyfile="/fs/home/mr937/SEING/src/atom.h" bodystart="10" bodyend="44"/>
     <listofallmembers>
       <member refid="classAtom_1add36d2ea4159b08eefc7d4d6d59f54eb" prot="public" virt="non-virtual"><scope>Atom</scope><name>Atom</name></member>
       <member refid="classAtom_1a820fbe640e1032315c54d29eeeeaed3f" prot="public" virt="non-virtual"><scope>Atom</scope><name>Atom</name></member>

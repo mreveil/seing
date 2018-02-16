@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="structElement" kind="struct" prot="public">
     <compoundname>Element</compoundname>
+    <includes refid="periodictable_8h" local="no">periodictable.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structElement_1a63e156c168905a24437098bfff0e5366" prot="public" static="no" mutable="no">
         <type>string</type>

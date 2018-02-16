@@ -62,6 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,89 +88,454 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">fingerprintProperties Struct Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Struct to hold fingerprint parameters as provided by the user in the input file.  
+ <a href="structfingerprintProperties.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="inputs_8h_source.html">inputs.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a92c349ff375f9f42448958721c2e6472"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a92c349ff375f9f42448958721c2e6472"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>type</b></td></tr>
+<tr class="memitem:a92c349ff375f9f42448958721c2e6472"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a92c349ff375f9f42448958721c2e6472">type</a></td></tr>
+<tr class="memdesc:a92c349ff375f9f42448958721c2e6472"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of fingerprint to compute (e.g. AGNI, Zernike, Behler-Parinello, etc.)  <a href="#a92c349ff375f9f42448958721c2e6472">More...</a><br/></td></tr>
 <tr class="separator:a92c349ff375f9f42448958721c2e6472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33e937432b5ab6d71bd2b82fcfa3f446"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a33e937432b5ab6d71bd2b82fcfa3f446"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>calculate_derivatives</b></td></tr>
+<tr class="memitem:a33e937432b5ab6d71bd2b82fcfa3f446"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a33e937432b5ab6d71bd2b82fcfa3f446">calculate_derivatives</a></td></tr>
+<tr class="memdesc:a33e937432b5ab6d71bd2b82fcfa3f446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Values: yes or no.  <a href="#a33e937432b5ab6d71bd2b82fcfa3f446">More...</a><br/></td></tr>
 <tr class="separator:a33e937432b5ab6d71bd2b82fcfa3f446"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74d8ba92bc17191332b718696859d731"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a74d8ba92bc17191332b718696859d731"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>nderivatives</b></td></tr>
+<tr class="memitem:a74d8ba92bc17191332b718696859d731"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a74d8ba92bc17191332b718696859d731">nderivatives</a></td></tr>
+<tr class="memdesc:a74d8ba92bc17191332b718696859d731"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of derivatives to calculate.  <a href="#a74d8ba92bc17191332b718696859d731">More...</a><br/></td></tr>
 <tr class="separator:a74d8ba92bc17191332b718696859d731"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0307b7e6565d72685f54cfd8c37a2bb1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0307b7e6565d72685f54cfd8c37a2bb1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>direction</b></td></tr>
-<tr class="separator:a0307b7e6565d72685f54cfd8c37a2bb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae995e464a72ef7c754a5809f161f397a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae995e464a72ef7c754a5809f161f397a"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>strategy</b></td></tr>
+<tr class="memitem:adbe6b7afea7a0d13b7389113442217c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#adbe6b7afea7a0d13b7389113442217c7">ndirections</a></td></tr>
+<tr class="memdesc:adbe6b7afea7a0d13b7389113442217c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">How many directions (x,y,z) to calculate derivatives for.  <a href="#adbe6b7afea7a0d13b7389113442217c7">More...</a><br/></td></tr>
+<tr class="separator:adbe6b7afea7a0d13b7389113442217c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7825b9c9051cecb61daca0994cea9f56"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a7825b9c9051cecb61daca0994cea9f56">directions</a></td></tr>
+<tr class="memdesc:a7825b9c9051cecb61daca0994cea9f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Directions to calculate derivatives for 0=x, 1=y, 2=z.  <a href="#a7825b9c9051cecb61daca0994cea9f56">More...</a><br/></td></tr>
+<tr class="separator:a7825b9c9051cecb61daca0994cea9f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae995e464a72ef7c754a5809f161f397a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#ae995e464a72ef7c754a5809f161f397a">strategy</a></td></tr>
+<tr class="memdesc:ae995e464a72ef7c754a5809f161f397a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The strategy to use for incorporating multiple species in the fingerprint. Values: weighted or augmented.  <a href="#ae995e464a72ef7c754a5809f161f397a">More...</a><br/></td></tr>
 <tr class="separator:ae995e464a72ef7c754a5809f161f397a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecf9e0d9e5bdd193f2dcfaca891da127"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aecf9e0d9e5bdd193f2dcfaca891da127"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>weight_type</b></td></tr>
+<tr class="memitem:aecf9e0d9e5bdd193f2dcfaca891da127"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#aecf9e0d9e5bdd193f2dcfaca891da127">weight_type</a></td></tr>
+<tr class="memdesc:aecf9e0d9e5bdd193f2dcfaca891da127"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the "weighted" strategy, what type of weight to use (e.g. atomic number, elctronegativity, etc.)  <a href="#aecf9e0d9e5bdd193f2dcfaca891da127">More...</a><br/></td></tr>
 <tr class="separator:aecf9e0d9e5bdd193f2dcfaca891da127"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04a9eb29d650bbb1bb9662efdae2b439"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04a9eb29d650bbb1bb9662efdae2b439"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>cutoff</b></td></tr>
+<tr class="memitem:a04a9eb29d650bbb1bb9662efdae2b439"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a04a9eb29d650bbb1bb9662efdae2b439">cutoff</a></td></tr>
+<tr class="memdesc:a04a9eb29d650bbb1bb9662efdae2b439"><td class="mdescLeft">&#160;</td><td class="mdescRight">In case of a local fingerprint, the cutoff to use.  <a href="#a04a9eb29d650bbb1bb9662efdae2b439">More...</a><br/></td></tr>
 <tr class="separator:a04a9eb29d650bbb1bb9662efdae2b439"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcbb7e1edbf53f9846d8e2bb5f30fd76"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afcbb7e1edbf53f9846d8e2bb5f30fd76"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>inner_cutoff</b></td></tr>
+<tr class="memitem:afcbb7e1edbf53f9846d8e2bb5f30fd76"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#afcbb7e1edbf53f9846d8e2bb5f30fd76">inner_cutoff</a></td></tr>
 <tr class="separator:afcbb7e1edbf53f9846d8e2bb5f30fd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57aea2ce94034cd4b66db7c0950c1e50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57aea2ce94034cd4b66db7c0950c1e50"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_box_size_provided</b></td></tr>
+<tr class="memitem:a57aea2ce94034cd4b66db7c0950c1e50"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a57aea2ce94034cd4b66db7c0950c1e50">is_box_size_provided</a></td></tr>
+<tr class="memdesc:a57aea2ce94034cd4b66db7c0950c1e50"><td class="mdescLeft">&#160;</td><td class="mdescRight">A boolean to save whether the box size is provided as part of the input file or not.  <a href="#a57aea2ce94034cd4b66db7c0950c1e50">More...</a><br/></td></tr>
 <tr class="separator:a57aea2ce94034cd4b66db7c0950c1e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04b6024f0e978500f20476e127828f23"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a04b6024f0e978500f20476e127828f23"></a>
-double *&#160;</td><td class="memItemRight" valign="bottom"><b>box_size</b></td></tr>
+<tr class="memitem:a04b6024f0e978500f20476e127828f23"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a04b6024f0e978500f20476e127828f23">box_size</a></td></tr>
+<tr class="memdesc:a04b6024f0e978500f20476e127828f23"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pointer to the list that holds the dimensions of the box if they are provided in input file.  <a href="#a04b6024f0e978500f20476e127828f23">More...</a><br/></td></tr>
 <tr class="separator:a04b6024f0e978500f20476e127828f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a321da3012ab165752c737ad32f89a711"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a321da3012ab165752c737ad32f89a711"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>netas</b></td></tr>
-<tr class="separator:a321da3012ab165752c737ad32f89a711"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af72262e6b1665dfe71d88d0a6284063e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af72262e6b1665dfe71d88d0a6284063e"></a>
-double *&#160;</td><td class="memItemRight" valign="bottom"><b>etas</b></td></tr>
-<tr class="separator:af72262e6b1665dfe71d88d0a6284063e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0438fccef599b8b163e241b93df47ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0438fccef599b8b163e241b93df47ce"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>netas2</b></td></tr>
-<tr class="separator:ad0438fccef599b8b163e241b93df47ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad09bd9cfa94b0dcee09c036119b3cad2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad09bd9cfa94b0dcee09c036119b3cad2"></a>
-double *&#160;</td><td class="memItemRight" valign="bottom"><b>etas2</b></td></tr>
-<tr class="separator:ad09bd9cfa94b0dcee09c036119b3cad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>ngammas</b></td></tr>
-<tr class="separator:a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a500043fbba0f1434d2bfdda92f6ca962"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a500043fbba0f1434d2bfdda92f6ca962"></a>
-double *&#160;</td><td class="memItemRight" valign="bottom"><b>gammas</b></td></tr>
-<tr class="separator:a500043fbba0f1434d2bfdda92f6ca962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cea9b0611ac1f682846fbfe31e4471a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8cea9b0611ac1f682846fbfe31e4471a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>nzetas</b></td></tr>
-<tr class="separator:a8cea9b0611ac1f682846fbfe31e4471a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a816c80314e411d0aee319393f4e42ac1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a816c80314e411d0aee319393f4e42ac1"></a>
-double *&#160;</td><td class="memItemRight" valign="bottom"><b>zetas</b></td></tr>
-<tr class="separator:a816c80314e411d0aee319393f4e42ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac618efe356e760e838db711b6f5ce970"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac618efe356e760e838db711b6f5ce970"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>natomtypes</b></td></tr>
+<tr class="memitem:ac618efe356e760e838db711b6f5ce970"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#ac618efe356e760e838db711b6f5ce970">natomtypes</a></td></tr>
+<tr class="memdesc:ac618efe356e760e838db711b6f5ce970"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of different species to consider for fingerprint generation.  <a href="#ac618efe356e760e838db711b6f5ce970">More...</a><br/></td></tr>
 <tr class="separator:ac618efe356e760e838db711b6f5ce970"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28059a07fa4fc2202940fb6af5b5d6e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a28059a07fa4fc2202940fb6af5b5d6e9"></a>
-string *&#160;</td><td class="memItemRight" valign="bottom"><b>atomtypes</b></td></tr>
+<tr class="memitem:a28059a07fa4fc2202940fb6af5b5d6e9"><td class="memItemLeft" align="right" valign="top">string *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a28059a07fa4fc2202940fb6af5b5d6e9">atomtypes</a></td></tr>
+<tr class="memdesc:a28059a07fa4fc2202940fb6af5b5d6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pointer to the list of atomic species for fingerprint generation.  <a href="#a28059a07fa4fc2202940fb6af5b5d6e9">More...</a><br/></td></tr>
 <tr class="separator:a28059a07fa4fc2202940fb6af5b5d6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c37aac3ecf03bb66e13a5ed656611e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c37aac3ecf03bb66e13a5ed656611e1"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>nmax</b></td></tr>
+<tr class="memitem:a321da3012ab165752c737ad32f89a711"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a321da3012ab165752c737ad32f89a711">netas</a></td></tr>
+<tr class="separator:a321da3012ab165752c737ad32f89a711"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af72262e6b1665dfe71d88d0a6284063e"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#af72262e6b1665dfe71d88d0a6284063e">etas</a></td></tr>
+<tr class="separator:af72262e6b1665dfe71d88d0a6284063e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0438fccef599b8b163e241b93df47ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#ad0438fccef599b8b163e241b93df47ce">netas2</a></td></tr>
+<tr class="separator:ad0438fccef599b8b163e241b93df47ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad09bd9cfa94b0dcee09c036119b3cad2"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#ad09bd9cfa94b0dcee09c036119b3cad2">etas2</a></td></tr>
+<tr class="separator:ad09bd9cfa94b0dcee09c036119b3cad2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2">ngammas</a></td></tr>
+<tr class="separator:a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500043fbba0f1434d2bfdda92f6ca962"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a500043fbba0f1434d2bfdda92f6ca962">gammas</a></td></tr>
+<tr class="separator:a500043fbba0f1434d2bfdda92f6ca962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cea9b0611ac1f682846fbfe31e4471a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a8cea9b0611ac1f682846fbfe31e4471a">nzetas</a></td></tr>
+<tr class="separator:a8cea9b0611ac1f682846fbfe31e4471a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816c80314e411d0aee319393f4e42ac1"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a816c80314e411d0aee319393f4e42ac1">zetas</a></td></tr>
+<tr class="separator:a816c80314e411d0aee319393f4e42ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c37aac3ecf03bb66e13a5ed656611e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a2c37aac3ecf03bb66e13a5ed656611e1">nmax</a></td></tr>
 <tr class="separator:a2c37aac3ecf03bb66e13a5ed656611e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc19f9499a2cf5bbb0f32d49aacea892"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afc19f9499a2cf5bbb0f32d49aacea892"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>jmax</b></td></tr>
+<tr class="memitem:afc19f9499a2cf5bbb0f32d49aacea892"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#afc19f9499a2cf5bbb0f32d49aacea892">jmax</a></td></tr>
 <tr class="separator:afc19f9499a2cf5bbb0f32d49aacea892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0ff62251b21b243f26c28790822fbd4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae0ff62251b21b243f26c28790822fbd4"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>output_file</b></td></tr>
+<tr class="memitem:a6bbc1a57197ba9350f058ec0d8c85503"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a6bbc1a57197ba9350f058ec0d8c85503">dimensionality</a></td></tr>
+<tr class="separator:a6bbc1a57197ba9350f058ec0d8c85503"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec66f6b8bc3825437d5f50e674df9e9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a1ec66f6b8bc3825437d5f50e674df9e9">width</a></td></tr>
+<tr class="separator:a1ec66f6b8bc3825437d5f50e674df9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a671fdeb8174614bbef26c0e0894ed72b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#a671fdeb8174614bbef26c0e0894ed72b">alpha</a></td></tr>
+<tr class="separator:a671fdeb8174614bbef26c0e0894ed72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0ff62251b21b243f26c28790822fbd4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#ae0ff62251b21b243f26c28790822fbd4">output_file</a></td></tr>
 <tr class="separator:ae0ff62251b21b243f26c28790822fbd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1abf7226cb93c27eefe7a01e057389c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1abf7226cb93c27eefe7a01e057389c"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>mode</b></td></tr>
+<tr class="memitem:ac1abf7226cb93c27eefe7a01e057389c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structfingerprintProperties.html#ac1abf7226cb93c27eefe7a01e057389c">mode</a></td></tr>
 <tr class="separator:ac1abf7226cb93c27eefe7a01e057389c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Struct to hold fingerprint parameters as provided by the user in the input file. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a671fdeb8174614bbef26c0e0894ed72b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::alpha</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a28059a07fa4fc2202940fb6af5b5d6e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string* fingerprintProperties::atomtypes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A pointer to the list of atomic species for fingerprint generation. </p>
+
+</div>
+</div>
+<a class="anchor" id="a04b6024f0e978500f20476e127828f23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* fingerprintProperties::box_size</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A pointer to the list that holds the dimensions of the box if they are provided in input file. </p>
+
+</div>
+</div>
+<a class="anchor" id="a33e937432b5ab6d71bd2b82fcfa3f446"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string fingerprintProperties::calculate_derivatives</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Values: yes or no. </p>
+
+</div>
+</div>
+<a class="anchor" id="a04a9eb29d650bbb1bb9662efdae2b439"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double fingerprintProperties::cutoff</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>In case of a local fingerprint, the cutoff to use. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6bbc1a57197ba9350f058ec0d8c85503"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::dimensionality</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7825b9c9051cecb61daca0994cea9f56"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int* fingerprintProperties::directions</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Directions to calculate derivatives for 0=x, 1=y, 2=z. </p>
+
+</div>
+</div>
+<a class="anchor" id="af72262e6b1665dfe71d88d0a6284063e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* fingerprintProperties::etas</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad09bd9cfa94b0dcee09c036119b3cad2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* fingerprintProperties::etas2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a500043fbba0f1434d2bfdda92f6ca962"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* fingerprintProperties::gammas</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afcbb7e1edbf53f9846d8e2bb5f30fd76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double fingerprintProperties::inner_cutoff</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a57aea2ce94034cd4b66db7c0950c1e50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fingerprintProperties::is_box_size_provided</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A boolean to save whether the box size is provided as part of the input file or not. </p>
+
+</div>
+</div>
+<a class="anchor" id="afc19f9499a2cf5bbb0f32d49aacea892"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::jmax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac1abf7226cb93c27eefe7a01e057389c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string fingerprintProperties::mode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac618efe356e760e838db711b6f5ce970"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::natomtypes</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The number of different species to consider for fingerprint generation. </p>
+
+</div>
+</div>
+<a class="anchor" id="a74d8ba92bc17191332b718696859d731"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::nderivatives</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The number of derivatives to calculate. </p>
+<p>Derivatives are calculated with respect to the central atom first, then wrt neighbor atoms ordered by increasing distance. </p>
+
+</div>
+</div>
+<a class="anchor" id="adbe6b7afea7a0d13b7389113442217c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::ndirections</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>How many directions (x,y,z) to calculate derivatives for. </p>
+
+</div>
+</div>
+<a class="anchor" id="a321da3012ab165752c737ad32f89a711"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::netas</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad0438fccef599b8b163e241b93df47ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::netas2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7c58976b1ce6b7e2e9f7d7bcfdfbb9a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::ngammas</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2c37aac3ecf03bb66e13a5ed656611e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::nmax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8cea9b0611ac1f682846fbfe31e4471a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int fingerprintProperties::nzetas</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae0ff62251b21b243f26c28790822fbd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string fingerprintProperties::output_file</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae995e464a72ef7c754a5809f161f397a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string fingerprintProperties::strategy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The strategy to use for incorporating multiple species in the fingerprint. Values: weighted or augmented. </p>
+
+</div>
+</div>
+<a class="anchor" id="a92c349ff375f9f42448958721c2e6472"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string fingerprintProperties::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The type of fingerprint to compute (e.g. AGNI, Zernike, Behler-Parinello, etc.) </p>
+
+</div>
+</div>
+<a class="anchor" id="aecf9e0d9e5bdd193f2dcfaca891da127"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string fingerprintProperties::weight_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>For the "weighted" strategy, what type of weight to use (e.g. atomic number, elctronegativity, etc.) </p>
+
+</div>
+</div>
+<a class="anchor" id="a1ec66f6b8bc3825437d5f50e674df9e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double fingerprintProperties::width</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a816c80314e411d0aee319393f4e42ac1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double* fingerprintProperties::zetas</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
 <li><a class="el" href="inputs_8h_source.html">inputs.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

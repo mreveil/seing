@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="classPeriodicTable" kind="class" prot="public">
     <compoundname>PeriodicTable</compoundname>
+    <includes refid="periodictable_8h" local="no">periodictable.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classPeriodicTable_1ac5125e44dbc8321e0f44760d57805129" prot="private" static="no" mutable="no">
         <type><ref refid="structElement" kindref="compound">Element</ref> *</type>
@@ -42,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="13" bodyend="32"/>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="13" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="classPeriodicTable_1a15eef831d85642fe9f6687aa15f3b317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -55,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="34" bodyend="36"/>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="46" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classPeriodicTable_1a9c063dbf37b22fbb2c564b24cbe88f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -72,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="38" bodyend="55"/>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="50" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="classPeriodicTable_1ae196998a86474010b0fefde2cf8ede3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -89,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="57" bodyend="76"/>
+        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.cpp" bodystart="69" bodyend="88"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

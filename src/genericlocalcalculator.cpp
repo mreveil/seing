@@ -29,14 +29,16 @@ GenericLocalCalculator::GenericLocalCalculator(AtomicSystem& asys, fingerprintPr
 
     cutoff = fpproperties.cutoff;
 
+    cout<<"Post cutoff...\n";
+
     if (fpproperties.type == "gaussian"){
         GaussianCalculator gcalc = GaussianCalculator(atomicsystem,fpproperties); 
         size = gcalc.get_size();
     }
 
     else if (fpproperties.type == "zernike"){
-        ZernikeCalculator gcalc = ZernikeCalculator(atomicsystem,fpproperties); 
-        size = gcalc.get_size();
+        ZernikeCalculator zcalc = ZernikeCalculator(atomicsystem,fpproperties); 
+        size = zcalc.get_size();
     }
 
     else if (fpproperties.type == "bispectrum"){
@@ -46,6 +48,10 @@ GenericLocalCalculator::GenericLocalCalculator(AtomicSystem& asys, fingerprintPr
     else if (fpproperties.type == "diamond"){
         DiamondCalculator dcalc = DiamondCalculator(atomicsystem,fpproperties); 
         size = dcalc.get_size();
+    }
+    else if (fpproperties.type == "agni"){
+        AGNICalculator acalc = AGNICalculator(atomicsystem,fpproperties); 
+        size = acalc.get_size();
     }
     else {
         cerr<<"ERROR: Fingerprint type "<<fpproperties.type<<"not supported.\n";
@@ -82,7 +88,10 @@ double* GenericLocalCalculator::calculate_fingerprint(int atomid, NeighborList &
         DiamondCalculator dcalc = DiamondCalculator(atomicsystem,fpproperties); 
         fp = dcalc.calculate_fingerprint(atomid,nlist);
     }
-
+    else if (fpproperties.type == "agni"){
+        AGNICalculator dcalc = AGNICalculator(atomicsystem,fpproperties); 
+        fp = dcalc.calculate_fingerprint(atomid,nlist);
+    }
     else {
         cerr<<"ERROR: Fingerprint type "<<fpproperties.type<<"not supported.\n";
     }

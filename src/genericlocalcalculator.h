@@ -18,12 +18,15 @@
 #include "zernikecalculator.h"
 #include "bispectrumcalculator.h"
 #include "diamondcalculator.h"
+#include "agnicalculator.h"
+
 
 #include "gaussiancalculator.h"
 
 
 using namespace std;
 
+//! Class that holds a generic calculator to switch between actual fingerprint calculators.
 
 class GenericLocalCalculator { 
 
@@ -33,11 +36,16 @@ class GenericLocalCalculator {
     fingerprintProperties fpproperties;
 
     public:
-
+        //! Constructor based on the atomtic system and fingerprintProperties 
         GenericLocalCalculator(AtomicSystem&, fingerprintProperties);
         ~GenericLocalCalculator();
 
+        //! Returns the dimensionality of the fingerprint
         int get_size();
+
+        /*! Will call the calculate_fingerprint function of the actual fingerprint calculator and returns the 
+            fingerprint
+        */
         double *calculate_fingerprint(int, NeighborList&);
 
 };

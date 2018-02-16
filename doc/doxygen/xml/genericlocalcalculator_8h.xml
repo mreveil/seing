@@ -16,226 +16,275 @@
     <includes refid="zernikecalculator_8h" local="yes">zernikecalculator.h</includes>
     <includes refid="bispectrumcalculator_8h" local="yes">bispectrumcalculator.h</includes>
     <includes refid="diamondcalculator_8h" local="yes">diamondcalculator.h</includes>
+    <includes refid="agnicalculator_8h" local="yes">agnicalculator.h</includes>
     <includes refid="gaussiancalculator_8h" local="yes">gaussiancalculator.h</includes>
     <includedby refid="fingerprintgenerator_8cpp" local="yes">fingerprintgenerator.cpp</includedby>
     <includedby refid="genericlocalcalculator_8cpp" local="yes">genericlocalcalculator.cpp</includedby>
     <incdepgraph>
-      <node id="210">
+      <node id="286">
         <label>inputs.h</label>
-        <link refid="inputs_8h_source"/>
-        <childnode refid="205" relation="include">
+        <link refid="inputs_8h"/>
+        <childnode refid="281" relation="include">
         </childnode>
       </node>
-      <node id="217">
+      <node id="293">
         <label>diamondcalculator.h</label>
-        <link refid="diamondcalculator_8h_source"/>
-        <childnode refid="200" relation="include">
+        <link refid="diamondcalculator_8h"/>
+        <childnode refid="276" relation="include">
         </childnode>
-        <childnode refid="201" relation="include">
+        <childnode refid="277" relation="include">
         </childnode>
-        <childnode refid="202" relation="include">
+        <childnode refid="278" relation="include">
         </childnode>
-        <childnode refid="203" relation="include">
+        <childnode refid="279" relation="include">
         </childnode>
-        <childnode refid="204" relation="include">
+        <childnode refid="280" relation="include">
         </childnode>
-        <childnode refid="205" relation="include">
+        <childnode refid="281" relation="include">
         </childnode>
-        <childnode refid="206" relation="include">
+        <childnode refid="282" relation="include">
         </childnode>
-        <childnode refid="208" relation="include">
+        <childnode refid="284" relation="include">
         </childnode>
-        <childnode refid="207" relation="include">
+        <childnode refid="283" relation="include">
         </childnode>
-        <childnode refid="210" relation="include">
+        <childnode refid="286" relation="include">
         </childnode>
-        <childnode refid="211" relation="include">
+        <childnode refid="287" relation="include">
         </childnode>
-        <childnode refid="212" relation="include">
+        <childnode refid="288" relation="include">
         </childnode>
       </node>
-      <node id="199">
+      <node id="275">
         <label>genericlocalcalculator.h</label>
         <link refid="genericlocalcalculator.h"/>
-        <childnode refid="200" relation="include">
+        <childnode refid="276" relation="include">
         </childnode>
-        <childnode refid="201" relation="include">
+        <childnode refid="277" relation="include">
         </childnode>
-        <childnode refid="202" relation="include">
+        <childnode refid="278" relation="include">
         </childnode>
-        <childnode refid="203" relation="include">
+        <childnode refid="279" relation="include">
         </childnode>
-        <childnode refid="204" relation="include">
+        <childnode refid="280" relation="include">
         </childnode>
-        <childnode refid="205" relation="include">
+        <childnode refid="281" relation="include">
         </childnode>
-        <childnode refid="206" relation="include">
+        <childnode refid="282" relation="include">
         </childnode>
-        <childnode refid="207" relation="include">
+        <childnode refid="283" relation="include">
         </childnode>
-        <childnode refid="210" relation="include">
+        <childnode refid="286" relation="include">
         </childnode>
-        <childnode refid="211" relation="include">
+        <childnode refid="287" relation="include">
         </childnode>
-        <childnode refid="212" relation="include">
+        <childnode refid="288" relation="include">
         </childnode>
-        <childnode refid="213" relation="include">
+        <childnode refid="289" relation="include">
         </childnode>
-        <childnode refid="216" relation="include">
+        <childnode refid="292" relation="include">
         </childnode>
-        <childnode refid="217" relation="include">
+        <childnode refid="293" relation="include">
         </childnode>
-        <childnode refid="218" relation="include">
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
         </childnode>
       </node>
-      <node id="213">
+      <node id="289">
         <label>zernikecalculator.h</label>
-        <link refid="zernikecalculator_8h_source"/>
-        <childnode refid="200" relation="include">
+        <link refid="zernikecalculator_8h"/>
+        <childnode refid="276" relation="include">
         </childnode>
-        <childnode refid="201" relation="include">
+        <childnode refid="277" relation="include">
         </childnode>
-        <childnode refid="202" relation="include">
+        <childnode refid="278" relation="include">
         </childnode>
-        <childnode refid="203" relation="include">
+        <childnode refid="279" relation="include">
         </childnode>
-        <childnode refid="204" relation="include">
+        <childnode refid="280" relation="include">
         </childnode>
-        <childnode refid="205" relation="include">
+        <childnode refid="281" relation="include">
         </childnode>
-        <childnode refid="206" relation="include">
+        <childnode refid="282" relation="include">
         </childnode>
-        <childnode refid="214" relation="include">
+        <childnode refid="290" relation="include">
         </childnode>
-        <childnode refid="207" relation="include">
+        <childnode refid="283" relation="include">
         </childnode>
-        <childnode refid="210" relation="include">
+        <childnode refid="286" relation="include">
         </childnode>
-        <childnode refid="212" relation="include">
+        <childnode refid="288" relation="include">
         </childnode>
-        <childnode refid="215" relation="include">
+        <childnode refid="291" relation="include">
         </childnode>
       </node>
-      <node id="201">
+      <node id="277">
         <label>stdlib.h</label>
       </node>
-      <node id="211">
+      <node id="287">
         <label>utilities.h</label>
-        <link refid="utilities_8h_source"/>
-        <childnode refid="207" relation="include">
+        <link refid="utilities_8h"/>
+        <childnode refid="283" relation="include">
         </childnode>
       </node>
-      <node id="212">
+      <node id="288">
         <label>neighborlist.h</label>
-        <link refid="neighborlist_8h_source"/>
-        <childnode refid="208" relation="include">
+        <link refid="neighborlist_8h"/>
+        <childnode refid="284" relation="include">
         </childnode>
-        <childnode refid="209" relation="include">
+        <childnode refid="285" relation="include">
         </childnode>
-        <childnode refid="207" relation="include">
+        <childnode refid="283" relation="include">
         </childnode>
       </node>
-      <node id="205">
+      <node id="281">
         <label>string</label>
       </node>
-      <node id="203">
+      <node id="279">
         <label>fstream</label>
       </node>
-      <node id="208">
+      <node id="294">
+        <label>agnicalculator.h</label>
+        <link refid="agnicalculator_8h"/>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
+        <childnode refid="288" relation="include">
+        </childnode>
+      </node>
+      <node id="284">
         <label>vector</label>
       </node>
-      <node id="204">
+      <node id="280">
         <label>sstream</label>
       </node>
-      <node id="207">
+      <node id="283">
         <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h_source"/>
-        <childnode refid="205" relation="include">
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="281" relation="include">
         </childnode>
-        <childnode refid="208" relation="include">
+        <childnode refid="284" relation="include">
         </childnode>
-        <childnode refid="209" relation="include">
+        <childnode refid="285" relation="include">
         </childnode>
       </node>
-      <node id="206">
+      <node id="282">
         <label>time.h</label>
       </node>
-      <node id="202">
+      <node id="278">
         <label>iostream</label>
       </node>
-      <node id="214">
+      <node id="290">
         <label>complex</label>
       </node>
-      <node id="218">
+      <node id="295">
         <label>gaussiancalculator.h</label>
-        <link refid="gaussiancalculator_8h_source"/>
-        <childnode refid="200" relation="include">
+        <link refid="gaussiancalculator_8h"/>
+        <childnode refid="276" relation="include">
         </childnode>
-        <childnode refid="201" relation="include">
+        <childnode refid="277" relation="include">
         </childnode>
-        <childnode refid="202" relation="include">
+        <childnode refid="278" relation="include">
         </childnode>
-        <childnode refid="203" relation="include">
+        <childnode refid="279" relation="include">
         </childnode>
-        <childnode refid="204" relation="include">
+        <childnode refid="280" relation="include">
         </childnode>
-        <childnode refid="205" relation="include">
+        <childnode refid="281" relation="include">
         </childnode>
-        <childnode refid="206" relation="include">
+        <childnode refid="282" relation="include">
         </childnode>
-        <childnode refid="208" relation="include">
+        <childnode refid="284" relation="include">
         </childnode>
-        <childnode refid="207" relation="include">
+        <childnode refid="283" relation="include">
         </childnode>
-        <childnode refid="210" relation="include">
+        <childnode refid="286" relation="include">
         </childnode>
-        <childnode refid="212" relation="include">
+        <childnode refid="288" relation="include">
+        </childnode>
+        <childnode refid="291" relation="include">
         </childnode>
       </node>
-      <node id="216">
+      <node id="292">
         <label>bispectrumcalculator.h</label>
-        <link refid="bispectrumcalculator_8h_source"/>
-        <childnode refid="200" relation="include">
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="276" relation="include">
         </childnode>
-        <childnode refid="201" relation="include">
+        <childnode refid="277" relation="include">
         </childnode>
-        <childnode refid="202" relation="include">
+        <childnode refid="278" relation="include">
         </childnode>
-        <childnode refid="203" relation="include">
+        <childnode refid="279" relation="include">
         </childnode>
-        <childnode refid="204" relation="include">
+        <childnode refid="280" relation="include">
         </childnode>
-        <childnode refid="205" relation="include">
+        <childnode refid="281" relation="include">
         </childnode>
-        <childnode refid="206" relation="include">
+        <childnode refid="282" relation="include">
         </childnode>
-        <childnode refid="214" relation="include">
+        <childnode refid="290" relation="include">
         </childnode>
-        <childnode refid="207" relation="include">
+        <childnode refid="283" relation="include">
         </childnode>
-        <childnode refid="210" relation="include">
+        <childnode refid="286" relation="include">
         </childnode>
-        <childnode refid="211" relation="include">
+        <childnode refid="287" relation="include">
         </childnode>
-        <childnode refid="212" relation="include">
+        <childnode refid="288" relation="include">
         </childnode>
       </node>
-      <node id="209">
+      <node id="285">
         <label>atom.h</label>
-        <link refid="atom_8h_source"/>
-        <childnode refid="205" relation="include">
+        <link refid="atom_8h"/>
+        <childnode refid="281" relation="include">
         </childnode>
       </node>
-      <node id="200">
+      <node id="276">
         <label>stdio.h</label>
       </node>
-      <node id="215">
+      <node id="291">
         <label>periodictable.h</label>
-        <link refid="periodictable_8h_source"/>
-        <childnode refid="205" relation="include">
+        <link refid="periodictable_8h"/>
+        <childnode refid="281" relation="include">
         </childnode>
       </node>
     </incdepgraph>
+    <invincdepgraph>
+      <node id="296">
+        <label>genericlocalcalculator.h</label>
+        <link refid="genericlocalcalculator.h"/>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+      </node>
+      <node id="298">
+        <label>genericlocalcalculator.cpp</label>
+        <link refid="genericlocalcalculator_8cpp"/>
+      </node>
+      <node id="297">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
+      </node>
+    </invincdepgraph>
     <innerclass refid="classGenericLocalCalculator" prot="public">GenericLocalCalculator</innerclass>
     <briefdescription>
     </briefdescription>
@@ -254,40 +303,42 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atomicsystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;inputs.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utilities.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;neighborlist.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="atomicsystem_8h" kindref="compound">atomicsystem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="inputs_8h" kindref="compound">inputs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utilities_8h" kindref="compound">utilities.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="neighborlist_8h" kindref="compound">neighborlist.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;zernikecalculator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;bispectrumcalculator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;diamondcalculator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;gaussiancalculator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="zernikecalculator_8h" kindref="compound">zernikecalculator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bispectrumcalculator_8h" kindref="compound">bispectrumcalculator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="diamondcalculator_8h" kindref="compound">diamondcalculator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="agnicalculator_8h" kindref="compound">agnicalculator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gaussiancalculator_8h" kindref="compound">gaussiancalculator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28" refid="classGenericLocalCalculator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classGenericLocalCalculator" kindref="compound">GenericLocalCalculator</ref><sp/>{<sp/></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cutoff;</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref><sp/>atomicsystem;</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref><sp/>fpproperties;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGenericLocalCalculator" kindref="compound">GenericLocalCalculator</ref>(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>&amp;,<sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref>);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classGenericLocalCalculator" kindref="compound">GenericLocalCalculator</ref>();</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>get_size();</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*calculate_fingerprint(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classNeighborList" kindref="compound">NeighborList</ref>&amp;);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classGenericLocalCalculator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classGenericLocalCalculator" kindref="compound">GenericLocalCalculator</ref><sp/>{<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cutoff;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref><sp/>atomicsystem;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref><sp/>fpproperties;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classGenericLocalCalculator" kindref="compound">GenericLocalCalculator</ref>(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>&amp;,<sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classGenericLocalCalculator" kindref="compound">GenericLocalCalculator</ref>();</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>get_size();</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*calculate_fingerprint(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classNeighborList" kindref="compound">NeighborList</ref>&amp;);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h"/>
   </compounddef>

@@ -62,6 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,57 +88,438 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">NeighborList Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class to generate and hold neighbor lists.  
+ <a href="classNeighborList.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="neighborlist_8h_source.html">neighborlist.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a690e8699370aca21d37d7eddc47b3440"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a690e8699370aca21d37d7eddc47b3440"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>NeighborList</b> (<a class="el" href="classAtomicSystem.html">AtomicSystem</a> &amp;, double, int, int, int, int)</td></tr>
+<tr class="memitem:ab402e15f480ecefd4e11e07acb8d1e4e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#ab402e15f480ecefd4e11e07acb8d1e4e">NeighborList</a> ()</td></tr>
+<tr class="memdesc:ab402e15f480ecefd4e11e07acb8d1e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Constructor.  <a href="#ab402e15f480ecefd4e11e07acb8d1e4e">More...</a><br/></td></tr>
+<tr class="separator:ab402e15f480ecefd4e11e07acb8d1e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a690e8699370aca21d37d7eddc47b3440"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a690e8699370aca21d37d7eddc47b3440">NeighborList</a> (<a class="el" href="classAtomicSystem.html">AtomicSystem</a> &amp;, double, int, int, int, int)</td></tr>
+<tr class="memdesc:a690e8699370aca21d37d7eddc47b3440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classNeighborList.html" title="Class to generate and hold neighbor lists. ">NeighborList</a> object based on an <a class="el" href="classAtomicSystem.html" title="Class that holds information about the molecular system including atom types and spatial coordinates...">AtomicSystem</a>.  <a href="#a690e8699370aca21d37d7eddc47b3440">More...</a><br/></td></tr>
 <tr class="separator:a690e8699370aca21d37d7eddc47b3440"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a068353c22780600c6004aadec6df559d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a068353c22780600c6004aadec6df559d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>build</b> ()</td></tr>
+<tr class="memitem:a9f66cfc09ee295ce155310e64cb892c8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a9f66cfc09ee295ce155310e64cb892c8">~NeighborList</a> ()</td></tr>
+<tr class="separator:a9f66cfc09ee295ce155310e64cb892c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068353c22780600c6004aadec6df559d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a068353c22780600c6004aadec6df559d">build</a> ()</td></tr>
+<tr class="memdesc:a068353c22780600c6004aadec6df559d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that actually generates the neighbor list for each atom.  <a href="#a068353c22780600c6004aadec6df559d">More...</a><br/></td></tr>
 <tr class="separator:a068353c22780600c6004aadec6df559d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60d0d77a750f0837ec4b63c43bfa362a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60d0d77a750f0837ec4b63c43bfa362a"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>get_atoms_in_bin</b> (int)</td></tr>
+<tr class="memitem:a60d0d77a750f0837ec4b63c43bfa362a"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a60d0d77a750f0837ec4b63c43bfa362a">get_atoms_in_bin</a> (int)</td></tr>
+<tr class="memdesc:a60d0d77a750f0837ec4b63c43bfa362a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the list of atoms in given bin.  <a href="#a60d0d77a750f0837ec4b63c43bfa362a">More...</a><br/></td></tr>
 <tr class="separator:a60d0d77a750f0837ec4b63c43bfa362a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a461c595ee4d369ab44ca587e7eb55104"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a461c595ee4d369ab44ca587e7eb55104"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_atoms_per_bin</b> (int)</td></tr>
+<tr class="memitem:a461c595ee4d369ab44ca587e7eb55104"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a461c595ee4d369ab44ca587e7eb55104">get_atoms_per_bin</a> (int)</td></tr>
+<tr class="memdesc:a461c595ee4d369ab44ca587e7eb55104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of atoms in given bins.  <a href="#a461c595ee4d369ab44ca587e7eb55104">More...</a><br/></td></tr>
 <tr class="separator:a461c595ee4d369ab44ca587e7eb55104"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7766c923bb31b7889a3526b05ab1b616"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7766c923bb31b7889a3526b05ab1b616"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_bin_number</b> (double, double, double)</td></tr>
+<tr class="memitem:a7766c923bb31b7889a3526b05ab1b616"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a7766c923bb31b7889a3526b05ab1b616">get_bin_number</a> (double, double, double)</td></tr>
+<tr class="memdesc:a7766c923bb31b7889a3526b05ab1b616"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retursn the bin number in which the atom with given x, y, and z coordinates belong.  <a href="#a7766c923bb31b7889a3526b05ab1b616">More...</a><br/></td></tr>
 <tr class="separator:a7766c923bb31b7889a3526b05ab1b616"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a09a5486145541f87f5785f19ca31ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a09a5486145541f87f5785f19ca31ee"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>get_neighboring_bins</b> (int)</td></tr>
+<tr class="memitem:a6a09a5486145541f87f5785f19ca31ee"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a6a09a5486145541f87f5785f19ca31ee">get_neighboring_bins</a> (int)</td></tr>
+<tr class="memdesc:a6a09a5486145541f87f5785f19ca31ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the neighboring bins for a bin givne by its index.  <a href="#a6a09a5486145541f87f5785f19ca31ee">More...</a><br/></td></tr>
 <tr class="separator:a6a09a5486145541f87f5785f19ca31ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7098d5b3cba77068ad774a0e683ad9e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7098d5b3cba77068ad774a0e683ad9e5"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>get_neighbors</b> (int)</td></tr>
+<tr class="memitem:a7098d5b3cba77068ad774a0e683ad9e5"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a7098d5b3cba77068ad774a0e683ad9e5">get_neighbors</a> (int)</td></tr>
+<tr class="memdesc:a7098d5b3cba77068ad774a0e683ad9e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the list of neighbors of an atom given by its index.  <a href="#a7098d5b3cba77068ad774a0e683ad9e5">More...</a><br/></td></tr>
 <tr class="separator:a7098d5b3cba77068ad774a0e683ad9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79fad8428473ade7f329c7e0a91c1b75"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a79fad8428473ade7f329c7e0a91c1b75"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>get_sorted_neighbors</b> (int)</td></tr>
+<tr class="memitem:a79fad8428473ade7f329c7e0a91c1b75"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a79fad8428473ade7f329c7e0a91c1b75">get_sorted_neighbors</a> (int)</td></tr>
+<tr class="memdesc:a79fad8428473ade7f329c7e0a91c1b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the neighbor list of a given atom sorted by distance.  <a href="#a79fad8428473ade7f329c7e0a91c1b75">More...</a><br/></td></tr>
 <tr class="separator:a79fad8428473ade7f329c7e0a91c1b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac045896e6eec36ed9875dca7324f2909"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac045896e6eec36ed9875dca7324f2909"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>get_sorted_neighbors</b> (int, string)</td></tr>
+<tr class="memitem:ac045896e6eec36ed9875dca7324f2909"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#ac045896e6eec36ed9875dca7324f2909">get_sorted_neighbors</a> (int, string)</td></tr>
+<tr class="memdesc:ac045896e6eec36ed9875dca7324f2909"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns only atoms of a given type from the neighbor list of a given atom.  <a href="#ac045896e6eec36ed9875dca7324f2909">More...</a><br/></td></tr>
 <tr class="separator:ac045896e6eec36ed9875dca7324f2909"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a7a56d91285e4d8f0a29707046440a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1a7a56d91285e4d8f0a29707046440a5"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>get_sorted_neighbors</b> (int, vector&lt; string &gt;)</td></tr>
+<tr class="memitem:a1a7a56d91285e4d8f0a29707046440a5"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a1a7a56d91285e4d8f0a29707046440a5">get_sorted_neighbors</a> (int, vector&lt; string &gt;)</td></tr>
+<tr class="memdesc:a1a7a56d91285e4d8f0a29707046440a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns only atoms of specific types from the neighbor list of a given atom.  <a href="#a1a7a56d91285e4d8f0a29707046440a5">More...</a><br/></td></tr>
 <tr class="separator:a1a7a56d91285e4d8f0a29707046440a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add432330a908a64417aa431cf39e47d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add432330a908a64417aa431cf39e47d4"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_n_neighbors</b> (int)</td></tr>
+<tr class="memitem:add432330a908a64417aa431cf39e47d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#add432330a908a64417aa431cf39e47d4">get_n_neighbors</a> (int)</td></tr>
+<tr class="memdesc:add432330a908a64417aa431cf39e47d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of neighbors for a given atom.  <a href="#add432330a908a64417aa431cf39e47d4">More...</a><br/></td></tr>
 <tr class="separator:add432330a908a64417aa431cf39e47d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30ba827c978f8ba92b0f6ef6945cac35"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a30ba827c978f8ba92b0f6ef6945cac35"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_n_neighbors</b> (int, string)</td></tr>
+<tr class="memitem:a30ba827c978f8ba92b0f6ef6945cac35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a30ba827c978f8ba92b0f6ef6945cac35">get_n_neighbors</a> (int, string)</td></tr>
+<tr class="memdesc:a30ba827c978f8ba92b0f6ef6945cac35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of neighbors of a given type for a given atom.  <a href="#a30ba827c978f8ba92b0f6ef6945cac35">More...</a><br/></td></tr>
 <tr class="separator:a30ba827c978f8ba92b0f6ef6945cac35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8861424d0ccef757209269b31040f8c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8861424d0ccef757209269b31040f8c2"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_n_neighbors</b> (int, vector&lt; string &gt;)</td></tr>
+<tr class="memitem:a8861424d0ccef757209269b31040f8c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classNeighborList.html#a8861424d0ccef757209269b31040f8c2">get_n_neighbors</a> (int, vector&lt; string &gt;)</td></tr>
+<tr class="memdesc:a8861424d0ccef757209269b31040f8c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of neighbors of given types for a given atom.  <a href="#a8861424d0ccef757209269b31040f8c2">More...</a><br/></td></tr>
 <tr class="separator:a8861424d0ccef757209269b31040f8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class to generate and hold neighbor lists. </p>
+<p>This will divide the box into bins and for a given atom, loop over atoms in neighboring bins to generate its neighbor list. This speeds up the process because it is no longer necessary to loop over all atoms in the system. Also, for additional speed up, the neighbor list is kept in a linked list. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="ab402e15f480ecefd4e11e07acb8d1e4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NeighborList::NeighborList </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default Constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="a690e8699370aca21d37d7eddc47b3440"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NeighborList::NeighborList </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAtomicSystem.html">AtomicSystem</a> &amp;&#160;</td>
+          <td class="paramname"><em>asystem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cutoff</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nxb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nyb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nzb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>maxneigh</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a <a class="el" href="classNeighborList.html" title="Class to generate and hold neighbor lists. ">NeighborList</a> object based on an <a class="el" href="classAtomicSystem.html" title="Class that holds information about the molecular system including atom types and spatial coordinates...">AtomicSystem</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">asystem</td><td>reference to the atomic system for which the neighbor lists have to be generated. </td></tr>
+    <tr><td class="paramname">cutoff</td><td>maximum distance for which two atoms are considered neighbors </td></tr>
+    <tr><td class="paramname">nxb</td><td>number of bins in the x direction </td></tr>
+    <tr><td class="paramname">nyb</td><td>number of bins in the y direction </td></tr>
+    <tr><td class="paramname">nzb</td><td>number of bins in the z direction </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a9f66cfc09ee295ce155310e64cb892c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NeighborList::~NeighborList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a068353c22780600c6004aadec6df559d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void NeighborList::build </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Function that actually generates the neighbor list for each atom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a60d0d77a750f0837ec4b63c43bfa362a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * NeighborList::get_atoms_in_bin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>binnumber</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the list of atoms in given bin. </p>
+
+</div>
+</div>
+<a class="anchor" id="a461c595ee4d369ab44ca587e7eb55104"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NeighborList::get_atoms_per_bin </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>binid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of atoms in given bins. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7766c923bb31b7889a3526b05ab1b616"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NeighborList::get_bin_number </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retursn the bin number in which the atom with given x, y, and z coordinates belong. </p>
+
+</div>
+</div>
+<a class="anchor" id="add432330a908a64417aa431cf39e47d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NeighborList::get_n_neighbors </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of neighbors for a given atom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a30ba827c978f8ba92b0f6ef6945cac35"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NeighborList::get_n_neighbors </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>atomid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>atomtype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of neighbors of a given type for a given atom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8861424d0ccef757209269b31040f8c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int NeighborList::get_n_neighbors </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>atomid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vector&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>atomtypes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the number of neighbors of given types for a given atom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6a09a5486145541f87f5785f19ca31ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * NeighborList::get_neighboring_bins </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>binid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the neighboring bins for a bin givne by its index. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7098d5b3cba77068ad774a0e683ad9e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * NeighborList::get_neighbors </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the list of neighbors of an atom given by its index. </p>
+
+</div>
+</div>
+<a class="anchor" id="a79fad8428473ade7f329c7e0a91c1b75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * NeighborList::get_sorted_neighbors </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a pointer to the neighbor list of a given atom sorted by distance. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac045896e6eec36ed9875dca7324f2909"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * NeighborList::get_sorted_neighbors </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>atomid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>atomtype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns only atoms of a given type from the neighbor list of a given atom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a1a7a56d91285e4d8f0a29707046440a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int * NeighborList::get_sorted_neighbors </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>atomid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">vector&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>atomtypes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns only atoms of specific types from the neighbor list of a given atom. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="neighborlist_8h_source.html">neighborlist.h</a></li>
-<li>neighborlist.cpp</li>
+<li><a class="el" href="neighborlist_8cpp.html">neighborlist.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

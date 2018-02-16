@@ -62,6 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li class="current"><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 </div><!-- top -->
@@ -70,7 +71,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -88,28 +89,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table style="margin: 10px; white-space: nowrap;" align="center" width="95%" border="0" cellspacing="0" cellpadding="0">
 <tr><td rowspan="2" valign="bottom"><a name="letter_A"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;A&#160;&#160;</div></td></tr></table>
 </td><td rowspan="2" valign="bottom"><a name="letter_D"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;D&#160;&#160;</div></td></tr></table>
-</td><td rowspan="2" valign="bottom"><a name="letter_F"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;F&#160;&#160;</div></td></tr></table>
-</td><td valign="top"><a class="el" href="classGenericLocalCalculator.html">GenericLocalCalculator</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_Z"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;Z&#160;&#160;</div></td></tr></table>
-</td></tr>
-<tr><td rowspan="2" valign="bottom"><a name="letter_N"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;N&#160;&#160;</div></td></tr></table>
-</td></tr>
-<tr><td valign="top"><a class="el" href="classAtom.html">Atom</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classDiamondCalculator.html">DiamondCalculator</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classFingerprintGenerator.html">FingerprintGenerator</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classZernikeCalculator.html">ZernikeCalculator</a>&#160;&#160;&#160;</td></tr>
-<tr><td valign="top"><a class="el" href="classAtomicSystem.html">AtomicSystem</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_E"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;E&#160;&#160;</div></td></tr></table>
 </td><td rowspan="2" valign="bottom"><a name="letter_G"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;G&#160;&#160;</div></td></tr></table>
-</td><td valign="top"><a class="el" href="classNeighborList.html">NeighborList</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_f"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;f&#160;&#160;</div></td></tr></table>
-</td></tr>
-<tr><td rowspan="2" valign="bottom"><a name="letter_B"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;B&#160;&#160;</div></td></tr></table>
 </td><td rowspan="2" valign="bottom"><a name="letter_P"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;P&#160;&#160;</div></td></tr></table>
-</td></tr>
-<tr><td valign="top"><a class="el" href="structElement.html">Element</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classGaussianCalculator.html">GaussianCalculator</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="structfingerprintProperties.html">fingerprintProperties</a>&#160;&#160;&#160;</td></tr>
-<tr><td valign="top"><a class="el" href="classBispectrumCalculator.html">BispectrumCalculator</a>&#160;&#160;&#160;</td><td></td><td></td><td valign="top"><a class="el" href="classPeriodicTable.html">PeriodicTable</a>&#160;&#160;&#160;</td><td></td></tr>
+</td><td></td></tr>
+<tr><td></td></tr>
+<tr><td valign="top"><a class="el" href="classAGNICalculator.html">AGNICalculator</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classDiamondCalculator.html">DiamondCalculator</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classGaussianCalculator.html">GaussianCalculator</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classPeriodicTable.html">PeriodicTable</a>&#160;&#160;&#160;</td><td></td></tr>
+<tr><td valign="top"><a class="el" href="classAtom.html">Atom</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_E"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;E&#160;&#160;</div></td></tr></table>
+</td><td valign="top"><a class="el" href="classGenericLocalCalculator.html">GenericLocalCalculator</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_Z"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;Z&#160;&#160;</div></td></tr></table>
+</td><td></td></tr>
+<tr><td valign="top"><a class="el" href="classAtomicSystem.html">AtomicSystem</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_N"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;N&#160;&#160;</div></td></tr></table>
+</td><td></td></tr>
+<tr><td rowspan="2" valign="bottom"><a name="letter_B"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;B&#160;&#160;</div></td></tr></table>
+</td><td valign="top"><a class="el" href="structElement.html">Element</a>&#160;&#160;&#160;</td><td valign="top"><a class="el" href="classZernikeCalculator.html">ZernikeCalculator</a>&#160;&#160;&#160;</td><td></td></tr>
+<tr><td rowspan="2" valign="bottom"><a name="letter_F"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;F&#160;&#160;</div></td></tr></table>
+</td><td valign="top"><a class="el" href="classNeighborList.html">NeighborList</a>&#160;&#160;&#160;</td><td rowspan="2" valign="bottom"><a name="letter_f"></a><table border="0" cellspacing="0" cellpadding="0"><tr><td><div class="ah">&#160;&#160;f&#160;&#160;</div></td></tr></table>
+</td><td></td></tr>
+<tr><td valign="top"><a class="el" href="classBispectrumCalculator.html">BispectrumCalculator</a>&#160;&#160;&#160;</td><td></td><td></td></tr>
+<tr><td></td><td valign="top"><a class="el" href="classFingerprintGenerator.html">FingerprintGenerator</a>&#160;&#160;&#160;</td><td></td><td valign="top"><a class="el" href="structfingerprintProperties.html">fingerprintProperties</a>&#160;&#160;&#160;</td><td></td></tr>
 <tr><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 <div class="qindex"><a class="qindex" href="#letter_A">A</a>&#160;|&#160;<a class="qindex" href="#letter_B">B</a>&#160;|&#160;<a class="qindex" href="#letter_D">D</a>&#160;|&#160;<a class="qindex" href="#letter_E">E</a>&#160;|&#160;<a class="qindex" href="#letter_F">F</a>&#160;|&#160;<a class="qindex" href="#letter_G">G</a>&#160;|&#160;<a class="qindex" href="#letter_N">N</a>&#160;|&#160;<a class="qindex" href="#letter_P">P</a>&#160;|&#160;<a class="qindex" href="#letter_Z">Z</a></div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

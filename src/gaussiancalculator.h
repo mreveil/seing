@@ -14,6 +14,7 @@
 #include "atomicsystem.h"
 #include "inputs.h"
 #include "neighborlist.h"
+#include "periodictable.h"
 
 
 using namespace std;
@@ -28,7 +29,8 @@ class GaussianCalculator {
     double cutoff;
     bool include_derivatives;
     int nderivatives;
-    int direction;
+    int ndirections;
+    int *directions;
 
     int natomtypes;
     int natompairs;
@@ -38,20 +40,23 @@ class GaussianCalculator {
     AtomicSystem atomicsystem;
     fingerprintProperties fpproperties;
 
-    double calculate_G2(int, double*, double);
-    double calculate_G4(int, int, int*, double*, double, double, double);
+    PeriodicTable ptable;
+
+
+    double calculate_G2(int, int*, double*, double, string);
+    double calculate_G4(int, int, int*, double*, double, double, double, string);
     double calculate_cos_theta(int,int,int); 
 
     double *dRij_dRml_vector(int, int, int, int);
     double dCos_theta_ijk_dR_ml(int i, int j, int k, double Rij, double Rik, int m, int l);
     double dRij_dRml(int, int, double, int, int);
-    double calculate_G2_prime(int, int, int *, double *, double, int, int);
-    double calculate_G4_prime(int, int, int *, double *, double, double, double, int, int);
+    double calculate_G2_prime(int, int, int *, double *, double, int, int, string);
+    double calculate_G4_prime(int, int, int *, double *, double, double, double, int, int, string);
 
-    double *get_G2s(int, int, int*, double*);
-    double *get_G4s(int, int, int*, double*);
-    double *get_G2_primes(int, int, int*, double*, int, int);
-    double *get_G4_primes(int, int, int*, double*, int, int);
+    double *get_G2s(int, int, int*, double*, string);
+    double *get_G4s(int, int, int*, double*, string);
+    double *get_G2_primes(int, int, int*, double*, int, int, string);
+    double *get_G4_primes(int, int, int*, double*, int, int, string);
 
 
     int* sort_neighbors(int id, int nneighbors, int* neighbors);

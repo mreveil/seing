@@ -18,11 +18,20 @@ fingerprintProperties read_prop_file(string filename){
     ifstream myfile(filename.c_str());
 
     fingerprintProperties fpproperties;
+
+
   //  cout<<"Opening input file: "<<filename<<"\n";
+
+
     if (!myfile.is_open()) {
         throw "Cannot open input file";
         return fpproperties;
     }
+
+//TODO: Instead of using those booleans, initialize the variables with negavtive values for example
+//      to be able to check if they have been provided by the user or not
+
+    fpproperties.ndirections = 0; //This is an example of how to do it!
 
     double dvalue;
     bool isnetas=false, isnetas2=false, isnzetas=false, isngammas = false;
@@ -31,6 +40,10 @@ fingerprintProperties read_prop_file(string filename){
     bool isdirectionprovided=false, isderivativeprovided=false, isinnercutoffprovided=false;
     bool isstrategyprovided=false, isweighttypeprovided=false,isboxsizeprovided=false;
     bool ismodeprovided=false, isoutputfileprovided=false;
+
+    // AGNI fingerprints
+    bool iswidthprovided=false, isalphaprovided=false, isdimensionalityprovided=false;
+
     int i = 0;
     double *zetas, *gammas, *etas, *etas2;
 
@@ -82,12 +95,29 @@ fingerprintProperties read_prop_file(string filename){
                       isweighttypeprovided = true;
                  }
             } 
-            else if (key == "direction") {
+            else if (key == "ndirections") {
                  if (temp == "=") {
-                      svalue >> fpproperties.direction;
-                      isdirectionprovided = true;
+                      svalue >> fpproperties.ndirections;
                  }
-            } 
+            }
+            else if (key == "directions"){
+                  if (temp == "=") {
+                      if (fpproperties.ndirections < 0 || fpproperties.ndirections > 3) {
+                          error=true;cerr<<"ERROR: Please provide a valid value for ndirections between 0 and 3;";
+                      } 
+                      else{
+                           fpproperties.directions = new int[fpproperties.ndirections];
+                           svalue >> fpproperties.directions[0];
+                           i = 1;
+                           while (buffer >> fpproperties.directions[i]) {
+                                i++;
+                           }
+                           if (i != fpproperties.ndirections)
+                               cerr<<"ERROR: You have specified the wrong number of directions for derivative calculations\n";
+
+                      }
+                  }
+            }
             else if (key == "calculate_derivatives") {
                  if (temp == "=") {
                       svalue >> fpproperties.calculate_derivatives;
@@ -126,6 +156,26 @@ fingerprintProperties read_prop_file(string filename){
                  }
             } 
 
+            else if (key == "width") {
+                 if (temp == "=") {
+                      svalue >> fpproperties.width;
+                      iswidthprovided = true;
+                 }
+            } 
+
+            else if (key == "alpha") {
+                 if (temp == "=") {
+                      svalue >> fpproperties.alpha;
+                      isalphaprovided = true;
+                 }
+            } 
+
+            else if (key == "dimensionality") {
+                 if (temp == "=") {
+                      svalue >> fpproperties.dimensionality;
+                      isdimensionalityprovided = true;
+                 }
+            } 
 
             else if (key == "natomtypes") {
                  if (temp == "=") {
@@ -274,10 +324,10 @@ fingerprintProperties read_prop_file(string filename){
         fpproperties.calculate_derivatives = "false";
         cout<<"Derivatives of the fingerprints will not be calculated.\n";
     }
-    if (isderivativeprovided == true and isdirectionprovided == false) {
-        fpproperties.direction = 0;
-        cout<<"No direction provided. Derivatives will be calculated in the 'x' direction.\n";
-    }
+  //  if (isderivativeprovided == true and isdirectionprovided == false) {
+  //      fpproperties.direction = 0;
+  //      cout<<"No direction provided. Derivatives will be calculated in the 'x' direction.\n";
+  //  }
     if (isnderivativesprovided == false) {
         fpproperties.nderivatives = 1;
         if (isderivativeprovided == true)

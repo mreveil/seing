@@ -18,110 +18,130 @@
     <includedby refid="genericlocalcalculator_8h" local="yes">genericlocalcalculator.h</includedby>
     <includedby refid="zernikecalculator_8cpp" local="yes">zernikecalculator.cpp</includedby>
     <incdepgraph>
-      <node id="339">
+      <node id="452">
         <label>inputs.h</label>
-        <link refid="inputs_8h_source"/>
-        <childnode refid="333" relation="include">
+        <link refid="inputs_8h"/>
+        <childnode refid="446" relation="include">
         </childnode>
       </node>
-      <node id="327">
+      <node id="440">
         <label>zernikecalculator.h</label>
         <link refid="zernikecalculator.h"/>
-        <childnode refid="328" relation="include">
+        <childnode refid="441" relation="include">
         </childnode>
-        <childnode refid="329" relation="include">
+        <childnode refid="442" relation="include">
         </childnode>
-        <childnode refid="330" relation="include">
+        <childnode refid="443" relation="include">
         </childnode>
-        <childnode refid="331" relation="include">
+        <childnode refid="444" relation="include">
         </childnode>
-        <childnode refid="332" relation="include">
+        <childnode refid="445" relation="include">
         </childnode>
-        <childnode refid="333" relation="include">
+        <childnode refid="446" relation="include">
         </childnode>
-        <childnode refid="334" relation="include">
+        <childnode refid="447" relation="include">
         </childnode>
-        <childnode refid="335" relation="include">
+        <childnode refid="448" relation="include">
         </childnode>
-        <childnode refid="336" relation="include">
+        <childnode refid="449" relation="include">
         </childnode>
-        <childnode refid="339" relation="include">
+        <childnode refid="452" relation="include">
         </childnode>
-        <childnode refid="340" relation="include">
+        <childnode refid="453" relation="include">
         </childnode>
-        <childnode refid="341" relation="include">
+        <childnode refid="454" relation="include">
         </childnode>
       </node>
-      <node id="329">
+      <node id="442">
         <label>stdlib.h</label>
       </node>
-      <node id="340">
+      <node id="453">
         <label>neighborlist.h</label>
-        <link refid="neighborlist_8h_source"/>
-        <childnode refid="337" relation="include">
+        <link refid="neighborlist_8h"/>
+        <childnode refid="450" relation="include">
         </childnode>
-        <childnode refid="338" relation="include">
+        <childnode refid="451" relation="include">
         </childnode>
-        <childnode refid="336" relation="include">
+        <childnode refid="449" relation="include">
         </childnode>
       </node>
-      <node id="333">
+      <node id="446">
         <label>string</label>
       </node>
-      <node id="331">
+      <node id="444">
         <label>fstream</label>
       </node>
-      <node id="337">
+      <node id="450">
         <label>vector</label>
       </node>
-      <node id="332">
+      <node id="445">
         <label>sstream</label>
       </node>
-      <node id="336">
+      <node id="449">
         <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h_source"/>
-        <childnode refid="333" relation="include">
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="446" relation="include">
         </childnode>
-        <childnode refid="337" relation="include">
+        <childnode refid="450" relation="include">
         </childnode>
-        <childnode refid="338" relation="include">
+        <childnode refid="451" relation="include">
         </childnode>
       </node>
-      <node id="334">
+      <node id="447">
         <label>time.h</label>
       </node>
-      <node id="330">
+      <node id="443">
         <label>iostream</label>
       </node>
-      <node id="335">
+      <node id="448">
         <label>complex</label>
       </node>
-      <node id="338">
+      <node id="451">
         <label>atom.h</label>
-        <link refid="atom_8h_source"/>
-        <childnode refid="333" relation="include">
+        <link refid="atom_8h"/>
+        <childnode refid="446" relation="include">
         </childnode>
       </node>
-      <node id="328">
+      <node id="441">
         <label>stdio.h</label>
       </node>
-      <node id="341">
+      <node id="454">
         <label>periodictable.h</label>
-        <link refid="periodictable_8h_source"/>
-        <childnode refid="333" relation="include">
+        <link refid="periodictable_8h"/>
+        <childnode refid="446" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="343">
+      <node id="457">
         <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h_source"/>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="456" relation="include">
+        </childnode>
+        <childnode refid="458" relation="include">
+        </childnode>
       </node>
-      <node id="342">
+      <node id="455">
         <label>zernikecalculator.h</label>
         <link refid="zernikecalculator.h"/>
-        <childnode refid="343" relation="include">
+        <childnode refid="456" relation="include">
         </childnode>
+        <childnode refid="457" relation="include">
+        </childnode>
+        <childnode refid="459" relation="include">
+        </childnode>
+      </node>
+      <node id="458">
+        <label>genericlocalcalculator.cpp</label>
+        <link refid="genericlocalcalculator_8cpp"/>
+      </node>
+      <node id="456">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
+      </node>
+      <node id="459">
+        <label>zernikecalculator.cpp</label>
+        <link refid="zernikecalculator_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classZernikeCalculator" prot="public">ZernikeCalculator</innerclass>
@@ -142,10 +162,10 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;complex&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atomicsystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;inputs.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;neighborlist.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;periodictable.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="atomicsystem_8h" kindref="compound">atomicsystem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="inputs_8h" kindref="compound">inputs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="neighborlist_8h" kindref="compound">neighborlist.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="periodictable_8h" kindref="compound">periodictable.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
@@ -153,41 +173,43 @@
 <codeline lineno="21" refid="classZernikeCalculator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref><sp/>{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,<sp/>subsize;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nderivatives,<sp/>direction;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>include_derivatives;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cutoff;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nmax;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>factorial_list;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref><sp/>ptable;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref><sp/>atomicsystem;</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref><sp/>fpproperties;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>der_position<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coef,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dir);</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>complex&lt;double&gt;<sp/>calculate_Z_prime(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>p);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>complex&lt;double&gt;<sp/>calculate_Z(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>calculate_q(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nu,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l);</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>calculate_R(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rho);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>binomial(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*get_Z_norms(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>atomid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nneighbors,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>neighbors);</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*get_Znorms_prime<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>atomid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nneighbors,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>neighbors,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>direction);</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref><sp/>(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>&amp;,<sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref>);</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref><sp/>();</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"></highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>get_size();</highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*calculate_fingerprint(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classNeighborList" kindref="compound">NeighborList</ref>&amp;);</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"></highlight></codeline>
-<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nderivatives;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ndirections;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*directions;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>include_derivatives;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cutoff;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nmax;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>factorial_list;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref><sp/>ptable;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref><sp/>atomicsystem;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref><sp/>fpproperties;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>der_position<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>coef,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dir);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>complex&lt;double&gt;<sp/>calculate_Z_prime(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>p);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>complex&lt;double&gt;<sp/>calculate_Z(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>m,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><sp/>x,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>calculate_q(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nu,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>calculate_R(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>l,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rho);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>binomial(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*get_Z_norms(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>atomid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nneighbors,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>neighbors);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*get_Znorms_prime<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>atomid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nneighbors,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>neighbors,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>direction);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref><sp/>(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>&amp;,<sp/><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classZernikeCalculator" kindref="compound">ZernikeCalculator</ref><sp/>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>get_size();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*calculate_fingerprint(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="classNeighborList" kindref="compound">NeighborList</ref>&amp;);</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
 <codeline lineno="56"><highlight class="normal"></highlight></codeline>
-<codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/fs/home/mr937/SEING/src/zernikecalculator.h"/>
   </compounddef>

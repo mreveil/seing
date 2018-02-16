@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="classNeighborList" kind="class" prot="public">
     <compoundname>NeighborList</compoundname>
+    <includes refid="neighborlist_8h" local="no">neighborlist.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classNeighborList_1ad6af07ba09f0e264654237f08ba17cd7" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="13" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="13" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1ab1a2455f2e1ea9a52b7bb49639454ff0" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -27,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="14" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1ac6de0e961b30ce1ab93c81e6a6502fd3" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -40,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="16" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="16" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a636998e5c659074d552002d515083468" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -53,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="17" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="17" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1aba0ad81df0beecd2b3c2523fdd720127" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -66,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="18" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="18" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a7daa3092bb6878435d90049cda8dcf1d" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -79,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="20" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1add39b4461b380799a7fe9531760462ca" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -92,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="20" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a6419006c8daf5cb7bd86f031a282ff6b" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -105,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="20" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a729c7a8afd6630076fe94c3e428e0b40" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -118,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="21" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a776dca30be54947bf9bc5bbb93f2ab37" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -131,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="21" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1ab81f9a4d197c6143c16ffda482455a7b" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -144,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="21" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a0db40cbf2e9e2a3584a5d1aa55dad6fe" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -157,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="22" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="22" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1ab9331b6245ae1bf428c07c527c107286" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -170,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="22" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="22" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a5ab4cf2fcbd2dc75aa81e3da2620371b" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -183,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="22" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="22" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a01c75dfeca4cd02dd02e845ac99d673b" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -196,7 +197,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="24" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a485481648e906107397ef392b16c7118" prot="private" static="no" mutable="no">
         <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref></type>
@@ -209,7 +210,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="26" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a8b3ada8e635775cc0b2fad217de0d5d3" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -222,7 +223,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="27" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1ad2cf31768b053845c4382dbf11c711f7" prot="private" static="no" mutable="no">
         <type>int **</type>
@@ -235,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="29" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a95bf2b69a829e8ea52928a142451bdb0" prot="private" static="no" mutable="no">
         <type>int *</type>
@@ -248,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="30" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1aa9c4514dcc75fe95945389d04a020142" prot="private" static="no" mutable="no">
         <type>int *</type>
@@ -261,7 +262,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="31" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1acde3bf57588318c620f14020e395dbf7" prot="private" static="no" mutable="no">
         <type>int *</type>
@@ -274,7 +275,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="32" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="32" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1ab560b3953f47bd30ee182fbd936d0d6f" prot="private" static="no" mutable="no">
         <type>int **</type>
@@ -287,7 +288,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="34" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classNeighborList_1a995b2a301e1ef148298a28989fa98672" prot="private" static="no" mutable="no">
         <type>int *</type>
@@ -300,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="35" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="42" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -315,7 +316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="165" bodyend="198"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="45" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="165" bodyend="198"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1aa2cb96432f162da58cd08bda1abf8592" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -332,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="258" bodyend="340"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="46" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="258" bodyend="340"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1acb738c617b5430050f8b096eb81860e3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -369,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="40" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="200" bodyend="255"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="47" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="200" bodyend="255"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1ae5bb782736dd342fe2d68c95a247a2a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -382,7 +383,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="343" bodyend="419"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="48" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="343" bodyend="419"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -392,12 +393,12 @@
         <argsstring>()</argsstring>
         <name>NeighborList</name>
         <briefdescription>
-        </briefdescription>
+<para>Default Constructor. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="44" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="14" bodyend="18"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="52" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="14" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a690e8699370aca21d37d7eddc47b3440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -429,12 +430,48 @@
           <defname>maxneigh</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Creates a <ref refid="classNeighborList" kindref="compound">NeighborList</ref> object based on an <ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>asystem</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>reference to the atomic system for which the neighbor lists have to be generated. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cutoff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum distance for which two atoms are considered neighbors </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nxb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of bins in the x direction </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nyb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of bins in the y direction </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nzb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of bins in the z direction </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="45" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="21" bodyend="82"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="62" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="21" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a9f66cfc09ee295ce155310e64cb892c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -447,7 +484,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="46" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="114" bodyend="123"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="63" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="114" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a068353c22780600c6004aadec6df559d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -455,12 +492,12 @@
         <argsstring>()</argsstring>
         <name>build</name>
         <briefdescription>
-        </briefdescription>
+<para>Function that actually generates the neighbor list for each atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="48" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="84" bodyend="112"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="66" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="84" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a60d0d77a750f0837ec4b63c43bfa362a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int *</type>
@@ -472,12 +509,12 @@
           <defname>binnumber</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns a pointer to the list of atoms in given bin. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="49" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="125" bodyend="145"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="69" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="125" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a461c595ee4d369ab44ca587e7eb55104" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -489,12 +526,12 @@
           <defname>binid</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns the number of atoms in given bins. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="50" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="504" bodyend="504"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="72" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="504" bodyend="504"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a7766c923bb31b7889a3526b05ab1b616" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -514,12 +551,12 @@
           <defname>z</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Retursn the bin number in which the atom with given x, y, and z coordinates belong. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="52" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="147" bodyend="163"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="77" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="147" bodyend="163"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a6a09a5486145541f87f5785f19ca31ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int *</type>
@@ -531,12 +568,12 @@
           <defname>binid</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns the neighboring bins for a bin givne by its index. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="54" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="421" bodyend="421"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="80" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="421" bodyend="421"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a7098d5b3cba77068ad774a0e683ad9e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int *</type>
@@ -548,12 +585,12 @@
           <defname>id</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns a pointer to the list of neighbors of an atom given by its index. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="55" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="423" bodyend="423"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="83" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="423" bodyend="423"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a79fad8428473ade7f329c7e0a91c1b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int *</type>
@@ -565,12 +602,12 @@
           <defname>id</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns a pointer to the neighbor list of a given atom sorted by distance. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="57" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="425" bodyend="442"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="86" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="425" bodyend="442"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1ac045896e6eec36ed9875dca7324f2909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int *</type>
@@ -586,12 +623,12 @@
           <defname>atomtype</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns only atoms of a given type from the neighbor list of a given atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="58" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="444" bodyend="459"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="89" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="444" bodyend="459"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a1a7a56d91285e4d8f0a29707046440a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int *</type>
@@ -607,12 +644,12 @@
           <defname>atomtypes</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns only atoms of specific types from the neighbor list of a given atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="59" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="461" bodyend="478"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="92" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="461" bodyend="478"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1add432330a908a64417aa431cf39e47d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -624,12 +661,12 @@
           <defname>id</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns the number of neighbors for a given atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="61" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="505" bodyend="505"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="95" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="505" bodyend="505"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a30ba827c978f8ba92b0f6ef6945cac35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -645,12 +682,12 @@
           <defname>atomtype</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns the number of neighbors of a given type for a given atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="62" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="480" bodyend="490"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="98" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="480" bodyend="490"/>
       </memberdef>
       <memberdef kind="function" id="classNeighborList_1a8861424d0ccef757209269b31040f8c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -666,19 +703,19 @@
           <defname>atomtypes</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns the number of neighbors of given types for a given atom. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="63" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="492" bodyend="502"/>
+        <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="101" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.cpp" bodystart="492" bodyend="502"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Class to generate and hold neighbor lists. </para>    </briefdescription>
     <detaileddescription>
-    </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="11" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="11" bodyend="65"/>
+<para>This will divide the box into bins and for a given atom, loop over atoms in neighboring bins to generate its neighbor list. This speeds up the process because it is no longer necessary to loop over all atoms in the system. Also, for additional speed up, the neighbor list is kept in a linked list. </para>    </detaileddescription>
+    <location file="/fs/home/mr937/SEING/src/neighborlist.h" line="18" column="1" bodyfile="/fs/home/mr937/SEING/src/neighborlist.h" bodystart="18" bodyend="103"/>
     <listofallmembers>
       <member refid="classNeighborList_1a485481648e906107397ef392b16c7118" prot="private" virt="non-virtual"><scope>NeighborList</scope><name>atomicsystem</name></member>
       <member refid="classNeighborList_1acde3bf57588318c620f14020e395dbf7" prot="private" virt="non-virtual"><scope>NeighborList</scope><name>atomsperbin</name></member>

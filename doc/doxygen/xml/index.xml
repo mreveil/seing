@@ -1,5 +1,22 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classAGNICalculator" kind="class"><name>AGNICalculator</name>
+    <member refid="classAGNICalculator_1adfd889e68ca03a471fa4308b8bbfb702" kind="variable"><name>fpsize</name></member>
+    <member refid="classAGNICalculator_1a539b0dfe2c77b44b7cff50b4ef7cad61" kind="variable"><name>w</name></member>
+    <member refid="classAGNICalculator_1a9e37fb95ea066bbb2f66b1241abd4a1c" kind="variable"><name>centers</name></member>
+    <member refid="classAGNICalculator_1ad0c3eff712d863962d94bffc32f99a9e" kind="variable"><name>alpha</name></member>
+    <member refid="classAGNICalculator_1a7eba3dea61284f469f1a3281cfeda2a2" kind="variable"><name>dim</name></member>
+    <member refid="classAGNICalculator_1a8d056d8abbe3d2eb3877cf27361dfccd" kind="variable"><name>cutoff</name></member>
+    <member refid="classAGNICalculator_1ab8f08a88ea234077d725a88097d0d8b2" kind="variable"><name>natomtypes</name></member>
+    <member refid="classAGNICalculator_1a81dd1a4c4ae0b418bbba79614072048c" kind="variable"><name>orderedatomtypes</name></member>
+    <member refid="classAGNICalculator_1af0ee8cdecb19693e00612c558a82107f" kind="variable"><name>atomicsystem</name></member>
+    <member refid="classAGNICalculator_1af7ea4e7f9f5457cffb4cf1bca9cd4199" kind="variable"><name>fpproperties</name></member>
+    <member refid="classAGNICalculator_1af820beadfe81d2f619e2f64153fb6077" kind="function"><name>calculate_component</name></member>
+    <member refid="classAGNICalculator_1a85fc415e664a1741741472b50857644b" kind="function"><name>AGNICalculator</name></member>
+    <member refid="classAGNICalculator_1ab879e707731cd4538bc4fbfa8e990314" kind="function"><name>~AGNICalculator</name></member>
+    <member refid="classAGNICalculator_1a8913e9697492ac098ec05c61f33c20dd" kind="function"><name>get_size</name></member>
+    <member refid="classAGNICalculator_1aac857f7c745bed2b11caf24fdda6cee0" kind="function"><name>calculate_fingerprint</name></member>
+  </compound>
   <compound refid="classAtom" kind="class"><name>Atom</name>
     <member refid="classAtom_1afc1c5d83fc35fde2b643484161bf8d64" kind="variable"><name>atomtype</name></member>
     <member refid="classAtom_1a382da4a2a8d20faa2fd1eca986f44056" kind="variable"><name>x</name></member>
@@ -28,11 +45,13 @@
     <member refid="classAtomicSystem_1ad8f0499e135f6cb1a7f3a3a0b5bdeb71" kind="variable"><name>xpbc</name></member>
     <member refid="classAtomicSystem_1af5c6ab3bc2f5cbcd0bc8549d0328657b" kind="variable"><name>ypbc</name></member>
     <member refid="classAtomicSystem_1a37a7f8ba076b2d86ab4940d44ba422df" kind="variable"><name>zpbc</name></member>
+    <member refid="classAtomicSystem_1aedb3d1c61fb5d460f557bece928d10e0" kind="function"><name>build_from_file</name></member>
     <member refid="classAtomicSystem_1ac3ede1da1867a9759e388f3d5e8cb08a" kind="function"><name>AtomicSystem</name></member>
     <member refid="classAtomicSystem_1a5d5f473465d2ad2eb106aa0cda871f5a" kind="function"><name>AtomicSystem</name></member>
     <member refid="classAtomicSystem_1adcc9076b127ae9ff28b6bdc6cc089364" kind="function"><name>~AtomicSystem</name></member>
-    <member refid="classAtomicSystem_1aedb3d1c61fb5d460f557bece928d10e0" kind="function"><name>build_from_file</name></member>
     <member refid="classAtomicSystem_1ace7cdf92e0e3ec1149bcb51fd112263c" kind="function"><name>set_box_size</name></member>
+    <member refid="classAtomicSystem_1a1267adda3ecc59db42ffa9010ed6a139" kind="function"><name>get_distance_component</name></member>
+    <member refid="classAtomicSystem_1a7a57e207ef3f586e3db82a8f7dfd066d" kind="function"><name>get_distance_component</name></member>
     <member refid="classAtomicSystem_1a4449b0026fdec3b4c49ef31fe35de113" kind="function"><name>get_square_distance</name></member>
     <member refid="classAtomicSystem_1a8f7b69937316400e8a0145a1e1954dd8" kind="function"><name>get_square_distance</name></member>
     <member refid="classAtomicSystem_1ad9e02b722bdb444e2c67d7386c8ebb10" kind="function"><name>check_square_distance</name></member>
@@ -111,13 +130,16 @@
     <member refid="structfingerprintProperties_1a92c349ff375f9f42448958721c2e6472" kind="variable"><name>type</name></member>
     <member refid="structfingerprintProperties_1a33e937432b5ab6d71bd2b82fcfa3f446" kind="variable"><name>calculate_derivatives</name></member>
     <member refid="structfingerprintProperties_1a74d8ba92bc17191332b718696859d731" kind="variable"><name>nderivatives</name></member>
-    <member refid="structfingerprintProperties_1a0307b7e6565d72685f54cfd8c37a2bb1" kind="variable"><name>direction</name></member>
+    <member refid="structfingerprintProperties_1adbe6b7afea7a0d13b7389113442217c7" kind="variable"><name>ndirections</name></member>
+    <member refid="structfingerprintProperties_1a7825b9c9051cecb61daca0994cea9f56" kind="variable"><name>directions</name></member>
     <member refid="structfingerprintProperties_1ae995e464a72ef7c754a5809f161f397a" kind="variable"><name>strategy</name></member>
     <member refid="structfingerprintProperties_1aecf9e0d9e5bdd193f2dcfaca891da127" kind="variable"><name>weight_type</name></member>
     <member refid="structfingerprintProperties_1a04a9eb29d650bbb1bb9662efdae2b439" kind="variable"><name>cutoff</name></member>
     <member refid="structfingerprintProperties_1afcbb7e1edbf53f9846d8e2bb5f30fd76" kind="variable"><name>inner_cutoff</name></member>
     <member refid="structfingerprintProperties_1a57aea2ce94034cd4b66db7c0950c1e50" kind="variable"><name>is_box_size_provided</name></member>
     <member refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kind="variable"><name>box_size</name></member>
+    <member refid="structfingerprintProperties_1ac618efe356e760e838db711b6f5ce970" kind="variable"><name>natomtypes</name></member>
+    <member refid="structfingerprintProperties_1a28059a07fa4fc2202940fb6af5b5d6e9" kind="variable"><name>atomtypes</name></member>
     <member refid="structfingerprintProperties_1a321da3012ab165752c737ad32f89a711" kind="variable"><name>netas</name></member>
     <member refid="structfingerprintProperties_1af72262e6b1665dfe71d88d0a6284063e" kind="variable"><name>etas</name></member>
     <member refid="structfingerprintProperties_1ad0438fccef599b8b163e241b93df47ce" kind="variable"><name>netas2</name></member>
@@ -126,10 +148,11 @@
     <member refid="structfingerprintProperties_1a500043fbba0f1434d2bfdda92f6ca962" kind="variable"><name>gammas</name></member>
     <member refid="structfingerprintProperties_1a8cea9b0611ac1f682846fbfe31e4471a" kind="variable"><name>nzetas</name></member>
     <member refid="structfingerprintProperties_1a816c80314e411d0aee319393f4e42ac1" kind="variable"><name>zetas</name></member>
-    <member refid="structfingerprintProperties_1ac618efe356e760e838db711b6f5ce970" kind="variable"><name>natomtypes</name></member>
-    <member refid="structfingerprintProperties_1a28059a07fa4fc2202940fb6af5b5d6e9" kind="variable"><name>atomtypes</name></member>
     <member refid="structfingerprintProperties_1a2c37aac3ecf03bb66e13a5ed656611e1" kind="variable"><name>nmax</name></member>
     <member refid="structfingerprintProperties_1afc19f9499a2cf5bbb0f32d49aacea892" kind="variable"><name>jmax</name></member>
+    <member refid="structfingerprintProperties_1a6bbc1a57197ba9350f058ec0d8c85503" kind="variable"><name>dimensionality</name></member>
+    <member refid="structfingerprintProperties_1a1ec66f6b8bc3825437d5f50e674df9e9" kind="variable"><name>width</name></member>
+    <member refid="structfingerprintProperties_1a671fdeb8174614bbef26c0e0894ed72b" kind="variable"><name>alpha</name></member>
     <member refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" kind="variable"><name>output_file</name></member>
     <member refid="structfingerprintProperties_1ac1abf7226cb93c27eefe7a01e057389c" kind="variable"><name>mode</name></member>
   </compound>
@@ -140,25 +163,27 @@
     <member refid="classGaussianCalculator_1a0b2967481871a348f2978e7e0691032d" kind="variable"><name>cutoff</name></member>
     <member refid="classGaussianCalculator_1a1556fc2ec0e32bcda7f36261d16304d0" kind="variable"><name>include_derivatives</name></member>
     <member refid="classGaussianCalculator_1a83ebe2766ea426bfee895d86fe61056e" kind="variable"><name>nderivatives</name></member>
-    <member refid="classGaussianCalculator_1ae143d8e375f15612abfd23958cc848af" kind="variable"><name>direction</name></member>
+    <member refid="classGaussianCalculator_1a11158a9be452d414f3440b4fef9265f1" kind="variable"><name>ndirections</name></member>
+    <member refid="classGaussianCalculator_1a9caa21e1a7b60b189b43bac4f2667b95" kind="variable"><name>directions</name></member>
     <member refid="classGaussianCalculator_1ae53c3af35abde2ba939503f9601868a0" kind="variable"><name>natomtypes</name></member>
     <member refid="classGaussianCalculator_1aa54ffff3402961eebd5c53521de7aecd" kind="variable"><name>natompairs</name></member>
     <member refid="classGaussianCalculator_1a8109643202c6af0fe8eb7da2f2f9f6d3" kind="variable"><name>atompairs</name></member>
     <member refid="classGaussianCalculator_1ac706b25a1c597998a5c52278d7a0ab0e" kind="variable"><name>orderedatomtypes</name></member>
     <member refid="classGaussianCalculator_1a005be46d5a0e1d354c51abe19f75fbe0" kind="variable"><name>atomicsystem</name></member>
     <member refid="classGaussianCalculator_1a1dc86b28eda45503e73bd63c9234b3fa" kind="variable"><name>fpproperties</name></member>
-    <member refid="classGaussianCalculator_1a032ab7654bed36620f511a2b715c9aeb" kind="function"><name>calculate_G2</name></member>
-    <member refid="classGaussianCalculator_1ad4ff7ff5bbca0db0da8bf85020b264a0" kind="function"><name>calculate_G4</name></member>
+    <member refid="classGaussianCalculator_1ac7614ab3316a7bf820edffe931ce0816" kind="variable"><name>ptable</name></member>
+    <member refid="classGaussianCalculator_1a4d4a0d257cd77477adcb2728070c74e3" kind="function"><name>calculate_G2</name></member>
+    <member refid="classGaussianCalculator_1a4572cc4b5c454e32f6ecdfc5cb70a7e8" kind="function"><name>calculate_G4</name></member>
     <member refid="classGaussianCalculator_1ab4c9c5a025a0446b86c2400cad930c14" kind="function"><name>calculate_cos_theta</name></member>
     <member refid="classGaussianCalculator_1ac111f97b2248f3215b3fd03f34c3c029" kind="function"><name>dRij_dRml_vector</name></member>
     <member refid="classGaussianCalculator_1a65d309d3083697dae1ff285940fd9e60" kind="function"><name>dCos_theta_ijk_dR_ml</name></member>
     <member refid="classGaussianCalculator_1a779a7d043afa1ff307758bdb2a31da1c" kind="function"><name>dRij_dRml</name></member>
-    <member refid="classGaussianCalculator_1acabeb3611bfb1ae6a59b9f8ff697e50a" kind="function"><name>calculate_G2_prime</name></member>
-    <member refid="classGaussianCalculator_1a8679a65cf98d7ac8d6b05a36a36b261a" kind="function"><name>calculate_G4_prime</name></member>
-    <member refid="classGaussianCalculator_1a526c828628af0aefa311511b148a8b04" kind="function"><name>get_G2s</name></member>
-    <member refid="classGaussianCalculator_1ab5a1b4f29b6a7083cd167e60fe47af8b" kind="function"><name>get_G4s</name></member>
-    <member refid="classGaussianCalculator_1a6c4e5148827a131543ff91a674bc5ae3" kind="function"><name>get_G2_primes</name></member>
-    <member refid="classGaussianCalculator_1af3168b1d032e0d064e4c353ae04df0cd" kind="function"><name>get_G4_primes</name></member>
+    <member refid="classGaussianCalculator_1ab1e32aff3a9ea809f4788d93ba4b6a9e" kind="function"><name>calculate_G2_prime</name></member>
+    <member refid="classGaussianCalculator_1a538281999696627b2151ed6148af9721" kind="function"><name>calculate_G4_prime</name></member>
+    <member refid="classGaussianCalculator_1a76b98698c2cb21eaa544d1e793692e11" kind="function"><name>get_G2s</name></member>
+    <member refid="classGaussianCalculator_1a625e67b271084bae09be00b02879f729" kind="function"><name>get_G4s</name></member>
+    <member refid="classGaussianCalculator_1a231bbecc911cfb36280f9edc32c3cb67" kind="function"><name>get_G2_primes</name></member>
+    <member refid="classGaussianCalculator_1a00dd2c1aa60a57a77ba3cd19ba74cb48" kind="function"><name>get_G4_primes</name></member>
     <member refid="classGaussianCalculator_1a592a6b41a279a1c5309f247be1d9df89" kind="function"><name>sort_neighbors</name></member>
     <member refid="classGaussianCalculator_1aa48b75bb24c3aa6cfc3e1451bc3698c2" kind="function"><name>get_sorted_neighbors_subset</name></member>
     <member refid="classGaussianCalculator_1a0d6250ebef8aa702017dac8a4c66e733" kind="function"><name>get_sorted_neighbors_subset</name></member>
@@ -235,7 +260,8 @@
     <member refid="classZernikeCalculator_1adf6bcb24a43d563e5bc6d267aa2a8ccc" kind="variable"><name>size</name></member>
     <member refid="classZernikeCalculator_1ae0b51dc755a288b553a949ca02e52660" kind="variable"><name>subsize</name></member>
     <member refid="classZernikeCalculator_1a57a54e816622b2eb3c49281dc3e1558b" kind="variable"><name>nderivatives</name></member>
-    <member refid="classZernikeCalculator_1a5f2f7ae5d534cb1f46d59447a145b914" kind="variable"><name>direction</name></member>
+    <member refid="classZernikeCalculator_1adead5193433eaa7ebadd54872aca413f" kind="variable"><name>ndirections</name></member>
+    <member refid="classZernikeCalculator_1a3b73ea40af58daa10536feff89c6f182" kind="variable"><name>directions</name></member>
     <member refid="classZernikeCalculator_1a2586cc82416a4629c6c872dc776289a7" kind="variable"><name>include_derivatives</name></member>
     <member refid="classZernikeCalculator_1a4998e185762fa523fe06da36a8ea3b18" kind="variable"><name>cutoff</name></member>
     <member refid="classZernikeCalculator_1a084e661e6e0d3bdba94d2a615381d723" kind="variable"><name>nmax</name></member>
@@ -257,6 +283,10 @@
     <member refid="classZernikeCalculator_1aac138bb57672a96912f7a4308d29c0ae" kind="function"><name>calculate_fingerprint</name></member>
   </compound>
   <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="agnicalculator_8cpp" kind="file"><name>agnicalculator.cpp</name>
+  </compound>
+  <compound refid="agnicalculator_8h" kind="file"><name>agnicalculator.h</name>
   </compound>
   <compound refid="atom_8cpp" kind="file"><name>atom.cpp</name>
   </compound>

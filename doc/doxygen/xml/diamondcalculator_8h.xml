@@ -17,107 +17,125 @@
     <includedby refid="diamondcalculator_8cpp" local="yes">diamondcalculator.cpp</includedby>
     <includedby refid="genericlocalcalculator_8h" local="yes">genericlocalcalculator.h</includedby>
     <incdepgraph>
-      <node id="106">
+      <node id="170">
         <label>inputs.h</label>
-        <link refid="inputs_8h_source"/>
-        <childnode refid="101" relation="include">
+        <link refid="inputs_8h"/>
+        <childnode refid="165" relation="include">
         </childnode>
       </node>
-      <node id="95">
+      <node id="159">
         <label>diamondcalculator.h</label>
         <link refid="diamondcalculator.h"/>
-        <childnode refid="96" relation="include">
+        <childnode refid="160" relation="include">
         </childnode>
-        <childnode refid="97" relation="include">
+        <childnode refid="161" relation="include">
         </childnode>
-        <childnode refid="98" relation="include">
+        <childnode refid="162" relation="include">
         </childnode>
-        <childnode refid="99" relation="include">
+        <childnode refid="163" relation="include">
         </childnode>
-        <childnode refid="100" relation="include">
+        <childnode refid="164" relation="include">
         </childnode>
-        <childnode refid="101" relation="include">
+        <childnode refid="165" relation="include">
         </childnode>
-        <childnode refid="102" relation="include">
+        <childnode refid="166" relation="include">
         </childnode>
-        <childnode refid="103" relation="include">
+        <childnode refid="167" relation="include">
         </childnode>
-        <childnode refid="104" relation="include">
+        <childnode refid="168" relation="include">
         </childnode>
-        <childnode refid="106" relation="include">
+        <childnode refid="170" relation="include">
         </childnode>
-        <childnode refid="107" relation="include">
+        <childnode refid="171" relation="include">
         </childnode>
-        <childnode refid="108" relation="include">
+        <childnode refid="172" relation="include">
         </childnode>
       </node>
-      <node id="97">
+      <node id="161">
         <label>stdlib.h</label>
       </node>
-      <node id="107">
+      <node id="171">
         <label>utilities.h</label>
-        <link refid="utilities_8h_source"/>
-        <childnode refid="104" relation="include">
+        <link refid="utilities_8h"/>
+        <childnode refid="168" relation="include">
         </childnode>
       </node>
-      <node id="108">
+      <node id="172">
         <label>neighborlist.h</label>
-        <link refid="neighborlist_8h_source"/>
-        <childnode refid="103" relation="include">
+        <link refid="neighborlist_8h"/>
+        <childnode refid="167" relation="include">
         </childnode>
-        <childnode refid="105" relation="include">
+        <childnode refid="169" relation="include">
         </childnode>
-        <childnode refid="104" relation="include">
+        <childnode refid="168" relation="include">
         </childnode>
       </node>
-      <node id="101">
+      <node id="165">
         <label>string</label>
       </node>
-      <node id="99">
+      <node id="163">
         <label>fstream</label>
       </node>
-      <node id="103">
+      <node id="167">
         <label>vector</label>
       </node>
-      <node id="100">
+      <node id="164">
         <label>sstream</label>
       </node>
-      <node id="104">
+      <node id="168">
         <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h_source"/>
-        <childnode refid="101" relation="include">
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="165" relation="include">
         </childnode>
-        <childnode refid="103" relation="include">
+        <childnode refid="167" relation="include">
         </childnode>
-        <childnode refid="105" relation="include">
+        <childnode refid="169" relation="include">
         </childnode>
       </node>
-      <node id="102">
+      <node id="166">
         <label>time.h</label>
       </node>
-      <node id="98">
+      <node id="162">
         <label>iostream</label>
       </node>
-      <node id="105">
+      <node id="169">
         <label>atom.h</label>
-        <link refid="atom_8h_source"/>
-        <childnode refid="101" relation="include">
+        <link refid="atom_8h"/>
+        <childnode refid="165" relation="include">
         </childnode>
       </node>
-      <node id="96">
+      <node id="160">
         <label>stdio.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="109">
+      <node id="173">
         <label>diamondcalculator.h</label>
         <link refid="diamondcalculator.h"/>
-        <childnode refid="110" relation="include">
+        <childnode refid="174" relation="include">
+        </childnode>
+        <childnode refid="175" relation="include">
         </childnode>
       </node>
-      <node id="110">
+      <node id="175">
         <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h_source"/>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>genericlocalcalculator.cpp</label>
+        <link refid="genericlocalcalculator_8cpp"/>
+      </node>
+      <node id="174">
+        <label>diamondcalculator.cpp</label>
+        <link refid="diamondcalculator_8cpp"/>
+      </node>
+      <node id="176">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classDiamondCalculator" prot="public">DiamondCalculator</innerclass>
@@ -139,10 +157,10 @@
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atomicsystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;inputs.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utilities.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;neighborlist.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="atomicsystem_8h" kindref="compound">atomicsystem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="inputs_8h" kindref="compound">inputs.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utilities_8h" kindref="compound">utilities.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="neighborlist_8h" kindref="compound">neighborlist.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>

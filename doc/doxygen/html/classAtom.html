@@ -62,6 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,33 +88,198 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">Atom Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Class that holds information about an atom and its coordinates.  
+ <a href="classAtom.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="atom_8h_source.html">atom.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a820fbe640e1032315c54d29eeeeaed3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a820fbe640e1032315c54d29eeeeaed3f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Atom</b> (string, double, double, double)</td></tr>
+<tr class="memitem:add36d2ea4159b08eefc7d4d6d59f54eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtom.html#add36d2ea4159b08eefc7d4d6d59f54eb">Atom</a> (void)</td></tr>
+<tr class="memdesc:add36d2ea4159b08eefc7d4d6d59f54eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#add36d2ea4159b08eefc7d4d6d59f54eb">More...</a><br/></td></tr>
+<tr class="separator:add36d2ea4159b08eefc7d4d6d59f54eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a820fbe640e1032315c54d29eeeeaed3f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtom.html#a820fbe640e1032315c54d29eeeeaed3f">Atom</a> (string, double, double, double)</td></tr>
+<tr class="memdesc:a820fbe640e1032315c54d29eeeeaed3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor that creates an <a class="el" href="classAtom.html" title="Class that holds information about an atom and its coordinates. ">Atom</a> object from its name and coordinates.  <a href="#a820fbe640e1032315c54d29eeeeaed3f">More...</a><br/></td></tr>
 <tr class="separator:a820fbe640e1032315c54d29eeeeaed3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a8a8d77832c675e756a4935e3f6a4e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7a8a8d77832c675e756a4935e3f6a4e8"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>get_atom_type</b> ()</td></tr>
+<tr class="memitem:ad73f775b26a2081104bed58c2afd68a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtom.html#ad73f775b26a2081104bed58c2afd68a7">~Atom</a> (void)</td></tr>
+<tr class="separator:ad73f775b26a2081104bed58c2afd68a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a8a8d77832c675e756a4935e3f6a4e8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtom.html#a7a8a8d77832c675e756a4935e3f6a4e8">get_atom_type</a> ()</td></tr>
+<tr class="memdesc:a7a8a8d77832c675e756a4935e3f6a4e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the name of this atom.  <a href="#a7a8a8d77832c675e756a4935e3f6a4e8">More...</a><br/></td></tr>
 <tr class="separator:a7a8a8d77832c675e756a4935e3f6a4e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60c78b2f17643f02744dc059ad4614bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a60c78b2f17643f02744dc059ad4614bd"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_x</b> ()</td></tr>
+<tr class="memitem:a60c78b2f17643f02744dc059ad4614bd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtom.html#a60c78b2f17643f02744dc059ad4614bd">get_x</a> ()</td></tr>
+<tr class="memdesc:a60c78b2f17643f02744dc059ad4614bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x coordinate of this atom.  <a href="#a60c78b2f17643f02744dc059ad4614bd">More...</a><br/></td></tr>
 <tr class="separator:a60c78b2f17643f02744dc059ad4614bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b4f6fd59d0be3a6be685b1f7d008585"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2b4f6fd59d0be3a6be685b1f7d008585"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_y</b> ()</td></tr>
+<tr class="memitem:a2b4f6fd59d0be3a6be685b1f7d008585"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtom.html#a2b4f6fd59d0be3a6be685b1f7d008585">get_y</a> ()</td></tr>
+<tr class="memdesc:a2b4f6fd59d0be3a6be685b1f7d008585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y coordinate of this atom.  <a href="#a2b4f6fd59d0be3a6be685b1f7d008585">More...</a><br/></td></tr>
 <tr class="separator:a2b4f6fd59d0be3a6be685b1f7d008585"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf0968985ac6f9c8c8d5f280070790b1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf0968985ac6f9c8c8d5f280070790b1"></a>
-double&#160;</td><td class="memItemRight" valign="bottom"><b>get_z</b> ()</td></tr>
+<tr class="memitem:adf0968985ac6f9c8c8d5f280070790b1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classAtom.html#adf0968985ac6f9c8c8d5f280070790b1">get_z</a> ()</td></tr>
+<tr class="memdesc:adf0968985ac6f9c8c8d5f280070790b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the z coordinate of this atom.  <a href="#adf0968985ac6f9c8c8d5f280070790b1">More...</a><br/></td></tr>
 <tr class="separator:adf0968985ac6f9c8c8d5f280070790b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Class that holds information about an atom and its coordinates. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="add36d2ea4159b08eefc7d4d6d59f54eb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Atom::Atom </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Default constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="a820fbe640e1032315c54d29eeeeaed3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Atom::Atom </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>attype</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>cz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor that creates an <a class="el" href="classAtom.html" title="Class that holds information about an atom and its coordinates. ">Atom</a> object from its name and coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">attype</td><td>name of atom (e.g. H, C, Si, Au, etc.) </td></tr>
+    <tr><td class="paramname">cx</td><td>cartesian coordinates - x value </td></tr>
+    <tr><td class="paramname">cy</td><td>cartesian coordinates - y value </td></tr>
+    <tr><td class="paramname">cz</td><td>cartesian coordinates - z value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad73f775b26a2081104bed58c2afd68a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Atom::~Atom </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a7a8a8d77832c675e756a4935e3f6a4e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Atom::get_atom_type </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the name of this atom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a60c78b2f17643f02744dc059ad4614bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Atom::get_x </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the x coordinate of this atom. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2b4f6fd59d0be3a6be685b1f7d008585"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Atom::get_y </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the y coordinate of this atom. </p>
+
+</div>
+</div>
+<a class="anchor" id="adf0968985ac6f9c8c8d5f280070790b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Atom::get_z </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the z coordinate of this atom. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="atom_8h_source.html">atom.h</a></li>
-<li>atom.cpp</li>
+<li><a class="el" href="atom_8cpp.html">atom.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

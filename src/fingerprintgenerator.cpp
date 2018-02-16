@@ -55,6 +55,9 @@ FingerprintGenerator::FingerprintGenerator(AtomicSystem& asys, fingerprintProper
         cerr<<msg<<"\n";
     }
 
+    cout<<"Here\n";
+    cout<<fpproperties.ndirections<<"\n";
+    for (int i=0; i<fpproperties.ndirections;i++) cout<<fpproperties.directions[i]<<" ";
 
     GenericLocalCalculator fpcalc = GenericLocalCalculator(atomicsystem,fpproperties); 
     fsize = fpcalc.get_size();
@@ -77,7 +80,7 @@ FingerprintGenerator::FingerprintGenerator(AtomicSystem& asys, fingerprintProper
         //int nneighbors = neighlist.get_n_neighbors(atomid);
        // int *myneighbors = neighlist.get_sorted_neighbors(atomid);
        // fingerprints[atomid] = fpcalc.calculate_fingerprint(atomid,nneighbors,myneighbors);
-        fingerprints[atomid] = fpcalc.calculate_fingerprint(atomid,neighlist);
+       fingerprints[atomid] = fpcalc.calculate_fingerprint(atomid,neighlist);
 
     } 
 

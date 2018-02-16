@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="classAtomicSystem" kind="class" prot="public">
     <compoundname>AtomicSystem</compoundname>
+    <includes refid="atomicsystem_8h" local="no">atomicsystem.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classAtomicSystem_1a24b9fe211c4ead09bc75684a7d5095ae" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -14,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="13" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="13" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1afc6d7403efcfd575c0161c8f82d4a854" prot="private" static="no" mutable="no">
         <type><ref refid="classAtom" kindref="compound">Atom</ref> *</type>
@@ -22,12 +23,12 @@
         <argsstring></argsstring>
         <name>atoms</name>
         <briefdescription>
-        </briefdescription>
+<para>Pointer to the array holding all atoms in this system. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="14" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1a4a8d28db18a1e7b87440f9431877f3b7" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -40,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="15" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1a6cc71bc01018b7275afbff2ad64018c6" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -53,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="15" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1af498b0bf498c112158d69ef7be906834" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -66,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="15" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1a1edf322c50cc03061e28967ad589b0bf" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -79,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="16" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="16" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1a78e621d5010cbc5bcfde38a11cf29fe0" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -92,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="16" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="16" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1a92aad18a89d74e640077578414f107a9" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -105,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="16" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="16" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1a380a8162efa50f8a01bf5aaba9bc6a92" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -118,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="17" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="17" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1ad8f0499e135f6cb1a7f3a3a0b5bdeb71" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -131,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="18" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="18" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1af5c6ab3bc2f5cbcd0bc8549d0328657b" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -144,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="18" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="18" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAtomicSystem_1a37a7f8ba076b2d86ab4940d44ba422df" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -157,7 +158,26 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="18" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="18" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classAtomicSystem_1aedb3d1c61fb5d460f557bece928d10e0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AtomicSystem::build_from_file</definition>
+        <argsstring>(string)</argsstring>
+        <name>build_from_file</name>
+        <param>
+          <type>string</type>
+          <defname>filename</defname>
+        </param>
+        <briefdescription>
+<para>Reads an xyz file and parses the coordinates and atom types into <ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref> Object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="79" bodyend="132"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -170,12 +190,12 @@
           <type>void</type>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Default constructor. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="19" bodyend="32"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="25" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a5d5f473465d2ad2eb106aa0cda871f5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -203,12 +223,48 @@
           <defname>skin</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Constructor that creates the atomicsystem object from a coordinate file. </para>        </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>filename</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of coordinate file </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pbcx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boundary condition for x </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pbcy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boundary condition for y </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pbcz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boundary condition for z </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>skin</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of the skin around the box for used in neighbor list generation </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="22" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="34" bodyend="42"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="44" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="40" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1adcc9076b127ae9ff28b6bdc6cc089364" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -224,24 +280,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="130" bodyend="132"/>
-      </memberdef>
-      <memberdef kind="function" id="classAtomicSystem_1aedb3d1c61fb5d460f557bece928d10e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>void</type>
-        <definition>void AtomicSystem::build_from_file</definition>
-        <argsstring>(string)</argsstring>
-        <name>build_from_file</name>
-        <param>
-          <type>string</type>
-          <defname>filename</defname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="73" bodyend="126"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="45" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="136" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1ace7cdf92e0e3ec1149bcb51fd112263c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -273,12 +312,84 @@
           <defname>zmax</defname>
         </param>
         <briefdescription>
+<para>Sets the boundaries of the box xmin, ymin, zmin, xmax, ymax, zmax. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="51" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="50" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classAtomicSystem_1a1267adda3ecc59db42ffa9010ed6a139" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double AtomicSystem::get_distance_component</definition>
+        <argsstring>(Atom, Atom, int)</argsstring>
+        <name>get_distance_component</name>
+        <param>
+          <type><ref refid="classAtom" kindref="compound">Atom</ref></type>
+          <defname>A</defname>
+        </param>
+        <param>
+          <type><ref refid="classAtom" kindref="compound">Atom</ref></type>
+          <defname>B</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>direction</defname>
+        </param>
+        <briefdescription>
+<para>Calculates the x (=0), y (=1) or z (=2) component of the distance between two atoms. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>A</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the first atom object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>B</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the second atom object. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>direction</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the component of the distance to return 0=x, 1=y, 2=z </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="58" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="223" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classAtomicSystem_1a7a57e207ef3f586e3db82a8f7dfd066d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double AtomicSystem::get_distance_component</definition>
+        <argsstring>(int, int, int)</argsstring>
+        <name>get_distance_component</name>
+        <param>
+          <type>int</type>
+          <defname>atomID1</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>atomID2</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <defname>direction</defname>
+        </param>
+        <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="44" bodyend="71"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="60" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="264" bodyend="271"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a4449b0026fdec3b4c49ef31fe35de113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -294,12 +405,12 @@
           <defname>B</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Calculates the square distance between two atoms. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="219" bodyend="266"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="63" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="273" bodyend="280"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a8f7b69937316400e8a0145a1e1954dd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -315,12 +426,12 @@
           <defname>id2</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Calculates the square distance between two atoms given by their index in the <ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="268" bodyend="277"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="66" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="282" bodyend="291"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1ad9e02b722bdb444e2c67d7386c8ebb10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -341,7 +452,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="165" bodyend="217"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="68" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="171" bodyend="220"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a036e5b5e292221bf85fee70969cc9b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>vector&lt; string &gt;</type>
@@ -349,12 +460,12 @@
         <argsstring>()</argsstring>
         <name>get_atom_types</name>
         <briefdescription>
-        </briefdescription>
+<para>Finds unique atomic species and return them as a vector of atom names ordered by atomic numbers. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="32" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="135" bodyend="161"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="71" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="141" bodyend="167"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a0c6a87a01f5aec7e76a4aec87fc6f0c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classAtom" kindref="compound">Atom</ref></type>
@@ -366,12 +477,12 @@
           <defname>id</defname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Returns an <ref refid="classAtom" kindref="compound">Atom</ref> given by its index in the atomic system. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="279" bodyend="282"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="74" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="293" bodyend="296"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a955f0be2dc05a5aef6d9b5e0a3fccd24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -379,12 +490,12 @@
         <argsstring>()</argsstring>
         <name>get_n_atoms</name>
         <briefdescription>
-        </briefdescription>
+<para>Returns the total number of atoms in the system. </para>        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="284" bodyend="287"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="77" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="298" bodyend="301"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a621fa961e13c049c5e8ccd0bac679f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -397,7 +508,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="297" bodyend="297"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="79" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="311" bodyend="311"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a3767224770330c5881f88517dc3b3e74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -410,7 +521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="298" bodyend="298"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="80" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="312" bodyend="312"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a456833955091210604a06b277da3cf9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -423,7 +534,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="299" bodyend="299"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="81" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="313" bodyend="313"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a89e84ec7dff8a6bbe58ae8eb587afb40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -436,7 +547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="289" bodyend="289"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="83" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="303" bodyend="303"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a517e6cc8dea21fb449f3f71a35ad6308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -449,7 +560,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="42" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="290" bodyend="290"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="84" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="304" bodyend="304"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1ac0675a259914dc9300afb43cf655a4b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -462,7 +573,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="43" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="291" bodyend="291"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="85" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="305" bodyend="305"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a879af0135f419de62a7dfb21b38178fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -475,7 +586,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="45" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="293" bodyend="293"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="87" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="307" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1abdb763c7d1343e1b4ff6a56f30aec9d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -488,7 +599,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="46" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="294" bodyend="294"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="88" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="308" bodyend="308"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a26e31e73a88acc6c249a2084f41843f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -501,7 +612,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="47" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="295" bodyend="295"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="89" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="309" bodyend="309"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a482d58dc237c99908bd09a6c7d009c48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -514,7 +625,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="49" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="301" bodyend="301"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="91" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="315" bodyend="315"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a75dcff418d40045926392ca81bb8c5bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -527,7 +638,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="50" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="302" bodyend="302"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="92" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="316" bodyend="316"/>
       </memberdef>
       <memberdef kind="function" id="classAtomicSystem_1a10e194744a00bb2506cc6c72c3fab4a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -540,22 +651,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="51" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="303" bodyend="303"/>
+        <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="93" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.cpp" bodystart="317" bodyend="317"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Class that holds information about the molecular system including atom types and spatial coordinates. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="11" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="11" bodyend="54"/>
+    <location file="/fs/home/mr937/SEING/src/atomicsystem.h" line="17" column="1" bodyfile="/fs/home/mr937/SEING/src/atomicsystem.h" bodystart="17" bodyend="96"/>
     <listofallmembers>
       <member refid="classAtomicSystem_1ac3ede1da1867a9759e388f3d5e8cb08a" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>AtomicSystem</name></member>
       <member refid="classAtomicSystem_1a5d5f473465d2ad2eb106aa0cda871f5a" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>AtomicSystem</name></member>
       <member refid="classAtomicSystem_1afc6d7403efcfd575c0161c8f82d4a854" prot="private" virt="non-virtual"><scope>AtomicSystem</scope><name>atoms</name></member>
-      <member refid="classAtomicSystem_1aedb3d1c61fb5d460f557bece928d10e0" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>build_from_file</name></member>
+      <member refid="classAtomicSystem_1aedb3d1c61fb5d460f557bece928d10e0" prot="private" virt="non-virtual"><scope>AtomicSystem</scope><name>build_from_file</name></member>
       <member refid="classAtomicSystem_1ad9e02b722bdb444e2c67d7386c8ebb10" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>check_square_distance</name></member>
       <member refid="classAtomicSystem_1a0c6a87a01f5aec7e76a4aec87fc6f0c5" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>get_atom</name></member>
       <member refid="classAtomicSystem_1a036e5b5e292221bf85fee70969cc9b4c" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>get_atom_types</name></member>
+      <member refid="classAtomicSystem_1a1267adda3ecc59db42ffa9010ed6a139" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>get_distance_component</name></member>
+      <member refid="classAtomicSystem_1a7a57e207ef3f586e3db82a8f7dfd066d" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>get_distance_component</name></member>
       <member refid="classAtomicSystem_1a955f0be2dc05a5aef6d9b5e0a3fccd24" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>get_n_atoms</name></member>
       <member refid="classAtomicSystem_1a4449b0026fdec3b4c49ef31fe35de113" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>get_square_distance</name></member>
       <member refid="classAtomicSystem_1a8f7b69937316400e8a0145a1e1954dd8" prot="public" virt="non-virtual"><scope>AtomicSystem</scope><name>get_square_distance</name></member>

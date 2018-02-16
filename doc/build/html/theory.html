@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Fingerprints &#8212; SEING 0.1.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="SEING 0.1.1 documentation" href="index.html" />
+    <link rel="next" title="Developer Information" href="extend.html" />
+    <link rel="prev" title="How to Use" href="using.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="extend.html" title="Developer Information"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="using.html" title="How to Use"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">SEING 0.1.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="fingerprints">
+<h1>Fingerprints<a class="headerlink" href="#fingerprints" title="Permalink to this headline">¶</a></h1>
+<p>Below we discuss fingerprints currently implemented in SEING as well as others in the pipeline
+for implementation.</p>
+<div class="section" id="behler-parinello">
+<h2>Behler-Parinello<a class="headerlink" href="#behler-parinello" title="Permalink to this headline">¶</a></h2>
+<p>Behler-Parinello (BP) also called &#8220;Gaussian&#8221; fingerprints are local fingerprints based on symmetry
+functions. Two of such symmetry functions are given below</p>
+<div class="math">
+\[G^2_i = \sum_j e^{-\eta(R_{ij}-R_s)^2}f_c(R_{ij})\]</div>
+<div class="math">
+\[G^4_i = 2^{1-\zeta}\sum_{j,k\neq i} (1+\lambda \cos \theta_{ijk})^\zeta e^{-\eta(R_{ij}^2+R_{ik}^2+R_{jk}^2)^2}f_c(R_{ij})f_c(R_{ij})f_c(R_{ij})\]</div>
+<div class="math">
+\[\begin{split}f_c =
+\begin{cases}
+&amp; 0.5[\cos(\frac{\pi R_{ij}}{R_c})+1]~~\text{for}~~~R_{ij}\leq R_c
+\\
+&amp; 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~      \text{for}~~~ R_{ij} &gt; R_c \\
+\end{cases}\end{split}\]</div>
+</div>
+<div class="section" id="agni">
+<h2>AGNI<a class="headerlink" href="#agni" title="Permalink to this headline">¶</a></h2>
+<div class="math">
+\[V_{i,\alpha,k} = \sum_{j\neq i} \frac{r_{ij}^\alpha}{r_{ij}} \frac{1}{\sqrt{2\pi w}}e^{-0.5(\frac{r_{ij}-a_k}{w})^2}f_c(r_{ij})\]</div>
+</div>
+<div class="section" id="bispectrum">
+<h2>Bispectrum<a class="headerlink" href="#bispectrum" title="Permalink to this headline">¶</a></h2>
+<div class="math">
+\[B_{j_1,j_2,j} = \sum_{m'_1,m_1=-j_1}^{j_1} \sum_{m'_2,m_2=-j_2}^{j_1} \sum_{m',m=-j}^{j}  c_{m'm}^jC_{j_1m_1j_2m_2}^{jm}C_{j_1m'_1j_2m'_2}^{jm'}c_{m'_1m_1}^{j_1}c_{m'_2m_2}^{j_2}\]</div>
+</div>
+<div class="section" id="zernike">
+<h2>Zernike<a class="headerlink" href="#zernike" title="Permalink to this headline">¶</a></h2>
+<div class="math">
+\[\rho(\tilde{r},\theta,\phi) = \sum_{n=0}^{\inf} \sum_l \sum_{m=-l}^l c_{nl}^mZ_{nl}^m(\tilde{r},\theta, \phi) ~~~~ \text{for} ~~ n-l \geq 0\]</div>
+</div>
+<div class="section" id="prdf-upcoming">
+<h2>PRDF (<em>upcoming</em>)<a class="headerlink" href="#prdf-upcoming" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="contact-matrix-upcoming">
+<h2>Contact Matrix (<em>upcoming</em>)<a class="headerlink" href="#contact-matrix-upcoming" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="sprint-upcoming">
+<h2>SPRINT (<em>upcoming</em>)<a class="headerlink" href="#sprint-upcoming" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Fingerprints</a><ul>
+<li><a class="reference internal" href="#behler-parinello">Behler-Parinello</a></li>
+<li><a class="reference internal" href="#agni">AGNI</a></li>
+<li><a class="reference internal" href="#bispectrum">Bispectrum</a></li>
+<li><a class="reference internal" href="#zernike">Zernike</a></li>
+<li><a class="reference internal" href="#prdf-upcoming">PRDF (<em>upcoming</em>)</a></li>
+<li><a class="reference internal" href="#contact-matrix-upcoming">Contact Matrix (<em>upcoming</em>)</a></li>
+<li><a class="reference internal" href="#sprint-upcoming">SPRINT (<em>upcoming</em>)</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="using.html"
+                        title="previous chapter">How to Use</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="extend.html"
+                        title="next chapter">Developer Information</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/theory.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="extend.html" title="Developer Information"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="using.html" title="How to Use"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">SEING 0.1.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Mardochee Reveil.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+    </div>
+  </body>
+</html>

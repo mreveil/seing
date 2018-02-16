@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="classZernikeCalculator" kind="class" prot="public">
     <compoundname>ZernikeCalculator</compoundname>
+    <includes refid="zernikecalculator_8h" local="no">zernikecalculator.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classZernikeCalculator_1adf6bcb24a43d563e5bc6d267aa2a8ccc" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -42,18 +43,31 @@
         </inbodydescription>
         <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="24" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="classZernikeCalculator_1a5f2f7ae5d534cb1f46d59447a145b914" prot="private" static="no" mutable="no">
+      <memberdef kind="variable" id="classZernikeCalculator_1adead5193433eaa7ebadd54872aca413f" prot="private" static="no" mutable="no">
         <type>int</type>
-        <definition>int ZernikeCalculator::direction</definition>
+        <definition>int ZernikeCalculator::ndirections</definition>
         <argsstring></argsstring>
-        <name>direction</name>
+        <name>ndirections</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="24" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZernikeCalculator_1a3b73ea40af58daa10536feff89c6f182" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* ZernikeCalculator::directions</definition>
+        <argsstring></argsstring>
+        <name>directions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classZernikeCalculator_1a2586cc82416a4629c6c872dc776289a7" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -66,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="25" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classZernikeCalculator_1a4998e185762fa523fe06da36a8ea3b18" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -79,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="26" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classZernikeCalculator_1a084e661e6e0d3bdba94d2a615381d723" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -92,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="27" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classZernikeCalculator_1abbffe8ed00c1d55231c926f8c736e5e0" prot="private" static="no" mutable="no">
         <type>int *</type>
@@ -105,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="28" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classZernikeCalculator_1a0363145149dbc0fc1e9fdb79047922f3" prot="private" static="no" mutable="no">
         <type><ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref></type>
@@ -118,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="30" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="30" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="32" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classZernikeCalculator_1afe7ecf9af3a0cc5faefcbca5f2207d06" prot="private" static="no" mutable="no">
         <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref></type>
@@ -131,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="32" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="32" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classZernikeCalculator_1a1fbd15aadb9e43a3be50fe915a7f1661" prot="private" static="no" mutable="no">
         <type><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref></type>
@@ -144,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="33" bodyend="-1"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -191,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="408" bodyend="421"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="415" bodyend="428"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1a7ebdc35dfbb0fabc55a992d83db1592c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>complex&lt; double &gt;</type>
@@ -232,7 +246,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="425" bodyend="487"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="432" bodyend="494"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1aa865fab2f97573672fe325ab058a3ae6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>complex&lt; double &gt;</type>
@@ -269,7 +283,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="249" bodyend="308"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="256" bodyend="315"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1a6556e4fb73d7ed31d9bf2eda01b19d46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -294,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="240" bodyend="247"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="40" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="247" bodyend="254"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1a4d4e4b20f8303c9b972193074058b99d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -319,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="213" bodyend="232"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="220" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1a24a88133ffc103e5fb1dd96fd9ccbfc8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -340,7 +354,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="40" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="235" bodyend="238"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="42" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="242" bodyend="245"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1ab96e51dbb834b7675ea99573b6493320" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -365,7 +379,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="42" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="120" bodyend="211"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="44" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="123" bodyend="218"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1a875a134009f92c10d564bf406bfe511c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -398,7 +412,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="43" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="310" bodyend="406"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="45" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="317" bodyend="413"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -421,7 +435,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="47" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="26" bodyend="58"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="49" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="26" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1a1b6d9d07e7265651775a10d108edad73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -434,7 +448,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="48" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="60" bodyend="62"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="50" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="61" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1a5d7151015a1d145bcf9648fb9c9d1d25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -447,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="50" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="64" bodyend="64"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="52" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="65" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classZernikeCalculator_1aac138bb57672a96912f7a4308d29c0ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -468,14 +482,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="51" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="67" bodyend="118"/>
+        <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="53" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.cpp" bodystart="68" bodyend="121"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="21" bodyend="55"/>
+    <location file="/fs/home/mr937/SEING/src/zernikecalculator.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/zernikecalculator.h" bodystart="21" bodyend="57"/>
     <listofallmembers>
       <member refid="classZernikeCalculator_1afe7ecf9af3a0cc5faefcbca5f2207d06" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>atomicsystem</name></member>
       <member refid="classZernikeCalculator_1a24a88133ffc103e5fb1dd96fd9ccbfc8" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>binomial</name></member>
@@ -486,7 +500,7 @@
       <member refid="classZernikeCalculator_1a7ebdc35dfbb0fabc55a992d83db1592c" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>calculate_Z_prime</name></member>
       <member refid="classZernikeCalculator_1a4998e185762fa523fe06da36a8ea3b18" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>cutoff</name></member>
       <member refid="classZernikeCalculator_1a66bb7b5853a3f3c282045022412ac512" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>der_position</name></member>
-      <member refid="classZernikeCalculator_1a5f2f7ae5d534cb1f46d59447a145b914" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>direction</name></member>
+      <member refid="classZernikeCalculator_1a3b73ea40af58daa10536feff89c6f182" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>directions</name></member>
       <member refid="classZernikeCalculator_1abbffe8ed00c1d55231c926f8c736e5e0" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>factorial_list</name></member>
       <member refid="classZernikeCalculator_1a1fbd15aadb9e43a3be50fe915a7f1661" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>fpproperties</name></member>
       <member refid="classZernikeCalculator_1a5d7151015a1d145bcf9648fb9c9d1d25" prot="public" virt="non-virtual"><scope>ZernikeCalculator</scope><name>get_size</name></member>
@@ -494,6 +508,7 @@
       <member refid="classZernikeCalculator_1a875a134009f92c10d564bf406bfe511c" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>get_Znorms_prime</name></member>
       <member refid="classZernikeCalculator_1a2586cc82416a4629c6c872dc776289a7" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>include_derivatives</name></member>
       <member refid="classZernikeCalculator_1a57a54e816622b2eb3c49281dc3e1558b" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>nderivatives</name></member>
+      <member refid="classZernikeCalculator_1adead5193433eaa7ebadd54872aca413f" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>ndirections</name></member>
       <member refid="classZernikeCalculator_1a084e661e6e0d3bdba94d2a615381d723" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>nmax</name></member>
       <member refid="classZernikeCalculator_1a0363145149dbc0fc1e9fdb79047922f3" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>ptable</name></member>
       <member refid="classZernikeCalculator_1adf6bcb24a43d563e5bc6d267aa2a8ccc" prot="private" virt="non-virtual"><scope>ZernikeCalculator</scope><name>size</name></member>

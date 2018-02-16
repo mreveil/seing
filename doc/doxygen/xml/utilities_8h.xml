@@ -3,6 +3,7 @@
   <compounddef id="utilities_8h" kind="file">
     <compoundname>utilities.h</compoundname>
     <includes refid="atomicsystem_8h" local="yes">atomicsystem.h</includes>
+    <includedby refid="agnicalculator_8cpp" local="yes">agnicalculator.cpp</includedby>
     <includedby refid="bispectrumcalculator_8h" local="yes">bispectrumcalculator.h</includedby>
     <includedby refid="bispectrumcalculator_8cpp" local="yes">bispectrumcalculator.cpp</includedby>
     <includedby refid="diamondcalculator_8h" local="yes">diamondcalculator.h</includedby>
@@ -13,61 +14,117 @@
     <includedby refid="utilities_8cpp" local="yes">utilities.cpp</includedby>
     <includedby refid="zernikecalculator_8cpp" local="yes">zernikecalculator.cpp</includedby>
     <incdepgraph>
-      <node id="299">
+      <node id="404">
         <label>utilities.h</label>
         <link refid="utilities.h"/>
-        <childnode refid="300" relation="include">
+        <childnode refid="405" relation="include">
         </childnode>
       </node>
-      <node id="301">
+      <node id="406">
         <label>string</label>
       </node>
-      <node id="302">
+      <node id="407">
         <label>vector</label>
       </node>
-      <node id="300">
+      <node id="405">
         <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h_source"/>
-        <childnode refid="301" relation="include">
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="406" relation="include">
         </childnode>
-        <childnode refid="302" relation="include">
+        <childnode refid="407" relation="include">
         </childnode>
-        <childnode refid="303" relation="include">
+        <childnode refid="408" relation="include">
         </childnode>
       </node>
-      <node id="303">
+      <node id="408">
         <label>atom.h</label>
-        <link refid="atom_8h_source"/>
-        <childnode refid="301" relation="include">
+        <link refid="atom_8h"/>
+        <childnode refid="406" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="307">
+      <node id="416">
         <label>diamondcalculator.h</label>
-        <link refid="diamondcalculator_8h_source"/>
-        <childnode refid="306" relation="include">
+        <link refid="diamondcalculator_8h"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
         </childnode>
       </node>
-      <node id="306">
+      <node id="414">
         <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h_source"/>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
       </node>
-      <node id="304">
+      <node id="415">
+        <label>genericlocalcalculator.cpp</label>
+        <link refid="genericlocalcalculator_8cpp"/>
+      </node>
+      <node id="417">
+        <label>diamondcalculator.cpp</label>
+        <link refid="diamondcalculator_8cpp"/>
+      </node>
+      <node id="418">
+        <label>gaussiancalculator.cpp</label>
+        <link refid="gaussiancalculator_8cpp"/>
+      </node>
+      <node id="409">
         <label>utilities.h</label>
         <link refid="utilities.h"/>
-        <childnode refid="305" relation="include">
+        <childnode refid="410" relation="include">
         </childnode>
-        <childnode refid="307" relation="include">
+        <childnode refid="411" relation="include">
         </childnode>
-        <childnode refid="306" relation="include">
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="419" relation="include">
+        </childnode>
+        <childnode refid="420" relation="include">
         </childnode>
       </node>
-      <node id="305">
+      <node id="413">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
+      </node>
+      <node id="412">
+        <label>bispectrumcalculator.cpp</label>
+        <link refid="bispectrumcalculator_8cpp"/>
+      </node>
+      <node id="410">
+        <label>agnicalculator.cpp</label>
+        <link refid="agnicalculator_8cpp"/>
+      </node>
+      <node id="419">
+        <label>utilities.cpp</label>
+        <link refid="utilities_8cpp"/>
+      </node>
+      <node id="411">
         <label>bispectrumcalculator.h</label>
-        <link refid="bispectrumcalculator_8h_source"/>
-        <childnode refid="306" relation="include">
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="412" relation="include">
         </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>zernikecalculator.cpp</label>
+        <link refid="zernikecalculator_8cpp"/>
       </node>
     </invincdepgraph>
       <sectiondef kind="func">
@@ -129,10 +186,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>Function that returns the value of the cutoff function given the cutoff value and the current distance </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.h" line="8" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="12" bodyend="17"/>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="13" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="12" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8h_1a19d0749c46f5a8d2e582894e71f047b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -154,7 +211,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.h" line="9" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="47" bodyend="67"/>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="47" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8h_1a272d5e137d470ab0ef882e4537505569" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -173,7 +230,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.h" line="10" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="70" bodyend="75"/>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="70" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8h_1a309c456489a7e3c3c26befddc84463aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -192,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.h" line="12" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="19" bodyend="25"/>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="17" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="19" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8h_1a20e4b314ed49021cfedf191485849bbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned int</type>
@@ -209,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="88" bodyend="94"/>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="88" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8h_1ac1fbb86fa8a5cf74c6ad763593cff9bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -228,7 +285,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="96" bodyend="99"/>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="96" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8h_1acb4ec4e4bb8e257bf8911630c65e328e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -250,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.h" line="16" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="41" bodyend="45"/>
+        <location file="/fs/home/mr937/SEING/src/utilities.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="41" bodyend="45"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -261,22 +318,24 @@
 <codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>UTILITIES_H</highlight></codeline>
 <codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>UTILITIES_H</highlight></codeline>
 <codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atomicsystem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="atomicsystem_8h" kindref="compound">atomicsystem.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>get_min_distance(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dot(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*);<sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cutoff_func(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*get_vector(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Kronecker(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cutoff_func_prime(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>factorial(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>get_binomial(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>calculate_norm<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="utilities_8h_1a4eb20b0aaa832c4e00858e0b943e9fe9" kindref="member">get_min_distance</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="utilities_8h_1a0e9445a71c4de5bba149d83bbdf8ecfb" kindref="member">dot</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="utilities_8h_1a116c3981ff968505ad37fc7e4c1bc7ce" kindref="member">cutoff_func</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="utilities_8h_1a19d0749c46f5a8d2e582894e71f047b4" kindref="member">get_vector</ref>(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="utilities_8h_1a272d5e137d470ab0ef882e4537505569" kindref="member">Kronecker</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="utilities_8h_1a309c456489a7e3c3c26befddc84463aa" kindref="member">cutoff_func_prime</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="utilities_8h_1a20e4b314ed49021cfedf191485849bbf" kindref="member">factorial</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="utilities_8h_1ac1fbb86fa8a5cf74c6ad763593cff9bb" kindref="member">get_binomial</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="utilities_8h_1acb4ec4e4bb8e257bf8911630c65e328e" kindref="member">calculate_norm</ref><sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
     <location file="/fs/home/mr937/SEING/src/utilities.h"/>
   </compounddef>

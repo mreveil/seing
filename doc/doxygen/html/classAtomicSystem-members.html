@@ -62,6 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,33 +88,34 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <p>This is the complete list of members for <a class="el" href="classAtomicSystem.html">AtomicSystem</a>, including all inherited members.</p>
 <table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>AtomicSystem</b>(void) (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>AtomicSystem</b>(string, bool, bool, bool, double) (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>build_from_file</b>(string) (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>check_square_distance</b>(Atom A, Atom B) (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_atom</b>(int) (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_atom_types</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_n_atoms</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_square_distance</b>(Atom, Atom) (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_square_distance</b>(int, int) (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_xmax</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_xmin</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_xpbc</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_xsize</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_ymax</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_ymin</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_ypbc</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_ysize</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_zmax</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_zmin</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>get_zpbc</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>get_zsize</b>() (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>set_box_size</b>(double, double, double, double, double, double) (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~AtomicSystem</b>(void) (defined in <a class="el" href="classAtomicSystem.html">AtomicSystem</a>)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#ac3ede1da1867a9759e388f3d5e8cb08a">AtomicSystem</a>(void)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a5d5f473465d2ad2eb106aa0cda871f5a">AtomicSystem</a>(string, bool, bool, bool, double)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#ad9e02b722bdb444e2c67d7386c8ebb10">check_square_distance</a>(Atom A, Atom B)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a0c6a87a01f5aec7e76a4aec87fc6f0c5">get_atom</a>(int)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#a036e5b5e292221bf85fee70969cc9b4c">get_atom_types</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a1267adda3ecc59db42ffa9010ed6a139">get_distance_component</a>(Atom, Atom, int)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#a7a57e207ef3f586e3db82a8f7dfd066d">get_distance_component</a>(int, int, int)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a955f0be2dc05a5aef6d9b5e0a3fccd24">get_n_atoms</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#a4449b0026fdec3b4c49ef31fe35de113">get_square_distance</a>(Atom, Atom)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a8f7b69937316400e8a0145a1e1954dd8">get_square_distance</a>(int, int)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#a879af0135f419de62a7dfb21b38178fe">get_xmax</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a89e84ec7dff8a6bbe58ae8eb587afb40">get_xmin</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#a482d58dc237c99908bd09a6c7d009c48">get_xpbc</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a621fa961e13c049c5e8ccd0bac679f02">get_xsize</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#abdb763c7d1343e1b4ff6a56f30aec9d1">get_ymax</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a517e6cc8dea21fb449f3f71a35ad6308">get_ymin</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#a75dcff418d40045926392ca81bb8c5bd">get_ypbc</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a3767224770330c5881f88517dc3b3e74">get_ysize</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#a26e31e73a88acc6c249a2084f41843f8">get_zmax</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#ac0675a259914dc9300afb43cf655a4b6">get_zmin</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#a10e194744a00bb2506cc6c72c3fab4a0">get_zpbc</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#a456833955091210604a06b277da3cf9f">get_zsize</a>()</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classAtomicSystem.html#ace7cdf92e0e3ec1149bcb51fd112263c">set_box_size</a>(double, double, double, double, double, double)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classAtomicSystem.html#adcc9076b127ae9ff28b6bdc6cc089364">~AtomicSystem</a>(void)</td><td class="entry"><a class="el" href="classAtomicSystem.html">AtomicSystem</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

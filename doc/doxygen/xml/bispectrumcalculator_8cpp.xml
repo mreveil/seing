@@ -15,128 +15,128 @@
     <includes refid="bispectrumcalculator_8h" local="yes">bispectrumcalculator.h</includes>
     <includes refid="utilities_8h" local="yes">utilities.h</includes>
     <incdepgraph>
-      <node id="57">
+      <node id="118">
         <label>inputs.h</label>
-        <link refid="inputs_8h_source"/>
-        <childnode refid="49" relation="include">
+        <link refid="inputs_8h"/>
+        <childnode refid="110" relation="include">
         </childnode>
       </node>
-      <node id="45">
+      <node id="106">
         <label>stdlib.h</label>
       </node>
-      <node id="58">
+      <node id="119">
         <label>utilities.h</label>
-        <link refid="utilities_8h_source"/>
-        <childnode refid="56" relation="include">
+        <link refid="utilities_8h"/>
+        <childnode refid="117" relation="include">
         </childnode>
       </node>
-      <node id="59">
+      <node id="120">
         <label>neighborlist.h</label>
-        <link refid="neighborlist_8h_source"/>
-        <childnode refid="50" relation="include">
+        <link refid="neighborlist_8h"/>
+        <childnode refid="111" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="114" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="117" relation="include">
         </childnode>
       </node>
-      <node id="49">
+      <node id="110">
         <label>string</label>
       </node>
-      <node id="43">
+      <node id="104">
         <label>bispectrumcalculator.cpp</label>
         <link refid="bispectrumcalculator.cpp"/>
-        <childnode refid="44" relation="include">
+        <childnode refid="105" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="106" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="107" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="108" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="109" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="110" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="111" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
+        <childnode refid="112" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="113" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="114" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="115" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="119" relation="include">
         </childnode>
       </node>
-      <node id="47">
+      <node id="108">
         <label>fstream</label>
       </node>
-      <node id="50">
+      <node id="111">
         <label>vector</label>
       </node>
-      <node id="48">
+      <node id="109">
         <label>sstream</label>
       </node>
-      <node id="56">
+      <node id="117">
         <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h_source"/>
-        <childnode refid="49" relation="include">
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="110" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="111" relation="include">
         </childnode>
-        <childnode refid="53" relation="include">
+        <childnode refid="114" relation="include">
         </childnode>
       </node>
-      <node id="52">
+      <node id="113">
         <label>time.h</label>
       </node>
-      <node id="51">
+      <node id="112">
         <label>math.h</label>
       </node>
-      <node id="46">
+      <node id="107">
         <label>iostream</label>
       </node>
-      <node id="55">
+      <node id="116">
         <label>complex</label>
       </node>
-      <node id="54">
+      <node id="115">
         <label>bispectrumcalculator.h</label>
-        <link refid="bispectrumcalculator_8h_source"/>
-        <childnode refid="44" relation="include">
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="105" relation="include">
         </childnode>
-        <childnode refid="45" relation="include">
+        <childnode refid="106" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="107" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="108" relation="include">
         </childnode>
-        <childnode refid="48" relation="include">
+        <childnode refid="109" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="110" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="113" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
+        <childnode refid="116" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="117" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+        <childnode refid="118" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="119" relation="include">
         </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="120" relation="include">
         </childnode>
       </node>
-      <node id="53">
+      <node id="114">
         <label>atom.h</label>
-        <link refid="atom_8h_source"/>
-        <childnode refid="49" relation="include">
+        <link refid="atom_8h"/>
+        <childnode refid="110" relation="include">
         </childnode>
       </node>
-      <node id="44">
+      <node id="105">
         <label>stdio.h</label>
       </node>
     </incdepgraph>
@@ -180,15 +180,15 @@
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atom.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;bispectrumcalculator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utilities.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="atom_8h" kindref="compound">atom.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="bispectrumcalculator_8h" kindref="compound">bispectrumcalculator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="utilities_8h" kindref="compound">utilities.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TOLERANCE<sp/>pow(10,-10)</highlight></codeline>
 <codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal">BispectrumCalculator::BispectrumCalculator(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>&amp;<sp/>asys,<ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref><sp/>fpprop):<sp/>fpproperties(fpprop),atomicsystem(asys),jmax(10)<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="classBispectrumCalculator_1a0542faabf37143ca00477f5a8badafc9" kindref="member">BispectrumCalculator::BispectrumCalculator</ref>(<ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>&amp;<sp/>asys,<ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref><sp/>fpprop):<sp/>fpproperties(fpprop),atomicsystem(asys),jmax(10)<sp/>{</highlight></codeline>
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>cutoff<sp/>=<sp/>fpproperties.cutoff;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>jmax<sp/>=<sp/>fpproperties.jmax;</highlight></codeline>
@@ -202,22 +202,22 @@
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
 <codeline lineno="33"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal">BispectrumCalculator::~BispectrumCalculator(){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><ref refid="classBispectrumCalculator_1ac031fd39e5d332f1ac9771c2105d6662" kindref="member">BispectrumCalculator::~BispectrumCalculator</ref>(){</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
 <codeline lineno="37"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BispectrumCalculator::get_size(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>size;}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classBispectrumCalculator_1a240eb7cb832ea06813b57422de95fb18" kindref="member">BispectrumCalculator::get_size</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>size;}</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>BispectrumCalculator::calculate_fingerprint(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>atomid,<ref refid="classNeighborList" kindref="compound">NeighborList</ref><sp/>&amp;nlist)<sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/><ref refid="classBispectrumCalculator_1a68cbc82fe0bb245db5ec1cc00e769792" kindref="member">BispectrumCalculator::calculate_fingerprint</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>atomid,<ref refid="classNeighborList" kindref="compound">NeighborList</ref><sp/>&amp;nlist)<sp/>{</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nneighbors<sp/>=<sp/>nlist.get_n_neighbors(atomid);</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>neighbors<sp/>=<sp/>nlist.get_sorted_neighbors(atomid);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nneighbors<sp/>=<sp/>nlist.<ref refid="classNeighborList_1add432330a908a64417aa431cf39e47d4" kindref="member">get_n_neighbors</ref>(atomid);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>neighbors<sp/>=<sp/>nlist.<ref refid="classNeighborList_1a79fad8428473ade7f329c7e0a91c1b75" kindref="member">get_sorted_neighbors</ref>(atomid);</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>distances<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[nneighbors];</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>j=0;<sp/>j&lt;nneighbors;<sp/>j++)<sp/>{</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>distance<sp/>=<sp/>sqrt(atomicsystem.get_square_distance(atomid,neighbors[j]));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>distance<sp/>=<sp/>sqrt(atomicsystem.<ref refid="classAtomicSystem_1a4449b0026fdec3b4c49ef31fe35de113" kindref="member">get_square_distance</ref>(atomid,neighbors[j]));</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>distances[j]<sp/>=<sp/>distance;<sp/><sp/><sp/><sp/></highlight></codeline>
 <codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="53"><highlight class="normal"></highlight></codeline>
@@ -225,11 +225,11 @@
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>fp<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[size];</highlight></codeline>
 <codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;size;<sp/>i++)<sp/>fp[i]<sp/>=<sp/>0.0;</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"></highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAtom" kindref="compound">Atom</ref><sp/>myatom<sp/>=<sp/>atomicsystem.get_atom(atomid);<sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classAtom" kindref="compound">Atom</ref><sp/>myatom<sp/>=<sp/>atomicsystem.<ref refid="classAtomicSystem_1a0c6a87a01f5aec7e76a4aec87fc6f0c5" kindref="member">get_atom</ref>(atomid);<sp/></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0<sp/>=<sp/>myatom.get_x();<sp/></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y0<sp/>=<sp/>myatom.get_y();<sp/></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z0<sp/>=<sp/>myatom.get_z();<sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x0<sp/>=<sp/>myatom.<ref refid="classAtom_1a60c78b2f17643f02744dc059ad4614bd" kindref="member">get_x</ref>();<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y0<sp/>=<sp/>myatom.<ref refid="classAtom_1a2b4f6fd59d0be3a6be685b1f7d008585" kindref="member">get_y</ref>();<sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z0<sp/>=<sp/>myatom.<ref refid="classAtom_1adf0968985ac6f9c8c8d5f280070790b1" kindref="member">get_z</ref>();<sp/></highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>psis<sp/><sp/><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[nneighbors];</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">*<sp/>thetas<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">[nneighbors];</highlight></codeline>
@@ -237,11 +237,11 @@
 <codeline lineno="67"><highlight class="normal"></highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;nneighbors;<sp/>i++)<sp/>{</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAtom" kindref="compound">Atom</ref><sp/>neigh_atom<sp/>=<sp/>atomicsystem.get_atom(neighbors[i]);<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classAtom" kindref="compound">Atom</ref><sp/>neigh_atom<sp/>=<sp/>atomicsystem.<ref refid="classAtomicSystem_1a0c6a87a01f5aec7e76a4aec87fc6f0c5" kindref="member">get_atom</ref>(neighbors[i]);<sp/></highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1<sp/>=<sp/>neigh_atom.get_x();<sp/></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y1<sp/>=<sp/>neigh_atom.get_y();<sp/></highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z1<sp/>=<sp/>neigh_atom.get_z();<sp/></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x1<sp/>=<sp/>neigh_atom.<ref refid="classAtom_1a60c78b2f17643f02744dc059ad4614bd" kindref="member">get_x</ref>();<sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>y1<sp/>=<sp/>neigh_atom.<ref refid="classAtom_1a2b4f6fd59d0be3a6be685b1f7d008585" kindref="member">get_y</ref>();<sp/></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z1<sp/>=<sp/>neigh_atom.<ref refid="classAtom_1adf0968985ac6f9c8c8d5f280070790b1" kindref="member">get_z</ref>();<sp/></highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dx<sp/>=<sp/>x1<sp/>-<sp/>x0;</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dy<sp/>=<sp/>y1<sp/>-<sp/>y0;</highlight></codeline>
@@ -339,7 +339,7 @@
 <codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>psi<sp/>=<sp/>psis[i];</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>theta<sp/>=<sp/>thetas[i];</highlight></codeline>
 <codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi<sp/>=<sp/>phis[i];</highlight></codeline>
-<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>+=<sp/>weight*conj(U(j,m,mprime,psi,theta,phi))*cutoff_func(dist,cutoff);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c<sp/>+=<sp/>weight*conj(U(j,m,mprime,psi,theta,phi))*<ref refid="utilities_8cpp_1a448f42187dbaad30e904f54a8d69179e" kindref="member">cutoff_func</ref>(dist,cutoff);</highlight></codeline>
 <codeline lineno="173"><highlight class="normal"></highlight></codeline>
 <codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"></highlight></codeline>
@@ -353,7 +353,7 @@
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>complex&lt;double&gt;<sp/>value<sp/>=<sp/>(0,0);</highlight></codeline>
 <codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>complex&lt;double&gt;<sp/>_j(0,1);</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"></highlight></codeline>
-<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(abs(beta-M_PI/2)<sp/>&lt;<sp/>TOLERANCE){</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(abs(beta-M_PI/2)<sp/>&lt;<sp/><ref refid="bispectrumcalculator_8cpp_1a30c17564229ec2e37dfea9c6c9ad643e" kindref="member">TOLERANCE</ref>){</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
 <codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i&lt;2*j+1;<sp/>i++){</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
@@ -362,10 +362,10 @@
 <codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(i<sp/>&lt;<sp/>mprime-m)</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="194"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>+=<sp/>pow(-1.0,i)<sp/>*<sp/>1.0<sp/>*<sp/>get_binomial(j+mprime,i)*get_binomial(j-mprime,i+m-mprime);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>+=<sp/>pow(-1.0,i)<sp/>*<sp/>1.0<sp/>*<sp/><ref refid="utilities_8cpp_1a9823ef7320113b5363e71556d0322324" kindref="member">get_binomial</ref>(j+mprime,i)*<ref refid="utilities_8cpp_1a9823ef7320113b5363e71556d0322324" kindref="member">get_binomial</ref>(j-mprime,i+m-mprime);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>*=<sp/>pow(-1.0,m-mprime)*pow(factorial(j+m)*factorial(j-m)*1.0/((factorial(j+mprime)*factorial(j-mprime))),0.5)/pow(2.0,j);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>*=<sp/>pow(-1.0,m-mprime)*pow(<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j+m)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j-m)*1.0/((<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j+mprime)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j-mprime))),0.5)/pow(2.0,j);</highlight></codeline>
 <codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>*=<sp/>exp(-1.0*_j*m*alpha)*exp(-1.0*_j*mprime*gamma);</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
@@ -383,10 +383,10 @@
 <codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(k<sp/>&lt;<sp/>mpp<sp/>-<sp/>m)</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp1<sp/>+=<sp/>pow(-1.0,k)*1.0*get_binomial(j+mpp,k)*get_binomial(j-mpp,k+m-mpp);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp1<sp/>+=<sp/>pow(-1.0,k)*1.0*<ref refid="utilities_8cpp_1a9823ef7320113b5363e71556d0322324" kindref="member">get_binomial</ref>(j+mpp,k)*<ref refid="utilities_8cpp_1a9823ef7320113b5363e71556d0322324" kindref="member">get_binomial</ref>(j-mpp,k+m-mpp);</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
 <codeline lineno="218"><highlight class="normal"></highlight></codeline>
-<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp1<sp/>*=<sp/>pow(-1.0,m-mpp)*pow(factorial(j+m)*factorial(j-m)*1.0/((factorial(j+mpp)*factorial(j-mpp))),0.5)/pow(2.0,j);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp1<sp/>*=<sp/>pow(-1.0,m-mpp)*pow(<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j+m)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j-m)*1.0/((<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j+mpp)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j-mpp))),0.5)/pow(2.0,j);</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"></highlight></codeline>
 <codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temp2<sp/>=<sp/>0.0;</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k=0;<sp/>k&lt;int(2*j+1);<sp/>k++){</highlight></codeline>
@@ -395,10 +395,10 @@
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(k<sp/>&lt;<sp/>-mprime<sp/>-<sp/>mpp)</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
-<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp2<sp/>+=<sp/>pow(-1.0,k)*1.0*get_binomial(j-mprime,k)*get_binomial(j+mprime,k+mprime+mpp);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp2<sp/>+=<sp/>pow(-1.0,k)*1.0*<ref refid="utilities_8cpp_1a9823ef7320113b5363e71556d0322324" kindref="member">get_binomial</ref>(j-mprime,k)*<ref refid="utilities_8cpp_1a9823ef7320113b5363e71556d0322324" kindref="member">get_binomial</ref>(j+mprime,k+mprime+mpp);</highlight></codeline>
 <codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
 <codeline lineno="230"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp2<sp/>*=<sp/>pow(-1.0,mprime+mpp)*pow(factorial(j+mpp)*factorial(j-mpp)*1.0/((factorial(j-mprime)*factorial(j+mprime))),0.5)/pow(2.0,j);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp2<sp/>*=<sp/>pow(-1.0,mprime+mpp)*pow(<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j+mpp)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j-mpp)*1.0/((<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j-mprime)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(j+mprime))),0.5)/pow(2.0,j);</highlight></codeline>
 <codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>+=<sp/>temp1*exp(_j*(-1.0*mpp)*beta)*temp2;</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value<sp/>*=<sp/>(pow(_j*1.0,(2<sp/>*<sp/>j<sp/>-<sp/>m<sp/>-<sp/>mprime)))<sp/>*<sp/>(pow(-1.0,(2<sp/>*<sp/>m)));</highlight></codeline>
@@ -435,9 +435,9 @@
 <codeline lineno="265"><highlight class="normal"></highlight></codeline>
 <codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
 <codeline lineno="267"><highlight class="normal"></highlight></codeline>
-<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temp<sp/>=<sp/>factorial(a+alpha)*factorial(a-alpha)*factorial(b+beta)*factorial(b-beta)*</highlight></codeline>
-<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>factorial(c+gamma)*factorial(c-gamma)*(2.0*c+1)*factorial(a+b-c)*</highlight></codeline>
-<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>factorial(a-b+c)*factorial(-a+b+c)/factorial(a+b+c+1);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>temp<sp/>=<sp/><ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(a+alpha)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(a-alpha)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(b+beta)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(b-beta)*</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(c+gamma)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(c-gamma)*(2.0*c+1)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(a+b-c)*</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(a-b+c)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(-a+b+c)/<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(a+b+c+1);</highlight></codeline>
 <codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val1<sp/>=<sp/>pow(temp,0.5);</highlight></codeline>
 <codeline lineno="272"><highlight class="normal"></highlight></codeline>
 <codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>zmin<sp/>=<sp/>max(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">(a+beta-c),</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">(b-alpha-c));</highlight></codeline>
@@ -447,8 +447,8 @@
 <codeline lineno="277"><highlight class="normal"></highlight></codeline>
 <codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val2<sp/><sp/>=<sp/>0.0;</highlight></codeline>
 <codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>z=zmin;<sp/>z&lt;zmax+1;<sp/>z++){</highlight></codeline>
-<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val3<sp/>=<sp/>factorial(z)*factorial(a+b-c-z)*factorial(a-alpha-z)*</highlight></codeline>
-<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>factorial(b+beta-z)*factorial(c-b+alpha+z)*factorial(c-a-beta+z);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val3<sp/>=<sp/><ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(z)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(a+b-c-z)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(a-alpha-z)*</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(b+beta-z)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(c-b+alpha+z)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(c-a-beta+z);</highlight></codeline>
 <codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>val2<sp/>+=<sp/>pow(-1.0,z)/val3;</highlight></codeline>
 <codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/>val1*val2;</highlight></codeline>

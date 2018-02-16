@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
   <compounddef id="classDiamondCalculator" kind="class" prot="public">
     <compoundname>DiamondCalculator</compoundname>
+    <includes refid="diamondcalculator_8h" local="no">diamondcalculator.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classDiamondCalculator_1ab16915686d25a430a52f67bf981eda01" prot="private" static="no" mutable="no">
         <type>int</type>

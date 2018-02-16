@@ -1,5 +1,11 @@
-// Created by Mardochee Reveil on 9/27/18
-// Class to hold info about any molecular sytem
+/*!
+
+   \file atomicsystem.cpp
+   Class that holds information about the molecular system including atom types and spatial coordinates.
+
+   Created by Mardochee Reveil on 9/27/18
+   Class to hold info about any molecular sytem
+ */
 
 #include <stdlib.h>
 #include <iostream>
@@ -211,58 +217,66 @@ double AtomicSystem::check_square_distance(Atom A, Atom B) {
 
     return sqdistance;
 
+}
 
 
+double AtomicSystem::get_distance_component(Atom A, Atom B, int direction) {
+
+    double dist_component, size, coord1, coord2;
+    bool pbc = false;
+
+    if (direction == 0) {
+        coord1 = A.get_x();
+        coord2 = B.get_x();
+        size = xmax - xmin + skin;
+        if (xpbc == true) pbc = true;
+    }
+    else if (direction == 1) {
+        coord1 = A.get_y();
+        coord2 = B.get_y();
+        size = ymax - ymin + skin;
+        if (ypbc == true) pbc = true;
+
+    }
+    else if (direction == 2) {
+        coord1 = A.get_z();
+        coord2 = B.get_z();
+        size = zmax - zmin + skin;
+        if (zpbc == true) pbc = true;
+    }
+    else {
+        cerr<<"ERROR: No such component for the distance between two atoms";
+        return -1;
+    }
+
+    dist_component = coord2 - coord1;
+
+    if (pbc == true ) {
+
+        if (dist_component >   size*0.5) dist_component = dist_component - size;
+        if (dist_component <= -size*0.5) dist_component = dist_component + size;  
+
+    }
+
+    return dist_component;
+}
+
+double AtomicSystem::get_distance_component(int atomID1, int atomID2, int direction) {
+
+    Atom A = get_atom(atomID1);
+    Atom B = get_atom(atomID2);
+
+    return get_distance_component(A, B, direction);
 
 }
 
 double AtomicSystem::get_square_distance(Atom A, Atom B) {
 
-    double dx=0.0, dy=0.0, dz=0.0, sqdistance = 0.0;
+    double dx = get_distance_component(A, B, 0);
+    double dy = get_distance_component(A, B, 1);
+    double dz = get_distance_component(A, B, 2);
 
-    double x1 = A.get_x();
-    double y1 = A.get_y();
-    double z1 = A.get_z();
- 
-    double x2 = B.get_x();
-    double y2 = B.get_y();
-    double z2 = B.get_z();
-
-    double x_size = xmax - xmin + skin;
-    double y_size = ymax - ymin + skin;
-    double z_size = zmax - zmin + skin;
-
-    dx = x2 - x1;
-
-    if (xpbc == true) {
-
-        if (dx >   x_size*0.5) dx = dx - x_size;
-        if (dx <= -x_size*0.5) dx = dx + x_size;  
-    } 
-
-    dy = y2 - y1;
-
-    if (ypbc == true) {
-
-        if (dy >   y_size*0.5) dy = dy - y_size;
-        if (dy <= -y_size*0.5) dy = dy + y_size;  
-    } 
-
-    dz = z2 -z1;
-
-    if (zpbc == true) {
-
-        if (dz >   z_size*0.5) dz = dz - z_size;
-        if (dz <= -z_size*0.5) dz = dz + z_size;  
-    } 
-
-   // if (x1==0.0 && y1==0.0 && z1==0.0 && x2==1.0 && y2==0.0 && z2 ==0.0)
-  //  cout<<x_size<<" "<<xmax<< " " <<xmin<<" "<<dx<<" " <<x1<<" "<<x2<<"\n";
-
-    sqdistance = pow(dx,2.0) + pow(dy,2.0) + pow(dz,2.0);
-
-    return sqdistance;
-
+    return pow(dx,2.0) + pow(dy,2.0) + pow(dz,2.0);
 }
 
 double AtomicSystem::get_square_distance(int id1, int id2) {
@@ -270,7 +284,7 @@ double AtomicSystem::get_square_distance(int id1, int id2) {
     Atom A = get_atom(id1);
     Atom B = get_atom(id2);
 
-    if (id1 == 0 and id2 == 3) return check_square_distance(A,B);
+   // if (id1 == 0 and id2 == 3) return check_square_distance(A,B);
 
     return get_square_distance(A,B);
 

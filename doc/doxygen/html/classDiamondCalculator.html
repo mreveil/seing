@@ -62,6 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
 <!-- window showing the filter options -->
@@ -69,7 +70,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Macros</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -87,27 +88,113 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">DiamondCalculator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="diamondcalculator_8h_source.html">diamondcalculator.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a24a772c0322243ec76661fd5909100"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a24a772c0322243ec76661fd5909100"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>DiamondCalculator</b> (<a class="el" href="classAtomicSystem.html">AtomicSystem</a> &amp;, <a class="el" href="structfingerprintProperties.html">fingerprintProperties</a>)</td></tr>
+<tr class="memitem:a3a24a772c0322243ec76661fd5909100"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiamondCalculator.html#a3a24a772c0322243ec76661fd5909100">DiamondCalculator</a> (<a class="el" href="classAtomicSystem.html">AtomicSystem</a> &amp;, <a class="el" href="structfingerprintProperties.html">fingerprintProperties</a>)</td></tr>
 <tr class="separator:a3a24a772c0322243ec76661fd5909100"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c1eeaeec8b5051d5e6801cd1cd08973"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2c1eeaeec8b5051d5e6801cd1cd08973"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>get_size</b> ()</td></tr>
+<tr class="memitem:a80a4acb0ad8b89b7e2bbeaa203550eb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiamondCalculator.html#a80a4acb0ad8b89b7e2bbeaa203550eb8">~DiamondCalculator</a> ()</td></tr>
+<tr class="separator:a80a4acb0ad8b89b7e2bbeaa203550eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c1eeaeec8b5051d5e6801cd1cd08973"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiamondCalculator.html#a2c1eeaeec8b5051d5e6801cd1cd08973">get_size</a> ()</td></tr>
 <tr class="separator:a2c1eeaeec8b5051d5e6801cd1cd08973"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042f425e943c93d953e3e4e24ecb9728"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a042f425e943c93d953e3e4e24ecb9728"></a>
-double *&#160;</td><td class="memItemRight" valign="bottom"><b>calculate_fingerprint</b> (int, <a class="el" href="classNeighborList.html">NeighborList</a> &amp;)</td></tr>
+<tr class="memitem:a042f425e943c93d953e3e4e24ecb9728"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDiamondCalculator.html#a042f425e943c93d953e3e4e24ecb9728">calculate_fingerprint</a> (int, <a class="el" href="classNeighborList.html">NeighborList</a> &amp;)</td></tr>
 <tr class="separator:a042f425e943c93d953e3e4e24ecb9728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a3a24a772c0322243ec76661fd5909100"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DiamondCalculator::DiamondCalculator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classAtomicSystem.html">AtomicSystem</a> &amp;&#160;</td>
+          <td class="paramname"><em>asys</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structfingerprintProperties.html">fingerprintProperties</a>&#160;</td>
+          <td class="paramname"><em>fpprop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a80a4acb0ad8b89b7e2bbeaa203550eb8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DiamondCalculator::~DiamondCalculator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a042f425e943c93d953e3e4e24ecb9728"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double * DiamondCalculator::calculate_fingerprint </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>atomid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classNeighborList.html">NeighborList</a> &amp;&#160;</td>
+          <td class="paramname"><em>nlist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2c1eeaeec8b5051d5e6801cd1cd08973"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DiamondCalculator::get_size </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="diamondcalculator_8h_source.html">diamondcalculator.h</a></li>
-<li>diamondcalculator.cpp</li>
+<li><a class="el" href="diamondcalculator_8cpp.html">diamondcalculator.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Jan 4 2018 20:53:36 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Feb 12 2018 16:54:40 for SEING by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.6
 </small></address>

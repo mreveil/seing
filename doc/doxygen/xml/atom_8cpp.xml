@@ -5,21 +5,21 @@
     <includes local="no">string</includes>
     <includes refid="atom_8h" local="yes">atom.h</includes>
     <incdepgraph>
-      <node id="1">
+      <node id="37">
         <label>string</label>
       </node>
-      <node id="0">
+      <node id="36">
         <label>atom.cpp</label>
         <link refid="atom.cpp"/>
-        <childnode refid="1" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="2" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="2">
+      <node id="38">
         <label>atom.h</label>
-        <link refid="atom_8h_source"/>
-        <childnode refid="1" relation="include">
+        <link refid="atom_8h"/>
+        <childnode refid="37" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -33,9 +33,9 @@
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
-<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;atom.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="atom_8h" kindref="compound">atom.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
-<codeline lineno="8"><highlight class="normal">Atom::Atom(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="classAtom_1add36d2ea4159b08eefc7d4d6d59f54eb" kindref="member">Atom::Atom</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>atomtype<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;O&quot;</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>0.0;</highlight></codeline>
@@ -45,7 +45,7 @@
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
-<codeline lineno="18"><highlight class="normal">Atom::Atom(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>attype,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cy,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cz)<sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="classAtom_1add36d2ea4159b08eefc7d4d6d59f54eb" kindref="member">Atom::Atom</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>attype,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cx,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cy,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>cz)<sp/>{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
 <codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>atomtype<sp/>=<sp/>attype;</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>x<sp/>=<sp/>cx;</highlight></codeline>
@@ -54,14 +54,14 @@
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>charge<sp/>=<sp/>0.0;</highlight></codeline>
 <codeline lineno="25"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal">Atom::~Atom(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="classAtom_1ad73f775b26a2081104bed58c2afd68a7" kindref="member">Atom::~Atom</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">){</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
 <codeline lineno="29"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>Atom::get_atom_type(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atomtype;}</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Atom::get_x(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x;}</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Atom::get_y(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>y;}</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>Atom::get_z(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>z;}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classAtom_1a7a8a8d77832c675e756a4935e3f6a4e8" kindref="member">Atom::get_atom_type</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atomtype;}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classAtom_1a60c78b2f17643f02744dc059ad4614bd" kindref="member">Atom::get_x</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x;}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classAtom_1a2b4f6fd59d0be3a6be685b1f7d008585" kindref="member">Atom::get_y</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>y;}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classAtom_1adf0968985ac6f9c8c8d5f280070790b1" kindref="member">Atom::get_z</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>z;}</highlight></codeline>
     </programlisting>
     <location file="/fs/home/mr937/SEING/src/atom.cpp"/>
   </compounddef>

@@ -3,35 +3,83 @@
   <compounddef id="periodictable_8h" kind="file">
     <compoundname>periodictable.h</compoundname>
     <includes local="no">string</includes>
+    <includedby refid="gaussiancalculator_8h" local="yes">gaussiancalculator.h</includedby>
     <includedby refid="zernikecalculator_8h" local="yes">zernikecalculator.h</includedby>
+    <includedby refid="gaussiancalculator_8cpp" local="yes">gaussiancalculator.cpp</includedby>
     <includedby refid="periodictable_8cpp" local="yes">periodictable.cpp</includedby>
     <includedby refid="zernikecalculator_8cpp" local="yes">zernikecalculator.cpp</includedby>
     <incdepgraph>
-      <node id="287">
+      <node id="386">
         <label>string</label>
       </node>
-      <node id="286">
+      <node id="385">
         <label>periodictable.h</label>
         <link refid="periodictable.h"/>
-        <childnode refid="287" relation="include">
+        <childnode refid="386" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="290">
+      <node id="390">
         <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h_source"/>
-      </node>
-      <node id="289">
-        <label>zernikecalculator.h</label>
-        <link refid="zernikecalculator_8h_source"/>
-        <childnode refid="290" relation="include">
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
         </childnode>
       </node>
-      <node id="288">
+      <node id="393">
+        <label>zernikecalculator.h</label>
+        <link refid="zernikecalculator_8h"/>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>genericlocalcalculator.cpp</label>
+        <link refid="genericlocalcalculator_8cpp"/>
+      </node>
+      <node id="392">
+        <label>gaussiancalculator.cpp</label>
+        <link refid="gaussiancalculator_8cpp"/>
+      </node>
+      <node id="389">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
+      </node>
+      <node id="395">
+        <label>periodictable.cpp</label>
+        <link refid="periodictable_8cpp"/>
+      </node>
+      <node id="388">
+        <label>gaussiancalculator.h</label>
+        <link refid="gaussiancalculator_8h"/>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+      </node>
+      <node id="394">
+        <label>zernikecalculator.cpp</label>
+        <link refid="zernikecalculator_8cpp"/>
+      </node>
+      <node id="387">
         <label>periodictable.h</label>
         <link refid="periodictable.h"/>
-        <childnode refid="289" relation="include">
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -58,12 +106,12 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15" refid="structElement" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structElement" kindref="compound">Element</ref><sp/>{</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>name;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>symbol;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>atomic_number;<sp/></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>electronegativity;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>mass;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ionization_energy;<sp/></highlight><highlight class="comment">//in<sp/>kJ/mol</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structElement_1a63e156c168905a24437098bfff0e5366" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structElement_1a63e156c168905a24437098bfff0e5366" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="18" refid="structElement_1a34d89c21bf14425580685a25d08edabd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structElement_1a34d89c21bf14425580685a25d08edabd" kindref="member">symbol</ref>;</highlight></codeline>
+<codeline lineno="19" refid="structElement_1a460c8dd687ca81783daf0cd4de7c0244" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structElement_1a460c8dd687ca81783daf0cd4de7c0244" kindref="member">atomic_number</ref>;<sp/></highlight></codeline>
+<codeline lineno="20" refid="structElement_1a2fed7278154c462ce9ec3ba1521f53ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structElement_1a2fed7278154c462ce9ec3ba1521f53ca" kindref="member">electronegativity</ref>;</highlight></codeline>
+<codeline lineno="21" refid="structElement_1abac7c79d113286574f348d076d51d5ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structElement_1abac7c79d113286574f348d076d51d5ff" kindref="member">mass</ref>;</highlight></codeline>
+<codeline lineno="22" refid="structElement_1ae2b61ce960fb99d7d7f5876d99f07c42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structElement_1ae2b61ce960fb99d7d7f5876d99f07c42" kindref="member">ionization_energy</ref>;<sp/></highlight><highlight class="comment">//in<sp/>kJ/mol</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
