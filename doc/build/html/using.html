@@ -70,7 +70,6 @@ but support will be added soon.</p>
 perform, the input parameters for the method chosen, etc. Current keys and possible values are as follow:</p>
 <div class="section" id="general-options">
 <h3>General Options<a class="headerlink" href="#general-options" title="Permalink to this headline">¶</a></h3>
-<hr class="docutils" />
 <dl class="docutils">
 <dt><strong>type</strong> (<em>optional</em>)</dt>
 <dd><p class="first">The type of fingerprinting scheme to use.
@@ -131,7 +130,6 @@ Possible values are:</p>
 </div>
 <div class="section" id="derivatives-options">
 <h3>Derivatives Options<a class="headerlink" href="#derivatives-options" title="Permalink to this headline">¶</a></h3>
-<hr class="docutils" />
 <dl class="docutils">
 <dt><strong>calculate_derivatives</strong> (<em>optional</em>)</dt>
 <dd><dl class="first last docutils">
@@ -163,7 +161,6 @@ Possible values are:</p>
 </div>
 <div class="section" id="output-options">
 <h3>Output Options<a class="headerlink" href="#output-options" title="Permalink to this headline">¶</a></h3>
-<hr class="docutils" />
 <dl class="docutils">
 <dt><strong>output_file</strong> (<em>optional</em>)</dt>
 <dd>Name of the output file to write the fingerprint in. Output file will be in current directory (where the coordinate and option file are).
@@ -177,7 +174,6 @@ If the file already exists, the behavior of the program is determined by the <em
 </div>
 <div class="section" id="neighbor-searching-options">
 <h3>Neighbor Searching Options<a class="headerlink" href="#neighbor-searching-options" title="Permalink to this headline">¶</a></h3>
-<hr class="docutils" />
 <dl class="docutils">
 <dt><strong>cutoff</strong> (<em>required</em>)</dt>
 <dd>Defines the cutoff value used to build the neighbor list.</dd>
@@ -187,11 +183,16 @@ If the file already exists, the behavior of the program is determined by the <em
 </div>
 <div class="section" id="fingerprint-specific-options">
 <h3>Fingerprint-Specific Options<a class="headerlink" href="#fingerprint-specific-options" title="Permalink to this headline">¶</a></h3>
-<hr class="docutils" />
-<p><em>Bispectrum</em></p>
+<div class="section" id="bispectrum">
+<h4><em>Bispectrum</em><a class="headerlink" href="#bispectrum" title="Permalink to this headline">¶</a></h4>
 <p><strong>jmax</strong></p>
-<p><em>Behler-Parinello (Gaussian)</em></p>
+</div>
+<div class="section" id="zernike">
+<h4><em>Zernike</em><a class="headerlink" href="#zernike" title="Permalink to this headline">¶</a></h4>
 <p><strong>nmax</strong></p>
+</div>
+<div class="section" id="behler-parinello-gaussian">
+<h4><em>Behler-Parinello (Gaussian)</em><a class="headerlink" href="#behler-parinello-gaussian" title="Permalink to this headline">¶</a></h4>
 <p><strong>nzetas</strong></p>
 <p><strong>zetas</strong></p>
 <p><strong>ngammas</strong></p>
@@ -200,7 +201,9 @@ If the file already exists, the behavior of the program is determined by the <em
 <p><strong>etas</strong></p>
 <p><strong>netas2</strong></p>
 <p><strong>etas</strong></p>
-<p><em>AGNI</em></p>
+</div>
+<div class="section" id="agni">
+<h4><em>AGNI</em><a class="headerlink" href="#agni" title="Permalink to this headline">¶</a></h4>
 <dl class="docutils">
 <dt><strong>width</strong> (<em>required</em>)</dt>
 <dd>The width of the Gaussians.</dd>
@@ -209,8 +212,7 @@ If the file already exists, the behavior of the program is determined by the <em
 <dt><strong>alpha</strong> (<em>required</em>)</dt>
 <dd>The direction of the fingerprint (0=x, 1=y, 2=z)</dd>
 </dl>
-<p><em>Zernike</em></p>
-<p><strong>jmax</strong></p>
+</div>
 </div>
 </div>
 </div>
@@ -230,7 +232,13 @@ If the file already exists, the behavior of the program is determined by the <em
 <li><a class="reference internal" href="#derivatives-options">Derivatives Options</a></li>
 <li><a class="reference internal" href="#output-options">Output Options</a></li>
 <li><a class="reference internal" href="#neighbor-searching-options">Neighbor Searching Options</a></li>
-<li><a class="reference internal" href="#fingerprint-specific-options">Fingerprint-Specific Options</a></li>
+<li><a class="reference internal" href="#fingerprint-specific-options">Fingerprint-Specific Options</a><ul>
+<li><a class="reference internal" href="#bispectrum"><em>Bispectrum</em></a></li>
+<li><a class="reference internal" href="#zernike"><em>Zernike</em></a></li>
+<li><a class="reference internal" href="#behler-parinello-gaussian"><em>Behler-Parinello (Gaussian)</em></a></li>
+<li><a class="reference internal" href="#agni"><em>AGNI</em></a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

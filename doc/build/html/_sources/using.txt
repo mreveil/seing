@@ -28,7 +28,7 @@ perform, the input parameters for the method chosen, etc. Current keys and possi
 
 General Options
 ******************
-----------------------------
+
 
 **type** (*optional*)
    The type of fingerprinting scheme to use.
@@ -62,7 +62,7 @@ General Options
 
 Derivatives Options
 *******************
--------------------------------------
+
 
 **calculate_derivatives** (*optional*)
    Whether or not to calculate fingerprint derivatives. If yes, derivatives are added to the fingerprint. Please see documentation of your specific fingerprint for whether or not derivatives are supported and if so, how they are calculated and incorporated to the fingerprint vector or matrix.
@@ -85,7 +85,7 @@ Derivatives Options
 
 Output Options
 ****************
---------------------------------------
+
 
 **output_file** (*optional*)
    Name of the output file to write the fingerprint in. Output file will be in current directory (where the coordinate and option file are).
@@ -101,7 +101,7 @@ Output Options
 
 Neighbor Searching Options
 ***************************
---------------------------------
+
 
 
 **cutoff** (*required*)
@@ -114,17 +114,23 @@ Neighbor Searching Options
 
 Fingerprint-Specific Options
 ****************************
-------------------------------
+
 
 *Bispectrum*
++++++++++++++++++
 
 **jmax**
    
 
-*Behler-Parinello (Gaussian)*
+*Zernike*
++++++++++++++++++
 
 **nmax** 
-   
+
+
+*Behler-Parinello (Gaussian)*
++++++++++++++++++
+
 **nzetas** 
 
 **zetas** 
@@ -143,6 +149,7 @@ Fingerprint-Specific Options
 
 
 *AGNI*
++++++++++++++++++
 
 **width** (*required*)
     The width of the Gaussians.
@@ -153,9 +160,6 @@ Fingerprint-Specific Options
 **alpha** (*required*) 
     The direction of the fingerprint (0=x, 1=y, 2=z)
 
-*Zernike*
-
-**jmax**
 
 
 

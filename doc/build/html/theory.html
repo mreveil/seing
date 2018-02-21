@@ -57,11 +57,11 @@ for implementation.</p>
 <div class="section" id="behler-parinello">
 <h2>Behler-Parinello<a class="headerlink" href="#behler-parinello" title="Permalink to this headline">¶</a></h2>
 <p>Behler-Parinello (BP) also called &#8220;Gaussian&#8221; fingerprints are local fingerprints based on symmetry
-functions. Two of such symmetry functions are given below</p>
+functions. Two of such symmetry functions are given by the radial and angular componenets <span class="math">\(G^{rad}\)</span> and <span class="math">\(G^{ang}\)</span> below where summations run over all neighbors <span class="math">\(j\)</span> and <span class="math">\(k\)</span> separated by distances <span class="math">\(R_{ij}\)</span> and <span class="math">\(R_{ik}\)</span> with respect to atom <span class="math">\(i\)</span> within a cutoff distance <span class="math">\(R_c\)</span> around <span class="math">\(i\)</span>. <span class="math">\(\theta_{ijk}\)</span> is the angle between atoms <span class="math">\(i,j and k\)</span>. <span class="math">\(\eta\)</span>, <span class="math">\(R_s\)</span>, <span class="math">\(\lambda\)</span> and <span class="math">\(\zeta\)</span> are parameters whose values are chosen by the user. <span class="math">\(f_c\)</span> is a cutoff function used to ensure a smooth transition to zero at the <span class="math">\(R_c\)</span>. For more information, see: <a class="reference internal" href="#bp" id="id1">[BP]</a></p>
 <div class="math">
-\[G^2_i = \sum_j e^{-\eta(R_{ij}-R_s)^2}f_c(R_{ij})\]</div>
+\[G^{rad}_i = \sum_j e^{-\eta(R_{ij}-R_s)^2}f_c(R_{ij})\]</div>
 <div class="math">
-\[G^4_i = 2^{1-\zeta}\sum_{j,k\neq i} (1+\lambda \cos \theta_{ijk})^\zeta e^{-\eta(R_{ij}^2+R_{ik}^2+R_{jk}^2)^2}f_c(R_{ij})f_c(R_{ij})f_c(R_{ij})\]</div>
+\[G^{ang}_i = 2^{1-\zeta}\sum_{j,k\neq i} (1+\lambda \cos \theta_{ijk})^\zeta e^{-\eta(R_{ij}^2+R_{ik}^2+R_{jk}^2)^2}f_c(R_{ij})f_c(R_{ij})f_c(R_{ij})\]</div>
 <div class="math">
 \[\begin{split}f_c =
 \begin{cases}
@@ -69,21 +69,28 @@ functions. Two of such symmetry functions are given below</p>
 \\
 &amp; 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~      \text{for}~~~ R_{ij} &gt; R_c \\
 \end{cases}\end{split}\]</div>
+<p>The SEING implementation of the BP fingerprint only requires the parameters <span class="math">\(\eta\)</span>, <span class="math">\(\lambda\)</span> and <span class="math">\(\zeta\)</span> as <span class="math">\(R_s\)</span> is automatically set to zero.</p>
 </div>
 <div class="section" id="agni">
 <h2>AGNI<a class="headerlink" href="#agni" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference internal" href="#id5" id="id2">[AGNI]</a> method was developed as a framework for machine learning force field development in which the forces are calculated directly without going through energy predictions. The associated fingerprint is given by <span class="math">\(V_{i,\alpha,k}\)</span> below where <span class="math">\(\alpha\)</span> denotes the direction (x,y or z) of the force between atoms <span class="math">\(i\)</span> and <span class="math">\(j\)</span> separated by distance <span class="math">\(r_{ij}\)</span>. The parameter <span class="math">\(w\)</span> corresponds to the width of Gaussians placed at positions <span class="math">\(a_k\)</span> within a cutoff distance <span class="math">\(R_c\)</span>. Similarly to the BP fingerprint, <span class="math">\(f_c\)</span> is the cutofff function ensuring a smooth transition to zero at <span class="math">\(Rc\)</span>.</p>
 <div class="math">
 \[V_{i,\alpha,k} = \sum_{j\neq i} \frac{r_{ij}^\alpha}{r_{ij}} \frac{1}{\sqrt{2\pi w}}e^{-0.5(\frac{r_{ij}-a_k}{w})^2}f_c(r_{ij})\]</div>
+<p>For the SEING implementation of the AGNI fingerprint, gaussian centers are uniformly chosen between 0 and the cutoff disance <span class="math">\(R_c\)</span>. The only parameter necessary is the dimensionality of the fingerprint with determines the number of such Gaussian centers to generate. This fingerprint <em>does not</em> support derivative calculations.</p>
 </div>
 <div class="section" id="bispectrum">
 <h2>Bispectrum<a class="headerlink" href="#bispectrum" title="Permalink to this headline">¶</a></h2>
+<p>Bispectrum fingerprints for representaion of chemical environments were proposed by Bartok et al. and are based on teh decomposition of a local atomic density function with respect to 4D spherical harmonics. The bispecturm representation is then build based on the coefficients <span class="math">\(c_{m'm}^j\)</span> of the decomposition given below. For more information, please consult the original paper on the development of <a class="reference internal" href="#id6" id="id3">[Bispectrum]</a> fingerprints.</p>
 <div class="math">
 \[B_{j_1,j_2,j} = \sum_{m'_1,m_1=-j_1}^{j_1} \sum_{m'_2,m_2=-j_2}^{j_1} \sum_{m',m=-j}^{j}  c_{m'm}^jC_{j_1m_1j_2m_2}^{jm}C_{j_1m'_1j_2m'_2}^{jm'}c_{m'_1m_1}^{j_1}c_{m'_2m_2}^{j_2}\]</div>
+<p>Within SEING, only the parameter <span class="math">\(j_{max}\)</span> is needed (suggested value: 5) to generate bispectrum fingerprints. Please note that this type of fingerprints is relatively slow compared to other fingerprints currently implemented. Derivatives are supported.</p>
 </div>
 <div class="section" id="zernike">
 <h2>Zernike<a class="headerlink" href="#zernike" title="Permalink to this headline">¶</a></h2>
+<p>Zernike fingerprints are similar to Bispectrum fingerprints in the sense that they are based on decomposition of a local atomic density wrt basis sets. However, Zernike fingerprints are based on decomposition wrt zernike polynomials and 3D spherical harmonics. The general formula is given below. Please consult this paper which describes the <a class="reference internal" href="#id7" id="id4">[Zernike]</a> method.</p>
 <div class="math">
 \[\rho(\tilde{r},\theta,\phi) = \sum_{n=0}^{\inf} \sum_l \sum_{m=-l}^l c_{nl}^mZ_{nl}^m(\tilde{r},\theta, \phi) ~~~~ \text{for} ~~ n-l \geq 0\]</div>
+<p>To use the Zernike fingerprint in SEING, only the parameter <span class="math">\(n_max\)</span> is needed (suggested value: 5). Derivatives are supported.</p>
 </div>
 <div class="section" id="prdf-upcoming">
 <h2>PRDF (<em>upcoming</em>)<a class="headerlink" href="#prdf-upcoming" title="Permalink to this headline">¶</a></h2>
@@ -93,6 +100,51 @@ functions. Two of such symmetry functions are given below</p>
 </div>
 <div class="section" id="sprint-upcoming">
 <h2>SPRINT (<em>upcoming</em>)<a class="headerlink" href="#sprint-upcoming" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="citations">
+<h2>Citations<a class="headerlink" href="#citations" title="Permalink to this headline">¶</a></h2>
+<table class="docutils citation" frame="void" id="bp" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id1">[BP]</a></td><td><ol class="first last upperalpha simple" start="10">
+<li>Behler and M. Parrinello, Phys. Rev. Lett., 2007, 98, 146401.</li>
+</ol>
+</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="id5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id2">[AGNI]</a></td><td><ol class="first last upperalpha simple" start="20">
+<li><ol class="first upperalpha" start="4">
+<li>Huan, R. Batra, J. Chapman, S. Krishnan, L. Chen and R. Ramprasad, npj Comput. Mater., 2017, 3, 89–109.</li>
+</ol>
+</li>
+</ol>
+</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="id6" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[Bispectrum]</a></td><td><ol class="first last upperalpha simple">
+<li><ol class="first upperalpha" start="16">
+<li>Bartók, M. C. Payne, R. Kondor and G. Csányi, Phys. Rev. Lett., 2010, 104, 136403.</li>
+</ol>
+</li>
+</ol>
+</td></tr>
+</tbody>
+</table>
+<table class="docutils citation" frame="void" id="id7" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id4">[Zernike]</a></td><td><ol class="first last upperalpha simple">
+<li>Khorshidi and A. A. Peterson, Comput. Phys. Commun., 2016, 207, 310–324.</li>
+</ol>
+</td></tr>
+</tbody>
+</table>
 </div>
 </div>
 
@@ -112,6 +164,7 @@ functions. Two of such symmetry functions are given below</p>
 <li><a class="reference internal" href="#prdf-upcoming">PRDF (<em>upcoming</em>)</a></li>
 <li><a class="reference internal" href="#contact-matrix-upcoming">Contact Matrix (<em>upcoming</em>)</a></li>
 <li><a class="reference internal" href="#sprint-upcoming">SPRINT (<em>upcoming</em>)</a></li>
+<li><a class="reference internal" href="#citations">Citations</a></li>
 </ul>
 </li>
 </ul>
