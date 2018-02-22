@@ -74,7 +74,7 @@ struct fingerprintProperties {
     int alpha;
 
     string output_file;
-    string mode;
+    string output_mode;
 };
 
 fingerprintProperties read_prop_file(string);

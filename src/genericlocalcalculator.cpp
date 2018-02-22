@@ -29,8 +29,6 @@ GenericLocalCalculator::GenericLocalCalculator(AtomicSystem& asys, fingerprintPr
 
     cutoff = fpproperties.cutoff;
 
-    cout<<"Post cutoff...\n";
-
     if (fpproperties.type == "gaussian"){
         GaussianCalculator gcalc = GaussianCalculator(atomicsystem,fpproperties); 
         size = gcalc.get_size();

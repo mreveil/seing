@@ -34,10 +34,12 @@ int main(int argc, char*argv[]) {
 
   // Reading input file
 
+    cout<<"\n******* SEING: Molecular fingerprinting package for Machine Learning *******\n";
+
     if (argc == 3) {
         propfilename = argv[2];
         try {
-            cout<<"Reading fingerprint properties input file...\n\n";
+            cout<<"\nReading fingerprint properties input file...\n";
             fpproperties = read_prop_file(propfilename);
         } catch (const char* msg) {
             cerr<<msg<<"\n";
@@ -49,7 +51,7 @@ int main(int argc, char*argv[]) {
     // Reading xyz file
 
     try {
-        cout <<"Reading xyz file.............";
+        cout <<"\nReading xyz file.............";
         asys = AtomicSystem(xyzfilename, true, true, true, 2.01778); //1.46 for InGaAs
         cout << "\n\tNumber of atoms: " << asys.get_n_atoms()<<"\n";
 
@@ -72,7 +74,7 @@ int main(int argc, char*argv[]) {
 
     FingerprintGenerator fpgenerator = FingerprintGenerator(asys,fpproperties);
     cout<<"Writing fingerprint to file..."<<fpproperties.output_file<<"\n";
-    fpgenerator.write2file(fpproperties.output_file,fpproperties.mode);
+    fpgenerator.write2file(fpproperties.output_file,fpproperties.output_mode);
 
     return 1;
 }

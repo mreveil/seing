@@ -20,29 +20,42 @@ fingerprintProperties read_prop_file(string filename){
     fingerprintProperties fpproperties;
 
 
-  //  cout<<"Opening input file: "<<filename<<"\n";
-
-
     if (!myfile.is_open()) {
         throw "Cannot open input file";
         return fpproperties;
     }
 
-//TODO: Instead of using those booleans, initialize the variables with negavtive values for example
-//      to be able to check if they have been provided by the user or not
 
-    fpproperties.ndirections = 0; //This is an example of how to do it!
+    fpproperties.type = "";
+    fpproperties.natomtypes = 0;
+    fpproperties.strategy = "";
+    fpproperties.weight_type = "";
+
+    fpproperties.calculate_derivatives = "no";
+    fpproperties.ndirections = 0;
+    fpproperties.nderivatives = 1;
+
+    fpproperties.cutoff = 6.5;
+    fpproperties.inner_cutoff = -1;
+    fpproperties.is_box_size_provided = false;
+
+    fpproperties.output_file = "";
+    fpproperties.output_mode = "";
+
+    fpproperties.nmax = -1;
+    fpproperties.jmax = -1;
+
+    fpproperties.nzetas = 0;
+    fpproperties.ngammas = 0;
+    fpproperties.netas = 0;
+    fpproperties.netas2 = 0;   
+
+    fpproperties.width = 0;
+    fpproperties.dimensionality = 0;
+    fpproperties.alpha = -1;       
 
     double dvalue;
-    bool isnetas=false, isnetas2=false, isnzetas=false, isngammas = false;
-    bool isnatomtypes=false, istypeprovided=false, isnmaxprovided=false;
-    bool isjmaxprovided = false, error = false, isnderivativesprovided=false;
-    bool isdirectionprovided=false, isderivativeprovided=false, isinnercutoffprovided=false;
-    bool isstrategyprovided=false, isweighttypeprovided=false,isboxsizeprovided=false;
-    bool ismodeprovided=false, isoutputfileprovided=false;
-
-    // AGNI fingerprints
-    bool iswidthprovided=false, isalphaprovided=false, isdimensionalityprovided=false;
+    bool error = false;
 
     int i = 0;
     double *zetas, *gammas, *etas, *etas2;
@@ -61,12 +74,11 @@ fingerprintProperties read_prop_file(string filename){
             else if (key == "inner_cutoff") {
                  if (temp == "=") {
                       svalue >> fpproperties.inner_cutoff;
-                      isinnercutoffprovided = true;
                  }
             } 
             else if (key == "box_size") {
                  if (temp == "=") {
-                      isboxsizeprovided = true;
+                      fpproperties.is_box_size_provided = true;
                  
                       fpproperties.box_size = new double[6];
                       svalue >> fpproperties.box_size[0];
@@ -80,19 +92,16 @@ fingerprintProperties read_prop_file(string filename){
             else if (key == "type") {
                  if (temp == "=") {
                       svalue >> fpproperties.type;
-                      istypeprovided = true;
                  }
             } 
             else if (key == "strategy") { // strategy will weighted or augmented
                  if (temp == "=") {
                       svalue >> fpproperties.strategy;
-                      isstrategyprovided = true;
                  }
             } 
             else if (key == "weight_type") { // weight_type can be atomic numbers or electronegativity
                  if (temp == "=") {
                       svalue >> fpproperties.weight_type;
-                      isweighttypeprovided = true;
                  }
             } 
             else if (key == "ndirections") {
@@ -102,7 +111,7 @@ fingerprintProperties read_prop_file(string filename){
             }
             else if (key == "directions"){
                   if (temp == "=") {
-                      if (fpproperties.ndirections < 0 || fpproperties.ndirections > 3) {
+                      if (fpproperties.ndirections <= 0 || fpproperties.ndirections > 3) {
                           error=true;cerr<<"ERROR: Please provide a valid value for ndirections between 0 and 3;";
                       } 
                       else{
@@ -121,72 +130,62 @@ fingerprintProperties read_prop_file(string filename){
             else if (key == "calculate_derivatives") {
                  if (temp == "=") {
                       svalue >> fpproperties.calculate_derivatives;
-                      isderivativeprovided = true;
                  }
             } 
             else if (key == "output_file") {
                  if (temp == "=") {
                       svalue >> fpproperties.output_file;
-                      isoutputfileprovided = true;
                  }
             } 
-            else if (key == "mode") {
+            else if (key == "output_mode") {
                  if (temp == "=") {
-                      svalue >> fpproperties.mode;
-                      ismodeprovided = true;
+                      svalue >> fpproperties.output_mode;
                  }
             } 
             else if (key == "nderivatives") {
                  if (temp == "=") {
                       svalue >> fpproperties.nderivatives;
-                      isnderivativesprovided = true;
                  }
             } 
             else if (key == "nmax") {
                  if (temp == "=") {
                       svalue >> fpproperties.nmax;
-                      isnmaxprovided = true;
                  }
             } 
 
             else if (key == "jmax") {
                  if (temp == "=") {
                       svalue >> fpproperties.jmax;
-                      isjmaxprovided = true;
                  }
             } 
 
             else if (key == "width") {
                  if (temp == "=") {
                       svalue >> fpproperties.width;
-                      iswidthprovided = true;
                  }
             } 
 
             else if (key == "alpha") {
                  if (temp == "=") {
                       svalue >> fpproperties.alpha;
-                      isalphaprovided = true;
                  }
             } 
 
             else if (key == "dimensionality") {
                  if (temp == "=") {
                       svalue >> fpproperties.dimensionality;
-                      isdimensionalityprovided = true;
                  }
             } 
 
             else if (key == "natomtypes") {
                  if (temp == "=") {
                       svalue >> fpproperties.natomtypes;
-                      isnatomtypes = true;                                  
                  }
             }                                      
             else if (key =="atomtypes") {
                 if (temp == "=") {
-                    if (isnatomtypes == false) {
-                         error=true;cerr<<"ERROR: natomtypes has to be specified before atomtypes;";
+                    if (fpproperties.natomtypes <= 0) {
+                         error=true;cerr<<"ERROR: a valid value for 'natomtypes' has to be specified before atomtypes;";
                     } 
                     else { 
                         fpproperties.atomtypes= new string[fpproperties.natomtypes];
@@ -204,13 +203,12 @@ fingerprintProperties read_prop_file(string filename){
             else if (key == "nzetas") {
                  if (temp == "=") {
                       svalue >> fpproperties.nzetas;
-                      isnzetas = true;                                  
                  }
             }                                      
             else if (key =="zetas") {
                 if (temp == "=") {
-                    if (isnzetas == false) {
-                         error=true;cerr<<"ERROR: nzetas has to be specified before zetas;";
+                    if (fpproperties.nzetas <= 0 ) {
+                         error=true;cerr<<"ERROR: A valid value for 'nzetas' has to be specified before 'zetas';";
                     } 
                     else { 
                         fpproperties.zetas = new double[fpproperties.nzetas];
@@ -227,13 +225,12 @@ fingerprintProperties read_prop_file(string filename){
              else if (key =="ngammas"){
                  if (temp == "=") {
                      svalue >> fpproperties.ngammas;
-                     isngammas = true;
                  }
              }
              else if (key =="gammas"){
                    if (temp == "=") {
-                       if (isngammas == false) {
-                           error=true;cerr<<"ERROR: ngammas has to be specified before gammas;";
+                       if (fpproperties.ngammas <= 0) {
+                           error=true;cerr<<"ERROR: A valid value for 'ngammas' has to be specified before 'gammas';";
                        } 
                        else{
                             fpproperties.gammas = new double[fpproperties.ngammas];
@@ -250,13 +247,12 @@ fingerprintProperties read_prop_file(string filename){
               else if (key =="netas"){
                   if (temp == "=") {
                       svalue >> fpproperties.netas;
-                      isnetas = true;
                   }
               }
               else if (key == "etas"){
                   if (temp == "=") {
-                      if (isnetas == false) {
-                          error=true;cerr<<"ERROR: netas has to be specified before etas;";
+                      if (fpproperties.netas <= 0) {
+                          error=true;cerr<<"ERROR: A valid value for 'netas' has to be specified before 'etas';";
                       } 
                       else{
                            fpproperties.etas = new double[fpproperties.netas];
@@ -274,13 +270,12 @@ fingerprintProperties read_prop_file(string filename){
               else if (key =="netas2"){
                   if (temp == "=") {
                       fpproperties.netas2 = atoi(value.c_str());
-                      isnetas2 = true;
                   }
               }
               else if (key =="etas2"){
                    if (temp == "=") {
-                       if (isnetas2 == false) {
-                            error=true;cerr<<"ERROR: netas2 has to be specified before netas2;"; 
+                       if (fpproperties.netas2 <= 0) {
+                            error=true;cerr<<"INPUT ERROR: A valid value for 'netas2' has to be specified before 'netas2';"; 
                        }
                        else {
                            fpproperties.etas2 = new double[fpproperties.netas2];
@@ -299,80 +294,88 @@ fingerprintProperties read_prop_file(string filename){
     }
 
 
-/////////////// Taking care of defaults //////////////////////////
+/////////////// Taking care of defaults and bad inputs //////////////////////////
 
-    if (istypeprovided == false) {
+    if (fpproperties.type == "") {
         fpproperties.type = "gaussian";
-        cout<<"No fingerprint type provided in input file. The default (gaussian) will be used.\n";
+        cout<<"NOTE: No fingerprint type provided in input file. The default (gaussian) will be used.\n";    
     }
-    if (fpproperties.type == "zernike" and isnmaxprovided==false){
+
+    if (fpproperties.type == "zernike" and fpproperties.nmax == -1){
         fpproperties.nmax = 10;
-        cout<<"No 'nmax' value provided for zernike fingerprint in input file. The default (10) will be used.\n";
-
+        cout<<"NOTE: No 'nmax' value provided for zernike fingerprint in input file. The default (10) will be used.\n";
     }
-    if (fpproperties.type == "bispectrum" and isjmaxprovided==false){
+
+    if (fpproperties.type == "bispectrum" and fpproperties.jmax == -1){
         fpproperties.jmax = 10; 
-        cout<<"No 'jmax' value provided for bispectrum fingerprint in input file. The default (10) will be used.\n";
-
+        cout<<"NOTE: No 'jmax' value provided for bispectrum fingerprint in input file. The default (10) will be used.\n";
     }
-    if (fpproperties.type == "diamond" and isinnercutoffprovided==false){
+
+    if (fpproperties.type == "diamond" and fpproperties.inner_cutoff == -1){
         fpproperties.inner_cutoff = 1.0; 
-        cout<<"No 'inner_cutoff' provided for diamond fingerprint in input file. The default (1.0) will be used.\n";
+        cout<<"NOTE: No 'inner_cutoff' provided for diamond fingerprint in input file. The default (1.0) will be used.\n";
+    }
 
+
+
+    if (fpproperties.calculate_derivatives == "false") {
+        cout<<"NOTE: Derivatives of the fingerprints will not be calculated.\n";
     }
-    if (isderivativeprovided == false) {
-        fpproperties.calculate_derivatives = "false";
-        cout<<"Derivatives of the fingerprints will not be calculated.\n";
-    }
-  //  if (isderivativeprovided == true and isdirectionprovided == false) {
-  //      fpproperties.direction = 0;
-  //      cout<<"No direction provided. Derivatives will be calculated in the 'x' direction.\n";
-  //  }
-    if (isnderivativesprovided == false) {
-        fpproperties.nderivatives = 1;
-        if (isderivativeprovided == true)
-            cout<<"No number of derivatives provided. Default of 1 will be used.\n";
-    }
-    if (isstrategyprovided == false) {
-        fpproperties.strategy = "";
-        cout<<"No strategy provided to treat multiple atom types. Default associated with type of fingerprint will be used.\n";
-    }
-    if (isweighttypeprovided == false) {
-        fpproperties.weight_type = "atomic_number";
-        if (fpproperties.strategy == "weighted")
-            cout<<"No weight type provided. Default (atomic number) will be used.";
-    }
-    if (isboxsizeprovided == false) {
-        fpproperties.is_box_size_provided = false;
+    else if (fpproperties.calculate_derivatives == "true") {
+        cout<<"NOTE: Derivatives of the fingerprints will be calculated.\n";
+        if (fpproperties.nderivatives == -1) {
+            fpproperties.nderivatives = 1;
+            cout<<"NOTE: No number of derivatives provided. Default of 1 will be used.\n";
+        }
+        else if (fpproperties.nderivatives > 5) {
+            cout<<"NOTE: Too many number of derivatives specified. Max of 4 will be calculated.\n";
+            fpproperties.nderivatives = 4;
+        }
     }
     else {
-        fpproperties.is_box_size_provided = true;
+         error = true;
+         cout<< "INPUT ERROR: Invalid value for calculate_derivatives. It can only be 'true' or 'false';\n";
     }
-    if (ismodeprovided == false) {
-        fpproperties.mode = "append";
-        cout<<"Note: Fingeprints will be appended to output file";
+
+
+
+    if (fpproperties.strategy == "") {
+        cout<<"NOTE: No strategy provided to treat multiple atom types. Default associated with type of fingerprint will be used.\n";
     }
-    if (isoutputfileprovided = false) {
+    else if (fpproperties.strategy != "augmented" and fpproperties.strategy != "weighted") {
+         error = true;
+         cout<<"INPUT ERROR: Invalid value for strategy. Only be 'augmented' or 'weighted' are allowed\n";
+    }
+
+
+    if (fpproperties.weight_type == "") {
+        fpproperties.weight_type = "atomic_number";
+        if (fpproperties.strategy == "weighted")
+            cout<<"NOTE: No weight type provided. Default (atomic number) will be used.\n";
+    }
+    else if (fpproperties.weight_type != "atomic_number" and fpproperties.weight_type != "electronegativity") {
+         error = true;
+         cout<<"INPUT ERROR: Unsupported weight_type. Can only be 'atomic_number' or 'electronegativity'.\n";
+    }
+
+
+    if (fpproperties.output_mode == "") {
+        fpproperties.output_mode = "append";
+        cout<<"NOTE: No output_mode specified. Fingeprints will be appended to output file\n";
+    }
+    else if (fpproperties.output_mode != "append" and fpproperties.output_mode != "overwrite") {
+         error = true;
+         cout<<"INPUT ERROR: Unsupported output_mode. Can only be 'append' or 'overwrite'.\n";
+    }
+
+
+    if (fpproperties.output_file == "") {
         fpproperties.output_file = fpproperties.type+"_fingerprints.sg";
         cout<<"No output file name provided, default will be used.";
 
     }
-///////////////  Some Input Validation /////////////////////////////// TODO: validate value given for mode, box size, etc...
 
-    if (isderivativeprovided) {
-
-        if (fpproperties.nderivatives < 1 or fpproperties.nderivatives > 100) {
-            cout<<"INPUT ERROR: Please provide a valid number of derivatives (>= 1). Current value: "<<fpproperties.nderivatives<<"\n";
-            error = true;
-        }
-
-        if (fpproperties.calculate_derivatives != "false" and fpproperties.calculate_derivatives != "true") {
-            cout<<"INPUT ERROR: Please provide a valid value for calculate_derivatives (true or false)\n";
-            error = true;
-        }
-    }
-    if (error) throw "bad input";
-
+    if (error) throw "FATAL: Bad input";
 
 ///////////////// Finishing up //////////////////////
 
@@ -380,9 +383,9 @@ fingerprintProperties read_prop_file(string filename){
     cout<<"\tFingerprint type is: "<<fpproperties.type<<"\n";
     cout<<"\tNumber of atom types: "<<fpproperties.natomtypes<<" (";
     for (int i=0; i<fpproperties.natomtypes;i++) cout<<" "<<fpproperties.atomtypes[i];
-    cout<<"\tCalculate fingerprint derivatives: "<<fpproperties.calculate_derivatives<<"\n";
-    if (fpproperties.calculate_derivatives == "true") cout<<"\t\tNumber of derivatives to include: "<<fpproperties.nderivatives<<"\n";
-    cout<<")\nDone with fingerprint properties\n";
+    cout<<"\n\tCalculate fingerprint derivatives: "<<fpproperties.calculate_derivatives<<"\n";
+    if (fpproperties.calculate_derivatives == "true") cout<<"\tNumber of derivatives to include: "<<fpproperties.nderivatives<<"\n";
+   // cout<<")\nDone with fingerprint properties\n";
     return  fpproperties;
         
 }

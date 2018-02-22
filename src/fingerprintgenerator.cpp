@@ -41,7 +41,7 @@ FingerprintGenerator::FingerprintGenerator(AtomicSystem& asys, fingerprintProper
 
     int maxneighborsperatom = 1000;
 
-    cout<<"Generating neighborlist...\n";
+    cout<<"Generating neighborlist...";
 
     NeighborList neighlist = NeighborList(atomicsystem, cutoff, x_nbins, y_nbins, z_nbins, maxneighborsperatom);
 
@@ -55,14 +55,12 @@ FingerprintGenerator::FingerprintGenerator(AtomicSystem& asys, fingerprintProper
         cerr<<msg<<"\n";
     }
 
-    cout<<"Here\n";
-    cout<<fpproperties.ndirections<<"\n";
     for (int i=0; i<fpproperties.ndirections;i++) cout<<fpproperties.directions[i]<<" ";
 
     GenericLocalCalculator fpcalc = GenericLocalCalculator(atomicsystem,fpproperties); 
     fsize = fpcalc.get_size();
 
-    cout<<"Initialized fingerprint calculator...\n";
+    cout<<"Done initializing fingerprint calculator...\n";
 
     fingerprints = new double*[natoms]; 
     for (int i=0; i<natoms; i++)
@@ -70,7 +68,7 @@ FingerprintGenerator::FingerprintGenerator(AtomicSystem& asys, fingerprintProper
 
 
 
-    cout<<"Total dimensionality of fingerprint is:"<<fsize<<"\n";
+    cout<<"\tTotal dimensionality of fingerprint is:"<<fsize<<"\n";
 
     cout<<"Generating fingerprints...";
 
