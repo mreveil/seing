@@ -52,8 +52,7 @@ General Options
    How to account for more than one species.
    Possible values are:
       * augmented (*default*): the fingerprint size is increased with one subfingerprint for each different atom pair or triplets 
-      * weighted: the size of the fingerprint remains the same (as in with just one atom type) but the contribution of each atom 
-                  type is weighted based on a specified weight type. Please note: this strategy doesn't work with all fingerprints.
+      * weighted : the size of the fingerprint remains the same (as in with just one atom type) but the contribution of each atom type is weighted based on a specified weight type. Please note: this strategy doesn't work with all fingerprints.
 
 **weight_type** (*optional*)
    Defines how contributions are weighted for the *weighted* strategy explained above. Possible values are:
@@ -65,9 +64,9 @@ Derivatives Options
 
 
 **calculate_derivatives** (*optional*)
-   Whether or not to calculate fingerprint derivatives. If yes, derivatives are added to the fingerprint. Please see documentation of your specific fingerprint for whether or not derivatives are supported and if so, how they are calculated and incorporated to the fingerprint vector or matrix.
-      * yes
-      * no (*default*)
+   Whether or not to calculate fingerprint derivatives. If true, derivatives are added to the fingerprint. Please see documentation of your specific fingerprint for whether or not derivatives are supported and if so, how they are calculated and incorporated to the fingerprint vector or matrix.
+      * true
+      * false (*default*)
 
 **ndirections** (*required*)
     The number of derivative componenets to calculate (see directions below)
@@ -89,11 +88,11 @@ Output Options
 
 **output_file** (*optional*)
    Name of the output file to write the fingerprint in. Output file will be in current directory (where the coordinate and option file are).
-   If the file already exists, the behavior of the program is determined by the *mode* keyword explained below. 
+   If the file already exists, the behavior of the program is determined by the *output_mode* keyword explained below. 
    * Default output name is *fingerprint_type+"_fingerprints.sg"*
     
 
-**mode** (*optional*)
+**output_mode** (*optional*)
     Whether to append fingerprints to the given output file, if it already exists. If not, file will be overwritten
     * append
     * overwrite (*default*)
