@@ -17,7 +17,6 @@
 
 #include "zernikecalculator.h"
 #include "bispectrumcalculator.h"
-#include "diamondcalculator.h"
 #include "agnicalculator.h"
 
 

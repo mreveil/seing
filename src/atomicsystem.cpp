@@ -140,7 +140,9 @@ AtomicSystem::~AtomicSystem(){
 
 vector<string> AtomicSystem::get_atom_types(){
 
-    vector<string> periodictable = {"Si","Ga","As","In","Al","C","Cu","Ti","W","F"}; //TODO: Add all elements in periodic table, or better yet remove completely
+    PeriodicTable ptable = PeriodicTable();
+    vector<string> supportedatomlist = ptable.get_element_list(); 
+
     vector<string> atomtypes;
 
     for (int i=0; i<natoms; i++) {
@@ -148,21 +150,20 @@ vector<string> AtomicSystem::get_atom_types(){
         string atype = atoms[i].get_atom_type();
         if (find(atomtypes.begin(), atomtypes.end(), atype) == atomtypes.end()){
           // Element not in atom types
-          atomtypes.push_back(atype);
+            if (find(supportedatomlist.begin(), supportedatomlist.end(), atype) != supportedatomlist.end()){
+                //Element is found in periodic table
+                atomtypes.push_back(atype);
+            }
+            else {
+
+                cerr<<"ERROR: Unknown atom type found in coordinates file: '"<<atype<<"'. Please add atom to periodictable.cpp and recompile SEING.\n";
+                //TODO: exit program when this error is thrown!!!
+            }
         }
 
     }
 
-    if (atomtypes.size() == 0)
-        cerr<<"ERROR: there are one or more unsupported atom types in your coordinate file";
-
-    vector<string> orderedatomtypes;
-
-    for (int i=0; i<periodictable.size(); i++)
-        if (find(atomtypes.begin(), atomtypes.end(), periodictable[i]) != atomtypes.end())
-           orderedatomtypes.push_back(periodictable[i]);
-
-    return orderedatomtypes;
+    return atomtypes;
 
 }
 

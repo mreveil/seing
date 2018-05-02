@@ -8,6 +8,7 @@
 
 
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -35,6 +36,7 @@ class PeriodicTable {
 
         int get_atomic_number(string);
         double get_electronegativity(string);
+        vector<string> get_element_list();
 
 };
 

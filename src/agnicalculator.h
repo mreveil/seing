@@ -37,7 +37,7 @@ class AGNICalculator {
     AtomicSystem atomicsystem;
     fingerprintProperties fpproperties;
 
-    double calculate_component(int, double*, double*, double);
+    double calculate_component(int, int*, double*, double*, double, string);
 
 
     public:

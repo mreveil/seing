@@ -97,18 +97,17 @@ double* GaussianCalculator::calculate_fingerprint(int atomid, NeighborList &neig
 
     if (fpproperties.strategy == "weighted") {
 
+        double neighdist[nneighbors];  
+
+        for (int j=0; j<nneighbors; j++) {
+            double distance = sqrt(atomicsystem.get_square_distance(atomid,neighbors[j]));
+            neighdist[j] = distance;    
+        }
 
         for (int w=0; w<2; w++) {
 
             if (w == 0) weight_type = "None";
             else if (w == 1) weight_type = fpproperties.weight_type;
-
-            double neighdist[nneighbors];  
-
-            for (int j=0; j<nneighbors; j++) {
-                double distance = sqrt(atomicsystem.get_square_distance(atomid,neighbors[j]));
-                neighdist[j] = distance;    
-            }
  
             double* tempG2s  = get_G2s(atomid, nneighbors, neighbors, neighdist, weight_type);
             double* tempG4s = get_G4s(atomid, nneighbors, neighbors, neighdist, weight_type);
@@ -387,6 +386,9 @@ double GaussianCalculator::calculate_G2(int nneighbors, int* neighbors, double* 
         else if (weight_type == "electronegativity") {
             weight = ptable.get_electronegativity(neigh_atom.get_atom_type());
         }
+        else if (weight_type == "constant") {
+            weight = 1.0;
+        }
 
         value += weight*exp(-1.0*eta*pow(R,2)/pow(cutoff,2))*cutoff_func(R,cutoff);
 
@@ -428,6 +430,9 @@ double GaussianCalculator::calculate_G4(int atomi, int nneighbors, int* neighbor
                 double weight_j = ptable.get_electronegativity(neigh_atom_j.get_atom_type());
                 double weight_k = ptable.get_electronegativity(neigh_atom_k.get_atom_type());
                 weight = (weight_j + weight_k) /2;
+            }
+            else if (weight_type == "constant") {
+                weight = 1.0;
             }
 
             double Rij = distances[j];
@@ -542,6 +547,9 @@ double GaussianCalculator::calculate_G2_prime(int atomi, int nneighbors, int *ne
         else if (weight_type == "electronegativity") {
             weight = ptable.get_electronegativity(neigh_atom.get_atom_type());
         }
+        else if (weight_type == "constant") {
+            weight = 1.0;
+        }
 
         if (dRijdRml != 0) {
             double y = (-2.0*eta*Rij*cutoff_func(Rij,cutoff))/pow(cutoff,2.0) + cutoff_func_prime(Rij,cutoff);
@@ -583,6 +591,9 @@ double GaussianCalculator::calculate_G4_prime(int atomi, int nneighbors, int *ne
                 double weight_j = ptable.get_electronegativity(neigh_atom_j.get_atom_type());
                 double weight_k = ptable.get_electronegativity(neigh_atom_k.get_atom_type());
                 weight = (weight_j + weight_k) /2;
+            }
+            else if (weight_type == "constant") {
+                weight = 1.0;
             }
 
 

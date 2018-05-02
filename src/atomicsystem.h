@@ -9,6 +9,7 @@
 #include <vector>
 
 #include "atom.h"
+#include "periodictable.h"
 
 using namespace std;
 

@@ -43,10 +43,6 @@ GenericLocalCalculator::GenericLocalCalculator(AtomicSystem& asys, fingerprintPr
         BispectrumCalculator bcalc = BispectrumCalculator(atomicsystem,fpproperties); 
         size = bcalc.get_size();
     }
-    else if (fpproperties.type == "diamond"){
-        DiamondCalculator dcalc = DiamondCalculator(atomicsystem,fpproperties); 
-        size = dcalc.get_size();
-    }
     else if (fpproperties.type == "agni"){
         AGNICalculator acalc = AGNICalculator(atomicsystem,fpproperties); 
         size = acalc.get_size();
@@ -81,10 +77,6 @@ double* GenericLocalCalculator::calculate_fingerprint(int atomid, NeighborList &
     else if (fpproperties.type == "bispectrum"){
         BispectrumCalculator bcalc = BispectrumCalculator(atomicsystem,fpproperties); 
         fp = bcalc.calculate_fingerprint(atomid,nlist);
-    }
-    else if (fpproperties.type == "diamond"){
-        DiamondCalculator dcalc = DiamondCalculator(atomicsystem,fpproperties); 
-        fp = dcalc.calculate_fingerprint(atomid,nlist);
     }
     else if (fpproperties.type == "agni"){
         AGNICalculator dcalc = AGNICalculator(atomicsystem,fpproperties); 

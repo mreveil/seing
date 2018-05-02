@@ -31,7 +31,7 @@ fingerprintProperties read_prop_file(string filename){
     fpproperties.strategy = "";
     fpproperties.weight_type = "";
 
-    fpproperties.calculate_derivatives = "no";
+    fpproperties.calculate_derivatives = "";
     fpproperties.ndirections = 0;
     fpproperties.nderivatives = 1;
 
@@ -317,8 +317,11 @@ fingerprintProperties read_prop_file(string filename){
     }
 
 
-
-    if (fpproperties.calculate_derivatives == "false") {
+    if (fpproperties.calculate_derivatives == "") {
+        fpproperties.calculate_derivatives = "false";
+        cout<<"NOTE: You didn't tell me if I need to calculate derivatives or not. By default, I don't.\n";
+    }
+    else if (fpproperties.calculate_derivatives == "false") {
         cout<<"NOTE: Derivatives of the fingerprints will not be calculated.\n";
     }
     else if (fpproperties.calculate_derivatives == "true") {
@@ -334,7 +337,7 @@ fingerprintProperties read_prop_file(string filename){
     }
     else {
          error = true;
-         cout<< "INPUT ERROR: Invalid value for calculate_derivatives. It can only be 'true' or 'false';\n";
+         cout<< "INPUT ERROR: Invalid value for calculate_derivatives: "<<fpproperties.calculate_derivatives<<". It can only be 'true' or 'false';\n";
     }
 
 
@@ -353,9 +356,9 @@ fingerprintProperties read_prop_file(string filename){
         if (fpproperties.strategy == "weighted")
             cout<<"NOTE: No weight type provided. Default (atomic number) will be used.\n";
     }
-    else if (fpproperties.weight_type != "atomic_number" and fpproperties.weight_type != "electronegativity") {
+    else if (fpproperties.weight_type != "atomic_number" and fpproperties.weight_type != "electronegativity" and fpproperties.weight_type != "constant") {
          error = true;
-         cout<<"INPUT ERROR: Unsupported weight_type. Can only be 'atomic_number' or 'electronegativity'.\n";
+         cout<<"INPUT ERROR: Unsupported weight_type. Can only be 'atomic_number' or 'electronegativity' or 'constant'.\n";
     }
 
 
@@ -383,8 +386,17 @@ fingerprintProperties read_prop_file(string filename){
     cout<<"\tFingerprint type is: "<<fpproperties.type<<"\n";
     cout<<"\tNumber of atom types: "<<fpproperties.natomtypes<<" (";
     for (int i=0; i<fpproperties.natomtypes;i++) cout<<" "<<fpproperties.atomtypes[i];
-    cout<<"\n\tCalculate fingerprint derivatives: "<<fpproperties.calculate_derivatives<<"\n";
-    if (fpproperties.calculate_derivatives == "true") cout<<"\tNumber of derivatives to include: "<<fpproperties.nderivatives<<"\n";
+    cout<<")\n";
+    if (fpproperties.natomtypes > 1) {
+        cout<<"\tStrategy to handle multiple species: "<<fpproperties.strategy;
+        if (fpproperties.strategy == "weighted") cout<<" (Weight type:"<<fpproperties.weight_type<<")";
+        cout<<"\n";
+    }
+    cout<<"\tCalculate fingerprint derivatives: "<<fpproperties.calculate_derivatives<<"\n";
+    if (fpproperties.calculate_derivatives == "true") {
+        cout<<"\tNumber of derivatives to include: "<<fpproperties.nderivatives<<"\n";
+        cout<<"\tNumber of directions to include in derivatives: "<<fpproperties.ndirections<<"\n";
+    }
    // cout<<")\nDone with fingerprint properties\n";
     return  fpproperties;
         
