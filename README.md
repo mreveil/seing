@@ -5,6 +5,10 @@ SEING v 0.1
 SEING is a C/C++ package for fingerprint calculations suitable for machine learning studies 
 of molecular systems. 
 
+SEING was developed in the Clancy Group (http://clancygroup.cbe.cornell.edu/) at Cornell University.
+
+Author: Mardochee Reveil (mr937@cornell.edu)
+
 Fingerprints (in this context) are numerical representations of chemical environments designed 
 to be invariant under property-perseving operations such as permutation of atoms of the same 
 nature, geometric rotation, etc. For more information on fingerprints in general and the ones 
