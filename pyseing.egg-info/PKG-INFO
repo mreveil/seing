@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyseing
+Version: 0.1.0
+Summary: SEING is a C/C++ package for fingerprint calculations suitable for machine learning studies of molecular systems.
+Home-page: UNKNOWN
+Author: Mardochee Reveil
+Author-email: <mr937@cornell.edu>
+License: UNKNOWN
+Description: SEING was developed in the Clancy Group (https://clancygroup.wse.jhu.edu/). Fingerprints (in this context) are numerical representations of chemical environments designed to be invariant under property-perseving operations such as permutation of atoms of the same nature, geometric rotation, etc. For more information on fingerprints in general and the ones currently implemented in SEING, please see the official documentation and user-guide.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
