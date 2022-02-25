@@ -14,12 +14,18 @@ using namespace std;
 class FingerprintGenerator {
 
     AtomicSystem atomicsystem;
-    double **fingerprints;
+    //double **fingerprints;
 
-    int fsize, natoms, fp_natomtypes, natompairs;
+    int fp_natomtypes, natompairs;
 
     public:
-        /*! Constructor that will instantiate the fingerprint calculator and
+        double **fingerprints;
+        double sample1;
+	double sample2;
+	int natoms;
+	int fsize;
+	
+	/*! Constructor that will instantiate the fingerprint calculator and
             perform the fingerprint generation 
         */
         FingerprintGenerator (AtomicSystem&,fingerprintProperties);

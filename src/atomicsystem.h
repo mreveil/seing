@@ -20,18 +20,20 @@ class AtomicSystem {
     private: 
         int natoms;
 
-        //! Pointer to the array holding all atoms in this system
-        Atom *atoms;
+	Atom *atoms;
 
         double xmin, ymin, zmin;
         double xmax, ymax, zmax;
         double skin;
-        bool xpbc, ypbc, zpbc;
+        bool xpbc, ypbc, zpbc; 
 
-        //! Reads an xyz file and parses the coordinates and atom types into AtomicSystem Object
-        void build_from_file(string); 
-
+	// void build_from_file(string);
     public:
+
+	//transferred from private:
+	// Atom *atoms;
+	void build_from_file(string);
+
         //! Default constructor 
         AtomicSystem(void);
 
