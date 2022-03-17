@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="main_8cpp" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="main_8cpp" kind="file" language="C++">
     <compoundname>main.cpp</compoundname>
     <includes local="no">stdio.h</includes>
     <includes local="no">stdlib.h</includes>
@@ -15,101 +15,111 @@
     <includes refid="atom_8h" local="yes">atom.h</includes>
     <includes refid="inputs_8h" local="yes">inputs.h</includes>
     <incdepgraph>
-      <node id="338">
-        <label>fingerprintgenerator.h</label>
-        <link refid="fingerprintgenerator_8h"/>
-        <childnode refid="336" relation="include">
-        </childnode>
-        <childnode refid="339" relation="include">
-        </childnode>
-        <childnode refid="342" relation="include">
-        </childnode>
-        <childnode refid="343" relation="include">
-        </childnode>
-      </node>
-      <node id="330">
-        <label>main.cpp</label>
-        <link refid="main.cpp"/>
-        <childnode refid="331" relation="include">
-        </childnode>
-        <childnode refid="332" relation="include">
-        </childnode>
-        <childnode refid="333" relation="include">
-        </childnode>
-        <childnode refid="334" relation="include">
-        </childnode>
-        <childnode refid="335" relation="include">
-        </childnode>
-        <childnode refid="336" relation="include">
-        </childnode>
-        <childnode refid="337" relation="include">
-        </childnode>
-        <childnode refid="338" relation="include">
-        </childnode>
-        <childnode refid="342" relation="include">
-        </childnode>
-        <childnode refid="339" relation="include">
-        </childnode>
-        <childnode refid="341" relation="include">
-        </childnode>
-        <childnode refid="343" relation="include">
-        </childnode>
-      </node>
-      <node id="343">
-        <label>inputs.h</label>
-        <link refid="inputs_8h"/>
-        <childnode refid="336" relation="include">
-        </childnode>
-      </node>
-      <node id="332">
-        <label>stdlib.h</label>
-      </node>
-      <node id="342">
+      <node id="14">
         <label>neighborlist.h</label>
         <link refid="neighborlist_8h"/>
-        <childnode refid="340" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="341" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="339" relation="include">
-        </childnode>
-      </node>
-      <node id="336">
-        <label>string</label>
-      </node>
-      <node id="334">
-        <label>fstream</label>
-      </node>
-      <node id="340">
-        <label>vector</label>
-      </node>
-      <node id="335">
-        <label>sstream</label>
-      </node>
-      <node id="339">
-        <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h"/>
-        <childnode refid="336" relation="include">
-        </childnode>
-        <childnode refid="340" relation="include">
-        </childnode>
-        <childnode refid="341" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="337">
-        <label>time.h</label>
+      <node id="3">
+        <label>stdlib.h</label>
       </node>
-      <node id="333">
-        <label>iostream</label>
+      <node id="13">
+        <label>periodictable.h</label>
+        <link refid="periodictable_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
       </node>
-      <node id="341">
+      <node id="12">
         <label>atom.h</label>
         <link refid="atom_8h"/>
-        <childnode refid="336" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="331">
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>fstream</label>
+      </node>
+      <node id="9">
+        <label>fingerprintgenerator.h</label>
+        <link refid="fingerprintgenerator_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+      <node id="6">
+        <label>sstream</label>
+      </node>
+      <node id="1">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>time.h</label>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="10">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
         <label>stdio.h</label>
+      </node>
+      <node id="15">
+        <label>inputs.h</label>
+        <link refid="inputs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
       <sectiondef kind="func">
@@ -133,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/main.cpp" line="18" column="1" bodyfile="/fs/home/mr937/SEING/src/main.cpp" bodystart="18" bodyend="78"/>
+        <location file="main.cpp" line="18" column="5" bodyfile="main.cpp" bodystart="18" bodyend="80"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -177,49 +187,51 @@
 <codeline lineno="34"><highlight class="normal"></highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>input<sp/>file</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(argc<sp/>==<sp/>3)<sp/>{</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>propfilename<sp/>=<sp/>argv[2];</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Reading<sp/>fingerprint<sp/>properties<sp/>input<sp/>file...\n\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fpproperties<sp/>=<sp/><ref refid="inputs_8cpp_1a335b64f6f4f7a3d2eb65730c5e8cdab9" kindref="member">read_prop_file</ref>(propfilename);</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg)<sp/>{</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr&lt;&lt;msg&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR:<sp/>Could<sp/>not<sp/>read<sp/>input<sp/>file.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>xyz<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n*******<sp/>SEING:<sp/>Molecular<sp/>fingerprinting<sp/>package<sp/>for<sp/>Machine<sp/>Learning<sp/>*******\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(argc<sp/>==<sp/>3)<sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>propfilename<sp/>=<sp/>argv[2];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;\nReading<sp/>fingerprint<sp/>properties<sp/>input<sp/>file...\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fpproperties<sp/>=<sp/><ref refid="inputs_8cpp_1a335b64f6f4f7a3d2eb65730c5e8cdab9" kindref="member">read_prop_file</ref>(propfilename);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr&lt;&lt;msg&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR:<sp/>Could<sp/>not<sp/>read<sp/>input<sp/>file.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;</highlight><highlight class="stringliteral">&quot;Reading<sp/>xyz<sp/>file.............&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>asys<sp/>=<sp/><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>(xyzfilename,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>2.01778);<sp/></highlight><highlight class="comment">//1.46<sp/>for<sp/>InGaAs</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\tNumber<sp/>of<sp/>atoms:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>asys.<ref refid="classAtomicSystem_1a955f0be2dc05a5aef6d9b5e0a3fccd24" kindref="member">get_n_atoms</ref>()&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="55"><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg)<sp/>{</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr&lt;&lt;msg&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
-<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a57aea2ce94034cd4b66db7c0950c1e50" kindref="member">is_box_size_provided</ref>)<sp/>{</highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xmin<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[0];</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ymin<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[1];</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zmin<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[2];</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xmax<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[3];</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ymax<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[4];</highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zmax<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[5];</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>asys.<ref refid="classAtomicSystem_1ace7cdf92e0e3ec1149bcb51fd112263c" kindref="member">set_box_size</ref>(xmin,<sp/>ymin,<sp/>zmin,<sp/>xmax,<sp/>ymax,<sp/>zmax);</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>else<sp/>fpproperties<sp/>=<sp/>default_properties();</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="72"><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFingerprintGenerator" kindref="compound">FingerprintGenerator</ref><sp/>fpgenerator<sp/>=<sp/><ref refid="classFingerprintGenerator" kindref="compound">FingerprintGenerator</ref>(asys,fpproperties);</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Writing<sp/>fingerprint<sp/>to<sp/>file...&quot;</highlight><highlight class="normal">&lt;&lt;fpproperties.<ref refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" kindref="member">output_file</ref>&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>fpgenerator.<ref refid="classFingerprintGenerator_1aa1b675cd3e63e85e537650080926298b" kindref="member">write2file</ref>(fpproperties.<ref refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" kindref="member">output_file</ref>,fpproperties.<ref refid="structfingerprintProperties_1ac1abf7226cb93c27eefe7a01e057389c" kindref="member">mode</ref>);</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"></highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
-<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>xyz<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;</highlight><highlight class="stringliteral">&quot;\nReading<sp/>xyz<sp/>file.............&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>asys<sp/>=<sp/><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref>(xyzfilename,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,<sp/>2.01778);<sp/></highlight><highlight class="comment">//1.46<sp/>for<sp/>InGaAs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n\tNumber<sp/>of<sp/>atoms:<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>asys.<ref refid="classAtomicSystem_1a955f0be2dc05a5aef6d9b5e0a3fccd24" kindref="member">get_n_atoms</ref>()&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>msg)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cerr&lt;&lt;msg&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;ERROR:\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fpproperties.<ref refid="structfingerprintProperties_1a57aea2ce94034cd4b66db7c0950c1e50" kindref="member">is_box_size_provided</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xmin<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[0];</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ymin<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[1];</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zmin<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[2];</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>xmax<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[3];</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ymax<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[4];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>zmax<sp/>=<sp/>fpproperties.<ref refid="structfingerprintProperties_1a04b6024f0e978500f20476e127828f23" kindref="member">box_size</ref>[5];</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>asys.<ref refid="classAtomicSystem_1ace7cdf92e0e3ec1149bcb51fd112263c" kindref="member">set_box_size</ref>(xmin,<sp/>ymin,<sp/>zmin,<sp/>xmax,<sp/>ymax,<sp/>zmax);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>else<sp/>fpproperties<sp/>=<sp/>default_properties();</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classFingerprintGenerator" kindref="compound">FingerprintGenerator</ref><sp/>fpgenerator<sp/>=<sp/><ref refid="classFingerprintGenerator" kindref="compound">FingerprintGenerator</ref>(asys,fpproperties);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;Writing<sp/>fingerprint<sp/>to<sp/>file...&quot;</highlight><highlight class="normal">&lt;&lt;fpproperties.<ref refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" kindref="member">output_file</ref>&lt;&lt;</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>fpgenerator.<ref refid="classFingerprintGenerator_1aa1b675cd3e63e85e537650080926298b" kindref="member">write2file</ref>(fpproperties.<ref refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" kindref="member">output_file</ref>,fpproperties.<ref refid="structfingerprintProperties_1a060555deb38532f5f0fc6d23a5cba7f4" kindref="member">output_mode</ref>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/main.cpp"/>
+    <location file="main.cpp"/>
   </compounddef>
 </doxygen>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
   <compound refid="classAGNICalculator" kind="class"><name>AGNICalculator</name>
     <member refid="classAGNICalculator_1adfd889e68ca03a471fa4308b8bbfb702" kind="variable"><name>fpsize</name></member>
     <member refid="classAGNICalculator_1a539b0dfe2c77b44b7cff50b4ef7cad61" kind="variable"><name>w</name></member>
@@ -11,7 +11,7 @@
     <member refid="classAGNICalculator_1a81dd1a4c4ae0b418bbba79614072048c" kind="variable"><name>orderedatomtypes</name></member>
     <member refid="classAGNICalculator_1af0ee8cdecb19693e00612c558a82107f" kind="variable"><name>atomicsystem</name></member>
     <member refid="classAGNICalculator_1af7ea4e7f9f5457cffb4cf1bca9cd4199" kind="variable"><name>fpproperties</name></member>
-    <member refid="classAGNICalculator_1af820beadfe81d2f619e2f64153fb6077" kind="function"><name>calculate_component</name></member>
+    <member refid="classAGNICalculator_1a5264e28acf981cac2e8a01672fa07163" kind="function"><name>calculate_component</name></member>
     <member refid="classAGNICalculator_1a85fc415e664a1741741472b50857644b" kind="function"><name>AGNICalculator</name></member>
     <member refid="classAGNICalculator_1ab879e707731cd4538bc4fbfa8e990314" kind="function"><name>~AGNICalculator</name></member>
     <member refid="classAGNICalculator_1a8913e9697492ac098ec05c61f33c20dd" kind="function"><name>get_size</name></member>
@@ -87,26 +87,6 @@
     <member refid="classBispectrumCalculator_1a240eb7cb832ea06813b57422de95fb18" kind="function"><name>get_size</name></member>
     <member refid="classBispectrumCalculator_1a68cbc82fe0bb245db5ec1cc00e769792" kind="function"><name>calculate_fingerprint</name></member>
   </compound>
-  <compound refid="classDiamondCalculator" kind="class"><name>DiamondCalculator</name>
-    <member refid="classDiamondCalculator_1ab16915686d25a430a52f67bf981eda01" kind="variable"><name>size</name></member>
-    <member refid="classDiamondCalculator_1a9142452c594a76235da0e1d7523b3f4d" kind="variable"><name>cutoff</name></member>
-    <member refid="classDiamondCalculator_1ac0c274dff52659aa54df3b1b107bae8b" kind="variable"><name>dx</name></member>
-    <member refid="classDiamondCalculator_1a5b37c1e7ce25a4d1c57e229d79ae1335" kind="variable"><name>dy</name></member>
-    <member refid="classDiamondCalculator_1ab3932d1811f019fb14f5801ad6bd9d5c" kind="variable"><name>dz</name></member>
-    <member refid="classDiamondCalculator_1aad478403cd5e21aff1e5dc44c649dacc" kind="variable"><name>ngaussians</name></member>
-    <member refid="classDiamondCalculator_1a63c9eec7ae57939593217c8bbfc9d1e6" kind="variable"><name>lattice_constant</name></member>
-    <member refid="classDiamondCalculator_1a1fdfc3d055ab38d7ad0cda0722290428" kind="variable"><name>inner_cutoff</name></member>
-    <member refid="classDiamondCalculator_1a8aa29e729ab9b832c8fb2371bc3450c3" kind="variable"><name>atomicsystem</name></member>
-    <member refid="classDiamondCalculator_1a083da6411ba6b9a9b219fefcf3960182" kind="variable"><name>fpproperties</name></member>
-    <member refid="classDiamondCalculator_1a9f2d00ca1c7bc0a49f0e8f8a172a4bf5" kind="function"><name>generateGaussians</name></member>
-    <member refid="classDiamondCalculator_1ab21e46ab69fd5672e09084c62b98897c" kind="function"><name>findAtomsForEachGaussian</name></member>
-    <member refid="classDiamondCalculator_1a69d7f914e88f46768cbfd2b0873c613f" kind="function"><name>calculateGaussianValue</name></member>
-    <member refid="classDiamondCalculator_1a925e8a0503f1e31c92e4212bc1b151b1" kind="function"><name>calculateDistanceToGaussian</name></member>
-    <member refid="classDiamondCalculator_1a3a24a772c0322243ec76661fd5909100" kind="function"><name>DiamondCalculator</name></member>
-    <member refid="classDiamondCalculator_1a80a4acb0ad8b89b7e2bbeaa203550eb8" kind="function"><name>~DiamondCalculator</name></member>
-    <member refid="classDiamondCalculator_1a2c1eeaeec8b5051d5e6801cd1cd08973" kind="function"><name>get_size</name></member>
-    <member refid="classDiamondCalculator_1a042f425e943c93d953e3e4e24ecb9728" kind="function"><name>calculate_fingerprint</name></member>
-  </compound>
   <compound refid="structElement" kind="struct"><name>Element</name>
     <member refid="structElement_1a63e156c168905a24437098bfff0e5366" kind="variable"><name>name</name></member>
     <member refid="structElement_1a34d89c21bf14425580685a25d08edabd" kind="variable"><name>symbol</name></member>
@@ -154,7 +134,7 @@
     <member refid="structfingerprintProperties_1a1ec66f6b8bc3825437d5f50e674df9e9" kind="variable"><name>width</name></member>
     <member refid="structfingerprintProperties_1a671fdeb8174614bbef26c0e0894ed72b" kind="variable"><name>alpha</name></member>
     <member refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" kind="variable"><name>output_file</name></member>
-    <member refid="structfingerprintProperties_1ac1abf7226cb93c27eefe7a01e057389c" kind="variable"><name>mode</name></member>
+    <member refid="structfingerprintProperties_1a060555deb38532f5f0fc6d23a5cba7f4" kind="variable"><name>output_mode</name></member>
   </compound>
   <compound refid="classGaussianCalculator" kind="class"><name>GaussianCalculator</name>
     <member refid="classGaussianCalculator_1a5b3df43b4b7610fbc51def5c2fe34248" kind="variable"><name>fpsize</name></member>
@@ -255,6 +235,7 @@
     <member refid="classPeriodicTable_1a15eef831d85642fe9f6687aa15f3b317" kind="function"><name>~PeriodicTable</name></member>
     <member refid="classPeriodicTable_1a9c063dbf37b22fbb2c564b24cbe88f13" kind="function"><name>get_atomic_number</name></member>
     <member refid="classPeriodicTable_1ae196998a86474010b0fefde2cf8ede3c" kind="function"><name>get_electronegativity</name></member>
+    <member refid="classPeriodicTable_1a9ed47cdc656649879f9e18eb0984f044" kind="function"><name>get_element_list</name></member>
   </compound>
   <compound refid="classZernikeCalculator" kind="class"><name>ZernikeCalculator</name>
     <member refid="classZernikeCalculator_1adf6bcb24a43d563e5bc6d267aa2a8ccc" kind="variable"><name>size</name></member>
@@ -301,12 +282,6 @@
     <member refid="bispectrumcalculator_8cpp_1a30c17564229ec2e37dfea9c6c9ad643e" kind="define"><name>TOLERANCE</name></member>
   </compound>
   <compound refid="bispectrumcalculator_8h" kind="file"><name>bispectrumcalculator.h</name>
-  </compound>
-  <compound refid="diamondcalculator_8cpp" kind="file"><name>diamondcalculator.cpp</name>
-    <member refid="diamondcalculator_8cpp_1a525335710b53cb064ca56b936120431e" kind="define"><name>_USE_MATH_DEFINES</name></member>
-    <member refid="diamondcalculator_8cpp_1a30c17564229ec2e37dfea9c6c9ad643e" kind="define"><name>TOLERANCE</name></member>
-  </compound>
-  <compound refid="diamondcalculator_8h" kind="file"><name>diamondcalculator.h</name>
   </compound>
   <compound refid="fingerprintgenerator_8cpp" kind="file"><name>fingerprintgenerator.cpp</name>
   </compound>

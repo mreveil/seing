@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="atom_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="atom_8h" kind="file" language="C++">
     <compoundname>atom.h</compoundname>
     <includes local="no">string</includes>
     <includedby refid="agnicalculator_8cpp" local="yes">agnicalculator.cpp</includedby>
@@ -8,233 +8,210 @@
     <includedby refid="neighborlist_8h" local="yes">neighborlist.h</includedby>
     <includedby refid="atom_8cpp" local="yes">atom.cpp</includedby>
     <includedby refid="bispectrumcalculator_8cpp" local="yes">bispectrumcalculator.cpp</includedby>
-    <includedby refid="diamondcalculator_8cpp" local="yes">diamondcalculator.cpp</includedby>
     <includedby refid="gaussiancalculator_8cpp" local="yes">gaussiancalculator.cpp</includedby>
     <includedby refid="genericlocalcalculator_8cpp" local="yes">genericlocalcalculator.cpp</includedby>
     <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
     <includedby refid="utilities_8cpp" local="yes">utilities.cpp</includedby>
     <includedby refid="zernikecalculator_8cpp" local="yes">zernikecalculator.cpp</includedby>
     <incdepgraph>
-      <node id="41">
-        <label>string</label>
-      </node>
-      <node id="40">
+      <node id="1">
         <label>atom.h</label>
-        <link refid="atom.h"/>
-        <childnode refid="41" relation="include">
+        <link refid="atom_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="54">
-        <label>fingerprintgenerator.h</label>
-        <link refid="fingerprintgenerator_8h"/>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-      </node>
-      <node id="55">
-        <label>main.cpp</label>
-        <link refid="main_8cpp"/>
-      </node>
-      <node id="52">
-        <label>diamondcalculator.h</label>
-        <link refid="diamondcalculator_8h"/>
-        <childnode refid="53" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-      </node>
-      <node id="46">
-        <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h"/>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-      </node>
-      <node id="58">
-        <label>zernikecalculator.h</label>
-        <link refid="zernikecalculator_8h"/>
-        <childnode refid="47" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="59" relation="include">
-        </childnode>
-      </node>
-      <node id="48">
+      <node id="7">
         <label>genericlocalcalculator.cpp</label>
         <link refid="genericlocalcalculator_8cpp"/>
       </node>
-      <node id="53">
-        <label>diamondcalculator.cpp</label>
-        <link refid="diamondcalculator_8cpp"/>
-      </node>
-      <node id="57">
-        <label>gaussiancalculator.cpp</label>
-        <link refid="gaussiancalculator_8cpp"/>
-      </node>
-      <node id="61">
-        <label>utilities.h</label>
-        <link refid="utilities_8h"/>
-        <childnode refid="43" relation="include">
-        </childnode>
-        <childnode refid="50" relation="include">
-        </childnode>
-        <childnode refid="51" relation="include">
-        </childnode>
-        <childnode refid="52" relation="include">
-        </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="57" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-        <childnode refid="62" relation="include">
-        </childnode>
-        <childnode refid="59" relation="include">
-        </childnode>
-      </node>
-      <node id="47">
-        <label>fingerprintgenerator.cpp</label>
-        <link refid="fingerprintgenerator_8cpp"/>
-      </node>
-      <node id="49">
+      <node id="8">
         <label>neighborlist.h</label>
         <link refid="neighborlist_8h"/>
-        <childnode refid="45" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="63">
-        <label>atomicsystem.cpp</label>
-        <link refid="atomicsystem_8cpp"/>
-      </node>
-      <node id="51">
-        <label>bispectrumcalculator.cpp</label>
-        <link refid="bispectrumcalculator_8cpp"/>
-      </node>
-      <node id="60">
-        <label>neighborlist.cpp</label>
-        <link refid="neighborlist_8cpp"/>
-      </node>
-      <node id="45">
+      <node id="4">
         <label>agnicalculator.h</label>
         <link refid="agnicalculator_8h"/>
-        <childnode refid="43" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="43">
+      <node id="2">
         <label>agnicalculator.cpp</label>
         <link refid="agnicalculator_8cpp"/>
       </node>
-      <node id="44">
-        <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h"/>
-        <childnode refid="45" relation="include">
+      <node id="14">
+        <label>gaussiancalculator.cpp</label>
+        <link refid="gaussiancalculator_8cpp"/>
+      </node>
+      <node id="16">
+        <label>zernikecalculator.cpp</label>
+        <link refid="zernikecalculator_8cpp"/>
+      </node>
+      <node id="1">
+        <label>atom.h</label>
+        <link refid="atom_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="63" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="50" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="52" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
-        <childnode refid="54" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="56" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="62" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="62">
+      <node id="9">
+        <label>bispectrumcalculator.h</label>
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>fingerprintgenerator.h</label>
+        <link refid="fingerprintgenerator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>genericlocalcalculator.h</label>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gaussiancalculator.h</label>
+        <link refid="gaussiancalculator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>zernikecalculator.h</label>
+        <link refid="zernikecalculator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="19">
         <label>utilities.cpp</label>
         <link refid="utilities_8cpp"/>
       </node>
-      <node id="64">
+      <node id="10">
+        <label>bispectrumcalculator.cpp</label>
+        <link refid="bispectrumcalculator_8cpp"/>
+      </node>
+      <node id="17">
+        <label>neighborlist.cpp</label>
+        <link refid="neighborlist_8cpp"/>
+      </node>
+      <node id="21">
         <label>atom.cpp</label>
         <link refid="atom_8cpp"/>
       </node>
-      <node id="56">
-        <label>gaussiancalculator.h</label>
-        <link refid="gaussiancalculator_8h"/>
-        <childnode refid="47" relation="include">
+      <node id="3">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="57" relation="include">
+        <childnode refid="18" relation="include">
         </childnode>
-      </node>
-      <node id="50">
-        <label>bispectrumcalculator.h</label>
-        <link refid="bispectrumcalculator_8h"/>
-        <childnode refid="51" relation="include">
+        <childnode refid="20" relation="include">
         </childnode>
-        <childnode refid="47" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="46" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-      </node>
-      <node id="42">
-        <label>atom.h</label>
-        <link refid="atom.h"/>
-        <childnode refid="43" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="44" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
-        <childnode refid="49" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="64" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="51" relation="include">
-        </childnode>
-        <childnode refid="53" relation="include">
-        </childnode>
-        <childnode refid="57" relation="include">
-        </childnode>
-        <childnode refid="48" relation="include">
-        </childnode>
-        <childnode refid="55" relation="include">
-        </childnode>
-        <childnode refid="62" relation="include">
-        </childnode>
-        <childnode refid="59" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
-      <node id="59">
-        <label>zernikecalculator.cpp</label>
-        <link refid="zernikecalculator_8cpp"/>
+      <node id="20">
+        <label>atomicsystem.cpp</label>
+        <link refid="atomicsystem_8cpp"/>
+      </node>
+      <node id="18">
+        <label>utilities.h</label>
+        <link refid="utilities_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classAtom" prot="public">Atom</innerclass>
@@ -243,9 +220,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ATOM_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ATOM_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ATOM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ATOM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
@@ -279,6 +256,6 @@
 <codeline lineno="45"><highlight class="normal"></highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/atom.h"/>
+    <location file="atom.h"/>
   </compounddef>
 </doxygen>

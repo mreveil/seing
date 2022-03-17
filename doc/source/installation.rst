@@ -1,6 +1,6 @@
 ===============
-INSTALLATION 
-==============
+INSTALLATION
+===============
 
 
 Installing SEING is meant to be easy and straighforward.

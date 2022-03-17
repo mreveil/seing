@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="inputs_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="inputs_8h" kind="file" language="C++">
     <compoundname>inputs.h</compoundname>
     <includes local="no">string</includes>
     <includedby refid="agnicalculator_8h" local="yes">agnicalculator.h</includedby>
     <includedby refid="bispectrumcalculator_8h" local="yes">bispectrumcalculator.h</includedby>
-    <includedby refid="diamondcalculator_8h" local="yes">diamondcalculator.h</includedby>
     <includedby refid="fingerprintgenerator_8h" local="yes">fingerprintgenerator.h</includedby>
     <includedby refid="gaussiancalculator_8h" local="yes">gaussiancalculator.h</includedby>
     <includedby refid="zernikecalculator_8h" local="yes">zernikecalculator.h</includedby>
@@ -14,138 +13,124 @@
     <includedby refid="inputs_8cpp" local="yes">inputs.cpp</includedby>
     <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
     <incdepgraph>
-      <node id="311">
-        <label>inputs.h</label>
-        <link refid="inputs.h"/>
-        <childnode refid="312" relation="include">
-        </childnode>
-      </node>
-      <node id="312">
+      <node id="2">
         <label>string</label>
+      </node>
+      <node id="1">
+        <label>inputs.h</label>
+        <link refid="inputs_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="323">
-        <label>fingerprintgenerator.h</label>
-        <link refid="fingerprintgenerator_8h"/>
-        <childnode refid="317" relation="include">
-        </childnode>
-        <childnode refid="324" relation="include">
-        </childnode>
-      </node>
-      <node id="324">
-        <label>main.cpp</label>
-        <link refid="main_8cpp"/>
-      </node>
-      <node id="313">
-        <label>inputs.h</label>
-        <link refid="inputs.h"/>
-        <childnode refid="314" relation="include">
-        </childnode>
-        <childnode refid="319" relation="include">
-        </childnode>
-        <childnode refid="321" relation="include">
-        </childnode>
-        <childnode refid="323" relation="include">
-        </childnode>
-        <childnode refid="325" relation="include">
-        </childnode>
-        <childnode refid="327" relation="include">
-        </childnode>
-        <childnode refid="316" relation="include">
-        </childnode>
-        <childnode refid="317" relation="include">
-        </childnode>
-        <childnode refid="329" relation="include">
-        </childnode>
-        <childnode refid="324" relation="include">
-        </childnode>
-      </node>
-      <node id="321">
-        <label>diamondcalculator.h</label>
-        <link refid="diamondcalculator_8h"/>
-        <childnode refid="322" relation="include">
-        </childnode>
-        <childnode refid="316" relation="include">
-        </childnode>
-      </node>
-      <node id="316">
-        <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h"/>
-        <childnode refid="317" relation="include">
-        </childnode>
-        <childnode refid="318" relation="include">
-        </childnode>
-      </node>
-      <node id="327">
-        <label>zernikecalculator.h</label>
-        <link refid="zernikecalculator_8h"/>
-        <childnode refid="317" relation="include">
-        </childnode>
-        <childnode refid="316" relation="include">
-        </childnode>
-        <childnode refid="328" relation="include">
-        </childnode>
-      </node>
-      <node id="318">
-        <label>genericlocalcalculator.cpp</label>
-        <link refid="genericlocalcalculator_8cpp"/>
-      </node>
-      <node id="329">
+      <node id="15">
         <label>inputs.cpp</label>
         <link refid="inputs_8cpp"/>
       </node>
-      <node id="322">
-        <label>diamondcalculator.cpp</label>
-        <link refid="diamondcalculator_8cpp"/>
+      <node id="6">
+        <label>genericlocalcalculator.cpp</label>
+        <link refid="genericlocalcalculator_8cpp"/>
       </node>
-      <node id="326">
-        <label>gaussiancalculator.cpp</label>
-        <link refid="gaussiancalculator_8cpp"/>
-      </node>
-      <node id="317">
-        <label>fingerprintgenerator.cpp</label>
-        <link refid="fingerprintgenerator_8cpp"/>
-      </node>
-      <node id="320">
-        <label>bispectrumcalculator.cpp</label>
-        <link refid="bispectrumcalculator_8cpp"/>
-      </node>
-      <node id="314">
-        <label>agnicalculator.h</label>
-        <link refid="agnicalculator_8h"/>
-        <childnode refid="315" relation="include">
-        </childnode>
-        <childnode refid="316" relation="include">
-        </childnode>
-      </node>
-      <node id="315">
+      <node id="3">
         <label>agnicalculator.cpp</label>
         <link refid="agnicalculator_8cpp"/>
       </node>
-      <node id="325">
-        <label>gaussiancalculator.h</label>
-        <link refid="gaussiancalculator_8h"/>
-        <childnode refid="317" relation="include">
+      <node id="2">
+        <label>agnicalculator.h</label>
+        <link refid="agnicalculator_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="316" relation="include">
-        </childnode>
-        <childnode refid="326" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="319">
-        <label>bispectrumcalculator.h</label>
-        <link refid="bispectrumcalculator_8h"/>
-        <childnode refid="320" relation="include">
-        </childnode>
-        <childnode refid="317" relation="include">
-        </childnode>
-        <childnode refid="316" relation="include">
-        </childnode>
+      <node id="12">
+        <label>gaussiancalculator.cpp</label>
+        <link refid="gaussiancalculator_8cpp"/>
       </node>
-      <node id="328">
+      <node id="14">
         <label>zernikecalculator.cpp</label>
         <link refid="zernikecalculator_8cpp"/>
+      </node>
+      <node id="7">
+        <label>bispectrumcalculator.h</label>
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>fingerprintgenerator.h</label>
+        <link refid="fingerprintgenerator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>genericlocalcalculator.h</label>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gaussiancalculator.h</label>
+        <link refid="gaussiancalculator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>zernikecalculator.h</label>
+        <link refid="zernikecalculator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="8">
+        <label>bispectrumcalculator.cpp</label>
+        <link refid="bispectrumcalculator_8cpp"/>
+      </node>
+      <node id="5">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
+      </node>
+      <node id="1">
+        <label>inputs.h</label>
+        <link refid="inputs_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="structfingerprintProperties" prot="public">fingerprintProperties</innerclass>
@@ -164,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/inputs.h" line="80" column="1" bodyfile="/fs/home/mr937/SEING/src/inputs.cpp" bodystart="15" bodyend="388"/>
+        <location file="inputs.h" line="80" column="23" bodyfile="inputs.cpp" bodystart="15" bodyend="403" declfile="inputs.h" declline="80" declcolumn="23"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -172,9 +157,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>INPUTS_H<sp/></highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>INPUTS_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>INPUTS_H<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPUTS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
@@ -233,7 +218,7 @@
 <codeline lineno="74" refid="structfingerprintProperties_1a671fdeb8174614bbef26c0e0894ed72b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structfingerprintProperties_1a671fdeb8174614bbef26c0e0894ed72b" kindref="member">alpha</ref>;</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76" refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structfingerprintProperties_1ae0ff62251b21b243f26c28790822fbd4" kindref="member">output_file</ref>;</highlight></codeline>
-<codeline lineno="77" refid="structfingerprintProperties_1ac1abf7226cb93c27eefe7a01e057389c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structfingerprintProperties_1ac1abf7226cb93c27eefe7a01e057389c" kindref="member">mode</ref>;</highlight></codeline>
+<codeline lineno="77" refid="structfingerprintProperties_1a060555deb38532f5f0fc6d23a5cba7f4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structfingerprintProperties_1a060555deb38532f5f0fc6d23a5cba7f4" kindref="member">output_mode</ref>;</highlight></codeline>
 <codeline lineno="78"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight></codeline>
 <codeline lineno="80"><highlight class="normal"><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref><sp/><ref refid="inputs_8h_1acf9d44e0946f9e8989d8a779ac1df3a8" kindref="member">read_prop_file</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
@@ -242,6 +227,6 @@
 <codeline lineno="83"><highlight class="normal"></highlight></codeline>
 <codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/inputs.h"/>
+    <location file="inputs.h"/>
   </compounddef>
 </doxygen>

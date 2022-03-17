@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['bispectrumcalculator',['BispectrumCalculator',['../classBispectrumCalculator.html',1,'']]]
+  ['bispectrumcalculator_134',['BispectrumCalculator',['../classBispectrumCalculator.html',1,'']]]
 ];

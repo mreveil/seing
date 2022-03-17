@@ -1,53 +1,63 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="utilities_8cpp" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="utilities_8cpp" kind="file" language="C++">
     <compoundname>utilities.cpp</compoundname>
     <includes local="no">math.h</includes>
     <includes refid="atom_8h" local="yes">atom.h</includes>
     <includes refid="atomicsystem_8h" local="yes">atomicsystem.h</includes>
     <includes refid="utilities_8h" local="yes">utilities.h</includes>
     <incdepgraph>
-      <node id="402">
-        <label>utilities.h</label>
-        <link refid="utilities_8h"/>
-        <childnode refid="400" relation="include">
+      <node id="7">
+        <label>periodictable.h</label>
+        <link refid="periodictable_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
-      <node id="399">
-        <label>string</label>
-      </node>
-      <node id="401">
-        <label>vector</label>
-      </node>
-      <node id="400">
-        <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h"/>
-        <childnode refid="399" relation="include">
-        </childnode>
-        <childnode refid="401" relation="include">
-        </childnode>
-        <childnode refid="398" relation="include">
-        </childnode>
-      </node>
-      <node id="396">
-        <label>utilities.cpp</label>
-        <link refid="utilities.cpp"/>
-        <childnode refid="397" relation="include">
-        </childnode>
-        <childnode refid="398" relation="include">
-        </childnode>
-        <childnode refid="400" relation="include">
-        </childnode>
-        <childnode refid="402" relation="include">
-        </childnode>
-      </node>
-      <node id="397">
-        <label>math.h</label>
-      </node>
-      <node id="398">
+      <node id="3">
         <label>atom.h</label>
         <link refid="atom_8h"/>
-        <childnode refid="399" relation="include">
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="1">
+        <label>utilities.cpp</label>
+        <link refid="utilities_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>math.h</label>
+      </node>
+      <node id="5">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>utilities.h</label>
+        <link refid="utilities_8h"/>
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -60,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="1" column="9" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="1" bodyend="-1"/>
+        <location file="utilities.cpp" line="1" column="9" bodyfile="utilities.cpp" bodystart="1" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
@@ -80,10 +90,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Function that returns the value of the cutoff function given the cutoff value and the current distance </para>        </detaileddescription>
+<para>Function that returns the value of the cutoff function given the cutoff value and the current distance </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="12" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="12" bodyend="17"/>
+        <location file="utilities.cpp" line="12" column="8" bodyfile="utilities.cpp" bodystart="12" bodyend="17"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8cpp_1ab13ed3cd615c5f029def436b23a7b80b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -104,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="19" bodyend="25"/>
+        <location file="utilities.cpp" line="19" column="8" bodyfile="utilities.cpp" bodystart="19" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8cpp_1a4d3aa2f8d4efc9960192c7532bb05d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -133,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="27" bodyend="39"/>
+        <location file="utilities.cpp" line="27" column="8" bodyfile="utilities.cpp" bodystart="27" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8cpp_1ab93f305620574ecf89f1fb0b6993532c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -158,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="41" bodyend="45"/>
+        <location file="utilities.cpp" line="41" column="8" bodyfile="utilities.cpp" bodystart="41" bodyend="45"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8cpp_1aa3900a7b4a296258d1b71dcfbd852af6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -183,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="47" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="47" bodyend="67"/>
+        <location file="utilities.cpp" line="47" column="8" bodyfile="utilities.cpp" bodystart="47" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8cpp_1aa316a44b5678dccb2f57adf46cc8cb06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -204,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="70" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="70" bodyend="75"/>
+        <location file="utilities.cpp" line="70" column="5" bodyfile="utilities.cpp" bodystart="70" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8cpp_1a256715f3324903f332bf56cbba488306" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -225,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="77" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="77" bodyend="81"/>
+        <location file="utilities.cpp" line="77" column="8" bodyfile="utilities.cpp" bodystart="77" bodyend="81"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>unsigned int</type>
@@ -242,7 +253,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="88" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="88" bodyend="94"/>
+        <location file="utilities.cpp" line="88" column="14" bodyfile="utilities.cpp" bodystart="88" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="utilities_8cpp_1a9823ef7320113b5363e71556d0322324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -263,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/utilities.cpp" line="96" column="1" bodyfile="/fs/home/mr937/SEING/src/utilities.cpp" bodystart="96" bodyend="99"/>
+        <location file="utilities.cpp" line="96" column="8" bodyfile="utilities.cpp" bodystart="96" bodyend="99"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -271,8 +282,8 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#define<sp/>_USE_MATH_DEFINES</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#define<sp/>_USE_MATH_DEFINES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="atom_8h" kindref="compound">atom.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -371,6 +382,6 @@
 <codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(n)/(<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(k)*<ref refid="utilities_8cpp_1ae9945c15826a9c1b5c141db314b7f8b4" kindref="member">factorial</ref>(n-k));</highlight></codeline>
 <codeline lineno="99"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/utilities.cpp"/>
+    <location file="utilities.cpp"/>
   </compounddef>
 </doxygen>

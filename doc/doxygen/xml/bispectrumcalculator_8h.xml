@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="bispectrumcalculator_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="bispectrumcalculator_8h" kind="file" language="C++">
     <compoundname>bispectrumcalculator.h</compoundname>
     <includes local="no">stdio.h</includes>
     <includes local="no">stdlib.h</includes>
@@ -18,130 +18,140 @@
     <includedby refid="fingerprintgenerator_8cpp" local="yes">fingerprintgenerator.cpp</includedby>
     <includedby refid="genericlocalcalculator_8h" local="yes">genericlocalcalculator.h</includedby>
     <incdepgraph>
-      <node id="134">
-        <label>inputs.h</label>
-        <link refid="inputs_8h"/>
-        <childnode refid="128" relation="include">
-        </childnode>
-      </node>
-      <node id="124">
-        <label>stdlib.h</label>
-      </node>
-      <node id="135">
-        <label>utilities.h</label>
-        <link refid="utilities_8h"/>
-        <childnode refid="131" relation="include">
-        </childnode>
-      </node>
-      <node id="136">
+      <node id="16">
         <label>neighborlist.h</label>
         <link refid="neighborlist_8h"/>
-        <childnode refid="132" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="133" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="131" relation="include">
-        </childnode>
-      </node>
-      <node id="128">
-        <label>string</label>
-      </node>
-      <node id="126">
-        <label>fstream</label>
-      </node>
-      <node id="132">
-        <label>vector</label>
-      </node>
-      <node id="127">
-        <label>sstream</label>
-      </node>
-      <node id="131">
-        <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h"/>
-        <childnode refid="128" relation="include">
-        </childnode>
-        <childnode refid="132" relation="include">
-        </childnode>
-        <childnode refid="133" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="129">
-        <label>time.h</label>
+      <node id="3">
+        <label>stdlib.h</label>
       </node>
-      <node id="125">
-        <label>iostream</label>
-      </node>
-      <node id="130">
-        <label>complex</label>
-      </node>
-      <node id="122">
-        <label>bispectrumcalculator.h</label>
-        <link refid="bispectrumcalculator.h"/>
-        <childnode refid="123" relation="include">
+      <node id="13">
+        <label>periodictable.h</label>
+        <link refid="periodictable_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="124" relation="include">
-        </childnode>
-        <childnode refid="125" relation="include">
-        </childnode>
-        <childnode refid="126" relation="include">
-        </childnode>
-        <childnode refid="127" relation="include">
-        </childnode>
-        <childnode refid="128" relation="include">
-        </childnode>
-        <childnode refid="129" relation="include">
-        </childnode>
-        <childnode refid="130" relation="include">
-        </childnode>
-        <childnode refid="131" relation="include">
-        </childnode>
-        <childnode refid="134" relation="include">
-        </childnode>
-        <childnode refid="135" relation="include">
-        </childnode>
-        <childnode refid="136" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="133">
+      <node id="12">
         <label>atom.h</label>
         <link refid="atom_8h"/>
-        <childnode refid="128" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="123">
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>bispectrumcalculator.h</label>
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>fstream</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+      <node id="6">
+        <label>sstream</label>
+      </node>
+      <node id="8">
+        <label>time.h</label>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="10">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>utilities.h</label>
+        <link refid="utilities_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>complex</label>
+      </node>
+      <node id="2">
         <label>stdio.h</label>
+      </node>
+      <node id="14">
+        <label>inputs.h</label>
+        <link refid="inputs_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="140">
-        <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h"/>
-        <childnode refid="139" relation="include">
-        </childnode>
-        <childnode refid="141" relation="include">
-        </childnode>
-      </node>
-      <node id="141">
+      <node id="5">
         <label>genericlocalcalculator.cpp</label>
         <link refid="genericlocalcalculator_8cpp"/>
       </node>
-      <node id="139">
-        <label>fingerprintgenerator.cpp</label>
-        <link refid="fingerprintgenerator_8cpp"/>
+      <node id="1">
+        <label>bispectrumcalculator.h</label>
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
       </node>
-      <node id="138">
+      <node id="4">
+        <label>genericlocalcalculator.h</label>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
         <label>bispectrumcalculator.cpp</label>
         <link refid="bispectrumcalculator_8cpp"/>
       </node>
-      <node id="137">
-        <label>bispectrumcalculator.h</label>
-        <link refid="bispectrumcalculator.h"/>
-        <childnode refid="138" relation="include">
-        </childnode>
-        <childnode refid="139" relation="include">
-        </childnode>
-        <childnode refid="140" relation="include">
-        </childnode>
+      <node id="3">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classBispectrumCalculator" prot="public">BispectrumCalculator</innerclass>
@@ -150,9 +160,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>BISPECTRUM_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BISPECTRUM_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>BISPECTRUM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BISPECTRUM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -199,6 +209,6 @@
 <codeline lineno="47"><highlight class="normal"></highlight></codeline>
 <codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h"/>
+    <location file="bispectrumcalculator.h"/>
   </compounddef>
 </doxygen>

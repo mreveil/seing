@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['gaussiancalculator',['GaussianCalculator',['../classGaussianCalculator.html',1,'']]],
-  ['genericlocalcalculator',['GenericLocalCalculator',['../classGenericLocalCalculator.html',1,'']]]
+  ['neighborlist_140',['NeighborList',['../classNeighborList.html',1,'']]]
 ];

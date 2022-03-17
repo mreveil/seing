@@ -9,7 +9,7 @@ for implementation.
 
 
 Behler-Parinello
-----------------
+-----------------
 
 Behler-Parinello (BP) also called "Gaussian" fingerprints are local fingerprints based on symmetry
 functions. Two of such symmetry functions are given by the radial and angular componenets :math:`G^{rad}` and :math:`G^{ang}` below where summations run over all neighbors :math:`j` and :math:`k` separated by distances :math:`R_{ij}` and :math:`R_{ik}` with respect to atom :math:`i` within a cutoff distance :math:`R_c` around :math:`i`. :math:`\theta_{ijk}` is the angle between atoms :math:`i,j and k`. :math:`\eta`, :math:`R_s`, :math:`\lambda` and :math:`\zeta` are parameters whose values are chosen by the user. :math:`f_c` is a cutoff function used to ensure a smooth transition to zero at the :math:`R_c`. For more information, see: [BP]_
@@ -71,17 +71,17 @@ Zernike fingerprints are similar to Bispectrum fingerprints in the sense that th
 To use the Zernike fingerprint in SEING, only the parameter :math:`n_max` is needed (suggested value: 5). Derivatives are supported.
 
 
-PRDF (*upcoming*)
-----
+PRDF (Coming Soon)
+-------------------
 
 
 
-Contact Matrix (*upcoming*)
---------------
+Contact Matrix (Coming Soon)
+-----------------------------
 
 
-SPRINT (*upcoming*)
---------------------
+SPRINT (Coming Soon)
+---------------------
 
 
 

@@ -1,34 +1,27 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Fingerprints &#8212; SEING 0.1.1 documentation</title>
-    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '0.1.1',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
-      };
-    </script>
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="SEING 0.1.1 documentation" href="index.html" />
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Developer Information" href="extend.html" />
     <link rel="prev" title="How to Use" href="using.html" /> 
-  </head>
-  <body role="document">
+  </head><body>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -56,50 +49,50 @@
 for implementation.</p>
 <div class="section" id="behler-parinello">
 <h2>Behler-Parinello<a class="headerlink" href="#behler-parinello" title="Permalink to this headline">¶</a></h2>
-<p>Behler-Parinello (BP) also called &#8220;Gaussian&#8221; fingerprints are local fingerprints based on symmetry
-functions. Two of such symmetry functions are given by the radial and angular componenets <span class="math">\(G^{rad}\)</span> and <span class="math">\(G^{ang}\)</span> below where summations run over all neighbors <span class="math">\(j\)</span> and <span class="math">\(k\)</span> separated by distances <span class="math">\(R_{ij}\)</span> and <span class="math">\(R_{ik}\)</span> with respect to atom <span class="math">\(i\)</span> within a cutoff distance <span class="math">\(R_c\)</span> around <span class="math">\(i\)</span>. <span class="math">\(\theta_{ijk}\)</span> is the angle between atoms <span class="math">\(i,j and k\)</span>. <span class="math">\(\eta\)</span>, <span class="math">\(R_s\)</span>, <span class="math">\(\lambda\)</span> and <span class="math">\(\zeta\)</span> are parameters whose values are chosen by the user. <span class="math">\(f_c\)</span> is a cutoff function used to ensure a smooth transition to zero at the <span class="math">\(R_c\)</span>. For more information, see: <a class="reference internal" href="#bp" id="id1">[BP]</a></p>
-<div class="math">
+<p>Behler-Parinello (BP) also called “Gaussian” fingerprints are local fingerprints based on symmetry
+functions. Two of such symmetry functions are given by the radial and angular componenets <span class="math notranslate nohighlight">\(G^{rad}\)</span> and <span class="math notranslate nohighlight">\(G^{ang}\)</span> below where summations run over all neighbors <span class="math notranslate nohighlight">\(j\)</span> and <span class="math notranslate nohighlight">\(k\)</span> separated by distances <span class="math notranslate nohighlight">\(R_{ij}\)</span> and <span class="math notranslate nohighlight">\(R_{ik}\)</span> with respect to atom <span class="math notranslate nohighlight">\(i\)</span> within a cutoff distance <span class="math notranslate nohighlight">\(R_c\)</span> around <span class="math notranslate nohighlight">\(i\)</span>. <span class="math notranslate nohighlight">\(\theta_{ijk}\)</span> is the angle between atoms <span class="math notranslate nohighlight">\(i,j and k\)</span>. <span class="math notranslate nohighlight">\(\eta\)</span>, <span class="math notranslate nohighlight">\(R_s\)</span>, <span class="math notranslate nohighlight">\(\lambda\)</span> and <span class="math notranslate nohighlight">\(\zeta\)</span> are parameters whose values are chosen by the user. <span class="math notranslate nohighlight">\(f_c\)</span> is a cutoff function used to ensure a smooth transition to zero at the <span class="math notranslate nohighlight">\(R_c\)</span>. For more information, see: <a class="reference internal" href="#bp" id="id1">[BP]</a></p>
+<div class="math notranslate nohighlight">
 \[G^{rad}_i = \sum_j e^{-\eta(R_{ij}-R_s)^2}f_c(R_{ij})\]</div>
-<div class="math">
+<div class="math notranslate nohighlight">
 \[G^{ang}_i = 2^{1-\zeta}\sum_{j,k\neq i} (1+\lambda \cos \theta_{ijk})^\zeta e^{-\eta(R_{ij}^2+R_{ik}^2+R_{jk}^2)^2}f_c(R_{ij})f_c(R_{ij})f_c(R_{ij})\]</div>
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\begin{split}f_c =
 \begin{cases}
 &amp; 0.5[\cos(\frac{\pi R_{ij}}{R_c})+1]~~\text{for}~~~R_{ij}\leq R_c
 \\
 &amp; 0 ~~~~~~~~~~~~~~~~~~~~~~~~~~      \text{for}~~~ R_{ij} &gt; R_c \\
 \end{cases}\end{split}\]</div>
-<p>The SEING implementation of the BP fingerprint only requires the parameters <span class="math">\(\eta\)</span>, <span class="math">\(\lambda\)</span> and <span class="math">\(\zeta\)</span> as <span class="math">\(R_s\)</span> is automatically set to zero.</p>
+<p>The SEING implementation of the BP fingerprint only requires the parameters <span class="math notranslate nohighlight">\(\eta\)</span>, <span class="math notranslate nohighlight">\(\lambda\)</span> and <span class="math notranslate nohighlight">\(\zeta\)</span> as <span class="math notranslate nohighlight">\(R_s\)</span> is automatically set to zero.</p>
 </div>
 <div class="section" id="agni">
 <h2>AGNI<a class="headerlink" href="#agni" title="Permalink to this headline">¶</a></h2>
-<p>The <a class="reference internal" href="#id5" id="id2">[AGNI]</a> method was developed as a framework for machine learning force field development in which the forces are calculated directly without going through energy predictions. The associated fingerprint is given by <span class="math">\(V_{i,\alpha,k}\)</span> below where <span class="math">\(\alpha\)</span> denotes the direction (x,y or z) of the force between atoms <span class="math">\(i\)</span> and <span class="math">\(j\)</span> separated by distance <span class="math">\(r_{ij}\)</span>. The parameter <span class="math">\(w\)</span> corresponds to the width of Gaussians placed at positions <span class="math">\(a_k\)</span> within a cutoff distance <span class="math">\(R_c\)</span>. Similarly to the BP fingerprint, <span class="math">\(f_c\)</span> is the cutofff function ensuring a smooth transition to zero at <span class="math">\(Rc\)</span>.</p>
-<div class="math">
+<p>The <a class="reference internal" href="#id5" id="id2">[AGNI]</a> method was developed as a framework for machine learning force field development in which the forces are calculated directly without going through energy predictions. The associated fingerprint is given by <span class="math notranslate nohighlight">\(V_{i,\alpha,k}\)</span> below where <span class="math notranslate nohighlight">\(\alpha\)</span> denotes the direction (x,y or z) of the force between atoms <span class="math notranslate nohighlight">\(i\)</span> and <span class="math notranslate nohighlight">\(j\)</span> separated by distance <span class="math notranslate nohighlight">\(r_{ij}\)</span>. The parameter <span class="math notranslate nohighlight">\(w\)</span> corresponds to the width of Gaussians placed at positions <span class="math notranslate nohighlight">\(a_k\)</span> within a cutoff distance <span class="math notranslate nohighlight">\(R_c\)</span>. Similarly to the BP fingerprint, <span class="math notranslate nohighlight">\(f_c\)</span> is the cutofff function ensuring a smooth transition to zero at <span class="math notranslate nohighlight">\(Rc\)</span>.</p>
+<div class="math notranslate nohighlight">
 \[V_{i,\alpha,k} = \sum_{j\neq i} \frac{r_{ij}^\alpha}{r_{ij}} \frac{1}{\sqrt{2\pi w}}e^{-0.5(\frac{r_{ij}-a_k}{w})^2}f_c(r_{ij})\]</div>
-<p>For the SEING implementation of the AGNI fingerprint, gaussian centers are uniformly chosen between 0 and the cutoff disance <span class="math">\(R_c\)</span>. The only parameter necessary is the dimensionality of the fingerprint with determines the number of such Gaussian centers to generate. This fingerprint <em>does not</em> support derivative calculations.</p>
+<p>For the SEING implementation of the AGNI fingerprint, gaussian centers are uniformly chosen between 0 and the cutoff disance <span class="math notranslate nohighlight">\(R_c\)</span>. The only parameter necessary is the dimensionality of the fingerprint with determines the number of such Gaussian centers to generate. This fingerprint <em>does not</em> support derivative calculations.</p>
 </div>
 <div class="section" id="bispectrum">
 <h2>Bispectrum<a class="headerlink" href="#bispectrum" title="Permalink to this headline">¶</a></h2>
-<p>Bispectrum fingerprints for representaion of chemical environments were proposed by Bartok et al. and are based on teh decomposition of a local atomic density function with respect to 4D spherical harmonics. The bispecturm representation is then build based on the coefficients <span class="math">\(c_{m'm}^j\)</span> of the decomposition given below. For more information, please consult the original paper on the development of <a class="reference internal" href="#id6" id="id3">[Bispectrum]</a> fingerprints.</p>
-<div class="math">
+<p>Bispectrum fingerprints for representaion of chemical environments were proposed by Bartok et al. and are based on teh decomposition of a local atomic density function with respect to 4D spherical harmonics. The bispecturm representation is then build based on the coefficients <span class="math notranslate nohighlight">\(c_{m'm}^j\)</span> of the decomposition given below. For more information, please consult the original paper on the development of <a class="reference internal" href="#id6" id="id3">[Bispectrum]</a> fingerprints.</p>
+<div class="math notranslate nohighlight">
 \[B_{j_1,j_2,j} = \sum_{m'_1,m_1=-j_1}^{j_1} \sum_{m'_2,m_2=-j_2}^{j_1} \sum_{m',m=-j}^{j}  c_{m'm}^jC_{j_1m_1j_2m_2}^{jm}C_{j_1m'_1j_2m'_2}^{jm'}c_{m'_1m_1}^{j_1}c_{m'_2m_2}^{j_2}\]</div>
-<p>Within SEING, only the parameter <span class="math">\(j_{max}\)</span> is needed (suggested value: 5) to generate bispectrum fingerprints. Please note that this type of fingerprints is relatively slow compared to other fingerprints currently implemented. Derivatives are supported.</p>
+<p>Within SEING, only the parameter <span class="math notranslate nohighlight">\(j_{max}\)</span> is needed (suggested value: 5) to generate bispectrum fingerprints. Please note that this type of fingerprints is relatively slow compared to other fingerprints currently implemented. Derivatives are supported.</p>
 </div>
 <div class="section" id="zernike">
 <h2>Zernike<a class="headerlink" href="#zernike" title="Permalink to this headline">¶</a></h2>
 <p>Zernike fingerprints are similar to Bispectrum fingerprints in the sense that they are based on decomposition of a local atomic density wrt basis sets. However, Zernike fingerprints are based on decomposition wrt zernike polynomials and 3D spherical harmonics. The general formula is given below. Please consult this paper which describes the <a class="reference internal" href="#id7" id="id4">[Zernike]</a> method.</p>
-<div class="math">
+<div class="math notranslate nohighlight">
 \[\rho(\tilde{r},\theta,\phi) = \sum_{n=0}^{\inf} \sum_l \sum_{m=-l}^l c_{nl}^mZ_{nl}^m(\tilde{r},\theta, \phi) ~~~~ \text{for} ~~ n-l \geq 0\]</div>
-<p>To use the Zernike fingerprint in SEING, only the parameter <span class="math">\(n_max\)</span> is needed (suggested value: 5). Derivatives are supported.</p>
+<p>To use the Zernike fingerprint in SEING, only the parameter <span class="math notranslate nohighlight">\(n_max\)</span> is needed (suggested value: 5). Derivatives are supported.</p>
 </div>
-<div class="section" id="prdf-upcoming">
-<h2>PRDF (<em>upcoming</em>)<a class="headerlink" href="#prdf-upcoming" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="prdf-coming-soon">
+<h2>PRDF (Coming Soon)<a class="headerlink" href="#prdf-coming-soon" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="contact-matrix-upcoming">
-<h2>Contact Matrix (<em>upcoming</em>)<a class="headerlink" href="#contact-matrix-upcoming" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="contact-matrix-coming-soon">
+<h2>Contact Matrix (Coming Soon)<a class="headerlink" href="#contact-matrix-coming-soon" title="Permalink to this headline">¶</a></h2>
 </div>
-<div class="section" id="sprint-upcoming">
-<h2>SPRINT (<em>upcoming</em>)<a class="headerlink" href="#sprint-upcoming" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="sprint-coming-soon">
+<h2>SPRINT (Coming Soon)<a class="headerlink" href="#sprint-coming-soon" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="citations">
 <h2>Citations<a class="headerlink" href="#citations" title="Permalink to this headline">¶</a></h2>
@@ -154,16 +147,16 @@ functions. Two of such symmetry functions are given by the radial and angular co
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="index.html">Table Of Contents</a></h3>
+  <h3><a href="index.html">Table of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Fingerprints</a><ul>
 <li><a class="reference internal" href="#behler-parinello">Behler-Parinello</a></li>
 <li><a class="reference internal" href="#agni">AGNI</a></li>
 <li><a class="reference internal" href="#bispectrum">Bispectrum</a></li>
 <li><a class="reference internal" href="#zernike">Zernike</a></li>
-<li><a class="reference internal" href="#prdf-upcoming">PRDF (<em>upcoming</em>)</a></li>
-<li><a class="reference internal" href="#contact-matrix-upcoming">Contact Matrix (<em>upcoming</em>)</a></li>
-<li><a class="reference internal" href="#sprint-upcoming">SPRINT (<em>upcoming</em>)</a></li>
+<li><a class="reference internal" href="#prdf-coming-soon">PRDF (Coming Soon)</a></li>
+<li><a class="reference internal" href="#contact-matrix-coming-soon">Contact Matrix (Coming Soon)</a></li>
+<li><a class="reference internal" href="#sprint-coming-soon">SPRINT (Coming Soon)</a></li>
 <li><a class="reference internal" href="#citations">Citations</a></li>
 </ul>
 </li>
@@ -178,18 +171,20 @@ functions. Two of such symmetry functions are given by the radial and angular co
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="_sources/theory.txt"
+      <li><a href="_sources/theory.rst.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
 <div id="searchbox" style="display: none" role="search">
   <h3>Quick search</h3>
+    <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <div><input type="text" name="q" /></div>
-      <div><input type="submit" value="Go" /></div>
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
       <input type="hidden" name="check_keywords" value="yes" />
       <input type="hidden" name="area" value="default" />
     </form>
+    </div>
 </div>
 <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
@@ -212,8 +207,8 @@ functions. Two of such symmetry functions are given by the radial and angular co
       </ul>
     </div>
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2018, Mardochee Reveil.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+        &#169; Copyright 2018-2022, Mardochee Reveil.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.5.
     </div>
   </body>
 </html>

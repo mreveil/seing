@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="zernikecalculator_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="zernikecalculator_8h" kind="file" language="C++">
     <compoundname>zernikecalculator.h</compoundname>
     <includes local="no">stdio.h</includes>
     <includes local="no">stdlib.h</includes>
@@ -18,130 +18,134 @@
     <includedby refid="genericlocalcalculator_8h" local="yes">genericlocalcalculator.h</includedby>
     <includedby refid="zernikecalculator_8cpp" local="yes">zernikecalculator.cpp</includedby>
     <incdepgraph>
-      <node id="452">
-        <label>inputs.h</label>
-        <link refid="inputs_8h"/>
-        <childnode refid="446" relation="include">
-        </childnode>
-      </node>
-      <node id="440">
-        <label>zernikecalculator.h</label>
-        <link refid="zernikecalculator.h"/>
-        <childnode refid="441" relation="include">
-        </childnode>
-        <childnode refid="442" relation="include">
-        </childnode>
-        <childnode refid="443" relation="include">
-        </childnode>
-        <childnode refid="444" relation="include">
-        </childnode>
-        <childnode refid="445" relation="include">
-        </childnode>
-        <childnode refid="446" relation="include">
-        </childnode>
-        <childnode refid="447" relation="include">
-        </childnode>
-        <childnode refid="448" relation="include">
-        </childnode>
-        <childnode refid="449" relation="include">
-        </childnode>
-        <childnode refid="452" relation="include">
-        </childnode>
-        <childnode refid="453" relation="include">
-        </childnode>
-        <childnode refid="454" relation="include">
-        </childnode>
-      </node>
-      <node id="442">
-        <label>stdlib.h</label>
-      </node>
-      <node id="453">
+      <node id="15">
         <label>neighborlist.h</label>
         <link refid="neighborlist_8h"/>
-        <childnode refid="450" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="451" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="449" relation="include">
-        </childnode>
-      </node>
-      <node id="446">
-        <label>string</label>
-      </node>
-      <node id="444">
-        <label>fstream</label>
-      </node>
-      <node id="450">
-        <label>vector</label>
-      </node>
-      <node id="445">
-        <label>sstream</label>
-      </node>
-      <node id="449">
-        <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h"/>
-        <childnode refid="446" relation="include">
-        </childnode>
-        <childnode refid="450" relation="include">
-        </childnode>
-        <childnode refid="451" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="447">
-        <label>time.h</label>
+      <node id="3">
+        <label>stdlib.h</label>
       </node>
-      <node id="443">
-        <label>iostream</label>
-      </node>
-      <node id="448">
-        <label>complex</label>
-      </node>
-      <node id="451">
-        <label>atom.h</label>
-        <link refid="atom_8h"/>
-        <childnode refid="446" relation="include">
-        </childnode>
-      </node>
-      <node id="441">
-        <label>stdio.h</label>
-      </node>
-      <node id="454">
+      <node id="13">
         <label>periodictable.h</label>
         <link refid="periodictable_8h"/>
-        <childnode refid="446" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>atom.h</label>
+        <link refid="atom_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>fstream</label>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+      <node id="1">
+        <label>zernikecalculator.h</label>
+        <link refid="zernikecalculator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>sstream</label>
+      </node>
+      <node id="8">
+        <label>time.h</label>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="10">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>complex</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="14">
+        <label>inputs.h</label>
+        <link refid="inputs_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="457">
-        <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h"/>
-        <childnode refid="456" relation="include">
-        </childnode>
-        <childnode refid="458" relation="include">
-        </childnode>
-      </node>
-      <node id="455">
-        <label>zernikecalculator.h</label>
-        <link refid="zernikecalculator.h"/>
-        <childnode refid="456" relation="include">
-        </childnode>
-        <childnode refid="457" relation="include">
-        </childnode>
-        <childnode refid="459" relation="include">
-        </childnode>
-      </node>
-      <node id="458">
+      <node id="4">
         <label>genericlocalcalculator.cpp</label>
         <link refid="genericlocalcalculator_8cpp"/>
       </node>
-      <node id="456">
-        <label>fingerprintgenerator.cpp</label>
-        <link refid="fingerprintgenerator_8cpp"/>
-      </node>
-      <node id="459">
+      <node id="5">
         <label>zernikecalculator.cpp</label>
         <link refid="zernikecalculator_8cpp"/>
+      </node>
+      <node id="3">
+        <label>genericlocalcalculator.h</label>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>zernikecalculator.h</label>
+        <link refid="zernikecalculator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classZernikeCalculator" prot="public">ZernikeCalculator</innerclass>
@@ -150,9 +154,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ZERNIKE_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ZERNIKE_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>ZERNIKE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ZERNIKE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -211,6 +215,6 @@
 <codeline lineno="59"><highlight class="normal"></highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/zernikecalculator.h"/>
+    <location file="zernikecalculator.h"/>
   </compounddef>
 </doxygen>

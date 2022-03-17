@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fingerprintgenerator',['FingerprintGenerator',['../classFingerprintGenerator.html',1,'']]],
-  ['fingerprintproperties',['fingerprintProperties',['../structfingerprintProperties.html',1,'']]]
+  ['gaussiancalculator_138',['GaussianCalculator',['../classGaussianCalculator.html',1,'']]],
+  ['genericlocalcalculator_139',['GenericLocalCalculator',['../classGenericLocalCalculator.html',1,'']]]
 ];

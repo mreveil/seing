@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="gaussiancalculator_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="gaussiancalculator_8h" kind="file" language="C++">
     <compoundname>gaussiancalculator.h</compoundname>
     <includes local="no">stdio.h</includes>
     <includes local="no">stdlib.h</includes>
@@ -18,127 +18,131 @@
     <includedby refid="genericlocalcalculator_8h" local="yes">genericlocalcalculator.h</includedby>
     <includedby refid="gaussiancalculator_8cpp" local="yes">gaussiancalculator.cpp</includedby>
     <incdepgraph>
-      <node id="243">
-        <label>inputs.h</label>
-        <link refid="inputs_8h"/>
-        <childnode refid="238" relation="include">
-        </childnode>
-      </node>
-      <node id="234">
-        <label>stdlib.h</label>
-      </node>
-      <node id="244">
+      <node id="14">
         <label>neighborlist.h</label>
         <link refid="neighborlist_8h"/>
-        <childnode refid="240" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="242" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="241" relation="include">
-        </childnode>
-      </node>
-      <node id="238">
-        <label>string</label>
-      </node>
-      <node id="236">
-        <label>fstream</label>
-      </node>
-      <node id="240">
-        <label>vector</label>
-      </node>
-      <node id="237">
-        <label>sstream</label>
-      </node>
-      <node id="241">
-        <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h"/>
-        <childnode refid="238" relation="include">
-        </childnode>
-        <childnode refid="240" relation="include">
-        </childnode>
-        <childnode refid="242" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="239">
-        <label>time.h</label>
+      <node id="3">
+        <label>stdlib.h</label>
       </node>
-      <node id="235">
-        <label>iostream</label>
-      </node>
-      <node id="232">
-        <label>gaussiancalculator.h</label>
-        <link refid="gaussiancalculator.h"/>
-        <childnode refid="233" relation="include">
-        </childnode>
-        <childnode refid="234" relation="include">
-        </childnode>
-        <childnode refid="235" relation="include">
-        </childnode>
-        <childnode refid="236" relation="include">
-        </childnode>
-        <childnode refid="237" relation="include">
-        </childnode>
-        <childnode refid="238" relation="include">
-        </childnode>
-        <childnode refid="239" relation="include">
-        </childnode>
-        <childnode refid="240" relation="include">
-        </childnode>
-        <childnode refid="241" relation="include">
-        </childnode>
-        <childnode refid="243" relation="include">
-        </childnode>
-        <childnode refid="244" relation="include">
-        </childnode>
-        <childnode refid="245" relation="include">
-        </childnode>
-      </node>
-      <node id="242">
-        <label>atom.h</label>
-        <link refid="atom_8h"/>
-        <childnode refid="238" relation="include">
-        </childnode>
-      </node>
-      <node id="233">
-        <label>stdio.h</label>
-      </node>
-      <node id="245">
+      <node id="12">
         <label>periodictable.h</label>
         <link refid="periodictable_8h"/>
-        <childnode refid="238" relation="include">
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>atom.h</label>
+        <link refid="atom_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>fstream</label>
+      </node>
+      <node id="1">
+        <label>gaussiancalculator.h</label>
+        <link refid="gaussiancalculator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>vector</label>
+      </node>
+      <node id="6">
+        <label>sstream</label>
+      </node>
+      <node id="8">
+        <label>time.h</label>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="10">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="13">
+        <label>inputs.h</label>
+        <link refid="inputs_8h"/>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="248">
-        <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h"/>
-        <childnode refid="247" relation="include">
-        </childnode>
-        <childnode refid="249" relation="include">
-        </childnode>
-      </node>
-      <node id="249">
+      <node id="4">
         <label>genericlocalcalculator.cpp</label>
         <link refid="genericlocalcalculator_8cpp"/>
       </node>
-      <node id="250">
+      <node id="5">
         <label>gaussiancalculator.cpp</label>
         <link refid="gaussiancalculator_8cpp"/>
       </node>
-      <node id="247">
+      <node id="3">
+        <label>genericlocalcalculator.h</label>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gaussiancalculator.h</label>
+        <link refid="gaussiancalculator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
         <label>fingerprintgenerator.cpp</label>
         <link refid="fingerprintgenerator_8cpp"/>
-      </node>
-      <node id="246">
-        <label>gaussiancalculator.h</label>
-        <link refid="gaussiancalculator.h"/>
-        <childnode refid="247" relation="include">
-        </childnode>
-        <childnode refid="248" relation="include">
-        </childnode>
-        <childnode refid="250" relation="include">
-        </childnode>
       </node>
     </invincdepgraph>
     <innerclass refid="classGaussianCalculator" prot="public">GaussianCalculator</innerclass>
@@ -147,9 +151,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GAUSSIANCALCULATOR_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GAUSSIANCALCULATOR_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>GAUSSIANCALCULATOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GAUSSIANCALCULATOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -227,6 +231,6 @@
 <codeline lineno="78"><highlight class="normal"></highlight></codeline>
 <codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/gaussiancalculator.h"/>
+    <location file="gaussiancalculator.h"/>
   </compounddef>
 </doxygen>

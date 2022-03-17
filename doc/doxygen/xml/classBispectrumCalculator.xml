@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="classBispectrumCalculator" kind="class" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classBispectrumCalculator" kind="class" language="C++" prot="public">
     <compoundname>BispectrumCalculator</compoundname>
     <includes refid="bispectrumcalculator_8h" local="no">bispectrumcalculator.h</includes>
       <sectiondef kind="private-attrib">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="24" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.h" bodystart="24" bodyend="-1"/>
+        <location file="bispectrumcalculator.h" line="24" column="9" bodyfile="bispectrumcalculator.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classBispectrumCalculator_1adce5fba6d9c1587fde87d6657215b550" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.h" bodystart="25" bodyend="-1"/>
+        <location file="bispectrumcalculator.h" line="25" column="12" bodyfile="bispectrumcalculator.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classBispectrumCalculator_1aeabbb95cabb7684488019b4f293f8b69" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.h" bodystart="26" bodyend="-1"/>
+        <location file="bispectrumcalculator.h" line="26" column="9" bodyfile="bispectrumcalculator.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classBispectrumCalculator_1a4ca40478faaae0ac8b8d2dd583a58ae0" prot="private" static="no" mutable="no">
         <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref></type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.h" bodystart="28" bodyend="-1"/>
+        <location file="bispectrumcalculator.h" line="28" column="18" bodyfile="bispectrumcalculator.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classBispectrumCalculator_1a92226d0f806c53c68cf10a903e3ed8b1" prot="private" static="no" mutable="no">
         <type><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref></type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.h" bodystart="29" bodyend="-1"/>
+        <location file="bispectrumcalculator.h" line="29" column="27" bodyfile="bispectrumcalculator.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.cpp" bodystart="126" bodyend="161"/>
+        <location file="bispectrumcalculator.h" line="31" column="12" bodyfile="bispectrumcalculator.cpp" bodystart="126" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="classBispectrumCalculator_1a886dff99d84e53df1d3e4bdb446b6419" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>complex&lt; double &gt;</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="32" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.cpp" bodystart="181" bodyend="239"/>
+        <location file="bispectrumcalculator.h" line="32" column="13" bodyfile="bispectrumcalculator.cpp" bodystart="181" bodyend="239"/>
       </memberdef>
       <memberdef kind="function" id="classBispectrumCalculator_1ae0553bfb357d535eca8ba73114f7fde7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>complex&lt; double &gt;</type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.cpp" bodystart="242" bodyend="258"/>
+        <location file="bispectrumcalculator.h" line="33" column="13" bodyfile="bispectrumcalculator.cpp" bodystart="242" bodyend="258"/>
       </memberdef>
       <memberdef kind="function" id="classBispectrumCalculator_1ad80b83255011d0000f3936bd9d311194" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -225,7 +225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.cpp" bodystart="261" bodyend="288"/>
+        <location file="bispectrumcalculator.h" line="34" column="12" bodyfile="bispectrumcalculator.cpp" bodystart="261" bodyend="288"/>
       </memberdef>
       <memberdef kind="function" id="classBispectrumCalculator_1aff492597847fc49d20c806bab9ab63ae" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>complex&lt; double &gt;</type>
@@ -270,7 +270,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.cpp" bodystart="163" bodyend="177"/>
+        <location file="bispectrumcalculator.h" line="35" column="13" bodyfile="bispectrumcalculator.cpp" bodystart="163" bodyend="177"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -293,7 +293,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.cpp" bodystart="21" bodyend="33"/>
+        <location file="bispectrumcalculator.h" line="38" column="9" bodyfile="bispectrumcalculator.cpp" bodystart="21" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="classBispectrumCalculator_1ac031fd39e5d332f1ac9771c2105d6662" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -306,7 +306,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="39" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.cpp" bodystart="35" bodyend="37"/>
+        <location file="bispectrumcalculator.h" line="39" column="9" bodyfile="bispectrumcalculator.cpp" bodystart="35" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classBispectrumCalculator_1a240eb7cb832ea06813b57422de95fb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -319,7 +319,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.cpp" bodystart="39" bodyend="39"/>
+        <location file="bispectrumcalculator.h" line="41" column="13" bodyfile="bispectrumcalculator.cpp" bodystart="39" bodyend="39"/>
       </memberdef>
       <memberdef kind="function" id="classBispectrumCalculator_1a68cbc82fe0bb245db5ec1cc00e769792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -340,14 +340,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="42" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.cpp" bodystart="42" bodyend="123"/>
+        <location file="bispectrumcalculator.h" line="42" column="16" bodyfile="bispectrumcalculator.cpp" bodystart="42" bodyend="123"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/bispectrumcalculator.h" line="22" column="1" bodyfile="/fs/home/mr937/SEING/src/bispectrumcalculator.h" bodystart="22" bodyend="45"/>
+    <location file="bispectrumcalculator.h" line="22" column="27" bodyfile="bispectrumcalculator.h" bodystart="22" bodyend="45"/>
     <listofallmembers>
       <member refid="classBispectrumCalculator_1a4ca40478faaae0ac8b8d2dd583a58ae0" prot="private" virt="non-virtual"><scope>BispectrumCalculator</scope><name>atomicsystem</name></member>
       <member refid="classBispectrumCalculator_1a0542faabf37143ca00477f5a8badafc9" prot="public" virt="non-virtual"><scope>BispectrumCalculator</scope><name>BispectrumCalculator</name></member>

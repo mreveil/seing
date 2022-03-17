@@ -1,86 +1,214 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="periodictable_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="periodictable_8h" kind="file" language="C++">
     <compoundname>periodictable.h</compoundname>
     <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="atomicsystem_8h" local="yes">atomicsystem.h</includedby>
+    <includedby refid="agnicalculator_8cpp" local="yes">agnicalculator.cpp</includedby>
     <includedby refid="gaussiancalculator_8h" local="yes">gaussiancalculator.h</includedby>
     <includedby refid="zernikecalculator_8h" local="yes">zernikecalculator.h</includedby>
     <includedby refid="gaussiancalculator_8cpp" local="yes">gaussiancalculator.cpp</includedby>
     <includedby refid="periodictable_8cpp" local="yes">periodictable.cpp</includedby>
     <includedby refid="zernikecalculator_8cpp" local="yes">zernikecalculator.cpp</includedby>
     <incdepgraph>
-      <node id="386">
+      <node id="1">
+        <label>periodictable.h</label>
+        <link refid="periodictable_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
         <label>string</label>
       </node>
-      <node id="385">
-        <label>periodictable.h</label>
-        <link refid="periodictable.h"/>
-        <childnode refid="386" relation="include">
-        </childnode>
+      <node id="3">
+        <label>vector</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="390">
-        <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h"/>
-        <childnode refid="389" relation="include">
-        </childnode>
-        <childnode refid="391" relation="include">
-        </childnode>
-      </node>
-      <node id="393">
-        <label>zernikecalculator.h</label>
-        <link refid="zernikecalculator_8h"/>
-        <childnode refid="389" relation="include">
-        </childnode>
-        <childnode refid="390" relation="include">
-        </childnode>
-        <childnode refid="394" relation="include">
-        </childnode>
-      </node>
-      <node id="391">
+      <node id="7">
         <label>genericlocalcalculator.cpp</label>
         <link refid="genericlocalcalculator_8cpp"/>
       </node>
-      <node id="392">
+      <node id="8">
+        <label>neighborlist.h</label>
+        <link refid="neighborlist_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>agnicalculator.cpp</label>
+        <link refid="agnicalculator_8cpp"/>
+      </node>
+      <node id="3">
+        <label>agnicalculator.h</label>
+        <link refid="agnicalculator_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>periodictable.h</label>
+        <link refid="periodictable_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
         <label>gaussiancalculator.cpp</label>
         <link refid="gaussiancalculator_8cpp"/>
       </node>
-      <node id="389">
-        <label>fingerprintgenerator.cpp</label>
-        <link refid="fingerprintgenerator_8cpp"/>
-      </node>
-      <node id="395">
-        <label>periodictable.cpp</label>
-        <link refid="periodictable_8cpp"/>
-      </node>
-      <node id="388">
-        <label>gaussiancalculator.h</label>
-        <link refid="gaussiancalculator_8h"/>
-        <childnode refid="389" relation="include">
-        </childnode>
-        <childnode refid="390" relation="include">
-        </childnode>
-        <childnode refid="392" relation="include">
-        </childnode>
-      </node>
-      <node id="394">
+      <node id="16">
         <label>zernikecalculator.cpp</label>
         <link refid="zernikecalculator_8cpp"/>
       </node>
-      <node id="387">
-        <label>periodictable.h</label>
-        <link refid="periodictable.h"/>
-        <childnode refid="388" relation="include">
+      <node id="9">
+        <label>bispectrumcalculator.h</label>
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="393" relation="include">
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="392" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="395" relation="include">
+      </node>
+      <node id="11">
+        <label>fingerprintgenerator.h</label>
+        <link refid="fingerprintgenerator_8h"/>
+        <childnode refid="6" relation="include">
         </childnode>
-        <childnode refid="394" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
+      </node>
+      <node id="5">
+        <label>genericlocalcalculator.h</label>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gaussiancalculator.h</label>
+        <link refid="gaussiancalculator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>zernikecalculator.h</label>
+        <link refid="zernikecalculator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="19">
+        <label>utilities.cpp</label>
+        <link refid="utilities_8cpp"/>
+      </node>
+      <node id="10">
+        <label>bispectrumcalculator.cpp</label>
+        <link refid="bispectrumcalculator_8cpp"/>
+      </node>
+      <node id="17">
+        <label>neighborlist.cpp</label>
+        <link refid="neighborlist_8cpp"/>
+      </node>
+      <node id="2">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>atomicsystem.cpp</label>
+        <link refid="atomicsystem_8cpp"/>
+      </node>
+      <node id="21">
+        <label>periodictable.cpp</label>
+        <link refid="periodictable_8cpp"/>
+      </node>
+      <node id="18">
+        <label>utilities.h</label>
+        <link refid="utilities_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="structElement" prot="public">Element</innerclass>
@@ -90,9 +218,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PERIDOICTABLE_H<sp/></highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PERIDOICTABLE_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>PERIDOICTABLE_H<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PERIDOICTABLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Author:<sp/>Mardochee<sp/>Reveil</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Date<sp/>Created:<sp/>12/17/17</highlight><highlight class="normal"></highlight></codeline>
@@ -100,38 +228,40 @@
 <codeline lineno="8"><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="11"><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15" refid="structElement" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structElement" kindref="compound">Element</ref><sp/>{</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="structElement_1a63e156c168905a24437098bfff0e5366" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structElement_1a63e156c168905a24437098bfff0e5366" kindref="member">name</ref>;</highlight></codeline>
-<codeline lineno="18" refid="structElement_1a34d89c21bf14425580685a25d08edabd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structElement_1a34d89c21bf14425580685a25d08edabd" kindref="member">symbol</ref>;</highlight></codeline>
-<codeline lineno="19" refid="structElement_1a460c8dd687ca81783daf0cd4de7c0244" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structElement_1a460c8dd687ca81783daf0cd4de7c0244" kindref="member">atomic_number</ref>;<sp/></highlight></codeline>
-<codeline lineno="20" refid="structElement_1a2fed7278154c462ce9ec3ba1521f53ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structElement_1a2fed7278154c462ce9ec3ba1521f53ca" kindref="member">electronegativity</ref>;</highlight></codeline>
-<codeline lineno="21" refid="structElement_1abac7c79d113286574f348d076d51d5ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structElement_1abac7c79d113286574f348d076d51d5ff" kindref="member">mass</ref>;</highlight></codeline>
-<codeline lineno="22" refid="structElement_1ae2b61ce960fb99d7d7f5876d99f07c42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structElement_1ae2b61ce960fb99d7d7f5876d99f07c42" kindref="member">ionization_energy</ref>;<sp/></highlight><highlight class="comment">//in<sp/>kJ/mol</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structElement" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structElement" kindref="compound">Element</ref><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structElement_1a63e156c168905a24437098bfff0e5366" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structElement_1a63e156c168905a24437098bfff0e5366" kindref="member">name</ref>;</highlight></codeline>
+<codeline lineno="19" refid="structElement_1a34d89c21bf14425580685a25d08edabd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="structElement_1a34d89c21bf14425580685a25d08edabd" kindref="member">symbol</ref>;</highlight></codeline>
+<codeline lineno="20" refid="structElement_1a460c8dd687ca81783daf0cd4de7c0244" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structElement_1a460c8dd687ca81783daf0cd4de7c0244" kindref="member">atomic_number</ref>;<sp/></highlight></codeline>
+<codeline lineno="21" refid="structElement_1a2fed7278154c462ce9ec3ba1521f53ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structElement_1a2fed7278154c462ce9ec3ba1521f53ca" kindref="member">electronegativity</ref>;</highlight></codeline>
+<codeline lineno="22" refid="structElement_1abac7c79d113286574f348d076d51d5ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structElement_1abac7c79d113286574f348d076d51d5ff" kindref="member">mass</ref>;</highlight></codeline>
+<codeline lineno="23" refid="structElement_1ae2b61ce960fb99d7d7f5876d99f07c42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structElement_1ae2b61ce960fb99d7d7f5876d99f07c42" kindref="member">ionization_energy</ref>;<sp/></highlight><highlight class="comment">//in<sp/>kJ/mol</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="classPeriodicTable" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref><sp/>{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structElement" kindref="compound">Element</ref><sp/>*elements;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nelements;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref>();</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref>();</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>get_atomic_number(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>get_electronegativity(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight></codeline>
-<codeline lineno="39"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classPeriodicTable" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structElement" kindref="compound">Element</ref><sp/>*elements;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nelements;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~<ref refid="classPeriodicTable" kindref="compound">PeriodicTable</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>get_atomic_number(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>get_electronegativity(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vector&lt;string&gt;<sp/>get_element_list();</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/periodictable.h"/>
+    <location file="periodictable.h"/>
   </compounddef>
 </doxygen>

@@ -2,16 +2,16 @@ SEING v 0.1
 ============
 
 
-SEING is a C/C++ package for fingerprint calculations suitable for machine learning studies 
-of molecular systems. 
+SEING is a C/C++ package for fingerprint calculations suitable for machine learning studies
+of molecular systems.
 
 SEING was developed in the Clancy Group (http://clancygroup.cbe.cornell.edu/) at Cornell University.
 
 Author: Mardochee Reveil (mr937@cornell.edu)
 
-Fingerprints (in this context) are numerical representations of chemical environments designed 
-to be invariant under property-perseving operations such as permutation of atoms of the same 
-nature, geometric rotation, etc. For more information on fingerprints in general and the ones 
+Fingerprints (in this context) are numerical representations of chemical environments designed
+to be invariant under property-perseving operations such as permutation of atoms of the same
+nature, geometric rotation, etc. For more information on fingerprints in general and the ones
 currently implemented in SEING, please see the official documentation and user-guide.
 
 "SEING" is an old French word for signature.
@@ -31,34 +31,66 @@ you can just type.
 
 ```
 cd seing
-mkdir bin			
+mkdir bin
 cd src
 make seing
 ```
 
-If this doesn't work, changes might be necessary to adapt the makefile to your 
+If this doesn't work, changes might be necessary to adapt the makefile to your
 operating system and/or environment.
 
 Please note that c++11 or later is required. I have successfully compiled with GCC 4.8.4 and 4.9.2 on CentOS.
 If you are using GCC and run into C++ standard related errors, try adding -std=c++11 to your compile command.
 I will look into enabling compatibility with earlier C++ standards in future releases.
 
+
+BUILD THE DOCUMENTATION
+------------------------
+
+Doxygen is used to automatically generate documentation for the C++ code.
+
+To regenerate the documentation, please install doxygen and run:
+
+```
+cd src
+doxygen Doxyfile
+```
+
+This will generate html and xml documentation files and save them under doc/doxygen/.
+
+For instructions on how to install doxygen, visit: https://www.doxygen.nl/manual/install.html
+
+We use Sphinx to generate the documentation website hosted on https://seing.readthedocs.io
+
+To generate the site locally, start by installing Sphinx (Find instructions here https://www.sphinx-doc.org/en/master/usage/installation.html)
+
+Then do the following:
+
+```
+cd doc
+make html
+```
+
+To update the documentation itself, modify the rst files found in doc/source/.
+
+We use breathe to link Doxygen and Sphinx: https://github.com/michaeljones/breathe
+
 LICENSE
 ----------
 
-This program is free and open-source software distributed under the terms of the GNU GPL version 3 
+This program is free and open-source software distributed under the terms of the GNU GPL version 3
 (or later) which can be found here: www.gnu.org/licenses/gpl-3.0.en.html
 
 Please note that SEING is provided WITHOUT WARRANTY OF ANY KIND, either expressed or implied, including,
-but not limited to, the implied warranties of merchantability and fitness for a particular purpose. 
-Please see the full terms of the GNU GPL license for more details. 
+but not limited to, the implied warranties of merchantability and fitness for a particular purpose.
+Please see the full terms of the GNU GPL license for more details.
 
 
 CONTRIBUTIONS
 --------------
 
-We welcome contributions to this project including implementation of new fingerprinting 
-schemes, bug tracking and corrections, code optimization, documentation, etc. Please consult the 
+We welcome contributions to this project including implementation of new fingerprinting
+schemes, bug tracking and corrections, code optimization, documentation, etc. Please consult the
 "developer" section of the documentation for more information on how the code is organized. To make a contribution,
 create your own branch, make your documented changes to the code and submit a pull request for code update.
 

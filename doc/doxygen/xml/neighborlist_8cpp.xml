@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="neighborlist_8cpp" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="neighborlist_8cpp" kind="file" language="C++">
     <compoundname>neighborlist.cpp</compoundname>
     <includes local="no">stdlib.h</includes>
     <includes local="no">stdio.h</includes>
@@ -9,67 +9,77 @@
     <includes local="no">algorithm</includes>
     <includes refid="neighborlist_8h" local="yes">neighborlist.h</includes>
     <incdepgraph>
-      <node id="346">
-        <label>stdlib.h</label>
-      </node>
-      <node id="351">
+      <node id="7">
         <label>neighborlist.h</label>
         <link refid="neighborlist_8h"/>
-        <childnode refid="352" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
-        <childnode refid="353" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="355" relation="include">
-        </childnode>
-      </node>
-      <node id="354">
-        <label>string</label>
-      </node>
-      <node id="345">
-        <label>neighborlist.cpp</label>
-        <link refid="neighborlist.cpp"/>
-        <childnode refid="346" relation="include">
-        </childnode>
-        <childnode refid="347" relation="include">
-        </childnode>
-        <childnode refid="348" relation="include">
-        </childnode>
-        <childnode refid="349" relation="include">
-        </childnode>
-        <childnode refid="350" relation="include">
-        </childnode>
-        <childnode refid="351" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
       </node>
-      <node id="352">
-        <label>vector</label>
+      <node id="2">
+        <label>stdlib.h</label>
       </node>
-      <node id="355">
-        <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h"/>
-        <childnode refid="354" relation="include">
+      <node id="12">
+        <label>periodictable.h</label>
+        <link refid="periodictable_8h"/>
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="352" relation="include">
-        </childnode>
-        <childnode refid="353" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="349">
-        <label>math.h</label>
-      </node>
-      <node id="348">
-        <label>iostream</label>
-      </node>
-      <node id="350">
-        <label>algorithm</label>
-      </node>
-      <node id="353">
+      <node id="9">
         <label>atom.h</label>
         <link refid="atom_8h"/>
-        <childnode refid="354" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="347">
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="1">
+        <label>neighborlist.cpp</label>
+        <link refid="neighborlist_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>algorithm</label>
+      </node>
+      <node id="3">
         <label>stdio.h</label>
       </node>
     </incdepgraph>
@@ -107,7 +117,7 @@
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>nxbins<sp/>=<sp/>nxb;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>nybins<sp/>=<sp/>nyb;</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>nzbins<sp/>=<sp/>nzb;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>cutoffsq<sp/>=<sp/>cutoff*<ref refid="structfingerprintProperties_1a04a9eb29d650bbb1bb9662efdae2b439" kindref="member">cutoff</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>cutoffsq<sp/>=<sp/><ref refid="structfingerprintProperties_1a04a9eb29d650bbb1bb9662efdae2b439" kindref="member">cutoff</ref>*<ref refid="structfingerprintProperties_1a04a9eb29d650bbb1bb9662efdae2b439" kindref="member">cutoff</ref>;</highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>totalbins<sp/>=<sp/>nxbins*nybins*nzbins;</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
@@ -584,6 +594,6 @@
 <codeline lineno="504"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classNeighborList_1a461c595ee4d369ab44ca587e7eb55104" kindref="member">NeighborList::get_atoms_per_bin</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>binid)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>atomsperbin[binid];}</highlight></codeline>
 <codeline lineno="505"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classNeighborList_1add432330a908a64417aa431cf39e47d4" kindref="member">NeighborList::get_n_neighbors</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>neighborsperatom[id];}</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/neighborlist.cpp"/>
+    <location file="neighborlist.cpp"/>
   </compounddef>
 </doxygen>

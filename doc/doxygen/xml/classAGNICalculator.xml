@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="classAGNICalculator" kind="class" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classAGNICalculator" kind="class" language="C++" prot="public">
     <compoundname>AGNICalculator</compoundname>
     <includes refid="agnicalculator_8h" local="no">agnicalculator.h</includes>
       <sectiondef kind="private-attrib">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="25" bodyend="-1"/>
+        <location file="agnicalculator.h" line="25" column="9" bodyfile="agnicalculator.h" bodystart="25" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAGNICalculator_1a539b0dfe2c77b44b7cff50b4ef7cad61" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="26" bodyend="-1"/>
+        <location file="agnicalculator.h" line="26" column="12" bodyfile="agnicalculator.h" bodystart="26" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAGNICalculator_1a9e37fb95ea066bbb2f66b1241abd4a1c" prot="private" static="no" mutable="no">
         <type>double *</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="27" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="27" bodyend="-1"/>
+        <location file="agnicalculator.h" line="27" column="12" bodyfile="agnicalculator.h" bodystart="27" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAGNICalculator_1ad0c3eff712d863962d94bffc32f99a9e" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="28" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="28" bodyend="-1"/>
+        <location file="agnicalculator.h" line="28" column="9" bodyfile="agnicalculator.h" bodystart="28" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAGNICalculator_1a7eba3dea61284f469f1a3281cfeda2a2" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="29" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="29" bodyend="-1"/>
+        <location file="agnicalculator.h" line="29" column="9" bodyfile="agnicalculator.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAGNICalculator_1a8d056d8abbe3d2eb3877cf27361dfccd" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="31" bodyend="-1"/>
+        <location file="agnicalculator.h" line="31" column="12" bodyfile="agnicalculator.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAGNICalculator_1ab8f08a88ea234077d725a88097d0d8b2" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="33" bodyend="-1"/>
+        <location file="agnicalculator.h" line="33" column="9" bodyfile="agnicalculator.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAGNICalculator_1a81dd1a4c4ae0b418bbba79614072048c" prot="private" static="no" mutable="no">
         <type>vector&lt; string &gt;</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="35" bodyend="-1"/>
+        <location file="agnicalculator.h" line="35" column="12" bodyfile="agnicalculator.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAGNICalculator_1af0ee8cdecb19693e00612c558a82107f" prot="private" static="no" mutable="no">
         <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref></type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="37" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="37" bodyend="-1"/>
+        <location file="agnicalculator.h" line="37" column="18" bodyfile="agnicalculator.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAGNICalculator_1af7ea4e7f9f5457cffb4cf1bca9cd4199" prot="private" static="no" mutable="no">
         <type><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref></type>
@@ -132,18 +132,22 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="38" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="38" bodyend="-1"/>
+        <location file="agnicalculator.h" line="38" column="27" bodyfile="agnicalculator.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
-      <memberdef kind="function" id="classAGNICalculator_1af820beadfe81d2f619e2f64153fb6077" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classAGNICalculator_1a5264e28acf981cac2e8a01672fa07163" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
         <definition>double AGNICalculator::calculate_component</definition>
-        <argsstring>(int, double *, double *, double)</argsstring>
+        <argsstring>(int, int *, double *, double *, double, string)</argsstring>
         <name>calculate_component</name>
         <param>
           <type>int</type>
           <defname>nneighbors</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <defname>neighbors</defname>
         </param>
         <param>
           <type>double *</type>
@@ -157,13 +161,17 @@
           <type>double</type>
           <defname>a_k</defname>
         </param>
+        <param>
+          <type>string</type>
+          <defname>weight_type</defname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="40" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.cpp" bodystart="106" bodyend="118"/>
+        <location file="agnicalculator.h" line="40" column="12" bodyfile="agnicalculator.cpp" bodystart="144" bodyend="173"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -181,12 +189,13 @@
           <defname>fpprop</defname>
         </param>
         <briefdescription>
-<para>Constructor that instantiate an AGNI fingerprint object. </para>        </briefdescription>
+<para>Constructor that instantiate an AGNI fingerprint object. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="45" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.cpp" bodystart="29" bodyend="54"/>
+        <location file="agnicalculator.h" line="45" column="9" bodyfile="agnicalculator.cpp" bodystart="31" bodyend="61"/>
       </memberdef>
       <memberdef kind="function" id="classAGNICalculator_1ab879e707731cd4538bc4fbfa8e990314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -199,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="46" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.cpp" bodystart="56" bodyend="58"/>
+        <location file="agnicalculator.h" line="46" column="9" bodyfile="agnicalculator.cpp" bodystart="63" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classAGNICalculator_1a8913e9697492ac098ec05c61f33c20dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -207,12 +216,13 @@
         <argsstring>()</argsstring>
         <name>get_size</name>
         <briefdescription>
-<para>Returns the dimensionality of this AGNI fingerprint. </para>        </briefdescription>
+<para>Returns the dimensionality of this AGNI fingerprint. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="49" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.cpp" bodystart="60" bodyend="60"/>
+        <location file="agnicalculator.h" line="49" column="13" bodyfile="agnicalculator.cpp" bodystart="67" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="classAGNICalculator_1aac857f7c745bed2b11caf24fdda6cee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -228,24 +238,26 @@
           <defname>neighlist</defname>
         </param>
         <briefdescription>
-<para>Function to calculate the fingerprint of an atom given its neighbor list. </para>        </briefdescription>
+<para>Function to calculate the fingerprint of an atom given its neighbor list. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="53" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.cpp" bodystart="63" bodyend="102"/>
+        <location file="agnicalculator.h" line="53" column="16" bodyfile="agnicalculator.cpp" bodystart="70" bodyend="140"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>An AGNI fingerprint calculator. </para>    </briefdescription>
+<para>An AGNI fingerprint calculator. </para>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/agnicalculator.h" line="23" column="1" bodyfile="/fs/home/mr937/SEING/src/agnicalculator.h" bodystart="23" bodyend="55"/>
+    <location file="agnicalculator.h" line="23" column="21" bodyfile="agnicalculator.h" bodystart="23" bodyend="55"/>
     <listofallmembers>
       <member refid="classAGNICalculator_1a85fc415e664a1741741472b50857644b" prot="public" virt="non-virtual"><scope>AGNICalculator</scope><name>AGNICalculator</name></member>
       <member refid="classAGNICalculator_1ad0c3eff712d863962d94bffc32f99a9e" prot="private" virt="non-virtual"><scope>AGNICalculator</scope><name>alpha</name></member>
       <member refid="classAGNICalculator_1af0ee8cdecb19693e00612c558a82107f" prot="private" virt="non-virtual"><scope>AGNICalculator</scope><name>atomicsystem</name></member>
-      <member refid="classAGNICalculator_1af820beadfe81d2f619e2f64153fb6077" prot="private" virt="non-virtual"><scope>AGNICalculator</scope><name>calculate_component</name></member>
+      <member refid="classAGNICalculator_1a5264e28acf981cac2e8a01672fa07163" prot="private" virt="non-virtual"><scope>AGNICalculator</scope><name>calculate_component</name></member>
       <member refid="classAGNICalculator_1aac857f7c745bed2b11caf24fdda6cee0" prot="public" virt="non-virtual"><scope>AGNICalculator</scope><name>calculate_fingerprint</name></member>
       <member refid="classAGNICalculator_1a9e37fb95ea066bbb2f66b1241abd4a1c" prot="private" virt="non-virtual"><scope>AGNICalculator</scope><name>centers</name></member>
       <member refid="classAGNICalculator_1a8d056d8abbe3d2eb3877cf27361dfccd" prot="private" virt="non-virtual"><scope>AGNICalculator</scope><name>cutoff</name></member>

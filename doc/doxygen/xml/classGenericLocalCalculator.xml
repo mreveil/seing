@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="classGenericLocalCalculator" kind="class" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classGenericLocalCalculator" kind="class" language="C++" prot="public">
     <compoundname>GenericLocalCalculator</compoundname>
     <includes refid="genericlocalcalculator_8h" local="no">genericlocalcalculator.h</includes>
       <sectiondef kind="private-attrib">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h" line="33" column="1" bodyfile="/fs/home/mr937/SEING/src/genericlocalcalculator.h" bodystart="33" bodyend="-1"/>
+        <location file="genericlocalcalculator.h" line="32" column="9" bodyfile="genericlocalcalculator.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGenericLocalCalculator_1a31fcbfabc3fbef16b170b1838be87dab" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h" line="34" column="1" bodyfile="/fs/home/mr937/SEING/src/genericlocalcalculator.h" bodystart="34" bodyend="-1"/>
+        <location file="genericlocalcalculator.h" line="33" column="12" bodyfile="genericlocalcalculator.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGenericLocalCalculator_1ae4bf7a0d4aab733460757ac662e98df2" prot="private" static="no" mutable="no">
         <type><ref refid="classAtomicSystem" kindref="compound">AtomicSystem</ref></type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h" line="35" column="1" bodyfile="/fs/home/mr937/SEING/src/genericlocalcalculator.h" bodystart="35" bodyend="-1"/>
+        <location file="genericlocalcalculator.h" line="34" column="18" bodyfile="genericlocalcalculator.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classGenericLocalCalculator_1a54e7841522e1d0b30a178c615ada7d19" prot="private" static="no" mutable="no">
         <type><ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref></type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h" line="36" column="1" bodyfile="/fs/home/mr937/SEING/src/genericlocalcalculator.h" bodystart="36" bodyend="-1"/>
+        <location file="genericlocalcalculator.h" line="35" column="27" bodyfile="genericlocalcalculator.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -72,12 +72,13 @@
           <defname>fpprop</defname>
         </param>
         <briefdescription>
-<para>Constructor based on the atomtic system and <ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref>. </para>        </briefdescription>
+<para>Constructor based on the atomtic system and <ref refid="structfingerprintProperties" kindref="compound">fingerprintProperties</ref>. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h" line="40" column="1" bodyfile="/fs/home/mr937/SEING/src/genericlocalcalculator.cpp" bodystart="28" bodyend="60"/>
+        <location file="genericlocalcalculator.h" line="39" column="9" bodyfile="genericlocalcalculator.cpp" bodystart="28" bodyend="54"/>
       </memberdef>
       <memberdef kind="function" id="classGenericLocalCalculator_1ae5a9a953e31367d3081c473ef650bb61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -90,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h" line="41" column="1" bodyfile="/fs/home/mr937/SEING/src/genericlocalcalculator.cpp" bodystart="62" bodyend="64"/>
+        <location file="genericlocalcalculator.h" line="40" column="9" bodyfile="genericlocalcalculator.cpp" bodystart="56" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="classGenericLocalCalculator_1abe34bae0430d52064d6a22b9afc2c449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -98,12 +99,13 @@
         <argsstring>()</argsstring>
         <name>get_size</name>
         <briefdescription>
-<para>Returns the dimensionality of the fingerprint. </para>        </briefdescription>
+<para>Returns the dimensionality of the fingerprint. </para>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h" line="44" column="1" bodyfile="/fs/home/mr937/SEING/src/genericlocalcalculator.cpp" bodystart="66" bodyend="69"/>
+        <location file="genericlocalcalculator.h" line="43" column="13" bodyfile="genericlocalcalculator.cpp" bodystart="60" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classGenericLocalCalculator_1aeb91e8ed7cf321c074bc3db739607ae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>double *</type>
@@ -121,17 +123,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Will call the calculate_fingerprint function of the actual fingerprint calculator and returns the fingerprint </para>        </detaileddescription>
+<para>Will call the calculate_fingerprint function of the actual fingerprint calculator and returns the fingerprint </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h" line="49" column="1" bodyfile="/fs/home/mr937/SEING/src/genericlocalcalculator.cpp" bodystart="71" bodyend="100"/>
+        <location file="genericlocalcalculator.h" line="48" column="16" bodyfile="genericlocalcalculator.cpp" bodystart="65" bodyend="90"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class that holds a generic calculator to switch between actual fingerprint calculators. </para>    </briefdescription>
+<para>Class that holds a generic calculator to switch between actual fingerprint calculators. </para>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/genericlocalcalculator.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/genericlocalcalculator.h" bodystart="31" bodyend="51"/>
+    <location file="genericlocalcalculator.h" line="30" column="29" bodyfile="genericlocalcalculator.h" bodystart="30" bodyend="50"/>
     <listofallmembers>
       <member refid="classGenericLocalCalculator_1ae4bf7a0d4aab733460757ac662e98df2" prot="private" virt="non-virtual"><scope>GenericLocalCalculator</scope><name>atomicsystem</name></member>
       <member refid="classGenericLocalCalculator_1aeb91e8ed7cf321c074bc3db739607ae5" prot="public" virt="non-virtual"><scope>GenericLocalCalculator</scope><name>calculate_fingerprint</name></member>

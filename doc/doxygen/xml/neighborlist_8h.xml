@@ -1,13 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="neighborlist_8h" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="neighborlist_8h" kind="file" language="C++">
     <compoundname>neighborlist.h</compoundname>
     <includes local="no">vector</includes>
     <includes refid="atom_8h" local="yes">atom.h</includes>
     <includes refid="atomicsystem_8h" local="yes">atomicsystem.h</includes>
     <includedby refid="agnicalculator_8h" local="yes">agnicalculator.h</includedby>
     <includedby refid="bispectrumcalculator_8h" local="yes">bispectrumcalculator.h</includedby>
-    <includedby refid="diamondcalculator_8h" local="yes">diamondcalculator.h</includedby>
     <includedby refid="fingerprintgenerator_8h" local="yes">fingerprintgenerator.h</includedby>
     <includedby refid="gaussiancalculator_8h" local="yes">gaussiancalculator.h</includedby>
     <includedby refid="zernikecalculator_8h" local="yes">zernikecalculator.h</includedby>
@@ -15,159 +14,155 @@
     <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
     <includedby refid="neighborlist_8cpp" local="yes">neighborlist.cpp</includedby>
     <incdepgraph>
-      <node id="357">
+      <node id="1">
         <label>neighborlist.h</label>
-        <link refid="neighborlist.h"/>
-        <childnode refid="358" relation="include">
+        <link refid="neighborlist_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="359" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="361" relation="include">
-        </childnode>
-      </node>
-      <node id="360">
-        <label>string</label>
-      </node>
-      <node id="358">
-        <label>vector</label>
-      </node>
-      <node id="361">
-        <label>atomicsystem.h</label>
-        <link refid="atomicsystem_8h"/>
-        <childnode refid="360" relation="include">
-        </childnode>
-        <childnode refid="358" relation="include">
-        </childnode>
-        <childnode refid="359" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="359">
+      <node id="6">
+        <label>periodictable.h</label>
+        <link refid="periodictable_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
         <label>atom.h</label>
         <link refid="atom_8h"/>
-        <childnode refid="360" relation="include">
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="2">
+        <label>vector</label>
+      </node>
+      <node id="5">
+        <label>atomicsystem.h</label>
+        <link refid="atomicsystem_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="372">
-        <label>fingerprintgenerator.h</label>
-        <link refid="fingerprintgenerator_8h"/>
-        <childnode refid="366" relation="include">
-        </childnode>
-        <childnode refid="373" relation="include">
-        </childnode>
-      </node>
-      <node id="373">
-        <label>main.cpp</label>
-        <link refid="main_8cpp"/>
-      </node>
-      <node id="370">
-        <label>diamondcalculator.h</label>
-        <link refid="diamondcalculator_8h"/>
-        <childnode refid="371" relation="include">
-        </childnode>
-        <childnode refid="365" relation="include">
-        </childnode>
-      </node>
-      <node id="365">
-        <label>genericlocalcalculator.h</label>
-        <link refid="genericlocalcalculator_8h"/>
-        <childnode refid="366" relation="include">
-        </childnode>
-        <childnode refid="367" relation="include">
-        </childnode>
-      </node>
-      <node id="376">
-        <label>zernikecalculator.h</label>
-        <link refid="zernikecalculator_8h"/>
-        <childnode refid="366" relation="include">
-        </childnode>
-        <childnode refid="365" relation="include">
-        </childnode>
-        <childnode refid="377" relation="include">
-        </childnode>
-      </node>
-      <node id="367">
+      <node id="6">
         <label>genericlocalcalculator.cpp</label>
         <link refid="genericlocalcalculator_8cpp"/>
       </node>
-      <node id="371">
-        <label>diamondcalculator.cpp</label>
-        <link refid="diamondcalculator_8cpp"/>
-      </node>
-      <node id="375">
-        <label>gaussiancalculator.cpp</label>
-        <link refid="gaussiancalculator_8cpp"/>
-      </node>
-      <node id="366">
-        <label>fingerprintgenerator.cpp</label>
-        <link refid="fingerprintgenerator_8cpp"/>
-      </node>
-      <node id="362">
+      <node id="1">
         <label>neighborlist.h</label>
-        <link refid="neighborlist.h"/>
-        <childnode refid="363" relation="include">
+        <link refid="neighborlist_8h"/>
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="368" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="370" relation="include">
+        <childnode refid="9" relation="include">
         </childnode>
-        <childnode refid="372" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="374" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="376" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="365" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="373" relation="include">
-        </childnode>
-        <childnode refid="378" relation="include">
+        <childnode refid="15" relation="include">
         </childnode>
       </node>
-      <node id="369">
-        <label>bispectrumcalculator.cpp</label>
-        <link refid="bispectrumcalculator_8cpp"/>
-      </node>
-      <node id="378">
-        <label>neighborlist.cpp</label>
-        <link refid="neighborlist_8cpp"/>
-      </node>
-      <node id="363">
-        <label>agnicalculator.h</label>
-        <link refid="agnicalculator_8h"/>
-        <childnode refid="364" relation="include">
-        </childnode>
-        <childnode refid="365" relation="include">
-        </childnode>
-      </node>
-      <node id="364">
+      <node id="3">
         <label>agnicalculator.cpp</label>
         <link refid="agnicalculator_8cpp"/>
       </node>
-      <node id="374">
-        <label>gaussiancalculator.h</label>
-        <link refid="gaussiancalculator_8h"/>
-        <childnode refid="366" relation="include">
+      <node id="2">
+        <label>agnicalculator.h</label>
+        <link refid="agnicalculator_8h"/>
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="365" relation="include">
-        </childnode>
-        <childnode refid="375" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
       </node>
-      <node id="368">
-        <label>bispectrumcalculator.h</label>
-        <link refid="bispectrumcalculator_8h"/>
-        <childnode refid="369" relation="include">
-        </childnode>
-        <childnode refid="366" relation="include">
-        </childnode>
-        <childnode refid="365" relation="include">
-        </childnode>
+      <node id="12">
+        <label>gaussiancalculator.cpp</label>
+        <link refid="gaussiancalculator_8cpp"/>
       </node>
-      <node id="377">
+      <node id="14">
         <label>zernikecalculator.cpp</label>
         <link refid="zernikecalculator_8cpp"/>
+      </node>
+      <node id="7">
+        <label>bispectrumcalculator.h</label>
+        <link refid="bispectrumcalculator_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>fingerprintgenerator.h</label>
+        <link refid="fingerprintgenerator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>genericlocalcalculator.h</label>
+        <link refid="genericlocalcalculator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gaussiancalculator.h</label>
+        <link refid="gaussiancalculator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>zernikecalculator.h</label>
+        <link refid="zernikecalculator_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="8">
+        <label>bispectrumcalculator.cpp</label>
+        <link refid="bispectrumcalculator_8cpp"/>
+      </node>
+      <node id="15">
+        <label>neighborlist.cpp</label>
+        <link refid="neighborlist_8cpp"/>
+      </node>
+      <node id="5">
+        <label>fingerprintgenerator.cpp</label>
+        <link refid="fingerprintgenerator_8cpp"/>
       </node>
     </invincdepgraph>
     <innerclass refid="classNeighborList" prot="public">NeighborList</innerclass>
@@ -176,9 +171,9 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>NEIGHBORLIST_H</highlight></codeline>
-<codeline lineno="2"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>NEIGHBORLIST_H</highlight></codeline>
-<codeline lineno="3"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>NEIGHBORLIST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NEIGHBORLIST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="atom_8h" kindref="compound">atom.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
@@ -256,6 +251,6 @@
 <codeline lineno="104"><highlight class="normal"></highlight></codeline>
 <codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/neighborlist.h"/>
+    <location file="neighborlist.h"/>
   </compounddef>
 </doxygen>

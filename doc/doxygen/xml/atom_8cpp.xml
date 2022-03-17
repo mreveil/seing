@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="atom_8cpp" kind="file">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="atom_8cpp" kind="file" language="C++">
     <compoundname>atom.cpp</compoundname>
     <includes local="no">string</includes>
     <includes refid="atom_8h" local="yes">atom.h</includes>
     <incdepgraph>
-      <node id="37">
-        <label>string</label>
-      </node>
-      <node id="36">
-        <label>atom.cpp</label>
-        <link refid="atom.cpp"/>
-        <childnode refid="37" relation="include">
-        </childnode>
-        <childnode refid="38" relation="include">
-        </childnode>
-      </node>
-      <node id="38">
+      <node id="3">
         <label>atom.h</label>
         <link refid="atom_8h"/>
-        <childnode refid="37" relation="include">
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>atom.cpp</label>
+        <link refid="atom_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -63,6 +63,6 @@
 <codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classAtom_1a2b4f6fd59d0be3a6be685b1f7d008585" kindref="member">Atom::get_y</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>y;}</highlight></codeline>
 <codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classAtom_1adf0968985ac6f9c8c8d5f280070790b1" kindref="member">Atom::get_z</ref>(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>z;}</highlight></codeline>
     </programlisting>
-    <location file="/fs/home/mr937/SEING/src/atom.cpp"/>
+    <location file="atom.cpp"/>
   </compounddef>
 </doxygen>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="structElement" kind="struct" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structElement" kind="struct" language="C++" prot="public">
     <compoundname>Element</compoundname>
     <includes refid="periodictable_8h" local="no">periodictable.h</includes>
       <sectiondef kind="public-attrib">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="17" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="17" bodyend="-1"/>
+        <location file="periodictable.h" line="18" column="12" bodyfile="periodictable.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structElement_1a34d89c21bf14425580685a25d08edabd" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="18" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="18" bodyend="-1"/>
+        <location file="periodictable.h" line="19" column="12" bodyfile="periodictable.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structElement_1a460c8dd687ca81783daf0cd4de7c0244" prot="public" static="no" mutable="no">
         <type>int</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="19" bodyend="-1"/>
+        <location file="periodictable.h" line="20" column="9" bodyfile="periodictable.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structElement_1a2fed7278154c462ce9ec3ba1521f53ca" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="20" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="20" bodyend="-1"/>
+        <location file="periodictable.h" line="21" column="12" bodyfile="periodictable.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structElement_1abac7c79d113286574f348d076d51d5ff" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="21" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="21" bodyend="-1"/>
+        <location file="periodictable.h" line="22" column="12" bodyfile="periodictable.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structElement_1ae2b61ce960fb99d7d7f5876d99f07c42" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -80,14 +80,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/periodictable.h" line="22" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="22" bodyend="-1"/>
+        <location file="periodictable.h" line="23" column="12" bodyfile="periodictable.h" bodystart="23" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/periodictable.h" line="15" column="1" bodyfile="/fs/home/mr937/SEING/src/periodictable.h" bodystart="15" bodyend="23"/>
+    <location file="periodictable.h" line="16" column="14" bodyfile="periodictable.h" bodystart="16" bodyend="24"/>
     <listofallmembers>
       <member refid="structElement_1a460c8dd687ca81783daf0cd4de7c0244" prot="public" virt="non-virtual"><scope>Element</scope><name>atomic_number</name></member>
       <member refid="structElement_1a2fed7278154c462ce9ec3ba1521f53ca" prot="public" virt="non-virtual"><scope>Element</scope><name>electronegativity</name></member>

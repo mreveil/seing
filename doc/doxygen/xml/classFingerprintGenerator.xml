@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
-  <compounddef id="classFingerprintGenerator" kind="class" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classFingerprintGenerator" kind="class" language="C++" prot="public">
     <compoundname>FingerprintGenerator</compoundname>
     <includes refid="fingerprintgenerator_8h" local="no">fingerprintgenerator.h</includes>
       <sectiondef kind="private-attrib">
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="16" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.h" bodystart="16" bodyend="-1"/>
+        <location file="fingerprintgenerator.h" line="16" column="18" bodyfile="fingerprintgenerator.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classFingerprintGenerator_1afe2a2386e05e81ba3f3cb360fd3de8c5" prot="private" static="no" mutable="no">
         <type>double **</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="17" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.h" bodystart="17" bodyend="-1"/>
+        <location file="fingerprintgenerator.h" line="17" column="12" bodyfile="fingerprintgenerator.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classFingerprintGenerator_1af2b44faf27c59e9b949e508fa85ea757" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.h" bodystart="19" bodyend="-1"/>
+        <location file="fingerprintgenerator.h" line="19" column="9" bodyfile="fingerprintgenerator.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classFingerprintGenerator_1aa974af2443eb4f7e43b8c19091d12794" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.h" bodystart="19" bodyend="-1"/>
+        <location file="fingerprintgenerator.h" line="19" column="15" bodyfile="fingerprintgenerator.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classFingerprintGenerator_1ae03be0533da36cb2bde307b7aee369bb" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.h" bodystart="19" bodyend="-1"/>
+        <location file="fingerprintgenerator.h" line="19" column="22" bodyfile="fingerprintgenerator.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classFingerprintGenerator_1a041ff7df10019e1f2a0c4a386199e4bf" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="19" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.h" bodystart="19" bodyend="-1"/>
+        <location file="fingerprintgenerator.h" line="19" column="36" bodyfile="fingerprintgenerator.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -100,10 +100,11 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Constructor that will instantiate the fingerprint calculator and perform the fingerprint generation </para>        </detaileddescription>
+<para>Constructor that will instantiate the fingerprint calculator and perform the fingerprint generation </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="25" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.cpp" bodystart="27" bodyend="89"/>
+        <location file="fingerprintgenerator.h" line="25" column="9" bodyfile="fingerprintgenerator.cpp" bodystart="27" bodyend="87"/>
       </memberdef>
       <memberdef kind="function" id="classFingerprintGenerator_1a497397a3915c79b259ac819867bafe3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -119,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="26" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.cpp" bodystart="93" bodyend="96"/>
+        <location file="fingerprintgenerator.h" line="26" column="9" bodyfile="fingerprintgenerator.cpp" bodystart="91" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="classFingerprintGenerator_1aa1b675cd3e63e85e537650080926298b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -137,17 +138,19 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para>Writes the fingerprint to a file in the same order as the atoms were given in the coordinates file </para>        </detaileddescription>
+<para>Writes the fingerprint to a file in the same order as the atoms were given in the coordinates file </para>
+        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="31" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.cpp" bodystart="98" bodyend="120"/>
+        <location file="fingerprintgenerator.h" line="31" column="14" bodyfile="fingerprintgenerator.cpp" bodystart="96" bodyend="118"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-<para>Class that handles fingerprint generation. </para>    </briefdescription>
+<para>Class that handles fingerprint generation. </para>
+    </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/fs/home/mr937/SEING/src/fingerprintgenerator.h" line="14" column="1" bodyfile="/fs/home/mr937/SEING/src/fingerprintgenerator.h" bodystart="14" bodyend="32"/>
+    <location file="fingerprintgenerator.h" line="14" column="27" bodyfile="fingerprintgenerator.h" bodystart="14" bodyend="32"/>
     <listofallmembers>
       <member refid="classFingerprintGenerator_1aac335a0961b1b5cbb69a45f3122bee2d" prot="private" virt="non-virtual"><scope>FingerprintGenerator</scope><name>atomicsystem</name></member>
       <member refid="classFingerprintGenerator_1ac2221910aac1c60fdc24da28159dc14c" prot="public" virt="non-virtual"><scope>FingerprintGenerator</scope><name>FingerprintGenerator</name></member>
