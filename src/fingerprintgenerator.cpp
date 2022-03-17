@@ -105,7 +105,7 @@ bool FingerprintGenerator::write2file(string filename, string mode) {
     if (myfile.is_open()) {
         for (int i=0; i<natoms; i++){
             for (int t=0; t<fsize; t++){
-                    myfile << fingerprints[i][t]<<" ";
+                myfile << fingerprints[i][t] << " ";
             } 
  
             myfile << "\n";            
@@ -114,5 +114,13 @@ bool FingerprintGenerator::write2file(string filename, string mode) {
     }
     else success = false;
 
+    //return success;
+
+    sample1 = fingerprints[3][1];
+    sample2 = fingerprints[9][2];
+
     return success;
 }
+
+//sample1 = *fingerprints[3];
+//sample2 = *fingerprints[9];
