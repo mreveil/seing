@@ -1,9 +1,8 @@
-SEING v 0.1
+SEING v0.1
 ============
 
 
-SEING is a C/C++ package for fingerprint calculations suitable for machine learning studies
-of molecular systems.
+SEING is a C/C++ package for fingerprint calculations for machine learning studies of atomic and molecular systems.
 
 SEING was developed in the Clancy Group (http://clancygroup.cbe.cornell.edu/) at Cornell University.
 
@@ -62,18 +61,21 @@ For instructions on how to install doxygen, visit: https://www.doxygen.nl/manual
 
 We use Sphinx to generate the documentation website hosted on https://seing.readthedocs.io
 
+We use breathe to link Doxygen and Sphinx: https://github.com/michaeljones/breathe
+
 To generate the site locally, start by installing Sphinx (Find instructions here https://www.sphinx-doc.org/en/master/usage/installation.html)
 
-Then do the following:
+Then do the following (assuming you already have Python and pip installed):
 
 ```
+pip install breathe
 cd doc
 make html
 ```
 
 To update the documentation itself, modify the rst files found in doc/source/.
 
-We use breathe to link Doxygen and Sphinx: https://github.com/michaeljones/breathe
+
 
 LICENSE
 ----------
