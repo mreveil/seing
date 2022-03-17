@@ -47,7 +47,7 @@ Fingerprint Generation Utilities
 Fingerprint Calculators
 ------------------------
 
-All fingerprint calculator classes have the same constructor signature and expose 
+All fingerprint calculator classes have the same constructor signature and expose
 a get_size and calculate_fingerprint functions to allow for easy switching between
 different types.
 The AGNI fingerprint calculator will be used here as an example.
@@ -62,4 +62,3 @@ Utility Functions
 
 .. doxygenfunction:: cutoff_func
    :project: SEING
-   :members:

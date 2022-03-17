@@ -3,7 +3,7 @@ How to Use
 
 
 
-To use SEING, a coordinate file and an option file are required. 
+To use SEING, a coordinate file and an option file are required.
 Example usage looks like this::
 
    /path/to/seing coordinates.xyz optionfile.in
@@ -12,14 +12,14 @@ Example usage looks like this::
 Trajectory File
 ----------------
 
-Coordinates of each atom has to be provided in a coordinate file in the xyz format. 
+Coordinates of each atom has to be provided in a coordinate file in the xyz format.
 Only the xyz file format for atomic coordinates is supported at the moment.
 Trajectory files (i.e. coordinate files with more than one frame) are also not supported at the moment
 but support will be added soon.
 
 
 
-Option File 
+Option File
 ---------------
 
 The option input file contains "key = value" pairs specifying the type of calculation to
@@ -32,11 +32,11 @@ General Options
 
 **type** (*optional*)
    The type of fingerprinting scheme to use.
-   Possible values are: 
+   Possible values are:
 
       * gaussian (*default*):
       * zernike:
-      * bispectrum: 
+      * bispectrum:
 
 **natomtypes** (*required*)
    The number of different species in the molecular system.
@@ -51,7 +51,7 @@ General Options
 **strategy** (*optional*)
    How to account for more than one species.
    Possible values are:
-      * augmented (*default*): the fingerprint size is increased with one subfingerprint for each different atom pair or triplets 
+      * augmented (*default*): the fingerprint size is increased with one subfingerprint for each different atom pair or triplets
       * weighted : the size of the fingerprint remains the same (as in with just one atom type) but the contribution of each atom type is weighted based on a specified weight type. Please note: this strategy doesn't work with all fingerprints.
 
 **weight_type** (*optional*)
@@ -76,7 +76,7 @@ Derivatives Options
       * 0 (*default*): Calculate only in the x direction
       * 1: Calculate only in the y direction
       * 2: Calculate only in the z direction
-      * 3: Calculate in all three directions 
+      * 3: Calculate in all three directions
 
 **nderivatives** (*optional*)
    The number of derivatives to calculate. *Default is one and is with respect to the center atom.* If a value greater than 1 provided, derivatives are calculated with respect to other neighboring atoms in order of increasing distance to center atom.
@@ -88,9 +88,9 @@ Output Options
 
 **output_file** (*optional*)
    Name of the output file to write the fingerprint in. Output file will be in current directory (where the coordinate and option file are).
-   If the file already exists, the behavior of the program is determined by the *output_mode* keyword explained below. 
+   If the file already exists, the behavior of the program is determined by the *output_mode* keyword explained below.
    * Default output name is *fingerprint_type+"_fingerprints.sg"*
-    
+
 
 **output_mode** (*optional*)
     Whether to append fingerprints to the given output file, if it already exists. If not, file will be overwritten
@@ -119,32 +119,32 @@ Fingerprint-Specific Options
 +++++++++++++++++
 
 **jmax**
-   
+
 
 *Zernike*
 +++++++++++++++++
 
-**nmax** 
+**nmax**
 
 
 *Behler-Parinello (Gaussian)*
-+++++++++++++++++
+++++++++++++++++++++++++++++++
 
-**nzetas** 
+**nzetas**
 
-**zetas** 
+**zetas**
 
-**ngammas** 
+**ngammas**
 
-**gammas** 
+**gammas**
 
-**netas** 
+**netas**
 
-**etas** 
+**etas**
 
-**netas2** 
+**netas2**
 
-**etas** 
+**etas**
 
 
 *AGNI*
@@ -156,7 +156,7 @@ Fingerprint-Specific Options
 **dimensionality** (*required*)
     The dimensionality of the fingerprint. This is used to determine how many Gaussian centers are used. Those gaussians are uniformly placed from the center atom (distance = 0) to the cutoff distance.
 
-**alpha** (*required*) 
+**alpha** (*required*)
     The direction of the fingerprint (0=x, 1=y, 2=z)
 
 
