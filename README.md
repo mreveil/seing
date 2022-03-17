@@ -1,3 +1,6 @@
+[![Documentation Status](https://readthedocs.org/projects/seing/badge/?version=latest)](https://seing.readthedocs.io/en/latest/?badge=latest)
+
+
 SEING v0.1
 ============
 
